@@ -1,0 +1,365 @@
+{
+  "phase": "14.3A",
+  "phase_name": "Deterministic Robustness / Generalization Analysis",
+  "timestamp_utc": "2026-08-25T01:57:19.981010+00:00",
+  "read_only": true,
+  "api_calls": 0,
+  "model_calls": 0,
+  "dataset": {
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "problems": 60,
+    "clues": 485,
+    "problem_ids_unique": true
+  },
+  "parser": {
+    "total_clues": 485,
+    "parse_failures": 0
+  },
+  "baseline": {
+    "reliable_unique": 60,
+    "reliable_gt_support": 60
+  },
+  "leave_one_agent_out": {
+    "Agent_A": {
+      "n": 60,
+      "unique": 31,
+      "contains_gt": 30,
+      "unique_rate": 0.5166666666666667,
+      "gt_support_rate": 0.5
+    },
+    "Agent_B": {
+      "n": 60,
+      "unique": 31,
+      "contains_gt": 30,
+      "unique_rate": 0.5166666666666667,
+      "gt_support_rate": 0.5
+    },
+    "Agent_C": {
+      "n": 60,
+      "unique": 31,
+      "contains_gt": 30,
+      "unique_rate": 0.5166666666666667,
+      "gt_support_rate": 0.5
+    }
+  },
+  "gate_policy_analysis": {
+    "reliable_only": {
+      "n": 60,
+      "unique": 60,
+      "contains_gt": 60,
+      "unique_rate": 1.0,
+      "gt_support_rate": 1.0
+    },
+    "all_agents": {
+      "n": 60,
+      "unique": 15,
+      "contains_gt": 15,
+      "unique_rate": 0.25,
+      "gt_support_rate": 0.25
+    },
+    "agent_A_only": {
+      "n": 60,
+      "unique": 16,
+      "contains_gt": 45,
+      "unique_rate": 0.26666666666666666,
+      "gt_support_rate": 0.75
+    },
+    "agent_B_only": {
+      "n": 60,
+      "unique": 14,
+      "contains_gt": 45,
+      "unique_rate": 0.23333333333333334,
+      "gt_support_rate": 0.75
+    },
+    "agent_C_only": {
+      "n": 60,
+      "unique": 2,
+      "contains_gt": 45,
+      "unique_rate": 0.03333333333333333,
+      "gt_support_rate": 0.75
+    },
+    "majority_reliable": {
+      "n": 60,
+      "unique": 60,
+      "contains_gt": 60,
+      "unique_rate": 1.0,
+      "gt_support_rate": 1.0
+    }
+  },
+  "gate_flip_analysis": {
+    "0": {
+      "flip_count": 0,
+      "total_cases": 60,
+      "unique_cases": 60,
+      "gt_survives_cases": 60,
+      "unique_rate": 1.0,
+      "gt_survival_rate": 1.0,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        }
+      }
+    },
+    "1": {
+      "flip_count": 1,
+      "total_cases": 180,
+      "unique_cases": 33,
+      "gt_survives_cases": 135,
+      "unique_rate": 0.18333333333333332,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 45,
+          "unique": 20,
+          "gt_survives": 45
+        },
+        "medium_conflict": {
+          "n": 45,
+          "unique": 4,
+          "gt_survives": 30
+        },
+        "high_conflict": {
+          "n": 45,
+          "unique": 3,
+          "gt_survives": 30
+        },
+        "adversarial": {
+          "n": 45,
+          "unique": 6,
+          "gt_survives": 30
+        }
+      }
+    },
+    "2": {
+      "flip_count": 2,
+      "total_cases": 180,
+      "unique_cases": 33,
+      "gt_survives_cases": 90,
+      "unique_rate": 0.18333333333333332,
+      "gt_survival_rate": 0.5,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 45,
+          "unique": 19,
+          "gt_survives": 45
+        },
+        "medium_conflict": {
+          "n": 45,
+          "unique": 6,
+          "gt_survives": 15
+        },
+        "high_conflict": {
+          "n": 45,
+          "unique": 4,
+          "gt_survives": 15
+        },
+        "adversarial": {
+          "n": 45,
+          "unique": 4,
+          "gt_survives": 15
+        }
+      }
+    },
+    "3": {
+      "flip_count": 3,
+      "total_cases": 60,
+      "unique_cases": 14,
+      "gt_survives_cases": 15,
+      "unique_rate": 0.23333333333333334,
+      "gt_survival_rate": 0.25,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 1,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 2,
+          "gt_survives": 0
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 1,
+          "gt_survives": 0
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 0
+        }
+      }
+    }
+  },
+  "unreliable_agent_injection": {
+    "Agent_A": {
+      "n": 60,
+      "unique": 45,
+      "gt_survives": 45,
+      "unique_rate": 0.75,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        }
+      }
+    },
+    "Agent_B": {
+      "n": 60,
+      "unique": 45,
+      "gt_survives": 45,
+      "unique_rate": 0.75,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        }
+      }
+    },
+    "Agent_C": {
+      "n": 60,
+      "unique": 45,
+      "gt_survives": 45,
+      "unique_rate": 0.75,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        }
+      }
+    }
+  },
+  "conflict_level_analysis": {
+    "low_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 15,
+      "all_gt": 15,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 1.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 1.0
+    },
+    "medium_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 0.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 0.0
+    },
+    "high_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 0.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 0.0
+    },
+    "adversarial": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 0.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 0.0
+    }
+  },
+  "mechanistic_interpretation": "The reliability-gated mechanism retains substantial deterministic robustness under at least one incorrect reliability judgment.",
+  "scientific_gate": {
+    "dataset_identity": true,
+    "dataset_size": true,
+    "clue_count": true,
+    "all_clues_parseable": true,
+    "reliable_baseline_unique": true,
+    "reliable_baseline_gt_support": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true
+  },
+  "scientific_boundary": {
+    "model_level_mechanism_proven": false,
+    "deterministic_robustness_tested": true,
+    "neural_network_internal_mechanism_tested": false,
+    "treatment_3_run": false
+  }
+}

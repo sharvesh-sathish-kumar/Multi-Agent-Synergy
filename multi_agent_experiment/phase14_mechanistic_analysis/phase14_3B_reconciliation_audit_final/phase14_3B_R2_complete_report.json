@@ -1,0 +1,60 @@
+{
+  "api_calls": 0,
+  "dataset": {
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_clues": 485,
+    "expected_problems": 60
+  },
+  "decision": "PHASE_14_3B_R2_PASS \u2014 the Phase 14.1 reliable-only GT-support audit failure was caused by a missing machine-readable report field; the 60/60 result is independently confirmed by Phase 14.3A and Phase 14.3B.",
+  "final_gate": {
+    "dataset_identity": true,
+    "phase14_3A_reliable_gt_independent": true,
+    "phase14_3B_reliable_gt_independent": true,
+    "read_only": true,
+    "treatment_3_not_run": true,
+    "two_independent_confirmations": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true
+  },
+  "immutability": {
+    "hashes_before_finalization": {
+      "phase14_1": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+      "phase14_1A": "9f92d4defbd98fcc6708467450ee95e9802dad5ecda6b94de13be2ebd2d0cca2",
+      "phase14_2": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+      "phase14_3A": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+      "phase14_3B": "090c5a3f1558cc678d666819e068db1bdef91b005c4bd97069d59166461d6353",
+      "phase14_3B_R": "720a5a624b1b2d2e04257aafc888c704b9a795abb7eb7bf3316f303a48affef0"
+    },
+    "previous_artifacts_checked": [
+      "phase14_1A",
+      "phase14_1",
+      "phase14_2",
+      "phase14_3A",
+      "phase14_3B",
+      "phase14_3B_R"
+    ]
+  },
+  "model_calls": 0,
+  "phase": "14.3B-R2",
+  "phase_name": "Final Reconciliation of Reliable-GT Audit Gate",
+  "read_only": true,
+  "reconciliation": {
+    "independent_reliable_gt_confirmations": 2,
+    "phase14_1_missing_gt_field_classification": "reporting_schema_limitation",
+    "phase14_1_reliable_gt_machine_verified": true,
+    "phase14_1_reliable_unique_machine_verified": true,
+    "phase14_3A_reliable_gt_machine_verified": true,
+    "phase14_3A_reliable_unique_machine_verified": true,
+    "phase14_3B_reliable_gt_machine_verified": true,
+    "phase14_3B_reliable_unique_machine_verified": true,
+    "required_independent_confirmations": 2
+  },
+  "scientific_conclusion": {
+    "mechanism_consistent": true,
+    "phase14_1_failure_reconciled": true,
+    "reliable_only_gt_support": "60/60",
+    "reliable_only_unique": "60/60"
+  },
+  "timestamp_utc": "2026-08-25T02:05:12.938020+00:00",
+  "treatment_3_run": false
+}

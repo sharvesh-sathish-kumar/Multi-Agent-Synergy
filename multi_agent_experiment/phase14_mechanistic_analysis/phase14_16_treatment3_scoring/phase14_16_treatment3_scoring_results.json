@@ -1,0 +1,2564 @@
+{
+  "phase": "14.16",
+  "analysis": "Treatment 3 deterministic scoring and effect analysis",
+  "api_calls": 0,
+  "model_calls": 0,
+  "source_dataset": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+  "source_raw_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+  "source_checkpoint": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json",
+  "number_of_problems": 60,
+  "number_of_trials": 120,
+  "conditions": {
+    "C0": "reliable agents only",
+    "C1": "all agents"
+  },
+  "condition_summary": {
+    "C0": {
+      "trials": 60,
+      "exact_correct": 39,
+      "exact_accuracy": 0.65,
+      "person_correct": 178,
+      "person_possible": 240,
+      "person_accuracy": 0.7416666666666667
+    },
+    "C1": {
+      "trials": 60,
+      "exact_correct": 1,
+      "exact_accuracy": 0.016666666666666666,
+      "person_correct": 8,
+      "person_possible": 240,
+      "person_accuracy": 0.03333333333333333
+    }
+  },
+  "paired_outcomes": {
+    "BOTH_INCORRECT": 20,
+    "C1_HURT": 39,
+    "C1_HELPED": 1
+  },
+  "exact_accuracy_delta_C1_minus_C0": -0.6333333333333333,
+  "assignment_accuracy_delta_C1_minus_C0": -0.7083333333333334,
+  "net_paired_problem_effect": -38,
+  "paired_results": [
+    {
+      "problem_id": 1,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 2,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 3,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.75,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 4,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 5,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 6,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 7,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.5,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 8,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 9,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 10,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.25,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 11,
+      "C0_exact": false,
+      "C1_exact": true,
+      "C0_assignment_accuracy": 0.75,
+      "C1_assignment_accuracy": 1.0,
+      "outcome": "C1_HELPED"
+    },
+    {
+      "problem_id": 12,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 13,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.75,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 14,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 15,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 16,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 17,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 18,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 19,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 20,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 21,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 22,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 23,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 24,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 25,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 26,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.25,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 27,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 28,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 29,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 30,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 31,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 32,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 33,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 34,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.25,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 35,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.75,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 36,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 37,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 38,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 39,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 40,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 41,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 42,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.25,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 43,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.5,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 44,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 45,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 46,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 47,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 48,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.75,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 49,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 50,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 51,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 52,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.5,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 53,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 54,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 55,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 56,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.25,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 57,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 58,
+      "C0_exact": false,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 0.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "BOTH_INCORRECT"
+    },
+    {
+      "problem_id": 59,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    },
+    {
+      "problem_id": 60,
+      "C0_exact": true,
+      "C1_exact": false,
+      "C0_assignment_accuracy": 1.0,
+      "C1_assignment_accuracy": 0.0,
+      "outcome": "C1_HURT"
+    }
+  ],
+  "trial_scores": [
+    {
+      "problem_id": 1,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 1,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 2,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: blue  \nBen: green  \nCara: red  \nDan: yellow"
+    },
+    {
+      "problem_id": 2,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 3,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 3,
+      "person_accuracy": 0.75,
+      "response": "Alex: green  \nBen: yellow  \nCara: red  \nDan:"
+    },
+    {
+      "problem_id": 3,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 4,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 4,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 5,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: blue  \n- Cara: red  \n- Dan: yellow"
+    },
+    {
+      "problem_id": 5,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 6,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: green  \n- Cara: red  \n- Dan: blue"
+    },
+    {
+      "problem_id": 6,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 7,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 2,
+      "person_accuracy": 0.5,
+      "response": "- Alex: yellow  \n- Ben: red  \n- Cara:"
+    },
+    {
+      "problem_id": 7,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 8,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: green  \n- Cara: yellow  \n- Dan: blue"
+    },
+    {
+      "problem_id": 8,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 9,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: red  \n- Dan: green"
+    },
+    {
+      "problem_id": 9,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 10,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: red  \n- Dan: green"
+    },
+    {
+      "problem_id": 10,
+      "condition": "C1",
+      "parsed_assignment": {
+        "Alex": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 1,
+      "person_accuracy": 0.25,
+      "response": "- Alex: yellow  \n-"
+    },
+    {
+      "problem_id": 11,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 3,
+      "person_accuracy": 0.75,
+      "response": "Alex: red  \nBen: yellow  \nCara: green"
+    },
+    {
+      "problem_id": 11,
+      "condition": "C1",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: yellow  \n- Cara: green  \n- Dan: blue"
+    },
+    {
+      "problem_id": 12,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex → green  \n- Ben → red  \n- Cara → blue  \n- Dan → yellow"
+    },
+    {
+      "problem_id": 12,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 13,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: yellow  \nBen: red  \nCara: blue  \nDan: green"
+    },
+    {
+      "problem_id": 13,
+      "condition": "C1",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 3,
+      "person_accuracy": 0.75,
+      "response": "- Alex: yellow  \n- Ben: red  \n- Cara: blue  \n- Dan"
+    },
+    {
+      "problem_id": 14,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: blue  \n- Cara: red  \n- Dan: yellow"
+    },
+    {
+      "problem_id": 14,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 15,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue"
+    },
+    {
+      "problem_id": 15,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 16,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 16,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 17,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": "Alex – red  \nBen – green  \nCara – blue  \nDan –"
+    },
+    {
+      "problem_id": 17,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 18,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue"
+    },
+    {
+      "problem_id": 18,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 19,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": "-"
+    },
+    {
+      "problem_id": 19,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 20,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: blue  \n- Cara: yellow  \n- Dan: red"
+    },
+    {
+      "problem_id": 20,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 21,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: blue  \nBen: red  \nCara: green  \nDan: yellow"
+    },
+    {
+      "problem_id": 21,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 22,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: red  \nBen: blue  \nCara: green  \nDan: yellow"
+    },
+    {
+      "problem_id": 22,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 23,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: yellow  \n- Cara: green  \n- Dan: blue"
+    },
+    {
+      "problem_id": 23,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 24,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: yellow  \nBen: red  \nCara: green  \nDan: blue"
+    },
+    {
+      "problem_id": 24,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 25,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: blue  \n- Ben: green  \n- Cara: red  \n- Dan: yellow"
+    },
+    {
+      "problem_id": 25,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 26,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 1,
+      "person_accuracy": 0.25,
+      "response": "- Alex: red  \n-"
+    },
+    {
+      "problem_id": 26,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 27,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 27,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 28,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 28,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 29,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: red  \n- Cara: yellow  \n- Dan: blue"
+    },
+    {
+      "problem_id": 29,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 30,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: blue  \n- Ben: red  \n- Cara: yellow  \n- Dan: green"
+    },
+    {
+      "problem_id": 30,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 31,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: blue  \nBen: yellow  \nCara: red  \nDan: green"
+    },
+    {
+      "problem_id": 31,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 32,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: green  \n- Dan: red"
+    },
+    {
+      "problem_id": 32,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 33,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: red  \n- Cara: green  \n- Dan: blue"
+    },
+    {
+      "problem_id": 33,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 34,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 1,
+      "person_accuracy": 0.25,
+      "response": "- Alex: blue  \n-"
+    },
+    {
+      "problem_id": 34,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 35,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 3,
+      "person_accuracy": 0.75,
+      "response": "- Alex: green  \n- Ben: blue  \n- Cara: yellow  \n- Dan"
+    },
+    {
+      "problem_id": 35,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 36,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: red  \n- Cara: blue  \n- Dan: green"
+    },
+    {
+      "problem_id": 36,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 37,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue"
+    },
+    {
+      "problem_id": 37,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 38,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: green  \n- Cara: blue  \n- Dan: red"
+    },
+    {
+      "problem_id": 38,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 39,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue"
+    },
+    {
+      "problem_id": 39,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 40,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: green  \n- Cara: blue  \n- Dan: red"
+    },
+    {
+      "problem_id": 40,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 41,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": "Alex – red  \nBen – green  \nCara – blue  \nDan – yellow"
+    },
+    {
+      "problem_id": 41,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 42,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 1,
+      "person_accuracy": 0.25,
+      "response": "Alex: red  \nBen"
+    },
+    {
+      "problem_id": 42,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 43,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 2,
+      "person_accuracy": 0.5,
+      "response": "Alex: green  \nBen: yellow  \nCara"
+    },
+    {
+      "problem_id": 43,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 44,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: green  \n- Cara: yellow  \n- Dan: blue"
+    },
+    {
+      "problem_id": 44,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 45,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: blue  \nBen: red  \nCara: yellow  \nDan: green"
+    },
+    {
+      "problem_id": 45,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 46,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: yellow  \n- Cara: blue  \n- Dan: green"
+    },
+    {
+      "problem_id": 46,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 47,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: green  \n- Cara: blue  \n- Dan: yellow"
+    },
+    {
+      "problem_id": 47,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 48,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 3,
+      "person_accuracy": 0.75,
+      "response": "- Alex: yellow  \n- Ben: green  \n- Cara: blue  \n-"
+    },
+    {
+      "problem_id": 48,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 49,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "**Assignment**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → blue  \n- Dan → red"
+    },
+    {
+      "problem_id": 49,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 50,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 50,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 51,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: red  \nBen: blue  \nCara: yellow  \nDan: green"
+    },
+    {
+      "problem_id": 51,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 52,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 2,
+      "person_accuracy": 0.5,
+      "response": "- Alex: green  \n- Ben: blue  \n"
+    },
+    {
+      "problem_id": 52,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 53,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: blue  \n- Cara: green  \n- Dan: yellow"
+    },
+    {
+      "problem_id": 53,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 54,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: blue  \n- Ben: yellow  \n- Cara: green  \n- Dan: red"
+    },
+    {
+      "problem_id": 54,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 55,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "Alex: red  \nBen: green  \nCara: blue  \nDan: yellow"
+    },
+    {
+      "problem_id": 55,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 56,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 1,
+      "person_accuracy": 0.25,
+      "response": "**Assignment**\n\n- Alex → blue"
+    },
+    {
+      "problem_id": 56,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 57,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: green  \n- Dan: red"
+    },
+    {
+      "problem_id": 57,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 58,
+      "condition": "C0",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 58,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 59,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: red  \n- Ben: yellow  \n- Cara: blue  \n- Dan: green"
+    },
+    {
+      "problem_id": 59,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    },
+    {
+      "problem_id": 60,
+      "condition": "C0",
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "person_correct": 4,
+      "person_accuracy": 1.0,
+      "response": "- Alex: blue  \n- Ben: green  \n- Cara: red  \n- Dan: yellow"
+    },
+    {
+      "problem_id": 60,
+      "condition": "C1",
+      "parsed_assignment": {},
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "person_correct": 0,
+      "person_accuracy": 0.0,
+      "response": ""
+    }
+  ]
+}

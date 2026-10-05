@@ -1,0 +1,50 @@
+{
+  "phase": "14.7",
+  "decision": "READY_FOR_TREATMENT_3_PREPARATION",
+  "READY_FOR_TREATMENT_3": true,
+  "treatment_3_executed": false,
+  "source_side_requirements": {
+    "candidate_identity": true,
+    "canonical_manifest_integrity": true,
+    "problem_gt_same_record_binding": true,
+    "candidate_problem_same_record_binding": true,
+    "ground_truth_identity_hash_surface": true
+  },
+  "required_runtime_bindings": {
+    "candidate_id": true,
+    "problem_id": true,
+    "ground_truth_id": true,
+    "ground_truth_hash": true,
+    "model_output_id": false,
+    "model_output_hash": false,
+    "evaluation_id": false
+  },
+  "safety": {
+    "read_only_previous_artifacts": true,
+    "model_calls": false,
+    "api_calls": false,
+    "treatment_3_execution": false,
+    "ground_truth_interpretation": false,
+    "answer_recomputation": false,
+    "accuracy_calculation": false,
+    "legacy_GT_reconstruction": false,
+    "positional_mapping": false,
+    "ordering_mapping": false,
+    "text_matching_mapping": false,
+    "cross_candidate_guessing": false,
+    "prior_artifact_modification": false
+  },
+  "forbidden_mapping_methods": [
+    "candidate_text_matching",
+    "cross_candidate_guessing",
+    "list_position",
+    "manual_reconstruction",
+    "numeric_semantics_inference",
+    "ordering",
+    "problem_number_inference",
+    "problem_text_matching"
+  ],
+  "manifest_sha256": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e",
+  "source_bundle_sha256": "75b353a350e5dafaa9542ea74c79fcbf77b65eccc7259ca354d8d67c6094af5c",
+  "timestamp_utc": "2026-08-25T06:15:49.467653+00:00"
+}

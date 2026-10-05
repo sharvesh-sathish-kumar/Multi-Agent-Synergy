@@ -1,0 +1,23 @@
+{
+  "phase": "14.23",
+  "treatment": 3,
+  "condition": "C1",
+  "trial_id": 53,
+  "problem_id": 53,
+  "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has green.\n- Alex does not have yellow.\n- Ben has blue.\nAgent B clues:\n- Alex has yellow.\n- Ben has blue.\n- Cara has green.\nAgent C clues:\n- Dan does not have red.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+  "response": "**Assignment**\n\n- **Alex – red**  \n- **Ben – blue**  \n- **Cara – green**  \n- **Dan – yellow**  \n\nThis assignment satisfies all of the non‑contradictory clues:\n\n- Cara has green (Agent A & B).  \n- Ben has blue (Agent A & B).  \n- Alex does not have yellow (Agent A) → Alex has red.  \n- Alex has red (Agent C).  \n- Dan does not have red (Agent C) → Dan has yellow.  \n\nAll items are used exactly once, and each entity receives exactly one item.",
+  "response_length": 440,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 1075,
+    "total_tokens": 1282
+  },
+  "attempts_used": 1,
+  "retry_errors": [],
+  "elapsed_seconds": 2.5209,
+  "executed_at_utc": "2026-08-25T23:07:56.480385+00:00",
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1200,
+  "fresh_execution": true
+}

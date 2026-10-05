@@ -1,0 +1,34 @@
+{
+  "phase": "14.25R2R1",
+  "condition": "C0",
+  "problem_id": 46,
+  "fresh": true,
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "reliable_agents": [
+    "A",
+    "B"
+  ],
+  "prompt": "Names: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\nConflict level: adversarial\n\nAgent A clues:\n- Ben has yellow.\n- Cara has blue.\n- Alex has red.\nAgent B clues:\n- Dan does not have blue.\n- Cara does not have red.\n- Dan has green.\n\nReturn the final assignment.",
+  "response": "**Final assignment**\n\n| Person | Item |\n|--------|------|\n| Alex   | red |\n| Ben    | yellow |\n| Cara   | blue |\n| Dan    | green |",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 233,
+    "prompt_tokens": 144,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 186,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.18499958,
+    "prompt_time": 0.006329445,
+    "completion_time": 0.495039981,
+    "total_time": 0.501369426
+  },
+  "timestamp_utc": "2026-08-26T20:24:50Z",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+}

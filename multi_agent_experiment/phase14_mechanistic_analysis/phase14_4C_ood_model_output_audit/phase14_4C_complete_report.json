@@ -1,0 +1,49 @@
+{
+  "phase": "14.4C",
+  "title": "OOD Model Output / Scoring Audit",
+  "api_calls": 0,
+  "model_calls": 0,
+  "read_only_previous_artifacts": true,
+  "treatment_3_run": false,
+  "configuration": {
+    "expected_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_original_problems": 60,
+    "expected_original_clues": 485
+  },
+  "source_artifacts": {
+    "phase14_4A_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_complete_report.json",
+    "phase14_4A_rows": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_generalization_rows.json",
+    "phase14_4B_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_complete_report.json",
+    "phase14_4B_raw": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_raw_results.json",
+    "phase14_4B_scored": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_scored_results.json",
+    "phase14_4B_manifest": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_prompt_manifest.json"
+  },
+  "raw_result_record_count": 20,
+  "audit_summary": {
+    "reported_duplicate_failures": 13,
+    "duplicate_candidate_records": 13,
+    "valid_prediction_candidate_records": 0,
+    "valid_prediction_candidate_rate": 0.0,
+    "duplicate_candidate_rate": 0.65
+  },
+  "condition_summary": {
+    "ungated": {
+      "n": 10,
+      "valid_candidate": 0,
+      "duplicate_candidate": 8,
+      "reported_duplicate": 8,
+      "parse_or_validation": 0
+    },
+    "reliability_gated": {
+      "n": 10,
+      "valid_candidate": 0,
+      "duplicate_candidate": 5,
+      "reported_duplicate": 5,
+      "parse_or_validation": 0
+    }
+  },
+  "ground_truth_fields_found": 10,
+  "measurement_classification": "LIKELY_OUTPUT_FORMAT_OR_PARSER_BOTTLENECK",
+  "scientific_interpretation": "Phase 14.4B is primarily measurement-limited. A large fraction of model outputs fail the prediction validity contract, preventing reliable comparison of ungated and reliability-gated conditions. The current result should not be interpreted as evidence against the reliability-gated mechanism. A controlled output-contract correction may be justified before further model validation.",
+  "scientific_status": "AUDIT_COMPLETE"
+}

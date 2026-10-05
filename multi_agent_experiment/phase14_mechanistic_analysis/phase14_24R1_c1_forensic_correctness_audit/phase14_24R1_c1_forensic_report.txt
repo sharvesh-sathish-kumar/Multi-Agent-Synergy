@@ -1,0 +1,92 @@
+PHASE 14.24R1 — ZERO-API C1 FORENSIC + CORRECTNESS AUDIT
+================================================================================
+API calls: 0
+Model calls: 0
+Historical artifacts modified: NO
+
+Original C1 records: 60/60
+Recovery records used: 5
+Authoritative records: 60/60
+
+FORENSIC SUMMARY
+  CLEAN_NONEMPTY_STOP: 60
+
+GROUND TRUTH
+  Explicit ground-truth trials: 0/60
+
+CORRECTNESS
+  Scorable: 0
+  Correct: 0
+  Incorrect: 0
+  Accuracy: NOT CALCULABLE — no defensible stored ground truth.
+
+TRIAL FORENSICS
+Trial 01 | source=ORIGINAL | field=response | length=61 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 02 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 03 | source=ORIGINAL | field=response | length=142 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 04 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 05 | source=ORIGINAL | field=response | length=129 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 06 | source=ORIGINAL | field=response | length=195 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 07 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 08 | source=ORIGINAL | field=response | length=61 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 09 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 10 | source=ORIGINAL | field=response | length=78 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 11 | source=ORIGINAL | field=response | length=61 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 12 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 13 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 14 | source=ORIGINAL | field=response | length=78 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 15 | source=ORIGINAL | field=response | length=61 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 16 | source=R2 | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 17 | source=ORIGINAL | field=response | length=658 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 18 | source=ORIGINAL | field=response | length=242 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 19 | source=ORIGINAL | field=response | length=551 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 20 | source=ORIGINAL | field=response | length=298 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 21 | source=ORIGINAL | field=response | length=1006 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 22 | source=ORIGINAL | field=response | length=455 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 23 | source=ORIGINAL | field=response | length=870 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 24 | source=ORIGINAL | field=response | length=287 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 25 | source=ORIGINAL | field=response | length=481 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 26 | source=R2 | field=response | length=292 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 27 | source=ORIGINAL | field=response | length=674 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 28 | source=ORIGINAL | field=response | length=536 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 29 | source=ORIGINAL | field=response | length=1015 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 30 | source=ORIGINAL | field=response | length=494 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 31 | source=ORIGINAL | field=response | length=1136 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 32 | source=ORIGINAL | field=response | length=488 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 33 | source=ORIGINAL | field=response | length=754 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 34 | source=ORIGINAL | field=response | length=688 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 35 | source=ORIGINAL | field=response | length=915 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 36 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 37 | source=ORIGINAL | field=response | length=607 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 38 | source=ORIGINAL | field=response | length=541 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 39 | source=ORIGINAL | field=response | length=77 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 40 | source=ORIGINAL | field=response | length=867 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 41 | source=ORIGINAL | field=response | length=557 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 42 | source=ORIGINAL | field=response | length=794 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 43 | source=ORIGINAL | field=response | length=1209 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 44 | source=ORIGINAL | field=response | length=1123 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 45 | source=ORIGINAL | field=response | length=506 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 46 | source=ORIGINAL | field=response | length=299 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 47 | source=ORIGINAL | field=response | length=246 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 48 | source=ORIGINAL | field=response | length=929 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 49 | source=ORIGINAL | field=response | length=384 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 50 | source=ORIGINAL | field=response | length=285 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 51 | source=R2 | field=response | length=252 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 52 | source=R3 | field=response | length=448 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 53 | source=ORIGINAL | field=response | length=440 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 54 | source=ORIGINAL | field=response | length=799 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 55 | source=ORIGINAL | field=response | length=918 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 56 | source=R2 | field=response | length=1153 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 57 | source=ORIGINAL | field=response | length=1095 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 58 | source=ORIGINAL | field=response | length=1277 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 59 | source=ORIGINAL | field=response | length=570 | finish=stop | class=CLEAN_NONEMPTY_STOP
+Trial 60 | source=ORIGINAL | field=response | length=355 | finish=stop | class=CLEAN_NONEMPTY_STOP
+
+RECOVERY TRIALS
+Trial 16: CLEAN_NONEMPTY_STOP
+Trial 26: CLEAN_NONEMPTY_STOP
+Trial 51: CLEAN_NONEMPTY_STOP
+Trial 52: CLEAN_NONEMPTY_STOP
+Trial 56: CLEAN_NONEMPTY_STOP
+
+END OF ZERO-API AUDIT

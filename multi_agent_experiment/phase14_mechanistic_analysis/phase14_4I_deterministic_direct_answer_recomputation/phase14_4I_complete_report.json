@@ -1,0 +1,307 @@
+{
+  "audit_rows": [
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "1",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[0]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "1",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[1]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "2",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[2]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "2",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[3]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "3",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[4]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "3",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[5]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "4",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[6]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "4",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[7]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "5",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[8]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "5",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[9]"
+    }
+  ],
+  "authoritative_ground_truth": {
+    "1": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "2": {
+      "Alex": "blue",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "3": {
+      "Alex": "red",
+      "Ben": "yellow",
+      "Cara": "green",
+      "Dan": "blue"
+    },
+    "4": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "blue"
+    },
+    "5": {
+      "Alex": "blue",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "yellow"
+    }
+  },
+  "canonical_dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+  "claim_crosscheck": {
+    "reliability_gated_matches": true,
+    "ungated_matches": true
+  },
+  "classification": "PHASE_14_4G_ACCURACY_CONFIRMED",
+  "condition_summary": {
+    "reliability_gated": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 5,
+      "valid": 5,
+      "valid_rate": 1.0
+    },
+    "ungated": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 5,
+      "valid": 5,
+      "valid_rate": 1.0
+    }
+  },
+  "constraints": {
+    "api_calls": 0,
+    "automatic_retries": 0,
+    "model_calls": 0,
+    "previous_artifacts_modified": false,
+    "treatment_3_run": false
+  },
+  "decision": "PHASE_14_4G_ZERO_ACCURACY_CONFIRMED",
+  "immutability_baseline": {
+    "phase14_4A_report": "1c377245e5be274277a5fff84eaa2686f0ecfb672f430d5bd7599d7de55d848b",
+    "phase14_4A_rows": "43cc24256fb81acbf09ff51aa8a04dcff0b2d1a7cd3b5605b7a4d9df367b0e9a",
+    "phase14_4B_raw": "bec0dfcc4356aba8b385347739c9e7ece7727485311699d9a9e02ba8192a22fc",
+    "phase14_4B_report": "3b4f1e9e53782547b96274664437107a0f98322af1929c403a8eef9ae7638baf",
+    "phase14_4D_manifest": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e",
+    "phase14_4D_raw": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f",
+    "phase14_4D_report": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6",
+    "phase14_4E_contract": "221ec0712db28987111bcec9ee5d294ea4718378abd76c68481e65b29c810568",
+    "phase14_4F_report": "ad3a5e7d472dfdf4e73081103cc7579600133071b6582f1e041070939cb8d5f4",
+    "phase14_4F_spec": "d367e1d51913f4a2412b73b410d9b2a2fa5dbb88c43fb4415c5cb94f625e56fb",
+    "phase14_4G_manifest": "74fdaa98ded51d70d16df5321c8aa8fcbf31be5e7771efa4a9820533fd8d7d26",
+    "phase14_4G_raw": "15eeb540c2f808f0bba47751f76fdff5c834f5864bc66452fc086e1f3ecfd751",
+    "phase14_4G_report": "cfbb8f6bb4d82e218ae382778d59a989ae3bb6ba08a1d3af498b8f267c829c98",
+    "phase14_4G_scored": "2d00b7cd4a68d615033b29e5a696257a529e530498e9e4ed11da55d421ca4805",
+    "phase14_4H_report": "a7f427f2f316f54dd7624f8cf6dba657ee4f1e9ba37d614b0b0894aa8b108b5d",
+    "phase14_4H_rows": "357527fc05879b8d872b1b77cad61c2a8dd744116ec7007367396ad58ca46e7b"
+  },
+  "interpretation": "The 0/5 ungated and 0/5 reliability-gated Phase 14.4G OOD accuracy result is independently confirmed by deterministic direct-answer comparison against authoritative Phase 14.4A ground truth.",
+  "paired_summary": {
+    "both_correct": 0,
+    "both_incorrect": 5,
+    "gated_improvements": 0,
+    "gated_regressions": 0,
+    "n_pairs": 5
+  },
+  "phase": "14.4I",
+  "phase14_4G_claim": {
+    "reliability_gated_accuracy": 0.0,
+    "ungated_accuracy": 0.0
+  },
+  "prediction_count": 10,
+  "selected_problem_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "timestamp_utc": "2026-08-25T05:14:47.361491+00:00",
+  "title": "Deterministic Direct-Answer Recomputation"
+}

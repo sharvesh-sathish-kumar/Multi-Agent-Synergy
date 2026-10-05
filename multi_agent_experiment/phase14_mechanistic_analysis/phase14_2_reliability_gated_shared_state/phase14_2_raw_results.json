@@ -1,0 +1,2572 @@
+[
+  {
+    "problem_id": "1",
+    "timestamp_utc": "2026-08-25T01:43:23.211770+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "ae146cc14747cbe97350114af666d7a6306c37843f4959735a79595f7a2a0cef",
+    "raw_response": "{\"problem_id\":\"1\",\"active_constraints_used\":[\"Dan does not have yellow\",\"Cara does not have green\",\"Alex does not have green\",\"Alex has blue\",\"Dan has green\",\"Ben has yellow\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "e1c4bd5bd0a36b08826ac5d387f2cf4f84cdfcaaba0d16994bfdb20223875401",
+    "parsed": {
+      "problem_id": "1",
+      "active_constraints_used": [
+        "Dan does not have yellow",
+        "Cara does not have green",
+        "Alex does not have green",
+        "Alex has blue",
+        "Dan has green",
+        "Ben has yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "2",
+    "timestamp_utc": "2026-08-25T01:43:24.821278+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "8887d165a0f72414f035ead65683e7c9a432c17a490de80eed5b97ff075772a3",
+    "raw_response": "{\n  \"problem_id\":\"2\",\n  \"active_constraints_used\":[\n    \"Ben has green\",\n    \"Cara does not have green\",\n    \"Alex does not have green\",\n    \"Dan has yellow\",\n    \"Alex has blue\"\n  ],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\n    \"Alex\":\"blue\",\n    \"Ben\":\"green\",\n    \"Cara\":\"red\",\n    \"Dan\":\"yellow\"\n  },\n  \"verification\":{\n    \"one_color_per_person\":true,\n    \"every_color_used_once\":true,\n    \"active_constraints_satisfied\":true,\n    \"quarantined_information_used_as_constraint\":false\n  }\n}",
+    "response_sha256": "f58b8c03fb58d2754d0e6f53ccd4c5e068a70909059a3e13efab8c6736ed43cc",
+    "parsed": {
+      "problem_id": "2",
+      "active_constraints_used": [
+        "Ben has green",
+        "Cara does not have green",
+        "Alex does not have green",
+        "Dan has yellow",
+        "Alex has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "green",
+      "red",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "3",
+    "timestamp_utc": "2026-08-25T01:43:26.509994+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "a541616436c06072102baf1736c6778c789b751211d8157702d0c53c3926c01a",
+    "raw_response": "{\"problem_id\":\"3\",\"active_constraints_used\":[\"Ben is yellow\",\"Alex is green\",\"Dan is not red\",\"Alex is not red\",\"Cara is not blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "a2e29e37090f22b289bf04e8dcfca984b5d1839948b9d9639c48afad6f246d27",
+    "parsed": {
+      "problem_id": "3",
+      "active_constraints_used": [
+        "Ben is yellow",
+        "Alex is green",
+        "Dan is not red",
+        "Alex is not red",
+        "Cara is not blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "4",
+    "timestamp_utc": "2026-08-25T01:43:28.022768+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "832e28890a27c7b10e7bdfc183bed61467cee50e82fd53c5bd2aaec8523172e0",
+    "raw_response": "{\"problem_id\":\"4\",\"active_constraints_used\":[\"Ben does not have blue\",\"Dan does not have red\",\"Cara has green\",\"Dan has yellow\",\"Alex does not have red\",\"Cara does not have blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"red\",\"Cara\":\"green\",\"Dan\":\"yellow\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "f738033832ba99cd3bc5b419874e9d723ea174af7be8a1c780d111bb7eabe01c",
+    "parsed": {
+      "problem_id": "4",
+      "active_constraints_used": [
+        "Ben does not have blue",
+        "Dan does not have red",
+        "Cara has green",
+        "Dan has yellow",
+        "Alex does not have red",
+        "Cara does not have blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "5",
+    "timestamp_utc": "2026-08-25T01:43:29.806915+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "be1f95cc139c7bd0ac83311a90a2d53c799d3e161401839629e52d16eda1322c",
+    "raw_response": "{\n  \"problem_id\":\"5\",\n  \"active_constraints_used\":[\n    \"Alex is green\",\n    \"Cara is red\",\n    \"Dan is yellow\",\n    \"Ben is not red\",\n    \"Dan is not blue\"\n  ],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\n    \"Alex\":\"green\",\n    \"Ben\":\"blue\",\n    \"Cara\":\"red\",\n    \"Dan\":\"yellow\"\n  },\n  \"verification\":{\n    \"one_color_per_person\":true,\n    \"every_color_used_once\":true,\n    \"active_constraints_satisfied\":true,\n    \"quarantined_information_used_as_constraint\":false\n  }\n}",
+    "response_sha256": "856ba293d2fe319365de8f489da1d02c983711867d371e5e6295056f06724fc0",
+    "parsed": {
+      "problem_id": "5",
+      "active_constraints_used": [
+        "Alex is green",
+        "Cara is red",
+        "Dan is yellow",
+        "Ben is not red",
+        "Dan is not blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "blue",
+      "red",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "6",
+    "timestamp_utc": "2026-08-25T01:43:31.591711+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "6b6e3d3ca3608e9551ea7e15e0eab8f4f7f183eae7dc70329eb2614038e8bbfc",
+    "raw_response": "{\"problem_id\":\"6\",\"active_constraints_used\":[\"Dan does not have red\",\"Ben has green\",\"Cara has red\",\"Dan has blue\",\"Alex has yellow\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"yellow\",\"Ben\":\"green\",\"Cara\":\"red\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "9e3fce3d2d731fa4413afded70b37c46d1a12dd7b8e7864955f85e4f3eb069d2",
+    "parsed": {
+      "problem_id": "6",
+      "active_constraints_used": [
+        "Dan does not have red",
+        "Ben has green",
+        "Cara has red",
+        "Dan has blue",
+        "Alex has yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "green",
+      "red",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "7",
+    "timestamp_utc": "2026-08-25T01:43:33.176755+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "970c4a92fabb46b74cb91ba38dc8b9588fc1ab08106e14f350be63f99dd3bec3",
+    "raw_response": "{\n  \"problem_id\": \"7\",\n  \"active_constraints_used\": [\n    \"Cara does not have yellow\",\n    \"Dan has green\",\n    \"Ben has red\",\n    \"Ben does not have blue\",\n    \"Alex has yellow\",\n    \"Cara has blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"red\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "ff983e36315ecf5c52c00f9616ecde2cecff2355ed3f41083ccf9758fed9c069",
+    "parsed": {
+      "problem_id": "7",
+      "active_constraints_used": [
+        "Cara does not have yellow",
+        "Dan has green",
+        "Ben has red",
+        "Ben does not have blue",
+        "Alex has yellow",
+        "Cara has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "red",
+      "blue",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "8",
+    "timestamp_utc": "2026-08-25T01:43:34.804480+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "d28e349c711244d6a2ab56474ba51bf836aca3d4309e3718160a6a42cbefc36e",
+    "raw_response": "{\n  \"problem_id\":\"8\",\n  \"active_constraints_used\":[\n    \"Alex HAS red\",\n    \"Cara HAS yellow\",\n    \"Cara DOES NOT HAVE green\",\n    \"Ben DOES NOT HAVE yellow\",\n    \"Dan HAS blue\"\n  ],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\n    \"Alex\":\"red\",\n    \"Ben\":\"green\",\n    \"Cara\":\"yellow\",\n    \"Dan\":\"blue\"\n  },\n  \"verification\":{\n    \"one_color_per_person\":true,\n    \"every_color_used_once\":true,\n    \"active_constraints_satisfied\":true,\n    \"quarantined_information_used_as_constraint\":false\n  }\n}",
+    "response_sha256": "0f1f282599aee1ace80928dd8856dcc83ea25f7d16d16cc6f007b93507f4062a",
+    "parsed": {
+      "problem_id": "8",
+      "active_constraints_used": [
+        "Alex HAS red",
+        "Cara HAS yellow",
+        "Cara DOES NOT HAVE green",
+        "Ben DOES NOT HAVE yellow",
+        "Dan HAS blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "9",
+    "timestamp_utc": "2026-08-25T01:43:42.613008+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "a6a96745d3d9a2b951a2c4e16ac9b0e9b405ab25f01bbd505278cd30a0444ae0",
+    "raw_response": "{\n  \"problem_id\": \"9\",\n  \"active_constraints_used\": [\n    \"Alex has yellow\",\n    \"Cara does not have green\",\n    \"Dan has green\",\n    \"Ben does not have red\",\n    \"Dan does not have blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"blue\",\n    \"Cara\": \"red\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "cd418f59e99429ac281bb0eaa91f0af1b2141183abe6f7ce739c58a943e08c4f",
+    "parsed": {
+      "problem_id": "9",
+      "active_constraints_used": [
+        "Alex has yellow",
+        "Cara does not have green",
+        "Dan has green",
+        "Ben does not have red",
+        "Dan does not have blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "blue",
+      "red",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "10",
+    "timestamp_utc": "2026-08-25T01:43:47.510414+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "0b3390d420206ca97d826d2b497e36fe8686a1c1386f0250036f81fb40f75f57",
+    "raw_response": "{\"problem_id\":\"10\",\"active_constraints_used\":[\"Alex does not have green\",\"Ben does not have green\",\"Cara has red\",\"Cara does not have blue\",\"Ben has blue\",\"Dan does not have yellow\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"yellow\",\"Ben\":\"blue\",\"Cara\":\"red\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "f1723466160a78cbb66f64c927873e59025fbb90985d36612a5c4a96d8e206b3",
+    "parsed": {
+      "problem_id": "10",
+      "active_constraints_used": [
+        "Alex does not have green",
+        "Ben does not have green",
+        "Cara has red",
+        "Cara does not have blue",
+        "Ben has blue",
+        "Dan does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "blue",
+      "red",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "11",
+    "timestamp_utc": "2026-08-25T01:43:55.572822+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "7904d72754eb9df968d08eb3bc0fd4922307bf851e85e2acdc72acb4e3c7294e",
+    "raw_response": "{\n  \"problem_id\": \"11\",\n  \"active_constraints_used\": [\n    \"Cara assigned green\",\n    \"Dan assigned blue\",\n    \"Dan does not have yellow (satisfied by blue)\",\n    \"Alex does not have blue\",\n    \"Ben does not have red\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"yellow\",\n    \"Cara\": \"green\",\n    \"Dan\": \"blue\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "f27097231aced9c1f5aa2d3018ef820c230c24a0b8321bfca156616e726abd16",
+    "parsed": {
+      "problem_id": "11",
+      "active_constraints_used": [
+        "Cara assigned green",
+        "Dan assigned blue",
+        "Dan does not have yellow (satisfied by blue)",
+        "Alex does not have blue",
+        "Ben does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "12",
+    "timestamp_utc": "2026-08-25T01:44:03.185599+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "e7a328776506bbe46bb038b0b1e231870e94504f54d7bc6c41dd1a8005ccb0a9",
+    "raw_response": "{\n  \"problem_id\": \"12\",\n  \"active_constraints_used\": [\n    \"Ben has red\",\n    \"Cara does not have green\",\n    \"Dan has yellow\",\n    \"Dan does not have blue\",\n    \"Ben does not have green\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"green\",\n    \"Ben\": \"red\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"yellow\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "70c5503b60c141e4a46a2ed261781f61f768b40634bddf98a12a1038302958da",
+    "parsed": {
+      "problem_id": "12",
+      "active_constraints_used": [
+        "Ben has red",
+        "Cara does not have green",
+        "Dan has yellow",
+        "Dan does not have blue",
+        "Ben does not have green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "red",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "13",
+    "timestamp_utc": "2026-08-25T01:44:16.138026+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "6120c24845f83c6dfed96f898034ac4568fecd285f87857c03b092ce4f1d21f1",
+    "raw_response": "{\n  \"problem_id\": \"13\",\n  \"active_constraints_used\": [\n    \"Alex must be yellow\",\n    \"Alex cannot be green\",\n    \"Dan cannot be yellow\",\n    \"Dan must be green\",\n    \"Ben cannot be blue\",\n    \"Cara must be blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"red\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "981744d0cea0e4d30785fa2b1b2b312309f83f0d6bda1a64fa8aaa59519869b9",
+    "parsed": {
+      "problem_id": "13",
+      "active_constraints_used": [
+        "Alex must be yellow",
+        "Alex cannot be green",
+        "Dan cannot be yellow",
+        "Dan must be green",
+        "Ben cannot be blue",
+        "Cara must be blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "red",
+      "blue",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "14",
+    "timestamp_utc": "2026-08-25T01:44:19.884409+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "04195bc4cc0afd3d9efb06a20e305d55e24176bc9aca71d2b1f13c2e9ec13899",
+    "api_error": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m09kvmd7evjsbyn3tc8czyyd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6739, Requested 1310. Please try again in 367.5ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\")",
+    "valid_format": false,
+    "validation_reason": "api_error",
+    "prediction": null,
+    "correct": false,
+    "matches_deterministic": false
+  },
+  {
+    "problem_id": "15",
+    "timestamp_utc": "2026-08-25T01:44:29.352729+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "c4422ccfa53b2f2fbb2736a6a75b3f25c5cbfc4ef3b7ebeeb5a90c72649baf40",
+    "raw_response": "{\n  \"problem_id\": \"15\",\n  \"active_constraints_used\": [\n    \"Alex HAS green\",\n    \"Ben HAS yellow\",\n    \"Cara DOES NOT HAVE blue\",\n    \"Cara DOES NOT HAVE yellow\",\n    \"Dan DOES NOT HAVE yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"green\",\n    \"Ben\": \"yellow\",\n    \"Cara\": \"red\",\n    \"Dan\": \"blue\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "77e9ce11d4c8ca6a624bcfb25efda497dda43bfbc4e9d67bf42b87f604dd6d5d",
+    "parsed": {
+      "problem_id": "15",
+      "active_constraints_used": [
+        "Alex HAS green",
+        "Ben HAS yellow",
+        "Cara DOES NOT HAVE blue",
+        "Cara DOES NOT HAVE yellow",
+        "Dan DOES NOT HAVE yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "16",
+    "timestamp_utc": "2026-08-25T01:44:31.863931+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "a8ade918fb6ebba866e54b3aff44706ff0d69dea51f213d570070dc79c884d0a",
+    "raw_response": "{\n  \"problem_id\": \"16\",\n  \"active_constraints_used\": [\n    \"Alex has green\",\n    \"Dan has yellow\",\n    \"Cara has blue\",\n    \"Dan does not have blue\",\n    \"Ben does not have blue\",\n    \"Cara does not have green\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"green\",\n    \"Ben\": \"red\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"yellow\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "37c2645b463642f73804588ddbad7cf49263d0a11cebe0541b8fe1c7264dbd7d",
+    "parsed": {
+      "problem_id": "16",
+      "active_constraints_used": [
+        "Alex has green",
+        "Dan has yellow",
+        "Cara has blue",
+        "Dan does not have blue",
+        "Ben does not have blue",
+        "Cara does not have green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "red",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "17",
+    "timestamp_utc": "2026-08-25T01:44:40.661009+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "316907f0bb98dc3e2bd8cd26ea41119de05f229f62da6c63bf2b6d628aa52455",
+    "raw_response": "{\"problem_id\":\"17\",\"active_constraints_used\":[\"Ben has green\",\"Cara has blue\",\"Alex does not have yellow\",\"Ben does not have blue\",\"Alex has red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "b637a2bd58846bc9c9edc3d90f11b8c31b038c044af145397acae0a5c987c381",
+    "parsed": {
+      "problem_id": "17",
+      "active_constraints_used": [
+        "Ben has green",
+        "Cara has blue",
+        "Alex does not have yellow",
+        "Ben does not have blue",
+        "Alex has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "18",
+    "timestamp_utc": "2026-08-25T01:44:50.478995+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "654268c35a3a99197cd0f73afe11953da0f880b780d680c72bfa5c871ec4b9a9",
+    "raw_response": "{\"problem_id\":\"18\",\"active_constraints_used\":[\"Ben has yellow\",\"Ben does not have green\",\"Alex has green\",\"Cara does not have blue\",\"Dan has blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "1ce80dac2b147cc8cc0ab9e61dad6703dfa1795abb957a97793c0ebdbbabcbd2",
+    "parsed": {
+      "problem_id": "18",
+      "active_constraints_used": [
+        "Ben has yellow",
+        "Ben does not have green",
+        "Alex has green",
+        "Cara does not have blue",
+        "Dan has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "19",
+    "timestamp_utc": "2026-08-25T01:45:00.361532+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "529ba42d13974b5371d4fd7c62aadb2750ff36cfb795c1866de3823d2f4a80cf",
+    "raw_response": "{\"problem_id\":\"19\",\"active_constraints_used\":[\"Cara has blue\",\"Ben does not have blue\",\"Cara does not have yellow\",\"Dan does not have red\",\"Alex does not have blue\",\"Alex has green\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"red\",\"Cara\":\"blue\",\"Dan\":\"yellow\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "5f5e175334112c26dd90356233126eed048c2e2673f74437512dc9eedbbc03a3",
+    "parsed": {
+      "problem_id": "19",
+      "active_constraints_used": [
+        "Cara has blue",
+        "Ben does not have blue",
+        "Cara does not have yellow",
+        "Dan does not have red",
+        "Alex does not have blue",
+        "Alex has green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "red",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "20",
+    "timestamp_utc": "2026-08-25T01:45:10.347553+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "b9b7a95f32b7a64fbb247e1cce7c551180082738bfb81c049f2c7a1c409ea13f",
+    "raw_response": "{\"problem_id\":\"20\",\"active_constraints_used\":[\"Cara does not have blue\",\"Alex has green\",\"Cara has yellow\",\"Alex does not have blue\",\"Dan has red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"blue\",\"Cara\":\"yellow\",\"Dan\":\"red\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "43ce950c50da4dda1eca8860714fd4650b6f21ac83d54ae1f116a161687dff13",
+    "parsed": {
+      "problem_id": "20",
+      "active_constraints_used": [
+        "Cara does not have blue",
+        "Alex has green",
+        "Cara has yellow",
+        "Alex does not have blue",
+        "Dan has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "blue",
+      "yellow",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "21",
+    "timestamp_utc": "2026-08-25T01:45:21.210539+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "ada069c481e83a0375d84cfdbe9a7e6b27c11d36afa27f6303a5093e54ab536b",
+    "raw_response": "{\"problem_id\":\"21\",\"active_constraints_used\":[\"Alex is blue\",\"Cara is green\",\"Ben is red\",\"Ben does not have green\",\"Dan does not have red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"red\",\"Cara\":\"green\",\"Dan\":\"yellow\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "e823f68359abe1cbcb4ef6951bbb21c561ac86b2517b06182d8df9820f575511",
+    "parsed": {
+      "problem_id": "21",
+      "active_constraints_used": [
+        "Alex is blue",
+        "Cara is green",
+        "Ben is red",
+        "Ben does not have green",
+        "Dan does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "22",
+    "timestamp_utc": "2026-08-25T01:45:29.687537+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "bafd16f70be43c4048630c634ad425b6e106198cdc7c8c95ffa0f903f724ba53",
+    "raw_response": "{\n  \"problem_id\": \"22\",\n  \"active_constraints_used\": [\n    \"Ben is blue\",\n    \"Ben is not green\",\n    \"Alex is red\",\n    \"Dan is not green\",\n    \"Cara is green\",\n    \"Cara is not yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"blue\",\n    \"Cara\": \"green\",\n    \"Dan\": \"yellow\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "960e181e455fa716716ece8a3630095bb98a56653ff50fbd35b16d3243969334",
+    "parsed": {
+      "problem_id": "22",
+      "active_constraints_used": [
+        "Ben is blue",
+        "Ben is not green",
+        "Alex is red",
+        "Dan is not green",
+        "Cara is green",
+        "Cara is not yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "23",
+    "timestamp_utc": "2026-08-25T01:45:39.462743+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "68ba061405c80d8569d34099c5384d126d5922886905c314944dfc83d9efc317",
+    "raw_response": "{\n  \"problem_id\":\"23\",\n  \"active_constraints_used\":[\"Ben does not have green\",\"Cara does not have blue\",\"Ben has yellow\",\"Alex has red\",\"Dan does not have yellow\"],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"yellow\",\"Cara\":\"green\",\"Dan\":\"blue\"},\n  \"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}\n}",
+    "response_sha256": "3688f8606343feeec8732c5b177aa2c481796ff32b3abc93512bf5cf5f860290",
+    "parsed": {
+      "problem_id": "23",
+      "active_constraints_used": [
+        "Ben does not have green",
+        "Cara does not have blue",
+        "Ben has yellow",
+        "Alex has red",
+        "Dan does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "24",
+    "timestamp_utc": "2026-08-25T01:45:48.489875+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "971860cd1b59566517680d1aaf9f3de49e1e4f0452a71c108dab822fb183c522",
+    "raw_response": "{\"problem_id\":\"24\",\"active_constraints_used\":[\"Ben has red\",\"Dan does not have green\",\"Alex has yellow\",\"Ben does not have blue\",\"Alex does not have green\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"yellow\",\"Ben\":\"red\",\"Cara\":\"green\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "6977d537e41a257b12d232d5c9c126ee169efde1c71a4570512fdc2d64e26de3",
+    "parsed": {
+      "problem_id": "24",
+      "active_constraints_used": [
+        "Ben has red",
+        "Dan does not have green",
+        "Alex has yellow",
+        "Ben does not have blue",
+        "Alex does not have green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "red",
+      "green",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "25",
+    "timestamp_utc": "2026-08-25T01:45:58.113302+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "0f20b017d2998de80b8046dcf943e1585325d28da70ea68cf940413816816b48",
+    "raw_response": "{\"problem_id\":\"25\",\"active_constraints_used\":[\"Alex has blue\",\"Dan has yellow\",\"Ben has green\",\"Cara does not have blue\",\"Ben does not have yellow\",\"Dan does not have green\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"green\",\"Cara\":\"red\",\"Dan\":\"yellow\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "83fbd80142e9d71531f3f29e2e10d0b2634ef7d8609855102c50799794bc12f7",
+    "parsed": {
+      "problem_id": "25",
+      "active_constraints_used": [
+        "Alex has blue",
+        "Dan has yellow",
+        "Ben has green",
+        "Cara does not have blue",
+        "Ben does not have yellow",
+        "Dan does not have green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "green",
+      "red",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "26",
+    "timestamp_utc": "2026-08-25T01:46:07.038941+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "b229f968ac4a5f0652ed588ad9698384da60606de4987a2375c3cdbfd2250022",
+    "raw_response": "{\n  \"problem_id\": \"26\",\n  \"active_constraints_used\": [\n    \"Dan has blue\",\n    \"Dan does not have yellow\",\n    \"Ben has green\",\n    \"Cara does not have green\",\n    \"Alex does not have yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"green\",\n    \"Cara\": \"yellow\",\n    \"Dan\": \"blue\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "3a8515190dc65a808a956b71af86358ea0a93d8a60f1eeb584307a9263873691",
+    "parsed": {
+      "problem_id": "26",
+      "active_constraints_used": [
+        "Dan has blue",
+        "Dan does not have yellow",
+        "Ben has green",
+        "Cara does not have green",
+        "Alex does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "27",
+    "timestamp_utc": "2026-08-25T01:46:15.755606+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "d098f40a95c60698a0d23f17fa6e79566caed3681dafb0f64d5728dd14b2d1a5",
+    "raw_response": "{\n  \"problem_id\":\"27\",\n  \"active_constraints_used\":[\n    \"Ben does not have red\",\n    \"Alex does not have yellow\",\n    \"Alex has red\",\n    \"Cara has green\",\n    \"Dan does not have yellow\"\n  ],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\n    \"Alex\":\"red\",\n    \"Ben\":\"yellow\",\n    \"Cara\":\"green\",\n    \"Dan\":\"blue\"\n  },\n  \"verification\":{\n    \"one_color_per_person\":true,\n    \"every_color_used_once\":true,\n    \"active_constraints_satisfied\":true,\n    \"quarantined_information_used_as_constraint\":false\n  }\n}",
+    "response_sha256": "98f442c6dd0f60450e336d66f4d5fecc5192eb4d3e89b4c3636458d75987ddbf",
+    "parsed": {
+      "problem_id": "27",
+      "active_constraints_used": [
+        "Ben does not have red",
+        "Alex does not have yellow",
+        "Alex has red",
+        "Cara has green",
+        "Dan does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "28",
+    "timestamp_utc": "2026-08-25T01:46:25.299096+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "7bb69e6e3e0eaf5e956da4045c5197959a7d27e55c57758ffd7b603cecf1a91c",
+    "raw_response": "{\"problem_id\":\"28\",\"active_constraints_used\":[\"Cara does not have yellow\",\"Ben has yellow\",\"Dan has green\",\"Alex has blue\",\"Ben does not have blue\",\"Cara has red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "397a7b838e82630e6318240115e75947d7f899bfa3f3f9cb7ddd4de7d230a123",
+    "parsed": {
+      "problem_id": "28",
+      "active_constraints_used": [
+        "Cara does not have yellow",
+        "Ben has yellow",
+        "Dan has green",
+        "Alex has blue",
+        "Ben does not have blue",
+        "Cara has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "29",
+    "timestamp_utc": "2026-08-25T01:46:30.358576+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "3b6c2abcb118c7d2529169dc20b0b9ab77796861ab57ce89d890368bdfcd20a9",
+    "raw_response": "{\"problem_id\":\"29\",\"active_constraints_used\":[\"Ben does not have yellow\",\"Cara has yellow\",\"Alex has green\",\"Ben has red\",\"Dan has blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"red\",\"Cara\":\"yellow\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "d201bf11739965c47d1077eab08f2961aa70df43a7b464de4c11ff6e0bf2ebc0",
+    "parsed": {
+      "problem_id": "29",
+      "active_constraints_used": [
+        "Ben does not have yellow",
+        "Cara has yellow",
+        "Alex has green",
+        "Ben has red",
+        "Dan has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "30",
+    "timestamp_utc": "2026-08-25T01:46:37.359852+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "3485924df8bbbf743619680973887ab268b151faf739cef34b513a5e1e8d2cb0",
+    "raw_response": "{\n  \"problem_id\": \"30\",\n  \"active_constraints_used\": [\n    \"Cara HAS yellow\",\n    \"Alex DOES NOT HAVE red\",\n    \"Cara DOES NOT HAVE green\",\n    \"Dan HAS green\",\n    \"Dan DOES NOT HAVE yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"blue\",\n    \"Ben\": \"red\",\n    \"Cara\": \"yellow\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "68512e959d48de6c3a9f1aac6353a2d4005c8d9729fff3725c25d7e91f1627cf",
+    "parsed": {
+      "problem_id": "30",
+      "active_constraints_used": [
+        "Cara HAS yellow",
+        "Alex DOES NOT HAVE red",
+        "Cara DOES NOT HAVE green",
+        "Dan HAS green",
+        "Dan DOES NOT HAVE yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "31",
+    "timestamp_utc": "2026-08-25T01:46:49.093940+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "a5462d5c005691e0ae1cf7243be969d1e21e6c3ed3a1e8aef97120c75e28f4b8",
+    "raw_response": "{\"problem_id\":\"31\",\"active_constraints_used\":[\"Dan has green\",\"Dan does not have blue\",\"Alex has blue\",\"Ben has yellow\",\"Cara has red\",\"Alex does not have yellow\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "34ce03cfdb90c3c9e7b5f7065ca47359b775133c6256814aa58f1bb5576718f7",
+    "parsed": {
+      "problem_id": "31",
+      "active_constraints_used": [
+        "Dan has green",
+        "Dan does not have blue",
+        "Alex has blue",
+        "Ben has yellow",
+        "Cara has red",
+        "Alex does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "32",
+    "timestamp_utc": "2026-08-25T01:46:57.806581+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "cdeb1160cefbe1a23d5982d22d1326bff8f4c92f47462b54000743bb310031c6",
+    "raw_response": "{\"problem_id\":\"32\",\"active_constraints_used\":[\"Alex has yellow\",\"Cara has green\",\"Dan does not have green\",\"Cara does not have red\",\"Ben has blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"yellow\",\"Ben\":\"blue\",\"Cara\":\"green\",\"Dan\":\"red\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "9f01557b5aa2ec2423798c1226ab21ea49dbfe93276fa2cf32fa5576a55c1f74",
+    "parsed": {
+      "problem_id": "32",
+      "active_constraints_used": [
+        "Alex has yellow",
+        "Cara has green",
+        "Dan does not have green",
+        "Cara does not have red",
+        "Ben has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "blue",
+      "green",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "33",
+    "timestamp_utc": "2026-08-25T01:47:07.751133+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "83f7c9476c6c367e08e214aa02569958f2d78497c3591d6e78adaa992c197cc4",
+    "raw_response": "{\n  \"problem_id\": \"33\",\n  \"active_constraints_used\": [\n    \"Cara has green\",\n    \"Alex has yellow\",\n    \"Alex does not have green\",\n    \"Ben has red\",\n    \"Cara does not have red\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"red\",\n    \"Cara\": \"green\",\n    \"Dan\": \"blue\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "09c0121841aee562d7e428d655026fe82a69bd35308107709e14a7f57302dcb6",
+    "parsed": {
+      "problem_id": "33",
+      "active_constraints_used": [
+        "Cara has green",
+        "Alex has yellow",
+        "Alex does not have green",
+        "Ben has red",
+        "Cara does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "red",
+      "green",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "34",
+    "timestamp_utc": "2026-08-25T01:47:17.203030+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "0f684aa4da215d26931d890aeab339e52aed6ce4ad27e098e603eb6c0257ede9",
+    "raw_response": "{\n  \"problem_id\": \"34\",\n  \"active_constraints_used\": [\n    \"Dan does not have blue\",\n    \"Ben has red\",\n    \"Alex has blue\",\n    \"Dan has yellow\",\n    \"Cara has green\",\n    \"Cara does not have yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"blue\",\n    \"Ben\": \"red\",\n    \"Cara\": \"green\",\n    \"Dan\": \"yellow\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "6f765b0c6bf3efed5509d4b15930027e29008a1de3089a9854b0a76b4f7faf6d",
+    "parsed": {
+      "problem_id": "34",
+      "active_constraints_used": [
+        "Dan does not have blue",
+        "Ben has red",
+        "Alex has blue",
+        "Dan has yellow",
+        "Cara has green",
+        "Cara does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "35",
+    "timestamp_utc": "2026-08-25T01:47:25.840648+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "113b73a0c770fea5191e20a24236be45f10b936a1c804a7e6117e515b75c094f",
+    "raw_response": "{\n  \"problem_id\":\"35\",\n  \"active_constraints_used\":[\n    \"Alex has green\",\n    \"Ben does not have yellow\",\n    \"Dan does not have green\",\n    \"Cara does not have green\",\n    \"Dan has red\"\n  ],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\n    \"Alex\":\"green\",\n    \"Ben\":\"blue\",\n    \"Cara\":\"yellow\",\n    \"Dan\":\"red\"\n  },\n  \"verification\":{\n    \"one_color_per_person\":true,\n    \"every_color_used_once\":true,\n    \"active_constraints_satisfied\":true,\n    \"quarantined_information_used_as_constraint\":false\n  }\n}",
+    "response_sha256": "38ca04ab0855767fadc57f5cd8447c11d1cb480a7eb02b22fe9885d2acf49fd1",
+    "parsed": {
+      "problem_id": "35",
+      "active_constraints_used": [
+        "Alex has green",
+        "Ben does not have yellow",
+        "Dan does not have green",
+        "Cara does not have green",
+        "Dan has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "blue",
+      "yellow",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "36",
+    "timestamp_utc": "2026-08-25T01:47:34.720847+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "afdfa643ee4a59ce1af68ad87f355f0a4ad484591ba520df2c9d87c1383481cb",
+    "raw_response": "{\n  \"problem_id\": \"36\",\n  \"active_constraints_used\": [\n    \"Dan has green\",\n    \"Dan does not have yellow\",\n    \"Alex has yellow\",\n    \"Alex does not have blue\",\n    \"Ben does not have blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"red\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "d027f8910ede4f608612379c9aa86b5cad2d3c577e0e56c3b9cd45c518790e59",
+    "parsed": {
+      "problem_id": "36",
+      "active_constraints_used": [
+        "Dan has green",
+        "Dan does not have yellow",
+        "Alex has yellow",
+        "Alex does not have blue",
+        "Ben does not have blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "red",
+      "blue",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "37",
+    "timestamp_utc": "2026-08-25T01:47:45.927035+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "778d61aab907f909ad4e510dce015c7b4713c0cad38244a9863b8da220acffc8",
+    "raw_response": "{\"problem_id\":\"37\",\"active_constraints_used\":[\"Dan is blue\",\"Ben is yellow\",\"Cara is red\",\"Dan is not green\",\"Ben is not green\",\"Cara is not blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "152edf234cde81d5a55063e808d2f8ec61904f9d256be896fc188bc539bbe6ea",
+    "parsed": {
+      "problem_id": "37",
+      "active_constraints_used": [
+        "Dan is blue",
+        "Ben is yellow",
+        "Cara is red",
+        "Dan is not green",
+        "Ben is not green",
+        "Cara is not blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "38",
+    "timestamp_utc": "2026-08-25T01:47:53.772659+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "3937bddc6fc92f78d5807a5d2411dc4d5448b0d6fdb02385c24ad6b570339f53",
+    "raw_response": "{\n  \"problem_id\": \"38\",\n  \"active_constraints_used\": [\n    \"Cara has blue\",\n    \"Cara does not have red\",\n    \"Dan has red\",\n    \"Alex has yellow\",\n    \"Alex does not have blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"green\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"red\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "d46d8c78a3aea48c3390c88b438c51599505799023c6bde344a234b7e8af52cc",
+    "parsed": {
+      "problem_id": "38",
+      "active_constraints_used": [
+        "Cara has blue",
+        "Cara does not have red",
+        "Dan has red",
+        "Alex has yellow",
+        "Alex does not have blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "green",
+      "blue",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "39",
+    "timestamp_utc": "2026-08-25T01:48:04.303708+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "7bc1559d5bb19ec8098e2a90cefb42c464c91d9c5f23749f936cef6e2b50464f",
+    "raw_response": "{\"problem_id\":\"39\",\"active_constraints_used\":[\"Dan is blue\",\"Alex is not blue\",\"Cara is not yellow\",\"Cara is red\",\"Alex is green\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"green\",\"Ben\":\"yellow\",\"Cara\":\"red\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "a4a33f05e1d53c39ba80e0f0e5171ab56de4dad42b47dfaaac4ce0a6cbb84a21",
+    "parsed": {
+      "problem_id": "39",
+      "active_constraints_used": [
+        "Dan is blue",
+        "Alex is not blue",
+        "Cara is not yellow",
+        "Cara is red",
+        "Alex is green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "40",
+    "timestamp_utc": "2026-08-25T01:48:13.180667+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "66d6bcce37a43b41a32007039158e68d3304b418f9402d058ac08666cf073677",
+    "raw_response": "{\n  \"problem_id\": \"40\",\n  \"active_constraints_used\": [\n    \"Cara has blue\",\n    \"Alex has yellow\",\n    \"Dan does not have blue\",\n    \"Alex does not have blue\",\n    \"Cara does not have red\",\n    \"Dan has red\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"green\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"red\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "36444e57ed9f0e57c875ecc860e0f63314dff906f8b7a6bcd5f40fcd7f1bf37c",
+    "parsed": {
+      "problem_id": "40",
+      "active_constraints_used": [
+        "Cara has blue",
+        "Alex has yellow",
+        "Dan does not have blue",
+        "Alex does not have blue",
+        "Cara does not have red",
+        "Dan has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "green",
+      "blue",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "41",
+    "timestamp_utc": "2026-08-25T01:48:21.933864+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "4e5d1d2229e5ec618d6ec3b9d17a63d8b6eafbeb3f8e2d23be9cc339aa9058b6",
+    "raw_response": "{\n  \"problem_id\":\"41\",\n  \"active_constraints_used\":[\"Alex HAS red\",\"Cara HAS blue\",\"Dan HAS yellow\",\"Ben DOES NOT HAVE yellow\",\"Cara DOES NOT HAVE yellow\"],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"},\n  \"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}\n}",
+    "response_sha256": "d4198780f3fa91f5b8788c6ec8e004a70e3db441cb2620f8264064d11a0f4294",
+    "parsed": {
+      "problem_id": "41",
+      "active_constraints_used": [
+        "Alex HAS red",
+        "Cara HAS blue",
+        "Dan HAS yellow",
+        "Ben DOES NOT HAVE yellow",
+        "Cara DOES NOT HAVE yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "42",
+    "timestamp_utc": "2026-08-25T01:48:31.626091+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "d33d006ffe6e44096b6bc7de7189d2c64a17263063550285ebfd6badc9340ce9",
+    "raw_response": "{\n  \"problem_id\": \"42\",\n  \"active_constraints_used\": [\n    \"Cara has yellow\",\n    \"Cara does not have blue\",\n    \"Ben does not have yellow\",\n    \"Dan does not have blue\",\n    \"Alex has red\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"blue\",\n    \"Cara\": \"yellow\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "a2e885d7f4481ebecee61d6fff5a92844d101207fc8e9e9a59e9f4e8f8753bf2",
+    "parsed": {
+      "problem_id": "42",
+      "active_constraints_used": [
+        "Cara has yellow",
+        "Cara does not have blue",
+        "Ben does not have yellow",
+        "Dan does not have blue",
+        "Alex has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "blue",
+      "yellow",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "43",
+    "timestamp_utc": "2026-08-25T01:48:41.731863+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "7dded772e5fb5391737e190f7546587f6e8de5dc43dcb2c7ea75043658d3b9d8",
+    "raw_response": "{\n  \"problem_id\": \"43\",\n  \"active_constraints_used\": [\n    \"Cara has blue\",\n    \"Cara does not have green\",\n    \"Ben does not have red\",\n    \"Alex has green\",\n    \"Dan does not have yellow\",\n    \"Alex does not have red\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"green\",\n    \"Ben\": \"yellow\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"red\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "e21acfdbce10fa46afb8624466589ed5f49f59a96f3e6858997a6bc35d17c325",
+    "parsed": {
+      "problem_id": "43",
+      "active_constraints_used": [
+        "Cara has blue",
+        "Cara does not have green",
+        "Ben does not have red",
+        "Alex has green",
+        "Dan does not have yellow",
+        "Alex does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "yellow",
+      "blue",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "44",
+    "timestamp_utc": "2026-08-25T01:48:51.575506+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "bd046e8a64f34d42ab811d16d8b6da4fe0e9325d3de64e4b708a159abba9bbad",
+    "raw_response": "{\"problem_id\":\"44\",\"active_constraints_used\":[\"Cara has yellow\",\"Ben does not have red\",\"Cara does not have green\",\"Ben has green\",\"Dan does not have red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"yellow\",\"Dan\":\"blue\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "bdb4a1d5e737bc5b67184522d78b5a28113c2179d9a57b971c33e353f2ebc23a",
+    "parsed": {
+      "problem_id": "44",
+      "active_constraints_used": [
+        "Cara has yellow",
+        "Ben does not have red",
+        "Cara does not have green",
+        "Ben has green",
+        "Dan does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "45",
+    "timestamp_utc": "2026-08-25T01:49:01.254618+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "736041307b3196b80228dd9b63fa0540784747365ec1de813c3a1a5f608efb2b",
+    "raw_response": "{\"problem_id\":\"45\",\"active_constraints_used\":[\"Alex has blue\",\"Ben has red\",\"Dan does not have yellow\",\"Cara does not have green\",\"Dan has green\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"red\",\"Cara\":\"yellow\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "f04cff0429a931a681998b22c066a4c64c9217e233e2b4f6322ddb70b9a06651",
+    "parsed": {
+      "problem_id": "45",
+      "active_constraints_used": [
+        "Alex has blue",
+        "Ben has red",
+        "Dan does not have yellow",
+        "Cara does not have green",
+        "Dan has green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "46",
+    "timestamp_utc": "2026-08-25T01:49:10.933831+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "2a3cb1e32821f017a01e7619aec451a67f709d4bf4f6d6d666c92efdfe30eae1",
+    "raw_response": "{\n  \"problem_id\": \"46\",\n  \"active_constraints_used\": [\n    \"Ben has yellow\",\n    \"Cara has blue\",\n    \"Alex has red\",\n    \"Dan does not have blue\",\n    \"Cara does not have red\",\n    \"Dan has green\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"yellow\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"green\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "b9ae829670f57a521549faa87f279752cb40c17d2c703cd8d2aff3edfce20901",
+    "parsed": {
+      "problem_id": "46",
+      "active_constraints_used": [
+        "Ben has yellow",
+        "Cara has blue",
+        "Alex has red",
+        "Dan does not have blue",
+        "Cara does not have red",
+        "Dan has green"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "yellow",
+      "blue",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "47",
+    "timestamp_utc": "2026-08-25T01:49:19.659856+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "0582be476267d7cd4c06ba4d5de3f67f718348c602bd73b373dd6a21a4c654bc",
+    "raw_response": "{\n  \"problem_id\":\"47\",\n  \"active_constraints_used\":[\n    \"Dan has yellow\",\n    \"Alex has red\",\n    \"Cara has blue\",\n    \"Dan does not have blue\",\n    \"Cara does not have red\"\n  ],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\n    \"Alex\":\"red\",\n    \"Ben\":\"green\",\n    \"Cara\":\"blue\",\n    \"Dan\":\"yellow\"\n  },\n  \"verification\":{\n    \"one_color_per_person\":true,\n    \"every_color_used_once\":true,\n    \"active_constraints_satisfied\":true,\n    \"quarantined_information_used_as_constraint\":false\n  }\n}",
+    "response_sha256": "cb6c5c51e5326112f40e874fc122bb26dcb05e279a3782d31990ca3926d45bef",
+    "parsed": {
+      "problem_id": "47",
+      "active_constraints_used": [
+        "Dan has yellow",
+        "Alex has red",
+        "Cara has blue",
+        "Dan does not have blue",
+        "Cara does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "48",
+    "timestamp_utc": "2026-08-25T01:49:29.481865+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "76ccaa9897e020e91938c80ae6a3bb625c7c95c27e292306ea87a498ad442a3a",
+    "raw_response": "{\n  \"problem_id\": \"48\",\n  \"active_constraints_used\": [\n    \"Ben has green\",\n    \"Cara has blue\",\n    \"Cara does not have green\",\n    \"Alex does not have green\",\n    \"Dan does not have yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"yellow\",\n    \"Ben\": \"green\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"red\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "bc1dac2f2ab1fd7f3f7d30600e389bc995dac2276d521cb4cf9ecca3c65a6c3e",
+    "parsed": {
+      "problem_id": "48",
+      "active_constraints_used": [
+        "Ben has green",
+        "Cara has blue",
+        "Cara does not have green",
+        "Alex does not have green",
+        "Dan does not have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "green",
+      "blue",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "49",
+    "timestamp_utc": "2026-08-25T01:49:38.954237+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "7b21560ce3af40f916123230719cb118e1a0a60b0cde9a3dd160bebc59b69384",
+    "raw_response": "{\"problem_id\":\"49\",\"active_constraints_used\":[\"Cara does not have yellow\",\"Dan does not have blue\",\"Alex does not have green\",\"Ben has green\",\"Cara has blue\",\"Alex has yellow\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"yellow\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"red\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "2b438fa19a2d0386edf1f7e233c5dbd21289ccb7f9be0505c972db84ccfe997f",
+    "parsed": {
+      "problem_id": "49",
+      "active_constraints_used": [
+        "Cara does not have yellow",
+        "Dan does not have blue",
+        "Alex does not have green",
+        "Ben has green",
+        "Cara has blue",
+        "Alex has yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "green",
+      "blue",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "50",
+    "timestamp_utc": "2026-08-25T01:49:47.907410+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "f19793a5fced356b865fcc0243b129232ef8febfa8fd5864283e4758a697123f",
+    "raw_response": "{\n  \"problem_id\": \"50\",\n  \"active_constraints_used\": [\n    \"Alex has red\",\n    \"Dan does not have green\",\n    \"Cara does not have red\",\n    \"Alex does not have blue\",\n    \"Cara has yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"green\",\n    \"Cara\": \"yellow\",\n    \"Dan\": \"blue\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "387a63e3ef2013212c1af13f3e0b20076cab4edb3c2340246a192b81c0d968d0",
+    "parsed": {
+      "problem_id": "50",
+      "active_constraints_used": [
+        "Alex has red",
+        "Dan does not have green",
+        "Cara does not have red",
+        "Alex does not have blue",
+        "Cara has yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "51",
+    "timestamp_utc": "2026-08-25T01:49:58.621312+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "4e8eec7f3db2465b0661190a28e571c962eb633ae2fe761d0b86e2e515f92daf",
+    "raw_response": "{\"problem_id\":\"51\",\"active_constraints_used\":[\"Ben has blue\",\"Cara has yellow\",\"Ben does not have red\",\"Alex does not have green\",\"Cara does not have red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"blue\",\"Cara\":\"yellow\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "b7ef62e806d045d1e283f52acef08dc74bc669d37f4f7de55f2ba54221ce2001",
+    "parsed": {
+      "problem_id": "51",
+      "active_constraints_used": [
+        "Ben has blue",
+        "Cara has yellow",
+        "Ben does not have red",
+        "Alex does not have green",
+        "Cara does not have red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "blue",
+      "yellow",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "52",
+    "timestamp_utc": "2026-08-25T01:50:06.382611+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "5b2a76bc22a566d50e1e9da14c2b14cd0c41ede114535acbe865a648b1b2d962",
+    "raw_response": "{\n  \"problem_id\": \"52\",\n  \"active_constraints_used\": [\n    \"Ben does not have green\",\n    \"Cara does not have green\",\n    \"Alex does not have blue\",\n    \"Dan does not have green\",\n    \"Ben has blue\",\n    \"Dan has yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"green\",\n    \"Ben\": \"blue\",\n    \"Cara\": \"red\",\n    \"Dan\": \"yellow\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "c7bbd4b7e866633a6516a3d944f783e142fd8177ada0d3aa6aa87aca462448a2",
+    "parsed": {
+      "problem_id": "52",
+      "active_constraints_used": [
+        "Ben does not have green",
+        "Cara does not have green",
+        "Alex does not have blue",
+        "Dan does not have green",
+        "Ben has blue",
+        "Dan has yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "green",
+      "blue",
+      "red",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "53",
+    "timestamp_utc": "2026-08-25T01:50:16.346749+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "dc896b07313f03779dc9d08c2897dcc3536e4510449f1920143f14a4cc031602",
+    "raw_response": "{\n  \"problem_id\":\"53\",\n  \"active_constraints_used\":[\"Cara has green\",\"Alex does not have yellow\",\"Ben has blue\",\"Dan does not have red\",\"Alex has red\"],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"blue\",\"Cara\":\"green\",\"Dan\":\"yellow\"},\n  \"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}\n}",
+    "response_sha256": "2e7cbf1714d4ccf1e1de3705dd060dfea8a4c299182ab8e51921c34e5483df4f",
+    "parsed": {
+      "problem_id": "53",
+      "active_constraints_used": [
+        "Cara has green",
+        "Alex does not have yellow",
+        "Ben has blue",
+        "Dan does not have red",
+        "Alex has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "54",
+    "timestamp_utc": "2026-08-25T01:50:26.298136+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "3973c05fb946de1cd521687e3d89b7ed10f8ee1bd34837361fdc43fc4839e350",
+    "raw_response": "{\n  \"problem_id\": \"54\",\n  \"active_constraints_used\": [\n    \"Ben does not have green\",\n    \"Cara does not have blue\",\n    \"Dan has red\",\n    \"Dan does not have blue\",\n    \"Alex has blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"blue\",\n    \"Ben\": \"yellow\",\n    \"Cara\": \"green\",\n    \"Dan\": \"red\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "74d681a3693f7da51fe15ee4bd20de7e6bdd67596f975c620cba06c67371ce22",
+    "parsed": {
+      "problem_id": "54",
+      "active_constraints_used": [
+        "Ben does not have green",
+        "Cara does not have blue",
+        "Dan has red",
+        "Dan does not have blue",
+        "Alex has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "yellow",
+      "green",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "55",
+    "timestamp_utc": "2026-08-25T01:50:37.126430+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "51d8525390fe528f8dfb0702cdc54fd10806d8ac7e51129ecc3c94a9cc091d58",
+    "raw_response": "{\n  \"problem_id\": \"55\",\n  \"active_constraints_used\": [\n    \"Alex has red\",\n    \"Alex does not have blue\",\n    \"Cara does not have yellow\",\n    \"Ben does not have blue\",\n    \"Dan does not have blue\",\n    \"Dan has yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"green\",\n    \"Cara\": \"blue\",\n    \"Dan\": \"yellow\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "332be1b4bf90aba21c4db2c5609b03b9d2e11080961cb2155dd2c06f1baece88",
+    "parsed": {
+      "problem_id": "55",
+      "active_constraints_used": [
+        "Alex has red",
+        "Alex does not have blue",
+        "Cara does not have yellow",
+        "Ben does not have blue",
+        "Dan does not have blue",
+        "Dan has yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "56",
+    "timestamp_utc": "2026-08-25T01:50:47.127821+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "73c920ae69c1c8db88e9d6ccdac6f4d1d630a8250454bc87cb11304ad258d406",
+    "raw_response": "{\n  \"problem_id\": \"56\",\n  \"active_constraints_used\": [\n    \"Dan does NOT have blue\",\n    \"Cara HAS green\",\n    \"Ben HAS yellow\",\n    \"Cara does NOT have yellow\",\n    \"Alex does NOT have yellow\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"blue\",\n    \"Ben\": \"yellow\",\n    \"Cara\": \"green\",\n    \"Dan\": \"red\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "367e9bbf7e6155aa0311371c82525aeda45717fe20a83f44ecac92e507a6b603",
+    "parsed": {
+      "problem_id": "56",
+      "active_constraints_used": [
+        "Dan does NOT have blue",
+        "Cara HAS green",
+        "Ben HAS yellow",
+        "Cara does NOT have yellow",
+        "Alex does NOT have yellow"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "yellow",
+      "green",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "57",
+    "timestamp_utc": "2026-08-25T01:50:57.115883+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "777d3af1911de72f87be2b72593ec62897ba0e4d7657731a289b09b324070cba",
+    "raw_response": "{\n  \"problem_id\":\"57\",\n  \"active_constraints_used\":[\"Ben is blue\",\"Alex is yellow\",\"Ben is not red\",\"Alex is not red\",\"Dan is red\"],\n  \"quarantined_constraints_used\":[],\n  \"conflicts_detected\":[],\n  \"final_assignment\":{\"Alex\":\"yellow\",\"Ben\":\"blue\",\"Cara\":\"green\",\"Dan\":\"red\"},\n  \"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}\n}",
+    "response_sha256": "643143e6985c35eed87b306fe341e3642e46fa27b1ee65a6ccb6cc0d0f34a5ec",
+    "parsed": {
+      "problem_id": "57",
+      "active_constraints_used": [
+        "Ben is blue",
+        "Alex is yellow",
+        "Ben is not red",
+        "Alex is not red",
+        "Dan is red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "yellow",
+      "blue",
+      "green",
+      "red"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "58",
+    "timestamp_utc": "2026-08-25T01:51:05.974791+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "de2d9ae3ab6386031c3c89435bc397f6e5ab9783bcc9b59c9959284b2f00bd39",
+    "raw_response": "{\n  \"problem_id\": \"58\",\n  \"active_constraints_used\": [\n    \"Ben does not have blue\",\n    \"Dan does not have green\",\n    \"Alex does not have yellow\",\n    \"Cara has yellow\",\n    \"Alex has red\",\n    \"Dan has blue\"\n  ],\n  \"quarantined_constraints_used\": [],\n  \"conflicts_detected\": [],\n  \"final_assignment\": {\n    \"Alex\": \"red\",\n    \"Ben\": \"green\",\n    \"Cara\": \"yellow\",\n    \"Dan\": \"blue\"\n  },\n  \"verification\": {\n    \"one_color_per_person\": true,\n    \"every_color_used_once\": true,\n    \"active_constraints_satisfied\": true,\n    \"quarantined_information_used_as_constraint\": false\n  }\n}",
+    "response_sha256": "205981aefa925695ac6a22c64e9bbf89b78851a89ee1fec28e65b312d24d6c36",
+    "parsed": {
+      "problem_id": "58",
+      "active_constraints_used": [
+        "Ben does not have blue",
+        "Dan does not have green",
+        "Alex does not have yellow",
+        "Cara has yellow",
+        "Alex has red",
+        "Dan has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "59",
+    "timestamp_utc": "2026-08-25T01:51:15.930492+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "9979d078543213fe148f908754e4b2db95cfdee014cb804f90e5cc3dd68ed043",
+    "raw_response": "{\"problem_id\":\"59\",\"active_constraints_used\":[\"Cara has blue\",\"Alex does not have blue\",\"Dan has green\",\"Ben does not have blue\",\"Alex has red\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"red\",\"Ben\":\"yellow\",\"Cara\":\"blue\",\"Dan\":\"green\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "d9abf655d25d73b0c2e0f82082ad2afbb2617469028659460124ba8e600c847b",
+    "parsed": {
+      "problem_id": "59",
+      "active_constraints_used": [
+        "Cara has blue",
+        "Alex does not have blue",
+        "Dan has green",
+        "Ben does not have blue",
+        "Alex has red"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "red",
+      "yellow",
+      "blue",
+      "green"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  },
+  {
+    "problem_id": "60",
+    "timestamp_utc": "2026-08-25T01:51:25.658348+00:00",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "prompt_sha256": "d7eb9c4205cfec14f566bb1b052235196fadda661f7466f5b369a81bad682ed2",
+    "raw_response": "{\"problem_id\":\"60\",\"active_constraints_used\":[\"Ben has green\",\"Ben does not have blue\",\"Dan has yellow\",\"Cara does not have yellow\",\"Alex has blue\"],\"quarantined_constraints_used\":[],\"conflicts_detected\":[],\"final_assignment\":{\"Alex\":\"blue\",\"Ben\":\"green\",\"Cara\":\"red\",\"Dan\":\"yellow\"},\"verification\":{\"one_color_per_person\":true,\"every_color_used_once\":true,\"active_constraints_satisfied\":true,\"quarantined_information_used_as_constraint\":false}}",
+    "response_sha256": "ea3b42da8e81c7fbc83a3e0073979d2287c9debe3827d8bf7b9cbab366fef5e8",
+    "parsed": {
+      "problem_id": "60",
+      "active_constraints_used": [
+        "Ben has green",
+        "Ben does not have blue",
+        "Dan has yellow",
+        "Cara does not have yellow",
+        "Alex has blue"
+      ],
+      "quarantined_constraints_used": [],
+      "conflicts_detected": [],
+      "final_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "verification": {
+        "one_color_per_person": true,
+        "every_color_used_once": true,
+        "active_constraints_satisfied": true,
+        "quarantined_information_used_as_constraint": false
+      }
+    },
+    "valid_format": true,
+    "validation_reason": "valid",
+    "prediction": [
+      "blue",
+      "green",
+      "red",
+      "yellow"
+    ],
+    "correct": true,
+    "matches_deterministic": true
+  }
+]

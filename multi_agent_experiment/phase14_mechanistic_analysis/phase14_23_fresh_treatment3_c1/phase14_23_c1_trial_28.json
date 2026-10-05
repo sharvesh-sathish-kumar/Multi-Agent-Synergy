@@ -1,0 +1,23 @@
+{
+  "phase": "14.23",
+  "treatment": 3,
+  "condition": "C1",
+  "trial_id": 28,
+  "problem_id": 28,
+  "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Ben has yellow.\n- Dan has green.\nAgent B clues:\n- Alex has blue.\n- Ben does not have blue.\n- Cara has red.\nAgent C clues:\n- Dan does not have red.\n- Cara has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+  "response": "Given the clues, there is no way to assign a unique colour to each person without violating at least one of the statements:\n\n* Agent A says Cara ≠ yellow, Ben = yellow, Dan = green.  \n* Agent B says Alex = blue, Ben ≠ blue, Cara = red.  \n* Agent C says Dan ≠ red, Cara = green.\n\nThe two statements “Cara = red” (Agent B) and “Cara = green” (Agent C) are mutually exclusive, and the remaining clues cannot be satisfied simultaneously with either of them. Therefore no consistent one‑to‑one assignment of the items to the entities exists.",
+  "response_length": 536,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 527,
+    "total_tokens": 736
+  },
+  "attempts_used": 1,
+  "retry_errors": [],
+  "elapsed_seconds": 1.4851,
+  "executed_at_utc": "2026-08-25T23:03:45.436141+00:00",
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1200,
+  "fresh_execution": true
+}

@@ -1,0 +1,727 @@
+[
+  {
+    "problem_id": 1,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "baseline_predicted": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "treatment_predicted": null,
+    "baseline_correct": true,
+    "treatment_correct": false,
+    "baseline_parse_success": true,
+    "treatment_parse_success": false
+  },
+  {
+    "problem_id": 2,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 3,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 4,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 5,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 6,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "green"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "green"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": false,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 7,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "green",
+      "Dan": "red"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "green",
+      "Dan": "red"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": false,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 8,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": {
+      "Alex": "green",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": false,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 9,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "blue"
+    },
+    "baseline_predicted": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "blue"
+    },
+    "treatment_predicted": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "blue"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 10,
+    "conflict_level": "low_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "blue"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "blue"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": false,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 11,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "green"
+    },
+    "baseline_predicted": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "green"
+    },
+    "treatment_predicted": null,
+    "baseline_correct": true,
+    "treatment_correct": false,
+    "baseline_parse_success": true,
+    "treatment_parse_success": false
+  },
+  {
+    "problem_id": 12,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "green"
+    },
+    "baseline_predicted": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "green"
+    },
+    "treatment_predicted": {
+      "Alex": "blue",
+      "Ben": "yellow",
+      "Cara": "red",
+      "Dan": "green"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 13,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "green",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "green",
+      "Ben": "red",
+      "Cara": "blue",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 14,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "baseline_predicted": {
+      "Alex": "green",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "treatment_predicted": {
+      "Alex": "green",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 15,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "treatment_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 16,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "green"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "green"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "green"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 17,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 18,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 19,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_predicted": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "treatment_predicted": null,
+    "baseline_correct": true,
+    "treatment_correct": false,
+    "baseline_parse_success": true,
+    "treatment_parse_success": false
+  },
+  {
+    "problem_id": 20,
+    "conflict_level": "medium_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "baseline_predicted": {
+      "Alex": "green",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "treatment_predicted": {
+      "Alex": "green",
+      "Ben": "blue",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 21,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "blue"
+    },
+    "baseline_predicted": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "blue"
+    },
+    "treatment_predicted": {
+      "Alex": "yellow",
+      "Ben": "red",
+      "Cara": "green",
+      "Dan": "blue"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 22,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "blue"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "blue"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "blue"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 23,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 24,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": false,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 25,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "blue"
+    },
+    "baseline_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "blue"
+    },
+    "treatment_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "red",
+      "Dan": "blue"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 26,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "treatment_predicted": {
+      "Alex": "yellow",
+      "Ben": "green",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 27,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "green",
+      "Cara": "yellow",
+      "Dan": "red"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": null,
+    "baseline_correct": false,
+    "treatment_correct": false,
+    "baseline_parse_success": false,
+    "treatment_parse_success": false
+  },
+  {
+    "problem_id": 28,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "treatment_predicted": {
+      "Alex": "red",
+      "Ben": "blue",
+      "Cara": "green",
+      "Dan": "yellow"
+    },
+    "baseline_correct": true,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 29,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "blue",
+      "Ben": "red",
+      "Cara": "yellow",
+      "Dan": "green"
+    },
+    "baseline_predicted": {
+      "Alex": "green",
+      "Ben": "red",
+      "Cara": "yellow",
+      "Dan": "blue"
+    },
+    "treatment_predicted": {
+      "Alex": "blue",
+      "Ben": "red",
+      "Cara": "yellow",
+      "Dan": "green"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": true,
+    "treatment_parse_success": true
+  },
+  {
+    "problem_id": 30,
+    "conflict_level": "high_conflict",
+    "ground_truth": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_predicted": null,
+    "treatment_predicted": {
+      "Alex": "green",
+      "Ben": "yellow",
+      "Cara": "blue",
+      "Dan": "red"
+    },
+    "baseline_correct": false,
+    "treatment_correct": true,
+    "baseline_parse_success": false,
+    "treatment_parse_success": true
+  }
+]

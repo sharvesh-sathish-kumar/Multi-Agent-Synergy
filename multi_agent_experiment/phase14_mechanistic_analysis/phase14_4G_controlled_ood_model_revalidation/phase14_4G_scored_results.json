@@ -1,0 +1,250 @@
+{
+  "phase": "14.4G",
+  "model": "openai/gpt-oss-120b",
+  "api_calls_attempted": 10,
+  "successful_calls": 10,
+  "rate_limit_failures": 0,
+  "condition_summary": {
+    "ungated": {
+      "n": 5,
+      "valid": 5,
+      "correct": 0,
+      "valid_rate": 1.0,
+      "end_to_end_accuracy": 0.0,
+      "valid_answer_accuracy": 0.0
+    },
+    "reliability_gated": {
+      "n": 5,
+      "valid": 5,
+      "correct": 0,
+      "valid_rate": 1.0,
+      "end_to_end_accuracy": 0.0,
+      "valid_answer_accuracy": 0.0
+    }
+  },
+  "gated_improvements": 0,
+  "gated_regressions": 0,
+  "paired_fully_valid": 5,
+  "results": [
+    {
+      "api_attempted": true,
+      "problem_id": "1",
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:36.899184+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "1",
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:37.648238+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "2",
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:38.511072+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "2",
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:39.189446+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "3",
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:39.823579+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "3",
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:40.488138+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "4",
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:41.230505+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "4",
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:41.970660+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "5",
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:42.652101+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    },
+    {
+      "api_attempted": true,
+      "problem_id": "5",
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:29:43.297037+00:00",
+      "raw_response": "{\"Alex\":\"red\",\"Ben\":\"green\",\"Cara\":\"blue\",\"Dan\":\"yellow\"}",
+      "parsed_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "parse_error": null,
+      "rate_limit": false,
+      "success": true,
+      "error": null,
+      "valid_output": true,
+      "ground_truth_available": false,
+      "ground_truth": null,
+      "correct": false
+    }
+  ]
+}

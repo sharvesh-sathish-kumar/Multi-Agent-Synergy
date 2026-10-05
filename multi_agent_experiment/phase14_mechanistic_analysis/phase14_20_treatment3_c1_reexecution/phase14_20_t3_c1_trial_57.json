@@ -1,0 +1,18 @@
+{
+  "trial": 57,
+  "problem_id": 57,
+  "condition": "C1",
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Ben has green.\n- Cara has yellow.\nAgent B clues:\n- Ben has blue.\n- Alex has yellow.\n- Ben does not have red.\nAgent C clues:\n- Alex does not have red.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+  "response": "",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 500,
+    "total_tokens": 707
+  },
+  "api_call_completed": true,
+  "execution_status": "completed",
+  "timestamp_utc": "2026-08-25T20:05:51.335477+00:00"
+}

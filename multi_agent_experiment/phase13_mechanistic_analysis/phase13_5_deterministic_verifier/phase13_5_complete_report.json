@@ -1,0 +1,4449 @@
+{
+  "phase": "13.5",
+  "phase_name": "deterministic_verifier_and_repaired_t2_forensic_audit",
+  "timestamp_utc": "2026-08-25T00:14:01.393408+00:00",
+  "read_only": true,
+  "api_calls": 0,
+  "model_calls": 0,
+  "dataset": {
+    "records": 60,
+    "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "unique_ids": 60
+  },
+  "ground_truth": {
+    "normalized_records": 60,
+    "valid_under_reliable_constraints": 60,
+    "invalid_under_reliable_constraints": 0
+  },
+  "deterministic": {
+    "solution_distribution": {
+      "1": 60
+    },
+    "unique_solution_count": 60,
+    "ambiguous_solution_count": 0,
+    "unsatisfiable_count": 0
+  },
+  "t2": {
+    "raw_records": 60,
+    "unique_ids": 60,
+    "duplicate_ids": {},
+    "missing_ids": [],
+    "extra_ids": [],
+    "valid_predictions": 19,
+    "parse_failures": 41,
+    "correct": 19,
+    "incorrect": 0,
+    "accuracy": 1.0,
+    "unique_response_hashes": 20,
+    "unique_predictions": 14,
+    "response_collapse": false,
+    "prediction_collapse": false,
+    "solver_matches": 19,
+    "solver_comparison_count": 19
+  },
+  "t1": {
+    "raw_records": 62,
+    "unique_ids": 60,
+    "duplicate_ids": {
+      "20": 2,
+      "34": 2
+    }
+  },
+  "conditions": {
+    "dataset_integrity": true,
+    "ground_truth_schema_valid": true,
+    "ground_truth_constraints_valid": true,
+    "all_problems_uniquely_solvable": true,
+    "t2_records_complete": true,
+    "t2_has_valid_predictions": true,
+    "t2_not_prediction_collapsed": true,
+    "t2_matches_deterministic_solution": true
+  },
+  "decision": "T2_VERIFIED_FOR_NEXT_STAGE",
+  "parse_failure_ids": [
+    "2",
+    "3",
+    "4",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "17",
+    "18",
+    "19",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "30",
+    "32",
+    "33",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "44",
+    "45",
+    "48",
+    "51",
+    "52",
+    "53",
+    "54",
+    "56",
+    "59",
+    "60"
+  ],
+  "deterministic_results": {
+    "1": {
+      "problem_id": "1",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "2": {
+      "problem_id": "2",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "green",
+          "Cara": "red",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "3": {
+      "problem_id": "3",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "4": {
+      "problem_id": "4",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "red",
+          "Cara": "green",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "5": {
+      "problem_id": "5",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "blue",
+          "Cara": "red",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "6": {
+      "problem_id": "6",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "green",
+          "Cara": "red",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "7": {
+      "problem_id": "7",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "red",
+          "Cara": "blue",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "8": {
+      "problem_id": "8",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "yellow",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "9": {
+      "problem_id": "9",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "blue",
+          "Cara": "red",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "10": {
+      "problem_id": "10",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "blue",
+          "Cara": "red",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "11": {
+      "problem_id": "11",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "yellow",
+          "Cara": "green",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "12": {
+      "problem_id": "12",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "red",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "13": {
+      "problem_id": "13",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "red",
+          "Cara": "blue",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "14": {
+      "problem_id": "14",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "blue",
+          "Cara": "red",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "15": {
+      "problem_id": "15",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "16": {
+      "problem_id": "16",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "red",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "17": {
+      "problem_id": "17",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "18": {
+      "problem_id": "18",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "19": {
+      "problem_id": "19",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "red",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "20": {
+      "problem_id": "20",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "blue",
+          "Cara": "yellow",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "21": {
+      "problem_id": "21",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "red",
+          "Cara": "green",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "22": {
+      "problem_id": "22",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "blue",
+          "Cara": "green",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "23": {
+      "problem_id": "23",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "yellow",
+          "Cara": "green",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "24": {
+      "problem_id": "24",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "red",
+          "Cara": "green",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "25": {
+      "problem_id": "25",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "green",
+          "Cara": "red",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "26": {
+      "problem_id": "26",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "yellow",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "27": {
+      "problem_id": "27",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "yellow",
+          "Cara": "green",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "28": {
+      "problem_id": "28",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "29": {
+      "problem_id": "29",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "red",
+          "Cara": "yellow",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "30": {
+      "problem_id": "30",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "red",
+          "Cara": "yellow",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "31": {
+      "problem_id": "31",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "32": {
+      "problem_id": "32",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "blue",
+          "Cara": "green",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "33": {
+      "problem_id": "33",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "red",
+          "Cara": "green",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "34": {
+      "problem_id": "34",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "red",
+          "Cara": "green",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "35": {
+      "problem_id": "35",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "blue",
+          "Cara": "yellow",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "36": {
+      "problem_id": "36",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "red",
+          "Cara": "blue",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "37": {
+      "problem_id": "37",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "38": {
+      "problem_id": "38",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "39": {
+      "problem_id": "39",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "40": {
+      "problem_id": "40",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "41": {
+      "problem_id": "41",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "42": {
+      "problem_id": "42",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "blue",
+          "Cara": "yellow",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "43": {
+      "problem_id": "43",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "blue",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "44": {
+      "problem_id": "44",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "yellow",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "45": {
+      "problem_id": "45",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "red",
+          "Cara": "yellow",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "46": {
+      "problem_id": "46",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "yellow",
+          "Cara": "blue",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "47": {
+      "problem_id": "47",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "48": {
+      "problem_id": "48",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "49": {
+      "problem_id": "49",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "50": {
+      "problem_id": "50",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "yellow",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "51": {
+      "problem_id": "51",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "blue",
+          "Cara": "yellow",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Cara",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "52": {
+      "problem_id": "52",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "green",
+          "Ben": "blue",
+          "Cara": "red",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "53": {
+      "problem_id": "53",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "blue",
+          "Cara": "green",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "54": {
+      "problem_id": "54",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "yellow",
+          "Cara": "green",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "55": {
+      "problem_id": "55",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "blue",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "56": {
+      "problem_id": "56",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "yellow",
+          "Cara": "green",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "57": {
+      "problem_id": "57",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "yellow",
+          "Ben": "blue",
+          "Cara": "green",
+          "Dan": "red"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Dan",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "58": {
+      "problem_id": "58",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "green",
+          "Cara": "yellow",
+          "Dan": "blue"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        }
+      ]
+    },
+    "59": {
+      "problem_id": "59",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "red",
+          "Ben": "yellow",
+          "Cara": "blue",
+          "Dan": "green"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Cara",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Dan",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_A"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "red",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    },
+    "60": {
+      "problem_id": "60",
+      "number_of_solutions": 1,
+      "solutions": [
+        {
+          "Alex": "blue",
+          "Ben": "green",
+          "Cara": "red",
+          "Dan": "yellow"
+        }
+      ],
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth_is_valid": true,
+      "reliable_constraints": [
+        {
+          "person": "Ben",
+          "color": "green",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Ben",
+          "color": "blue",
+          "relation": "neq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Dan",
+          "color": "yellow",
+          "relation": "eq",
+          "source_agent": "Agent_B"
+        },
+        {
+          "person": "Cara",
+          "color": "yellow",
+          "relation": "neq",
+          "source_agent": "Agent_C"
+        },
+        {
+          "person": "Alex",
+          "color": "blue",
+          "relation": "eq",
+          "source_agent": "Agent_C"
+        }
+      ]
+    }
+  },
+  "t2_scored": [
+    {
+      "problem_id": "1",
+      "status": "valid",
+      "prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "correct": true,
+      "response": "Alex = blue\nBen = yellow\nCara = red\nDan = green"
+    },
+    {
+      "problem_id": "2",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "response": "Alex = blue\nBen ="
+    },
+    {
+      "problem_id": "3",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "4",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "response": "Alex = blue\nBen = red\nCara ="
+    },
+    {
+      "problem_id": "5",
+      "status": "valid",
+      "prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "ground_truth": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "correct": true,
+      "response": "Alex = green\nBen = blue\nCara = red\nDan = yellow"
+    },
+    {
+      "problem_id": "6",
+      "status": "valid",
+      "prediction": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "ground_truth": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "correct": true,
+      "response": "Alex = yellow\nBen = green\nCara = red\nDan = blue"
+    },
+    {
+      "problem_id": "7",
+      "status": "valid",
+      "prediction": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "ground_truth": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "correct": true,
+      "response": "Alex = yellow\nBen = red\nCara = blue\nDan = green"
+    },
+    {
+      "problem_id": "8",
+      "status": "valid",
+      "prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "correct": true,
+      "response": "Alex = red\nBen = green\nCara = yellow\nDan = blue"
+    },
+    {
+      "problem_id": "9",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "10",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "11",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "12",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "13",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "14",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "15",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "16",
+      "status": "valid",
+      "prediction": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "ground_truth": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "correct": true,
+      "response": "Alex = green\nBen = red\nCara = blue\nDan = yellow"
+    },
+    {
+      "problem_id": "17",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "18",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "19",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "20",
+      "status": "valid",
+      "prediction": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "ground_truth": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "correct": true,
+      "response": "Alex = green\nBen = blue\nCara = yellow\nDan = red"
+    },
+    {
+      "problem_id": "21",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "22",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "23",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "response": "Alex = red\nBen"
+    },
+    {
+      "problem_id": "24",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "red",
+        "green",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "25",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "26",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "27",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "28",
+      "status": "valid",
+      "prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "correct": true,
+      "response": "Alex = blue\nBen = yellow\nCara = red\nDan = green"
+    },
+    {
+      "problem_id": "29",
+      "status": "valid",
+      "prediction": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "ground_truth": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "correct": true,
+      "response": "Alex = green\nBen = red\nCara = yellow\nDan = blue"
+    },
+    {
+      "problem_id": "30",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "31",
+      "status": "valid",
+      "prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "correct": true,
+      "response": "Alex = blue\nBen = yellow\nCara = red\nDan = green"
+    },
+    {
+      "problem_id": "32",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "33",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "red",
+        "green",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "34",
+      "status": "valid",
+      "prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "ground_truth": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "correct": true,
+      "response": "Alex = blue\nBen = red\nCara = green\nDan = yellow"
+    },
+    {
+      "problem_id": "35",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "36",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "37",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "38",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "39",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "40",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "41",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "42",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "43",
+      "status": "valid",
+      "prediction": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "ground_truth": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "correct": true,
+      "response": "Alex = green\nBen = yellow\nCara = blue\nDan = red"
+    },
+    {
+      "problem_id": "44",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "45",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "response": "Alex = blue\n"
+    },
+    {
+      "problem_id": "46",
+      "status": "valid",
+      "prediction": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "ground_truth": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "correct": true,
+      "response": "Alex = red\nBen = yellow\nCara = blue\nDan = green"
+    },
+    {
+      "problem_id": "47",
+      "status": "valid",
+      "prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "correct": true,
+      "response": "Alex = red\nBen = green\nCara = blue\nDan = yellow"
+    },
+    {
+      "problem_id": "48",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "49",
+      "status": "valid",
+      "prediction": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "correct": true,
+      "response": "Alex = yellow\nBen = green\nCara = blue\nDan = red"
+    },
+    {
+      "problem_id": "50",
+      "status": "valid",
+      "prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "correct": true,
+      "response": "Alex = red\nBen = green\nCara = yellow\nDan = blue"
+    },
+    {
+      "problem_id": "51",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "response": "Alex = red\nBen = blue\nCara"
+    },
+    {
+      "problem_id": "52",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "53",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "54",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "55",
+      "status": "valid",
+      "prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "correct": true,
+      "response": "Alex = red\nBen = green\nCara = blue\nDan = yellow"
+    },
+    {
+      "problem_id": "56",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "57",
+      "status": "valid",
+      "prediction": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "correct": true,
+      "response": "Alex = yellow\nBen = blue\nCara = green\nDan = red"
+    },
+    {
+      "problem_id": "58",
+      "status": "valid",
+      "prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "correct": true,
+      "response": "Alex = red\nBen = green\nCara = yellow\nDan = blue"
+    },
+    {
+      "problem_id": "59",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "response": ""
+    },
+    {
+      "problem_id": "60",
+      "status": "parse_failure",
+      "prediction": null,
+      "ground_truth": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "response": ""
+    }
+  ],
+  "solver_comparison": [
+    {
+      "problem_id": "1",
+      "t2_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "deterministic_unique_solution": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "5",
+      "t2_prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "deterministic_unique_solution": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "6",
+      "t2_prediction": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "deterministic_unique_solution": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "7",
+      "t2_prediction": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "deterministic_unique_solution": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "8",
+      "t2_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "deterministic_unique_solution": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "16",
+      "t2_prediction": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "deterministic_unique_solution": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "20",
+      "t2_prediction": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "deterministic_unique_solution": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "28",
+      "t2_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "deterministic_unique_solution": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "29",
+      "t2_prediction": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "deterministic_unique_solution": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "31",
+      "t2_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "deterministic_unique_solution": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "34",
+      "t2_prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "deterministic_unique_solution": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "43",
+      "t2_prediction": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "deterministic_unique_solution": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "46",
+      "t2_prediction": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "deterministic_unique_solution": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "47",
+      "t2_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "deterministic_unique_solution": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "49",
+      "t2_prediction": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "deterministic_unique_solution": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "50",
+      "t2_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "deterministic_unique_solution": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "55",
+      "t2_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "deterministic_unique_solution": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "57",
+      "t2_prediction": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "deterministic_unique_solution": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    },
+    {
+      "problem_id": "58",
+      "t2_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "deterministic_unique_solution": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "matches": true,
+      "number_of_solutions": 1
+    }
+  ]
+}

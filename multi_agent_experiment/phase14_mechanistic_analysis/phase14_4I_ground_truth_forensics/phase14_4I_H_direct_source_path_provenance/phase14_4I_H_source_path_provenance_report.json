@@ -1,0 +1,297 @@
+{
+  "phase": "14.4I-H",
+  "title": "Direct Source-Path Provenance Resolution",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "no_ground_truth_inference": true,
+    "no_accuracy_calculation": true,
+    "no_answer_recomputation": true,
+    "no_positional_mapping": true,
+    "no_order_based_mapping": true,
+    "no_candidate_assignment": true
+  },
+  "prior_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json",
+  "source_paths_recovered": [
+    "\"phase14_4D.selected_instances[0]\"",
+    "\"phase14_4D.selected_instances[1]\"",
+    "\"phase14_4D.selected_instances[2]\"",
+    "\"phase14_4D.selected_instances[3]\"",
+    "\"phase14_4D.selected_instances[4]\""
+  ],
+  "phase14_4d_artifacts": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "sha256": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_raw_results.json",
+      "sha256": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json",
+      "sha256": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "sha256": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_raw_results.json",
+      "sha256": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json",
+      "sha256": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6"
+    }
+  ],
+  "selected_instances_structures": [
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$.selected_instances",
+      "length": 5
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$.selected_instances",
+      "length": 5
+    }
+  ],
+  "record_observations": [
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 0,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "provenance_candidate_fields": {
+        "problem_id": 1
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 1,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "provenance_candidate_fields": {
+        "problem_id": 2
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 2,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "provenance_candidate_fields": {
+        "problem_id": 3
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 3,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+      "provenance_candidate_fields": {
+        "problem_id": 4
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 4,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "provenance_candidate_fields": {
+        "problem_id": 5
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 0,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "provenance_candidate_fields": {
+        "problem_id": 1
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 1,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "provenance_candidate_fields": {
+        "problem_id": 2
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 2,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "provenance_candidate_fields": {
+        "problem_id": 3
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 3,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+      "provenance_candidate_fields": {
+        "problem_id": 4
+      }
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_container_index": 4,
+      "keys": [
+        "problem_id",
+        "reliability_gated_prompt",
+        "ungated_prompt"
+      ],
+      "field_types": {
+        "problem_id": "int",
+        "ungated_prompt": "str",
+        "reliability_gated_prompt": "str"
+      },
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "provenance_candidate_fields": {
+        "problem_id": 5
+      }
+    }
+  ],
+  "source_path_resolutions": [
+    {
+      "source_path": "\"phase14_4D.selected_instances[0]\"",
+      "resolved": false
+    },
+    {
+      "source_path": "\"phase14_4D.selected_instances[1]\"",
+      "resolved": false
+    },
+    {
+      "source_path": "\"phase14_4D.selected_instances[2]\"",
+      "resolved": false
+    },
+    {
+      "source_path": "\"phase14_4D.selected_instances[3]\"",
+      "resolved": false
+    },
+    {
+      "source_path": "\"phase14_4D.selected_instances[4]\"",
+      "resolved": false
+    }
+  ],
+  "distinguishing_fields": [
+    {
+      "field": "problem_id",
+      "unique_values": 5
+    }
+  ],
+  "immutability": {
+    "baseline_count": 108,
+    "changed_count": 0,
+    "changed_artifacts": []
+  },
+  "final_safety_status": {
+    "candidate_mapping_performed": false,
+    "positional_mapping_performed": false,
+    "ordering_used": false,
+    "numeric_semantics_inferred": false,
+    "ground_truth_inferred": false,
+    "model_output_used": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "prior_artifacts_modified": false
+  }
+}

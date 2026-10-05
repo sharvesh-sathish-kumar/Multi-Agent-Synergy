@@ -1,0 +1,18 @@
+{
+  "phase": "14.25R2",
+  "condition": "C0",
+  "fresh": true,
+  "completed_problem_ids": [],
+  "completed_count": 0,
+  "expected_count": 60,
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 200,
+  "api_calls": 0,
+  "old_c0_imported": false,
+  "old_c0_used": false,
+  "c1_touched": false,
+  "frozen_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "t3_design_sha256": "0cb4ee22cd3296b55ce19deb65ddc22be8119fe2c04e5532798ffffb27f26dfd",
+  "t3_preflight_sha256": "03f76d8005fd3390883b5fd46d0604593d7c25519e581443f0490cc1eb73bff6"
+}

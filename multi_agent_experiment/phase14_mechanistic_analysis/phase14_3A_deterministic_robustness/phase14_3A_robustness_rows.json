@@ -1,0 +1,688 @@
+{
+  "baseline_rows": [
+    {
+      "problem_id": "1",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "2",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "3",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "4",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "5",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "6",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "7",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "8",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "9",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "10",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "11",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "12",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "13",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "14",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "15",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "16",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "17",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "18",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "19",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "20",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "21",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "22",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "23",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "24",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "25",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "26",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "27",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "28",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "29",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "30",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "31",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "32",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "33",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "34",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "35",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "36",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "37",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "38",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "39",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "40",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "41",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "42",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "43",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "44",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "45",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "46",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "47",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "48",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "49",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "50",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "51",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "52",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "53",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "54",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "55",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "56",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "57",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "58",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "59",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    },
+    {
+      "problem_id": "60",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "reliable_contains_gt": true
+    }
+  ],
+  "leave_one_agent_out": {
+    "Agent_A": {
+      "n": 60,
+      "unique": 31,
+      "contains_gt": 30,
+      "unique_rate": 0.5166666666666667,
+      "gt_support_rate": 0.5
+    },
+    "Agent_B": {
+      "n": 60,
+      "unique": 31,
+      "contains_gt": 30,
+      "unique_rate": 0.5166666666666667,
+      "gt_support_rate": 0.5
+    },
+    "Agent_C": {
+      "n": 60,
+      "unique": 31,
+      "contains_gt": 30,
+      "unique_rate": 0.5166666666666667,
+      "gt_support_rate": 0.5
+    }
+  },
+  "gate_flip_summary": {
+    "0": {
+      "flip_count": 0,
+      "total_cases": 60,
+      "unique_cases": 60,
+      "gt_survives_cases": 60,
+      "unique_rate": 1.0,
+      "gt_survival_rate": 1.0,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        }
+      }
+    },
+    "1": {
+      "flip_count": 1,
+      "total_cases": 180,
+      "unique_cases": 33,
+      "gt_survives_cases": 135,
+      "unique_rate": 0.18333333333333332,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 45,
+          "unique": 20,
+          "gt_survives": 45
+        },
+        "medium_conflict": {
+          "n": 45,
+          "unique": 4,
+          "gt_survives": 30
+        },
+        "high_conflict": {
+          "n": 45,
+          "unique": 3,
+          "gt_survives": 30
+        },
+        "adversarial": {
+          "n": 45,
+          "unique": 6,
+          "gt_survives": 30
+        }
+      }
+    },
+    "2": {
+      "flip_count": 2,
+      "total_cases": 180,
+      "unique_cases": 33,
+      "gt_survives_cases": 90,
+      "unique_rate": 0.18333333333333332,
+      "gt_survival_rate": 0.5,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 45,
+          "unique": 19,
+          "gt_survives": 45
+        },
+        "medium_conflict": {
+          "n": 45,
+          "unique": 6,
+          "gt_survives": 15
+        },
+        "high_conflict": {
+          "n": 45,
+          "unique": 4,
+          "gt_survives": 15
+        },
+        "adversarial": {
+          "n": 45,
+          "unique": 4,
+          "gt_survives": 15
+        }
+      }
+    },
+    "3": {
+      "flip_count": 3,
+      "total_cases": 60,
+      "unique_cases": 14,
+      "gt_survives_cases": 15,
+      "unique_rate": 0.23333333333333334,
+      "gt_survival_rate": 0.25,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 1,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 2,
+          "gt_survives": 0
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 1,
+          "gt_survives": 0
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 0
+        }
+      }
+    }
+  },
+  "policy_summary": {
+    "reliable_only": {
+      "n": 60,
+      "unique": 60,
+      "contains_gt": 60,
+      "unique_rate": 1.0,
+      "gt_support_rate": 1.0
+    },
+    "all_agents": {
+      "n": 60,
+      "unique": 15,
+      "contains_gt": 15,
+      "unique_rate": 0.25,
+      "gt_support_rate": 0.25
+    },
+    "agent_A_only": {
+      "n": 60,
+      "unique": 16,
+      "contains_gt": 45,
+      "unique_rate": 0.26666666666666666,
+      "gt_support_rate": 0.75
+    },
+    "agent_B_only": {
+      "n": 60,
+      "unique": 14,
+      "contains_gt": 45,
+      "unique_rate": 0.23333333333333334,
+      "gt_support_rate": 0.75
+    },
+    "agent_C_only": {
+      "n": 60,
+      "unique": 2,
+      "contains_gt": 45,
+      "unique_rate": 0.03333333333333333,
+      "gt_support_rate": 0.75
+    },
+    "majority_reliable": {
+      "n": 60,
+      "unique": 60,
+      "contains_gt": 60,
+      "unique_rate": 1.0,
+      "gt_support_rate": 1.0
+    }
+  },
+  "injection_summary": {
+    "Agent_A": {
+      "n": 60,
+      "unique": 45,
+      "gt_survives": 45,
+      "unique_rate": 0.75,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        }
+      }
+    },
+    "Agent_B": {
+      "n": 60,
+      "unique": 45,
+      "gt_survives": 45,
+      "unique_rate": 0.75,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        }
+      }
+    },
+    "Agent_C": {
+      "n": 60,
+      "unique": 45,
+      "gt_survives": 45,
+      "unique_rate": 0.75,
+      "gt_survival_rate": 0.75,
+      "by_conflict": {
+        "low_conflict": {
+          "n": 15,
+          "unique": 15,
+          "gt_survives": 15
+        },
+        "medium_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "high_conflict": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        },
+        "adversarial": {
+          "n": 15,
+          "unique": 10,
+          "gt_survives": 10
+        }
+      }
+    }
+  },
+  "conflict_results": {
+    "low_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 15,
+      "all_gt": 15,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 1.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 1.0
+    },
+    "medium_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 0.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 0.0
+    },
+    "high_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 0.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 0.0
+    },
+    "adversarial": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0,
+      "reliable_unique_rate": 1.0,
+      "all_unique_rate": 0.0,
+      "reliable_gt_rate": 1.0,
+      "all_gt_rate": 0.0
+    }
+  }
+}

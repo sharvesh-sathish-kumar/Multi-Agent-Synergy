@@ -1,0 +1,58 @@
+{
+  "phase": "14.4F",
+  "title": "Deterministic Output-Contract / Parser Validation",
+  "decision": "PHASE_14_4F_PASS",
+  "timestamp_utc": "2026-08-25T02:24:33.477716+00:00",
+  "api_calls": 0,
+  "model_calls": 0,
+  "treatment_3_run": false,
+  "dataset": {
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2"
+  },
+  "contract_identity": {
+    "people": [
+      "Alex",
+      "Ben",
+      "Cara",
+      "Dan"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "people_count": 4,
+    "color_count": 4
+  },
+  "unit_test_summary": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0
+  },
+  "additional_test_summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0
+  },
+  "legacy_format_summary": {
+    "tested": 5,
+    "rejected": 5
+  },
+  "canonical_round_trip": {
+    "passed": true
+  },
+  "critical_correction": {
+    "issue": "unknown_person test was previously classified as missing_people",
+    "cause": "missing-person validation occurred before unknown-person validation",
+    "fix": "unknown_people are now checked before missing_people",
+    "status": "resolved"
+  },
+  "scientific_interpretation": "The deterministic output contract is now independently validated. The parser correctly distinguishes unknown people from missing people and rejects legacy prediction formats. No model calls were made.",
+  "safety": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "treatment_3_not_run": true,
+    "previous_artifacts_read_only": true
+  }
+}

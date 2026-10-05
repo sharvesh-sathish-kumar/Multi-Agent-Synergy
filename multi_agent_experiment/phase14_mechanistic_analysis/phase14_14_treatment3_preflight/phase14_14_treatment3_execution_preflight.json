@@ -1,0 +1,76 @@
+{
+  "phase": "14.14",
+  "title": "Treatment 3 Execution Preflight",
+  "timestamp_utc": "2026-08-25T17:19:53.308716+00:00",
+  "design_source": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+  "model": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-120b"
+  },
+  "conditions": {
+    "C0": "reliable information only",
+    "C1": "reliable information + controlled unreliable information"
+  },
+  "replication": {
+    "problems": 60,
+    "conditions": 2,
+    "matched_pairs": 60,
+    "planned_trials": 120
+  },
+  "groq_credential_present": false,
+  "dry_run": {
+    "execution_mode": "DRY_RUN_ONLY",
+    "model": {
+      "provider": "Groq",
+      "model": "openai/gpt-oss-120b"
+    },
+    "conditions": [
+      "C0_reliable_only",
+      "C1_unreliable_exposed"
+    ],
+    "planned_problem_count": 60,
+    "planned_trials": 120,
+    "payload_requirements": [
+      "same problem instance across C0/C1",
+      "same ground truth across C0/C1",
+      "same Agent_A evidence across C0/C1",
+      "same Agent_B evidence across C0/C1",
+      "Agent_C excluded from C0",
+      "Agent_C included in C1",
+      "identical output contract",
+      "identical parser",
+      "identical scoring rule"
+    ],
+    "actual_requests_made": 0
+  },
+  "execution_status": {
+    "api_calls": 0,
+    "groq_requests": 0,
+    "model_calls": 0,
+    "treatment3_executions": 0,
+    "scoring_runs": 0,
+    "accuracy_calculations": 0
+  },
+  "historical_mapping": {
+    "used": false,
+    "inferred": false,
+    "reconstructed": false
+  },
+  "safety": {
+    "read_only": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "historical_mapping": false,
+    "agent_model_inference": false,
+    "inference": false,
+    "reconstruction": false,
+    "historical_artifact_modification": false
+  },
+  "preflight_status": "PASS"
+}

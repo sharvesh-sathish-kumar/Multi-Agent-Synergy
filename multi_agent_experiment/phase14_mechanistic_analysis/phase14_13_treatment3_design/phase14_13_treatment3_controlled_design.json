@@ -1,0 +1,142 @@
+{
+  "phase": "14.13",
+  "title": "Treatment 3 Controlled Experiment Design",
+  "timestamp_utc": "2026-08-25T17:15:56.031593+00:00",
+  "source_phase": "14.12",
+  "source_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+  "purpose": "Design a new controlled test of the reliability-sensitive information-flow contamination mechanism.",
+  "mechanistic_target": {
+    "name": "reliability_sensitive_information_flow_contamination",
+    "hypothesis": "When an unreliable agent's information is allowed to enter the shared reasoning state, collective performance can decrease relative to a matched condition in which that unreliable information is excluded.",
+    "causal_prediction": "Holding the underlying problem, reliable-agent information, model, prompt structure, and output contract constant, exposure to unreliable information should increase the probability of an incorrect final answer.",
+    "falsification_condition": "If controlled exposure to unreliable information does not produce the predicted degradation relative to the matched exclusion condition, the proposed contamination mechanism is not supported under the tested conditions."
+  },
+  "treatment_3": {
+    "identifier": "T3_information_flow_contamination_ablation",
+    "status": "DESIGN_ONLY",
+    "execution": false,
+    "model": {
+      "provider": "Groq",
+      "model": "openai/gpt-oss-120b",
+      "historical_mapping_used": false,
+      "historical_agent_identity_reconstructed": false
+    },
+    "agents": {
+      "Agent_A": {
+        "role": "reliable_information_source",
+        "reliability": true
+      },
+      "Agent_B": {
+        "role": "reliable_information_source",
+        "reliability": true
+      },
+      "Agent_C": {
+        "role": "controlled_unreliable_information_source",
+        "reliability": false
+      }
+    },
+    "conditions": {
+      "C0_reliable_only": {
+        "description": "Only reliable-agent information is admitted into the shared reasoning state.",
+        "Agent_A": "included",
+        "Agent_B": "included",
+        "Agent_C": "excluded"
+      },
+      "C1_unreliable_exposed": {
+        "description": "The same reliable-agent information is present, but controlled unreliable-agent information is also admitted into the shared reasoning state.",
+        "Agent_A": "included",
+        "Agent_B": "included",
+        "Agent_C": "included"
+      }
+    },
+    "primary_comparison": "C1_unreliable_exposed versus C0_reliable_only",
+    "independent_variable": "Whether controlled unreliable information is admitted into the shared reasoning state.",
+    "dependent_variable": "Final-answer correctness under the predetermined ground truth.",
+    "controlled_variables": [
+      "same model",
+      "same model version",
+      "same problem instances",
+      "same reliable-agent information",
+      "same unreliable-agent information",
+      "same agent roles",
+      "same output contract",
+      "same parser",
+      "same scoring rule",
+      "same temperature policy",
+      "same maximum token policy",
+      "same randomization policy where applicable"
+    ]
+  },
+  "control_requirements": {
+    "matched_problem_instances": true,
+    "same_ground_truth": true,
+    "same_reliable_information": true,
+    "same_unreliable_information": true,
+    "same_model": true,
+    "same_prompt_contract": true,
+    "same_parser": true,
+    "same_scoring": true,
+    "condition_randomization": true,
+    "pre_registered_condition_labels": true,
+    "blind_scoring": true,
+    "no_posthoc_problem_selection": true,
+    "no_posthoc_condition_removal": true
+  },
+  "replication_plan": {
+    "problems": 60,
+    "conditions": 2,
+    "matched_pairs": 60,
+    "minimum_condition_observations": 60,
+    "execution_runs": 0,
+    "planned_total_condition_trials": 120,
+    "reason": "Use matched problem instances so the principal contrast is information exposure rather than problem composition."
+  },
+  "outcome_logic": {
+    "supports_mechanism": "C1 shows a reproducible degradation in correctness relative to C0 under the matched controlled comparison.",
+    "does_not_support_mechanism": "C1 does not degrade relative to C0, or the observed difference is not reproducible under the predefined analysis.",
+    "stronger_support": "The degradation is accompanied by evidence that final reasoning incorporates or depends upon the injected unreliable information.",
+    "important_boundary": "A performance difference alone does not prove the complete causal mechanism; information-flow evidence is required for a stronger mechanistic claim."
+  },
+  "scientific_boundaries": [
+    "Does not reproduce historical Agent A/B/C model assignments.",
+    "Does not infer the missing historical mapping.",
+    "Does not modify historical Treatment 1 or Treatment 2 artifacts.",
+    "Does not execute Treatment 3.",
+    "Does not call Groq.",
+    "Does not score answers.",
+    "Does not calculate accuracy.",
+    "Does not select problems post hoc.",
+    "Does not alter the proposed mechanism after seeing results."
+  ],
+  "execution_status": {
+    "executed": false,
+    "api_calls": 0,
+    "groq_requests": 0,
+    "model_calls": 0,
+    "scoring": false,
+    "accuracy_calculation": false
+  },
+  "historical_configuration": {
+    "historical_model_explicit": true,
+    "historical_agent_abc_explicit": true,
+    "historical_agent_model_mapping": false,
+    "mapping_reconstructed": false,
+    "historical_mapping_used_for_t3": false
+  },
+  "safety": {
+    "read_only": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "historical_mapping": false,
+    "agent_model_inference": false,
+    "inference": false,
+    "reconstruction": false,
+    "historical_artifact_modification": false
+  }
+}

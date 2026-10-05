@@ -1,0 +1,37 @@
+{
+  "phase": "14.36",
+  "purpose": "Read-only final Treatment 3 statistical audit",
+  "locks": {
+    "model_calls": 0,
+    "api_calls": 0,
+    "experiment_execution": 0,
+    "source_files_modified": false
+  },
+  "input_files": {
+    "r3_scores": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_35_authoritative_final_analysis/phase14_35_fix_r3_trial_level_scores.json",
+      "sha256": "2e1d40ca23e64a8abd9ae4c1dc60c1b2622b6fd17a3ecc8ecfced293f787ff6b"
+    },
+    "r3_summary": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_35_authoritative_final_analysis/phase14_35_fix_r3_final_summary.json",
+      "sha256": "b1088e3d46d2ba4cfe81512724a65b9aaff1583a8fa19516f80aac3781ca14b1"
+    },
+    "r3_provenance": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_35_authoritative_final_analysis/phase14_35_fix_r3_provenance.json",
+      "sha256": "69e1cc7722edb237e99de3e0a09e3e1bebda27aedeb6986533b010f220d973e0"
+    },
+    "old_summary": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_summary.json",
+      "sha256": "868110c66e2add5c7831f9f225d3c841999810d2f06d2fe85a14caa84c285cea"
+    }
+  },
+  "output_files": {
+    "summary": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_summary.json",
+    "trial_level": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_trial_level.json",
+    "provenance": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_provenance.json"
+  },
+  "bootstrap": {
+    "repetitions": 100000,
+    "seed": 1436
+  }
+}

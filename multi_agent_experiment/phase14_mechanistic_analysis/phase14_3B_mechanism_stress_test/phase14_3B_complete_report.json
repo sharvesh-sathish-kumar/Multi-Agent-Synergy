@@ -1,0 +1,133 @@
+{
+  "phase": "14.3B",
+  "phase_name": "Mechanism-Specific Counterfactual Stress Test",
+  "read_only": true,
+  "api_calls": 0,
+  "model_calls": 0,
+  "dataset": {
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "problems": 60,
+    "clues": 485,
+    "identity_locked": true
+  },
+  "baseline": {
+    "reliable_only_unique": 60,
+    "reliable_only_gt": 60,
+    "all_agent_unique": 15,
+    "all_agent_gt": 15
+  },
+  "policy_results": {
+    "reliable_only": {
+      "unique": 60,
+      "gt_supported": 60
+    },
+    "all_agents": {
+      "unique": 15,
+      "gt_supported": 15
+    },
+    "agent_A_only": {
+      "unique": 16,
+      "gt_supported": 45
+    },
+    "agent_B_only": {
+      "unique": 14,
+      "gt_supported": 45
+    },
+    "agent_C_only": {
+      "unique": 2,
+      "gt_supported": 45
+    },
+    "majority_reliable": {
+      "unique": 60,
+      "gt_supported": 60
+    }
+  },
+  "leave_one_out": {
+    "A": {
+      "unique": 24,
+      "gt_supported": 60
+    },
+    "B": {
+      "unique": 23,
+      "gt_supported": 60
+    },
+    "C": {
+      "unique": 31,
+      "gt_supported": 60
+    }
+  },
+  "single_unreliable_injection": {
+    "A": {
+      "unique": 45,
+      "gt_supported": 45
+    },
+    "B": {
+      "unique": 45,
+      "gt_supported": 45
+    },
+    "C": {
+      "unique": 45,
+      "gt_supported": 45
+    }
+  },
+  "conflict_level_results": {
+    "low_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 15,
+      "all_gt": 15
+    },
+    "medium_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0
+    },
+    "high_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0
+    },
+    "adversarial": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_gt": 15,
+      "all_unique": 0,
+      "all_gt": 0
+    }
+  },
+  "effect_sizes": {
+    "uniqueness_loss": 45,
+    "ground_truth_support_loss": 45,
+    "gated_unique_rate": 1.0,
+    "all_agent_unique_rate": 0.25,
+    "gated_gt_support_rate": 1.0,
+    "all_agent_gt_support_rate": 0.25,
+    "absolute_uniqueness_gain": 0.75,
+    "absolute_gt_gain": 0.75
+  },
+  "mechanism_classification": "RELIABILITY_GATING_PROTECTS_INFORMATION_FLOW",
+  "cross_checks": {
+    "phase14_2_report_loaded": true,
+    "phase14_3A_report_loaded": true
+  },
+  "scientific_gate": {
+    "dataset_identity": true,
+    "dataset_size": true,
+    "clue_count": true,
+    "reliable_baseline_unique": true,
+    "reliable_baseline_gt_support": true,
+    "ungated_information_loss_detected": true,
+    "gated_state_preserves_solution": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "previous_artifacts_modified": false,
+    "treatment_3_run": false
+  }
+}

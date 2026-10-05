@@ -1,0 +1,129 @@
+{
+  "phase": "14.4D",
+  "model": "openai/gpt-oss-120b",
+  "maximum_model_calls": 10,
+  "expected_calls": 10,
+  "actual_attempts": 10,
+  "results": [
+    {
+      "problem_id": 1,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:21.042046Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 1,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:21.524648Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 2,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:22.342468Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 2,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:22.705223Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 3,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:23.393872Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 3,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:23.834040Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 4,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:24.320857Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 4,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:24.721921Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 5,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:25.303386Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    },
+    {
+      "problem_id": 5,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "timestamp_utc": "2026-08-25T02:16:25.620926Z",
+      "api_attempted": true,
+      "rate_limit": false,
+      "success": true,
+      "raw_response": "",
+      "parsed_prediction": null,
+      "parse_error": "invalid_output_contract"
+    }
+  ]
+}

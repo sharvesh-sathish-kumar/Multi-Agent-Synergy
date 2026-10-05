@@ -1,0 +1,48 @@
+{
+  "phase": "14.27_R4",
+  "condition": "C0",
+  "problem_id": 36,
+  "attempts_used": 1,
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_completion_tokens": 2048,
+  "prompt": "You are solving a deterministic constraint problem.\n\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\n\nProblem:\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nAvailable clues:\n\nAgent B: Dan has green.\nAgent B: Dan does not have yellow.\nAgent B: Alex has yellow.\nAgent C: Alex does not have blue.\nAgent C: Ben does not have blue.\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color for Ben\",\n    \"color for Cara\",\n    \"color for Dan\"\n  ]\n}\n\nThe prediction array MUST contain exactly four values.\n\nAllowed values are exactly:\n\"red\"\n\"green\"\n\"blue\"\n\"yellow\"\n\nEach allowed value MUST appear exactly once.\n\nDo NOT include:\n- explanations\n- reasoning\n- markdown\n- code fences\n- duplicate colors\n- extra keys\n- extra text\n\nExample structure only:\n\n{\"prediction\":[\"red\",\"green\",\"blue\",\"yellow\"]}",
+  "prompt_sha256": "7fc2ef01253cfa7ff9ea95f339b9d7793d34adf33b1bb43f9843ae6969204dfe",
+  "response": {
+    "finish_reason": "stop",
+    "content": "{\"prediction\":[\"yellow\",\"red\",\"blue\",\"green\"]}",
+    "content_length": 46,
+    "reasoning_was_present": false,
+    "reasoning_length": null,
+    "usage": {
+      "completion_tokens": 296,
+      "prompt_tokens": 312,
+      "total_tokens": 608,
+      "completion_time": 0.610825953,
+      "completion_tokens_details": {
+        "reasoning_tokens": 275
+      },
+      "prompt_time": 0.09263744,
+      "prompt_tokens_details": null,
+      "queue_time": 0.190101075,
+      "total_time": 0.703463393
+    },
+    "response_id": "chatcmpl-b22fbe38-989c-457f-958f-c84188539dd4",
+    "model": "openai/gpt-oss-120b"
+  },
+  "parsed_assignment": {
+    "alex": "yellow",
+    "ben": "red",
+    "cara": "blue",
+    "dan": "green"
+  },
+  "parser_method": "original_json_prediction",
+  "ground_truth": {
+    "alex": "yellow",
+    "ben": "red",
+    "cara": "blue",
+    "dan": "green"
+  },
+  "correct": true,
+  "completed_at": "2026-08-26T21:36:07.753500+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "14.23",
+  "description": "Fresh Treatment 3 C1 re-execution",
+  "treatment": 3,
+  "condition": "C1",
+  "total_trials": 60,
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1200,
+  "min_seconds_between_requests": 10.0,
+  "max_attempts": 5,
+  "historical_c1_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution",
+  "output_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1",
+  "created_at_utc": "2026-08-25T22:59:13.505116+00:00",
+  "historical_artifacts_read_only": true,
+  "per_trial_checkpointing": true,
+  "fresh_execution": true
+}

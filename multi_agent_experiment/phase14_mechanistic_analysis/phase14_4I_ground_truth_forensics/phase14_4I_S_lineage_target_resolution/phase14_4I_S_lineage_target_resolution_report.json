@@ -1,0 +1,151 @@
+{
+  "phase": "14.4I-S",
+  "title": "Explicit Lineage-Target Resolution Audit",
+  "mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "ground_truth_interpretation": false,
+    "answer_recomputation": false,
+    "accuracy_calculation": false,
+    "positional_mapping": false,
+    "ordering_mapping": false,
+    "text_collision_mapping": false
+  },
+  "candidate_identity": {
+    "1": {
+      "problem_id": "1",
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f"
+    },
+    "2": {
+      "problem_id": "2",
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab"
+    },
+    "3": {
+      "problem_id": "3",
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143"
+    },
+    "4": {
+      "problem_id": "4",
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    },
+    "5": {
+      "problem_id": "5",
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+    }
+  },
+  "candidate_records": {
+    "1": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$[\"selected_instances\"][0]",
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f"
+    },
+    "2": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$[\"selected_instances\"][1]",
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab"
+    },
+    "3": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$[\"selected_instances\"][2]",
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143"
+    },
+    "4": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$[\"selected_instances\"][3]",
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    },
+    "5": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "path": "$[\"selected_instances\"][4]",
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+    }
+  },
+  "lineage_fields": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "lineage_resolution": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "resolved_targets": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "gt_target_observations": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "cross_candidate_gt_collisions": {},
+  "candidate_status": {
+    "1": {
+      "status": "NO_EXPLICIT_LINEAGE_FIELD",
+      "explicit_lineage_fields": 0,
+      "explicit_lineage_targets": 0,
+      "gt_bearing_target_locations": 0
+    },
+    "2": {
+      "status": "NO_EXPLICIT_LINEAGE_FIELD",
+      "explicit_lineage_fields": 0,
+      "explicit_lineage_targets": 0,
+      "gt_bearing_target_locations": 0
+    },
+    "3": {
+      "status": "NO_EXPLICIT_LINEAGE_FIELD",
+      "explicit_lineage_fields": 0,
+      "explicit_lineage_targets": 0,
+      "gt_bearing_target_locations": 0
+    },
+    "4": {
+      "status": "NO_EXPLICIT_LINEAGE_FIELD",
+      "explicit_lineage_fields": 0,
+      "explicit_lineage_targets": 0,
+      "gt_bearing_target_locations": 0
+    },
+    "5": {
+      "status": "NO_EXPLICIT_LINEAGE_FIELD",
+      "explicit_lineage_fields": 0,
+      "explicit_lineage_targets": 0,
+      "gt_bearing_target_locations": 0
+    }
+  },
+  "summary": {
+    "candidate_instances": 5,
+    "candidate_lineage_fields": 0,
+    "resolved_explicit_targets": 0,
+    "gt_bearing_lineage_target_locations": 0,
+    "cross_candidate_gt_collisions": 0,
+    "changed_previous_artifacts": 0
+  },
+  "safety": {
+    "candidate_mapping_from_text_collision": false,
+    "problem_number_inference": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "numeric_semantics_used": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "model_output_used": false,
+    "prior_artifacts_modified": false
+  },
+  "immutability": {
+    "baseline_artifacts": 117,
+    "changed_artifacts": [],
+    "all_unchanged": true
+  }
+}

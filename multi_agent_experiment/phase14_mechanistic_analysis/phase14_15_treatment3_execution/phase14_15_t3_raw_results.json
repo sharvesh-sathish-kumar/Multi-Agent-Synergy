@@ -1,0 +1,962 @@
+[
+  {
+    "problem_id": 1,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have yellow.\n- Cara does not have green.\n- Alex does not have green.\nAgent B clues:\n- Alex has blue.\n- Dan has green.\n- Ben has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:08Z"
+  },
+  {
+    "problem_id": 1,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have yellow.\n- Cara does not have green.\n- Alex does not have green.\nAgent B clues:\n- Alex has blue.\n- Dan has green.\n- Ben has yellow.\nAgent C clues:\n- Cara has red.\n- Ben does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:09Z"
+  },
+  {
+    "problem_id": 2,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has green.\n- Cara does not have green.\n- Alex does not have green.\nAgent C clues:\n- Dan has yellow.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: blue  \nBen: green  \nCara: red  \nDan: yellow",
+    "timestamp_utc": "2026-08-25T19:19:09Z"
+  },
+  {
+    "problem_id": 2,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has green.\n- Cara does not have green.\n- Alex does not have green.\nAgent B clues:\n- Dan does not have red.\n- Cara has red.\n- Ben does not have yellow.\nAgent C clues:\n- Dan has yellow.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:10Z"
+  },
+  {
+    "problem_id": 3,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has yellow.\n- Alex has green.\n- Dan does not have red.\nAgent C clues:\n- Alex does not have red.\n- Cara does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: green  \nBen: yellow  \nCara: red  \nDan:",
+    "timestamp_utc": "2026-08-25T19:19:11Z"
+  },
+  {
+    "problem_id": 3,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has yellow.\n- Dan has blue.\n- Ben does not have red.\nAgent B clues:\n- Ben has yellow.\n- Alex has green.\n- Dan does not have red.\nAgent C clues:\n- Alex does not have red.\n- Cara does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:12Z"
+  },
+  {
+    "problem_id": 4,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have blue.\n- Dan does not have red.\n- Cara has green.\nAgent B clues:\n- Dan has yellow.\n- Alex does not have red.\n- Cara does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:13Z"
+  },
+  {
+    "problem_id": 4,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have blue.\n- Dan does not have red.\n- Cara has green.\nAgent B clues:\n- Dan has yellow.\n- Alex does not have red.\n- Cara does not have blue.\nAgent C clues:\n- Ben has red.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:13Z"
+  },
+  {
+    "problem_id": 5,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Cara has red.\n- Dan has yellow.\nAgent C clues:\n- Ben does not have red.\n- Dan does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: blue  \n- Cara: red  \n- Dan: yellow",
+    "timestamp_utc": "2026-08-25T19:19:14Z"
+  },
+  {
+    "problem_id": 5,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Cara has red.\n- Dan has yellow.\nAgent B clues:\n- Cara does not have green.\n- Ben has blue.\n- Cara does not have yellow.\nAgent C clues:\n- Ben does not have red.\n- Dan does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:15Z"
+  },
+  {
+    "problem_id": 6,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Dan does not have red.\n- Ben has green.\n- Cara has red.\nAgent C clues:\n- Dan has blue.\n- Alex has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: green  \n- Cara: red  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:19:16Z"
+  },
+  {
+    "problem_id": 6,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have blue.\n- Alex does not have red.\n- Ben does not have yellow.\nAgent B clues:\n- Dan does not have red.\n- Ben has green.\n- Cara has red.\nAgent C clues:\n- Dan has blue.\n- Alex has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:16Z"
+  },
+  {
+    "problem_id": 7,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Dan has green.\n- Ben has red.\nAgent B clues:\n- Ben does not have blue.\n- Alex has yellow.\n- Cara has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: red  \n- Cara:",
+    "timestamp_utc": "2026-08-25T19:19:17Z"
+  },
+  {
+    "problem_id": 7,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Dan has green.\n- Ben has red.\nAgent B clues:\n- Ben does not have blue.\n- Alex has yellow.\n- Cara has blue.\nAgent C clues:\n- Alex does not have red.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:18Z"
+  },
+  {
+    "problem_id": 8,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Cara has yellow.\n- Cara does not have green.\nAgent C clues:\n- Ben does not have yellow.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: green  \n- Cara: yellow  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:19:19Z"
+  },
+  {
+    "problem_id": 8,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Cara has yellow.\n- Cara does not have green.\nAgent B clues:\n- Alex does not have green.\n- Dan does not have red.\n- Ben has green.\nAgent C clues:\n- Ben does not have yellow.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:19Z"
+  },
+  {
+    "problem_id": 9,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Alex has yellow.\n- Cara does not have green.\n- Dan has green.\nAgent C clues:\n- Ben does not have red.\n- Dan does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: red  \n- Dan: green",
+    "timestamp_utc": "2026-08-25T19:19:20Z"
+  },
+  {
+    "problem_id": 9,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has red.\n- Alex does not have blue.\n- Ben has blue.\nAgent B clues:\n- Alex has yellow.\n- Cara does not have green.\n- Dan has green.\nAgent C clues:\n- Ben does not have red.\n- Dan does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:21Z"
+  },
+  {
+    "problem_id": 10,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex does not have green.\n- Ben does not have green.\n- Cara has red.\nAgent B clues:\n- Cara does not have blue.\n- Ben has blue.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: red  \n- Dan: green",
+    "timestamp_utc": "2026-08-25T19:19:23Z"
+  },
+  {
+    "problem_id": 10,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex does not have green.\n- Ben does not have green.\n- Cara has red.\nAgent B clues:\n- Cara does not have blue.\n- Ben has blue.\n- Dan does not have yellow.\nAgent C clues:\n- Dan has green.\n- Alex has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n-",
+    "timestamp_utc": "2026-08-25T19:19:27Z"
+  },
+  {
+    "problem_id": 11,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has green.\n- Dan has blue.\n- Dan does not have yellow.\nAgent C clues:\n- Alex does not have blue.\n- Ben does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: red  \nBen: yellow  \nCara: green",
+    "timestamp_utc": "2026-08-25T19:19:30Z"
+  },
+  {
+    "problem_id": 11,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has green.\n- Dan has blue.\n- Dan does not have yellow.\nAgent B clues:\n- Alex has red.\n- Cara does not have blue.\n- Ben has yellow.\nAgent C clues:\n- Alex does not have blue.\n- Ben does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: yellow  \n- Cara: green  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:19:34Z"
+  },
+  {
+    "problem_id": 12,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has red.\n- Cara does not have green.\n- Dan has yellow.\nAgent C clues:\n- Dan does not have blue.\n- Ben does not have green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex → green  \n- Ben → red  \n- Cara → blue  \n- Dan → yellow",
+    "timestamp_utc": "2026-08-25T19:19:37Z"
+  },
+  {
+    "problem_id": 12,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Cara has blue.\n- Alex does not have red.\nAgent B clues:\n- Ben has red.\n- Cara does not have green.\n- Dan has yellow.\nAgent C clues:\n- Dan does not have blue.\n- Ben does not have green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:40Z"
+  },
+  {
+    "problem_id": 13,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex does not have green.\n- Dan does not have yellow.\n- Alex has yellow.\nAgent B clues:\n- Ben does not have blue.\n- Cara has blue.\n- Dan has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: yellow  \nBen: red  \nCara: blue  \nDan: green",
+    "timestamp_utc": "2026-08-25T19:19:44Z"
+  },
+  {
+    "problem_id": 13,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex does not have green.\n- Dan does not have yellow.\n- Alex has yellow.\nAgent B clues:\n- Ben does not have blue.\n- Cara has blue.\n- Dan has green.\nAgent C clues:\n- Cara does not have red.\n- Ben has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: red  \n- Cara: blue  \n- Dan",
+    "timestamp_utc": "2026-08-25T19:19:47Z"
+  },
+  {
+    "problem_id": 14,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Ben has blue.\n- Cara does not have green.\nAgent C clues:\n- Alex does not have yellow.\n- Dan does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: blue  \n- Cara: red  \n- Dan: yellow",
+    "timestamp_utc": "2026-08-25T19:19:50Z"
+  },
+  {
+    "problem_id": 14,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Ben has blue.\n- Cara does not have green.\nAgent B clues:\n- Cara has red.\n- Dan has yellow.\n- Cara does not have blue.\nAgent C clues:\n- Alex does not have yellow.\n- Dan does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:19:53Z"
+  },
+  {
+    "problem_id": 15,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Cara does not have blue.\n- Alex has green.\n- Cara does not have yellow.\nAgent C clues:\n- Ben has yellow.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:19:57Z"
+  },
+  {
+    "problem_id": 15,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has red.\n- Dan has blue.\n- Alex does not have blue.\nAgent B clues:\n- Cara does not have blue.\n- Alex has green.\n- Cara does not have yellow.\nAgent C clues:\n- Ben has yellow.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:00Z"
+  },
+  {
+    "problem_id": 16,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have blue.\n- Cara does not have green.\n- Ben does not have blue.\nAgent B clues:\n- Alex has green.\n- Dan has yellow.\n- Cara has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:04Z"
+  },
+  {
+    "problem_id": 16,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have blue.\n- Cara does not have green.\n- Ben does not have blue.\nAgent B clues:\n- Alex has green.\n- Dan has yellow.\n- Cara has blue.\nAgent C clues:\n- Ben has red.\n- Alex has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:06Z"
+  },
+  {
+    "problem_id": 17,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has green.\n- Cara has blue.\n- Alex does not have yellow.\nAgent C clues:\n- Ben does not have blue.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex – red  \nBen – green  \nCara – blue  \nDan –",
+    "timestamp_utc": "2026-08-25T19:20:10Z"
+  },
+  {
+    "problem_id": 17,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has green.\n- Cara has blue.\n- Alex does not have yellow.\nAgent B clues:\n- Dan has yellow.\n- Cara does not have yellow.\n- Cara has red.\nAgent C clues:\n- Ben does not have blue.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:13Z"
+  },
+  {
+    "problem_id": 18,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has yellow.\n- Ben does not have green.\n- Alex has green.\nAgent C clues:\n- Cara does not have blue.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:20:17Z"
+  },
+  {
+    "problem_id": 18,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex does not have yellow.\n- Cara has red.\n- Alex has red.\nAgent B clues:\n- Ben has yellow.\n- Ben does not have green.\n- Alex has green.\nAgent C clues:\n- Cara does not have blue.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:20Z"
+  },
+  {
+    "problem_id": 19,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Ben does not have blue.\n- Cara does not have yellow.\nAgent B clues:\n- Dan does not have red.\n- Alex does not have blue.\n- Alex has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "-",
+    "timestamp_utc": "2026-08-25T19:20:22Z"
+  },
+  {
+    "problem_id": 19,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Ben does not have blue.\n- Cara does not have yellow.\nAgent B clues:\n- Dan does not have red.\n- Alex does not have blue.\n- Alex has green.\nAgent C clues:\n- Dan has yellow.\n- Cara has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:26Z"
+  },
+  {
+    "problem_id": 20,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have blue.\n- Alex has green.\n- Cara has yellow.\nAgent C clues:\n- Alex does not have blue.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: blue  \n- Cara: yellow  \n- Dan: red",
+    "timestamp_utc": "2026-08-25T19:20:29Z"
+  },
+  {
+    "problem_id": 20,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have blue.\n- Alex has green.\n- Cara has yellow.\nAgent B clues:\n- Dan does not have blue.\n- Ben does not have green.\n- Ben has green.\nAgent C clues:\n- Alex does not have blue.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:33Z"
+  },
+  {
+    "problem_id": 21,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Alex has blue.\n- Cara has green.\n- Ben has red.\nAgent C clues:\n- Ben does not have green.\n- Dan does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: blue  \nBen: red  \nCara: green  \nDan: yellow",
+    "timestamp_utc": "2026-08-25T19:20:35Z"
+  },
+  {
+    "problem_id": 21,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex does not have red.\n- Dan has yellow.\n- Ben has blue.\nAgent B clues:\n- Alex has blue.\n- Cara has green.\n- Ben has red.\nAgent C clues:\n- Ben does not have green.\n- Dan does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:39Z"
+  },
+  {
+    "problem_id": 22,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has blue.\n- Ben does not have green.\n- Alex has red.\nAgent B clues:\n- Dan does not have green.\n- Cara has green.\n- Cara does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: red  \nBen: blue  \nCara: green  \nDan: yellow",
+    "timestamp_utc": "2026-08-25T19:20:42Z"
+  },
+  {
+    "problem_id": 22,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has blue.\n- Ben does not have green.\n- Alex has red.\nAgent B clues:\n- Dan does not have green.\n- Cara has green.\n- Cara does not have yellow.\nAgent C clues:\n- Dan has yellow.\n- Ben has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:46Z"
+  },
+  {
+    "problem_id": 23,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have green.\n- Cara does not have blue.\n- Ben has yellow.\nAgent C clues:\n- Alex has red.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: yellow  \n- Cara: green  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:20:49Z"
+  },
+  {
+    "problem_id": 23,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have green.\n- Cara does not have blue.\n- Ben has yellow.\nAgent B clues:\n- Dan has blue.\n- Alex does not have blue.\n- Dan has green.\nAgent C clues:\n- Alex has red.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:52Z"
+  },
+  {
+    "problem_id": 24,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has red.\n- Dan does not have green.\n- Alex has yellow.\nAgent C clues:\n- Ben does not have blue.\n- Alex does not have green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: yellow  \nBen: red  \nCara: green  \nDan: blue",
+    "timestamp_utc": "2026-08-25T19:20:55Z"
+  },
+  {
+    "problem_id": 24,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have red.\n- Dan has blue.\n- Cara has yellow.\nAgent B clues:\n- Ben has red.\n- Dan does not have green.\n- Alex has yellow.\nAgent C clues:\n- Ben does not have blue.\n- Alex does not have green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:20:58Z"
+  },
+  {
+    "problem_id": 25,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have blue.\n- Alex has blue.\n- Dan has yellow.\nAgent B clues:\n- Ben does not have yellow.\n- Dan does not have green.\n- Ben has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: blue  \n- Ben: green  \n- Cara: red  \n- Dan: yellow",
+    "timestamp_utc": "2026-08-25T19:21:01Z"
+  },
+  {
+    "problem_id": 25,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have blue.\n- Alex has blue.\n- Dan has yellow.\nAgent B clues:\n- Ben does not have yellow.\n- Dan does not have green.\n- Ben has green.\nAgent C clues:\n- Alex does not have green.\n- Dan has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:05Z"
+  },
+  {
+    "problem_id": 26,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has blue.\n- Dan does not have yellow.\n- Ben has green.\nAgent C clues:\n- Cara does not have green.\n- Alex does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n-",
+    "timestamp_utc": "2026-08-25T19:21:08Z"
+  },
+  {
+    "problem_id": 26,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has blue.\n- Dan does not have yellow.\n- Ben has green.\nAgent B clues:\n- Ben does not have red.\n- Cara has yellow.\n- Dan has yellow.\nAgent C clues:\n- Cara does not have green.\n- Alex does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:12Z"
+  },
+  {
+    "problem_id": 27,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben does not have red.\n- Alex does not have yellow.\n- Alex has red.\nAgent C clues:\n- Cara has green.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:14Z"
+  },
+  {
+    "problem_id": 27,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has blue.\n- Ben has yellow.\n- Dan has green.\nAgent B clues:\n- Ben does not have red.\n- Alex does not have yellow.\n- Alex has red.\nAgent C clues:\n- Cara has green.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:18Z"
+  },
+  {
+    "problem_id": 28,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Ben has yellow.\n- Dan has green.\nAgent B clues:\n- Alex has blue.\n- Ben does not have blue.\n- Cara has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:21Z"
+  },
+  {
+    "problem_id": 28,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Ben has yellow.\n- Dan has green.\nAgent B clues:\n- Alex has blue.\n- Ben does not have blue.\n- Cara has red.\nAgent C clues:\n- Dan does not have red.\n- Cara has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:25Z"
+  },
+  {
+    "problem_id": 29,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have yellow.\n- Cara has yellow.\n- Alex has green.\nAgent C clues:\n- Ben has red.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: red  \n- Cara: yellow  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:21:28Z"
+  },
+  {
+    "problem_id": 29,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have yellow.\n- Cara has yellow.\n- Alex has green.\nAgent B clues:\n- Cara does not have red.\n- Alex does not have red.\n- Cara has green.\nAgent C clues:\n- Ben has red.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:31Z"
+  },
+  {
+    "problem_id": 30,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Cara has yellow.\n- Alex does not have red.\n- Cara does not have green.\nAgent C clues:\n- Dan has green.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: blue  \n- Ben: red  \n- Cara: yellow  \n- Dan: green",
+    "timestamp_utc": "2026-08-25T19:21:35Z"
+  },
+  {
+    "problem_id": 30,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has blue.\n- Ben has red.\n- Cara has green.\nAgent B clues:\n- Cara has yellow.\n- Alex does not have red.\n- Cara does not have green.\nAgent C clues:\n- Dan has green.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:37Z"
+  },
+  {
+    "problem_id": 31,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has green.\n- Dan does not have blue.\n- Alex has blue.\nAgent B clues:\n- Ben has yellow.\n- Cara has red.\n- Alex does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: blue  \nBen: yellow  \nCara: red  \nDan: green",
+    "timestamp_utc": "2026-08-25T19:21:40Z"
+  },
+  {
+    "problem_id": 31,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has green.\n- Dan does not have blue.\n- Alex has blue.\nAgent B clues:\n- Ben has yellow.\n- Cara has red.\n- Alex does not have yellow.\nAgent C clues:\n- Cara has green.\n- Ben does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:44Z"
+  },
+  {
+    "problem_id": 32,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has yellow.\n- Cara has green.\n- Dan does not have green.\nAgent C clues:\n- Cara does not have red.\n- Ben has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: green  \n- Dan: red",
+    "timestamp_utc": "2026-08-25T19:21:47Z"
+  },
+  {
+    "problem_id": 32,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has yellow.\n- Cara has green.\n- Dan does not have green.\nAgent B clues:\n- Alex does not have green.\n- Cara has blue.\n- Ben does not have blue.\nAgent C clues:\n- Cara does not have red.\n- Ben has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:50Z"
+  },
+  {
+    "problem_id": 33,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Cara has green.\n- Alex has yellow.\n- Alex does not have green.\nAgent C clues:\n- Ben has red.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: red  \n- Cara: green  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:21:53Z"
+  },
+  {
+    "problem_id": 33,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have green.\n- Dan has yellow.\n- Dan does not have blue.\nAgent B clues:\n- Cara has green.\n- Alex has yellow.\n- Alex does not have green.\nAgent C clues:\n- Ben has red.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:21:56Z"
+  },
+  {
+    "problem_id": 34,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have blue.\n- Ben has red.\n- Alex has blue.\nAgent B clues:\n- Dan has yellow.\n- Cara has green.\n- Cara does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: blue  \n-",
+    "timestamp_utc": "2026-08-25T19:22:00Z"
+  },
+  {
+    "problem_id": 34,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have blue.\n- Ben has red.\n- Alex has blue.\nAgent B clues:\n- Dan has yellow.\n- Cara has green.\n- Cara does not have yellow.\nAgent C clues:\n- Cara has red.\n- Ben does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:03Z"
+  },
+  {
+    "problem_id": 35,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Ben does not have yellow.\n- Dan does not have green.\nAgent C clues:\n- Cara does not have green.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: blue  \n- Cara: yellow  \n- Dan",
+    "timestamp_utc": "2026-08-25T19:22:07Z"
+  },
+  {
+    "problem_id": 35,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Ben does not have yellow.\n- Dan does not have green.\nAgent B clues:\n- Alex does not have yellow.\n- Ben has red.\n- Cara does not have yellow.\nAgent C clues:\n- Cara does not have green.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:10Z"
+  },
+  {
+    "problem_id": 36,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Dan has green.\n- Dan does not have yellow.\n- Alex has yellow.\nAgent C clues:\n- Alex does not have blue.\n- Ben does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: red  \n- Cara: blue  \n- Dan: green",
+    "timestamp_utc": "2026-08-25T19:22:13Z"
+  },
+  {
+    "problem_id": 36,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has red.\n- Cara has yellow.\n- Alex does not have yellow.\nAgent B clues:\n- Dan has green.\n- Dan does not have yellow.\n- Alex has yellow.\nAgent C clues:\n- Alex does not have blue.\n- Ben does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:16Z"
+  },
+  {
+    "problem_id": 37,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has blue.\n- Ben has yellow.\n- Cara has red.\nAgent B clues:\n- Dan does not have green.\n- Ben does not have green.\n- Cara does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:22:19Z"
+  },
+  {
+    "problem_id": 37,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has blue.\n- Ben has yellow.\n- Cara has red.\nAgent B clues:\n- Dan does not have green.\n- Ben does not have green.\n- Cara does not have blue.\nAgent C clues:\n- Dan has red.\n- Ben does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:23Z"
+  },
+  {
+    "problem_id": 38,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have red.\n- Cara has blue.\n- Dan has red.\nAgent C clues:\n- Alex has yellow.\n- Alex does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: green  \n- Cara: blue  \n- Dan: red",
+    "timestamp_utc": "2026-08-25T19:22:25Z"
+  },
+  {
+    "problem_id": 38,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have red.\n- Cara has blue.\n- Dan has red.\nAgent B clues:\n- Ben has green.\n- Alex has green.\n- Alex does not have yellow.\nAgent C clues:\n- Alex has yellow.\n- Alex does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:28Z"
+  },
+  {
+    "problem_id": 39,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Dan has blue.\n- Alex does not have blue.\n- Cara does not have yellow.\nAgent C clues:\n- Cara has red.\n- Alex has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: yellow  \n- Cara: red  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:22:32Z"
+  },
+  {
+    "problem_id": 39,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has yellow.\n- Ben has blue.\n- Dan does not have blue.\nAgent B clues:\n- Dan has blue.\n- Alex does not have blue.\n- Cara does not have yellow.\nAgent C clues:\n- Cara has red.\n- Alex has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:35Z"
+  },
+  {
+    "problem_id": 40,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Alex has yellow.\n- Dan does not have blue.\nAgent B clues:\n- Alex does not have blue.\n- Cara does not have red.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: green  \n- Cara: blue  \n- Dan: red",
+    "timestamp_utc": "2026-08-25T19:22:39Z"
+  },
+  {
+    "problem_id": 40,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Alex has yellow.\n- Dan does not have blue.\nAgent B clues:\n- Alex does not have blue.\n- Cara does not have red.\n- Dan has red.\nAgent C clues:\n- Alex has green.\n- Alex does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:42Z"
+  },
+  {
+    "problem_id": 41,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Cara has blue.\n- Dan has yellow.\nAgent C clues:\n- Ben does not have yellow.\n- Cara does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex – red  \nBen – green  \nCara – blue  \nDan – yellow",
+    "timestamp_utc": "2026-08-25T19:22:46Z"
+  },
+  {
+    "problem_id": 41,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Cara has blue.\n- Dan has yellow.\nAgent B clues:\n- Alex does not have blue.\n- Ben has red.\n- Cara does not have blue.\nAgent C clues:\n- Ben does not have yellow.\n- Cara does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:49Z"
+  },
+  {
+    "problem_id": 42,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Cara does not have blue.\n- Ben does not have yellow.\n- Cara has yellow.\nAgent C clues:\n- Dan does not have blue.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: red  \nBen",
+    "timestamp_utc": "2026-08-25T19:22:52Z"
+  },
+  {
+    "problem_id": 42,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has blue.\n- Dan has red.\n- Dan does not have green.\nAgent B clues:\n- Cara does not have blue.\n- Ben does not have yellow.\n- Cara has yellow.\nAgent C clues:\n- Dan does not have blue.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:22:55Z"
+  },
+  {
+    "problem_id": 43,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Cara does not have green.\n- Ben does not have red.\nAgent B clues:\n- Alex has green.\n- Dan does not have yellow.\n- Alex does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: green  \nBen: yellow  \nCara",
+    "timestamp_utc": "2026-08-25T19:22:58Z"
+  },
+  {
+    "problem_id": 43,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Cara does not have green.\n- Ben does not have red.\nAgent B clues:\n- Alex has green.\n- Dan does not have yellow.\n- Alex does not have red.\nAgent C clues:\n- Ben has green.\n- Cara does not have blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:02Z"
+  },
+  {
+    "problem_id": 44,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has yellow.\n- Ben does not have red.\n- Cara does not have green.\nAgent C clues:\n- Ben has green.\n- Dan does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: green  \n- Cara: yellow  \n- Dan: blue",
+    "timestamp_utc": "2026-08-25T19:23:05Z"
+  },
+  {
+    "problem_id": 44,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has yellow.\n- Ben does not have red.\n- Cara does not have green.\nAgent B clues:\n- Dan has blue.\n- Ben has red.\n- Cara does not have yellow.\nAgent C clues:\n- Ben has green.\n- Dan does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:09Z"
+  },
+  {
+    "problem_id": 45,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Alex has blue.\n- Ben has red.\n- Dan does not have yellow.\nAgent C clues:\n- Cara does not have green.\n- Dan has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: blue  \nBen: red  \nCara: yellow  \nDan: green",
+    "timestamp_utc": "2026-08-25T19:23:11Z"
+  },
+  {
+    "problem_id": 45,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has yellow.\n- Cara has blue.\n- Alex does not have blue.\nAgent B clues:\n- Alex has blue.\n- Ben has red.\n- Dan does not have yellow.\nAgent C clues:\n- Cara does not have green.\n- Dan has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:14Z"
+  },
+  {
+    "problem_id": 46,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has yellow.\n- Cara has blue.\n- Alex has red.\nAgent B clues:\n- Dan does not have blue.\n- Cara does not have red.\n- Dan has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: yellow  \n- Cara: blue  \n- Dan: green",
+    "timestamp_utc": "2026-08-25T19:23:18Z"
+  },
+  {
+    "problem_id": 46,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has yellow.\n- Cara has blue.\n- Alex has red.\nAgent B clues:\n- Dan does not have blue.\n- Cara does not have red.\n- Dan has green.\nAgent C clues:\n- Alex has yellow.\n- Ben has green.\n- Cara does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:21Z"
+  },
+  {
+    "problem_id": 47,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has yellow.\n- Alex has red.\n- Cara has blue.\nAgent C clues:\n- Dan does not have blue.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: green  \n- Cara: blue  \n- Dan: yellow",
+    "timestamp_utc": "2026-08-25T19:23:24Z"
+  },
+  {
+    "problem_id": 47,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan has yellow.\n- Alex has red.\n- Cara has blue.\nAgent B clues:\n- Alex has yellow.\n- Ben has green.\n- Ben does not have red.\nAgent C clues:\n- Dan does not have blue.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:27Z"
+  },
+  {
+    "problem_id": 48,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has green.\n- Cara has blue.\n- Cara does not have green.\nAgent C clues:\n- Alex does not have green.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: green  \n- Cara: blue  \n-",
+    "timestamp_utc": "2026-08-25T19:23:30Z"
+  },
+  {
+    "problem_id": 48,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Ben has yellow.\n- Cara has blue.\nAgent B clues:\n- Ben has green.\n- Cara has blue.\n- Cara does not have green.\nAgent C clues:\n- Alex does not have green.\n- Dan does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:34Z"
+  },
+  {
+    "problem_id": 49,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Dan does not have blue.\n- Alex does not have green.\nAgent B clues:\n- Ben has green.\n- Cara has blue.\n- Alex has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "**Assignment**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → blue  \n- Dan → red",
+    "timestamp_utc": "2026-08-25T19:23:37Z"
+  },
+  {
+    "problem_id": 49,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara does not have yellow.\n- Dan does not have blue.\n- Alex does not have green.\nAgent B clues:\n- Ben has green.\n- Cara has blue.\n- Alex has yellow.\nAgent C clues:\n- Alex has blue.\n- Ben has red.\n- Cara has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:41Z"
+  },
+  {
+    "problem_id": 50,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Dan does not have green.\n- Cara does not have red.\nAgent C clues:\n- Alex does not have blue.\n- Cara has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:43Z"
+  },
+  {
+    "problem_id": 50,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Dan does not have green.\n- Cara does not have red.\nAgent B clues:\n- Alex has green.\n- Ben has yellow.\n- Cara has blue.\nAgent C clues:\n- Alex does not have blue.\n- Cara has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:47Z"
+  },
+  {
+    "problem_id": 51,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has blue.\n- Cara has yellow.\n- Ben does not have red.\nAgent C clues:\n- Alex does not have green.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: red  \nBen: blue  \nCara: yellow  \nDan: green",
+    "timestamp_utc": "2026-08-25T19:23:50Z"
+  },
+  {
+    "problem_id": 51,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has yellow.\n- Ben has green.\n- Cara has blue.\nAgent B clues:\n- Ben has blue.\n- Cara has yellow.\n- Ben does not have red.\nAgent C clues:\n- Alex does not have green.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:23:54Z"
+  },
+  {
+    "problem_id": 52,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have green.\n- Cara does not have green.\n- Alex does not have blue.\nAgent B clues:\n- Dan does not have green.\n- Ben has blue.\n- Dan has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: green  \n- Ben: blue  \n",
+    "timestamp_utc": "2026-08-25T19:23:57Z"
+  },
+  {
+    "problem_id": 52,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have green.\n- Cara does not have green.\n- Alex does not have blue.\nAgent B clues:\n- Dan does not have green.\n- Ben has blue.\n- Dan has yellow.\nAgent C clues:\n- Alex has yellow.\n- Alex has green.\n- Cara has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:01Z"
+  },
+  {
+    "problem_id": 53,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has green.\n- Alex does not have yellow.\n- Ben has blue.\nAgent C clues:\n- Dan does not have red.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: blue  \n- Cara: green  \n- Dan: yellow",
+    "timestamp_utc": "2026-08-25T19:24:03Z"
+  },
+  {
+    "problem_id": 53,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has green.\n- Alex does not have yellow.\n- Ben has blue.\nAgent B clues:\n- Alex has yellow.\n- Ben has blue.\n- Cara has green.\nAgent C clues:\n- Dan does not have red.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:06Z"
+  },
+  {
+    "problem_id": 54,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben does not have green.\n- Cara does not have blue.\n- Dan has red.\nAgent C clues:\n- Dan does not have blue.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: blue  \n- Ben: yellow  \n- Cara: green  \n- Dan: red",
+    "timestamp_utc": "2026-08-25T19:24:10Z"
+  },
+  {
+    "problem_id": 54,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has green.\n- Ben has blue.\n- Cara has yellow.\nAgent B clues:\n- Ben does not have green.\n- Cara does not have blue.\n- Dan has red.\nAgent C clues:\n- Dan does not have blue.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:13Z"
+  },
+  {
+    "problem_id": 55,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Alex does not have blue.\n- Cara does not have yellow.\nAgent B clues:\n- Ben does not have blue.\n- Dan does not have blue.\n- Dan has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "Alex: red  \nBen: green  \nCara: blue  \nDan: yellow",
+    "timestamp_utc": "2026-08-25T19:24:17Z"
+  },
+  {
+    "problem_id": 55,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Alex does not have blue.\n- Cara does not have yellow.\nAgent B clues:\n- Ben does not have blue.\n- Dan does not have blue.\n- Dan has yellow.\nAgent C clues:\n- Cara does not have red.\n- Ben has green.\n- Cara has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:19Z"
+  },
+  {
+    "problem_id": 56,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have blue.\n- Cara has green.\n- Ben has yellow.\nAgent C clues:\n- Cara does not have yellow.\n- Alex does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "**Assignment**\n\n- Alex → blue",
+    "timestamp_utc": "2026-08-25T19:24:24Z"
+  },
+  {
+    "problem_id": 56,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have blue.\n- Cara has green.\n- Ben has yellow.\nAgent B clues:\n- Alex has red.\n- Alex does not have red.\n- Cara has blue.\nAgent C clues:\n- Cara does not have yellow.\n- Alex does not have yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:26Z"
+  },
+  {
+    "problem_id": 57,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has blue.\n- Alex has yellow.\n- Ben does not have red.\nAgent C clues:\n- Alex does not have red.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: yellow  \n- Ben: blue  \n- Cara: green  \n- Dan: red",
+    "timestamp_utc": "2026-08-25T19:24:29Z"
+  },
+  {
+    "problem_id": 57,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has red.\n- Ben has green.\n- Cara has yellow.\nAgent B clues:\n- Ben has blue.\n- Alex has yellow.\n- Ben does not have red.\nAgent C clues:\n- Alex does not have red.\n- Dan has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:33Z"
+  },
+  {
+    "problem_id": 58,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have blue.\n- Dan does not have green.\n- Alex does not have yellow.\nAgent B clues:\n- Cara has yellow.\n- Alex has red.\n- Dan has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:36Z"
+  },
+  {
+    "problem_id": 58,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben does not have blue.\n- Dan does not have green.\n- Alex does not have yellow.\nAgent B clues:\n- Cara has yellow.\n- Alex has red.\n- Dan has blue.\nAgent C clues:\n- Alex has yellow.\n- Ben has blue.\n- Cara has green.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:40Z"
+  },
+  {
+    "problem_id": 59,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Alex does not have blue.\n- Dan has green.\nAgent C clues:\n- Ben does not have blue.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: red  \n- Ben: yellow  \n- Cara: blue  \n- Dan: green",
+    "timestamp_utc": "2026-08-25T19:24:42Z"
+  },
+  {
+    "problem_id": 59,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Cara has blue.\n- Alex does not have blue.\n- Dan has green.\nAgent B clues:\n- Alex has blue.\n- Ben has green.\n- Cara has yellow.\nAgent C clues:\n- Ben does not have blue.\n- Alex has red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:45Z"
+  },
+  {
+    "problem_id": 60,
+    "condition": "C0",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent B clues:\n- Ben has green.\n- Ben does not have blue.\n- Dan has yellow.\nAgent C clues:\n- Cara does not have yellow.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "- Alex: blue  \n- Ben: green  \n- Cara: red  \n- Dan: yellow",
+    "timestamp_utc": "2026-08-25T19:24:49Z"
+  },
+  {
+    "problem_id": 60,
+    "condition": "C1",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has yellow.\n- Ben has red.\n- Cara has green.\nAgent B clues:\n- Ben has green.\n- Ben does not have blue.\n- Dan has yellow.\nAgent C clues:\n- Cara does not have yellow.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+    "response": "",
+    "timestamp_utc": "2026-08-25T19:24:52Z"
+  }
+]

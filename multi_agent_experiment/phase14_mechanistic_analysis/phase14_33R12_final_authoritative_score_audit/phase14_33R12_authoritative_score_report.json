@@ -1,0 +1,2066 @@
+{
+  "phase": "14.33R12",
+  "title": "Final Authoritative Treatment 3 Score Audit",
+  "locks": {
+    "zero_model_calls": true,
+    "zero_api_calls": true,
+    "zero_experiment_execution": true,
+    "existing_artifacts_read_only": true
+  },
+  "dataset": {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+    "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "expected_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "length": 60
+  },
+  "artifact_root": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication",
+  "summary": {
+    "C0": {
+      "score": 0,
+      "total": 60,
+      "accuracy": 0.0,
+      "exact_correct_trials": [],
+      "recovered_trials": [
+        29
+      ],
+      "genuine_no_assignment_trials": [
+        18,
+        24,
+        32,
+        33,
+        36,
+        38,
+        41,
+        44,
+        53
+      ],
+      "unusable_trials": [],
+      "still_unparsed_trials": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        34,
+        35,
+        37,
+        39,
+        40,
+        42,
+        43,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    "C1": {
+      "score": 5,
+      "total": 60,
+      "accuracy": 0.08333333333333333,
+      "exact_correct_trials": [
+        17,
+        40,
+        55,
+        58,
+        60
+      ],
+      "recovered_trials": [
+        42,
+        52,
+        55,
+        60
+      ],
+      "genuine_no_assignment_trials": [
+        32,
+        34,
+        35
+      ],
+      "unusable_trials": [
+        45
+      ],
+      "still_unparsed_trials": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        37,
+        38,
+        39,
+        41,
+        43,
+        44,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        53,
+        56,
+        57,
+        59
+      ]
+    }
+  },
+  "r10_r11_forensic_assignments": {
+    "C0_trial_29": {
+      "alex": "green",
+      "ben": "blue",
+      "cara": "yellow",
+      "dan": "red"
+    },
+    "C1_trial_42": {
+      "alex": "green",
+      "ben": "blue",
+      "cara": "yellow",
+      "dan": "red"
+    },
+    "C1_trial_52": {
+      "alex": "red",
+      "ben": "yellow",
+      "cara": "blue",
+      "dan": "green"
+    },
+    "C1_trial_55": {
+      "alex": "red",
+      "ben": "green",
+      "cara": "blue",
+      "dan": "yellow"
+    },
+    "C1_trial_60": {
+      "alex": "blue",
+      "ben": "green",
+      "cara": "red",
+      "dan": "yellow"
+    }
+  },
+  "consistency_checks": {
+    "C1-60 deterministic reconstruction exact": true,
+    "C1-55 salvage exact": true,
+    "C1-52 salvage not exact": true,
+    "C1-42 salvage not exact": true,
+    "C0-29 salvage not exact": true
+  },
+  "r11_comparison": {
+    "C0": 36,
+    "C1": 42
+  },
+  "results": {
+    "C0": {
+      "1": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_1.json",
+        "response_length": 99,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "2": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_2.json",
+        "response_length": 99,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "3": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_3.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "4": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_4.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "5": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_5.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "6": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_6.json",
+        "response_length": 674,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "7": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_7.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "8": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_8.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "9": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_9.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "10": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_10.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "11": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_11.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "12": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_12.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "13": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_13.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "14": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_14.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "15": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_15.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "16": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_16.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "17": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_17.json",
+        "response_length": 908,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "18": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_18.json",
+        "response_length": 800,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "19": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_19.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "20": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_20.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "21": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_21.json",
+        "response_length": 290,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "22": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_22.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "23": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_23.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "24": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_24.json",
+        "response_length": 1311,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "25": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_25.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "26": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_26.json",
+        "response_length": 252,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "27": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_27.json",
+        "response_length": 908,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "28": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_28.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "29": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_29.json",
+        "response_length": 1056,
+        "classification": "RECOVERED_DETERMINISTICALLY",
+        "method": "ESTABLISHED_R10_R11_FORENSIC",
+        "assignment": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 2
+      },
+      "30": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_30.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "31": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_31.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "32": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_32.json",
+        "response_length": 617,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "33": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_33.json",
+        "response_length": 467,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "34": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_34.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "35": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_35.json",
+        "response_length": 122,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "36": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_36.json",
+        "response_length": 663,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "37": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_37.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "38": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_38.json",
+        "response_length": 753,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "39": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_39.json",
+        "response_length": 767,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "40": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_40.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "41": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_41.json",
+        "response_length": 388,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "42": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_42.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "43": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_43.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "44": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_44.json",
+        "response_length": 570,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "45": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_45.json",
+        "response_length": 233,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "46": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_46.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "47": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_47.json",
+        "response_length": 458,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "48": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_48.json",
+        "response_length": 1599,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "49": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_49.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "50": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_50.json",
+        "response_length": 325,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "51": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_51.json",
+        "response_length": 257,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "52": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_52.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "53": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_53.json",
+        "response_length": 279,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "54": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_54.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "55": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_55.json",
+        "response_length": 431,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "56": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_56.json",
+        "response_length": 923,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "57": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_57.json",
+        "response_length": 271,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "58": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_58.json",
+        "response_length": 416,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "59": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_59.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "60": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_60.json",
+        "response_length": 1034,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      }
+    },
+    "C1": {
+      "1": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_1.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "2": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_2.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "3": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_3.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "4": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_4.json",
+        "response_length": 99,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "5": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_5.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "6": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_6.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "7": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_7.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "8": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_8.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "9": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_9.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "10": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_10.json",
+        "response_length": 125,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "11": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_11.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "12": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_12.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "13": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_13.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "14": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_14.json",
+        "response_length": 83,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "15": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_15.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "16": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_16.json",
+        "response_length": 353,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "17": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_17.json",
+        "response_length": 504,
+        "classification": "PARSED_COMPLETE_ASSIGNMENT",
+        "method": "STANDARD_DETERMINISTIC_EXPLICIT_LINES",
+        "assignment": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": true,
+        "correct_fields": 4
+      },
+      "18": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_18.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "19": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_19.json",
+        "response_length": 225,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "20": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_20.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "21": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_21.json",
+        "response_length": 275,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "22": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_22.json",
+        "response_length": 295,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "23": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_23.json",
+        "response_length": 238,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "24": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_24.json",
+        "response_length": 312,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "25": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_25.json",
+        "response_length": 344,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "26": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_26.json",
+        "response_length": 119,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "27": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_27.json",
+        "response_length": 316,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "28": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_28.json",
+        "response_length": 483,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "29": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_29.json",
+        "response_length": 283,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "30": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_30.json",
+        "response_length": 295,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "31": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_31.json",
+        "response_length": 930,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "32": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_32.json",
+        "response_length": 357,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "33": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_33.json",
+        "response_length": 282,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "green",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "34": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_34.json",
+        "response_length": 846,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "35": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_35.json",
+        "response_length": 1021,
+        "classification": "GENUINE_NO_ASSIGNMENT",
+        "method": "ESTABLISHED_R10_R11_NO_ASSIGNMENT",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "36": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_36.json",
+        "response_length": 112,
+        "classification": "PARSED_COMPLETE_ASSIGNMENT",
+        "method": "STANDARD_DETERMINISTIC_EXPLICIT_LINES",
+        "assignment": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "red",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 2
+      },
+      "37": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_37.json",
+        "response_length": 207,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "38": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_38.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "39": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_39.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "red",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "40": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_40.json",
+        "response_length": 222,
+        "classification": "PARSED_COMPLETE_ASSIGNMENT",
+        "method": "STANDARD_DETERMINISTIC_EXPLICIT_LINES",
+        "assignment": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": true,
+        "correct_fields": 4
+      },
+      "41": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_41.json",
+        "response_length": 93,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "42": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_42.json",
+        "response_length": 617,
+        "classification": "RECOVERED_DETERMINISTICALLY",
+        "method": "ESTABLISHED_R10_R11_FORENSIC",
+        "assignment": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 2
+      },
+      "43": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_43.json",
+        "response_length": 212,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "green",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "44": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_44.json",
+        "response_length": 293,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "45": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_45.json",
+        "response_length": 2,
+        "classification": "UNUSABLE_RESPONSE",
+        "method": "ESTABLISHED_R11_UNUSABLE",
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "red",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "46": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_46.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "47": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_47.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "48": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_48.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "49": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_49.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "50": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_50.json",
+        "response_length": 260,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "51": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_51.json",
+        "response_length": 77,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "52": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_52.json",
+        "response_length": 2404,
+        "classification": "RECOVERED_DETERMINISTICALLY",
+        "method": "ESTABLISHED_R10_R11_FORENSIC",
+        "assignment": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "ground_truth": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "53": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_53.json",
+        "response_length": 1012,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "yellow"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "54": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_54.json",
+        "response_length": 1005,
+        "classification": "PARSED_COMPLETE_ASSIGNMENT",
+        "method": "STANDARD_DETERMINISTIC_EXPLICIT_LINES",
+        "assignment": {
+          "alex": "green",
+          "ben": "blue",
+          "cara": "yellow",
+          "dan": "red"
+        },
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 1
+      },
+      "55": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_55.json",
+        "response_length": 2297,
+        "classification": "RECOVERED_DETERMINISTICALLY",
+        "method": "ESTABLISHED_R10_R11_FORENSIC",
+        "assignment": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "blue",
+          "dan": "yellow"
+        },
+        "exact_correct": true,
+        "correct_fields": 4
+      },
+      "56": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_56.json",
+        "response_length": 2543,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "yellow",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "57": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_57.json",
+        "response_length": 2055,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "yellow",
+          "ben": "blue",
+          "cara": "green",
+          "dan": "red"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "58": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_58.json",
+        "response_length": 1244,
+        "classification": "PARSED_COMPLETE_ASSIGNMENT",
+        "method": "STANDARD_DETERMINISTIC_EXPLICIT_LINES",
+        "assignment": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "ground_truth": {
+          "alex": "red",
+          "ben": "green",
+          "cara": "yellow",
+          "dan": "blue"
+        },
+        "exact_correct": true,
+        "correct_fields": 4
+      },
+      "59": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_59.json",
+        "response_length": 1148,
+        "classification": "NOT_DETERMINISTICALLY_PARSED",
+        "method": null,
+        "assignment": null,
+        "ground_truth": {
+          "alex": "red",
+          "ben": "yellow",
+          "cara": "blue",
+          "dan": "green"
+        },
+        "exact_correct": false,
+        "correct_fields": 0
+      },
+      "60": {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_60.json",
+        "response_length": 1190,
+        "classification": "RECOVERED_DETERMINISTICALLY",
+        "method": "ESTABLISHED_R10_R11_FORENSIC",
+        "assignment": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "ground_truth": {
+          "alex": "blue",
+          "ben": "green",
+          "cara": "red",
+          "dan": "yellow"
+        },
+        "exact_correct": true,
+        "correct_fields": 4
+      }
+    }
+  }
+}

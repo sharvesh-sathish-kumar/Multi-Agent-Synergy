@@ -1,0 +1,502 @@
+{
+  "artifact_inventory": {
+    "full_experiment_results.json": {
+      "load_ok": true,
+      "sha256_before": "533a0a598dc078f6e7d46b303293674d9bfd9288530c41754a92437f0e4d5181",
+      "size_bytes": 6556
+    },
+    "groq_experiment_results.json": {
+      "load_ok": true,
+      "sha256_before": "e91b6a1125a506da3a650f0f9b6cf5f39b7e99fea3e165e69ca4c31ae8a6bd71",
+      "size_bytes": 87135
+    },
+    "groq_phase7a_corrected_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "9465df95f1570fbc59c8e5418b8c10c3608d66bad96d01b7555453c16982cfbe",
+      "size_bytes": 14734
+    },
+    "groq_phase7a_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "839b8fe14931c39e317c08ab4c6029257c0b223976752615ece40e64265edbde",
+      "size_bytes": 15956
+    },
+    "phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json": {
+      "load_ok": true,
+      "sha256_before": "888ed4af7181ef9efc7b87204c28a3b96b3add90d9e55080f7cb55a35e280896",
+      "size_bytes": 42880
+    },
+    "phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json": {
+      "load_ok": true,
+      "sha256_before": "d789694ebb55bfa6eb429eb3a04ee0495a3e350b24e96d0b2632b2af7d87b7bd",
+      "size_bytes": 7852
+    },
+    "phase10_results/phase10_59_repair/phase10_59_repair.json": {
+      "load_ok": true,
+      "sha256_before": "35849cbb9e394e2baaabde78b295868d2b6ca01c35b05863bc7d770b41dd0cff",
+      "size_bytes": 405
+    },
+    "phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json": {
+      "load_ok": true,
+      "sha256_before": "4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3",
+      "size_bytes": 28947
+    },
+    "phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json": {
+      "load_ok": true,
+      "sha256_before": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5",
+      "size_bytes": 6247
+    },
+    "phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json": {
+      "load_ok": true,
+      "sha256_before": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f",
+      "size_bytes": 4995
+    },
+    "phase10_results/phase12_treatment2/phase12_2_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341",
+      "size_bytes": 16358
+    },
+    "phase10_results/phase12_treatment2/phase12_3_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf",
+      "size_bytes": 22596
+    },
+    "phase13_mechanistic_analysis/phase13_0_mechanistic_analysis_summary.json": {
+      "load_ok": true,
+      "sha256_before": "6d7303547412a2ec33ad5d5534315aae25e41e86e3d218fc095235ca022c8980",
+      "size_bytes": 968
+    },
+    "phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json": {
+      "load_ok": true,
+      "sha256_before": "05796e902fe7f599f234ff4ae58fb59697e21b364c83461900bee1d08eb30069",
+      "size_bytes": 1771
+    },
+    "phase13_mechanistic_analysis/phase13_2_information_flow_audit.json": {
+      "load_ok": true,
+      "sha256_before": "5747643787f59084f6cf31ffc10b6a1fb1541f95b313cd893f3a82e2950d7c58",
+      "size_bytes": 26003
+    },
+    "phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json": {
+      "load_ok": true,
+      "sha256_before": "a604c5b4be73482e6a203810c6620e36754aae59610f747b128dcab7565f75a8",
+      "size_bytes": 11003
+    },
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "0b6980c499143cb974c0e2f8bef4e58cfbfd988b659c3118484b568ed0c763e3",
+      "size_bytes": 4252
+    },
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_independent_paired_analysis.json": {
+      "load_ok": true,
+      "sha256_before": "2b3509971cea9d43071d6de5cfb14c3b96f7cb440047546bc3deef9610a2ce95",
+      "size_bytes": 27981
+    },
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_provenance_audit.json": {
+      "load_ok": true,
+      "sha256_before": "5f3b9e10fc6753afa9dfe6fd4e86e17173165b76f18466040560f2e9ce59cb9c",
+      "size_bytes": 2683
+    },
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "9e39d122663e2dde84b04050058fc4af509154e9d54e63a01b8d1ebe949a2e05",
+      "size_bytes": 294958
+    },
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "d1f81f61d3fd380b1f15e0b575bd58fc70cbb9dd077fd247107bca11f9b20702",
+      "size_bytes": 33799
+    },
+    "phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json": {
+      "load_ok": true,
+      "sha256_before": "ee141a1c90ed16bf3f1ebc9691e96abb774500aa33cc46af1095279e6c0c6ffc",
+      "size_bytes": 101981
+    },
+    "phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "c97612982145a18d5102fcf4be324a92c040e3a7e703ee93a31ab2793549faae",
+      "size_bytes": 94641
+    },
+    "phase14_4_checkpoint_20260825T023416Z/PHASE_14_4_CHECKPOINT_SHA256_MANIFEST.json": {
+      "load_ok": true,
+      "sha256_before": "9e42520b4d4d0b2f6b27a23f04cbce56b8bb4060ec91779224aebc7ef69405a4",
+      "size_bytes": 5762
+    },
+    "phase14_4_checkpoint_20260825T023416Z/PHASE_14_4_CHECKPOINT_ZIP_INFO.json": {
+      "load_ok": true,
+      "sha256_before": "b4dafaf5ad35a598177ee68c1b72c076dd3932434af89b966f8dc31d28c29b40",
+      "size_bytes": 272
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "1c377245e5be274277a5fff84eaa2686f0ecfb672f430d5bd7599d7de55d848b",
+      "size_bytes": 6060
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_generalization_rows.json": {
+      "load_ok": true,
+      "sha256_before": "43cc24256fb81acbf09ff51aa8a04dcff0b2d1a7cd3b5605b7a4d9df367b0e9a",
+      "size_bytes": 673185
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "3b4f1e9e53782547b96274664437107a0f98322af1929c403a8eef9ae7638baf",
+      "size_bytes": 1998
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "88ea7ad18ad61a16bf38bafa27cc5aa3060d7488af764ba0ccc10c8b7c718df0",
+      "size_bytes": 17680
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "bec0dfcc4356aba8b385347739c9e7ece7727485311699d9a9e02ba8192a22fc",
+      "size_bytes": 11502
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "ffd7462ea80552704d08fee9dff76f19075581d0ea82470b4cd82f4f8dd1d936",
+      "size_bytes": 15461
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6",
+      "size_bytes": 1273
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e",
+      "size_bytes": 9765
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f",
+      "size_bytes": 3633
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis.json": {
+      "load_ok": true,
+      "sha256_before": "28a80f4cad046a9f43aa712422be2aa1c9195948ba2e494c95d66eb62686bfb0",
+      "size_bytes": 3551
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis_rows.json": {
+      "load_ok": true,
+      "sha256_before": "cfcf1ad9eadb8ff07899e0bceec57a0b45dce398d3529a279cfa7fee73658402",
+      "size_bytes": 11308
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_recommended_contract.json": {
+      "load_ok": true,
+      "sha256_before": "221ec0712db28987111bcec9ee5d294ea4718378abd76c68481e65b29c810568",
+      "size_bytes": 1444
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "ad3a5e7d472dfdf4e73081103cc7579600133071b6582f1e041070939cb8d5f4",
+      "size_bytes": 1543
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json": {
+      "load_ok": true,
+      "sha256_before": "3b35b58a3bf3d06f6217c7f43ff35e619ea9118b18b093f0c4278a1f42745465",
+      "size_bytes": 5335
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json": {
+      "load_ok": true,
+      "sha256_before": "d367e1d51913f4a2412b73b410d9b2a2fa5dbb88c43fb4415c5cb94f625e56fb",
+      "size_bytes": 1635
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "cfbb8f6bb4d82e218ae382778d59a989ae3bb6ba08a1d3af498b8f267c829c98",
+      "size_bytes": 3100
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "74fdaa98ded51d70d16df5321c8aa8fcbf31be5e7771efa4a9820533fd8d7d26",
+      "size_bytes": 24681
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "15eeb540c2f808f0bba47751f76fdff5c834f5864bc66452fc086e1f3ecfd751",
+      "size_bytes": 5464
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "2d00b7cd4a68d615033b29e5a696257a529e530498e9e4ed11da55d421ca4805",
+      "size_bytes": 7087
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "a7f427f2f316f54dd7624f8cf6dba657ee4f1e9ba37d614b0b0894aa8b108b5d",
+      "size_bytes": 1848
+    },
+    "phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json": {
+      "load_ok": true,
+      "sha256_before": "357527fc05879b8d872b1b77cad61c2a8dd744116ec7007367396ad58ca46e7b",
+      "size_bytes": 11155
+    },
+    "phase14_mechanistic_analysis/phase14_0_deterministic_mechanism_benchmark/phase14_0_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "1525a6ec168c3bf35cdd604f1d8843de69bf250d9a53f2875089b2935a7a5e56",
+      "size_bytes": 57634
+    },
+    "phase14_mechanistic_analysis/phase14_1_dataset_recovery/phase14_1A_recovery_report.json": {
+      "load_ok": true,
+      "sha256_before": "9f92d4defbd98fcc6708467450ee95e9802dad5ecda6b94de13be2ebd2d0cca2",
+      "size_bytes": 484
+    },
+    "phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+      "size_bytes": 31254
+    },
+    "phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+      "size_bytes": 2957
+    },
+    "phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "32df4e9cba86d9361b4fcea4ed79fda28097fd34bb15b7366c5f16d47d42933d",
+      "size_bytes": 7604
+    },
+    "phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "4b189cab0de28fa0efab7d068646ab7c7cdd445953cfd11b0a2cf4b206c6ad8f",
+      "size_bytes": 106707
+    },
+    "phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "4b189cab0de28fa0efab7d068646ab7c7cdd445953cfd11b0a2cf4b206c6ad8f",
+      "size_bytes": 106707
+    },
+    "phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+      "size_bytes": 8343
+    },
+    "phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json": {
+      "load_ok": true,
+      "sha256_before": "1b7d1643cb811f39ce760d61079399ed767b720f3d4f49bb67777b5dd014c942",
+      "size_bytes": 16082
+    },
+    "phase14_mechanistic_analysis/phase14_3B_mechanism_stress_test/phase14_3B_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "090c5a3f1558cc678d666819e068db1bdef91b005c4bd97069d59166461d6353",
+      "size_bytes": 2959
+    },
+    "phase14_mechanistic_analysis/phase14_3B_mechanism_stress_test/phase14_3B_stress_test_rows.json": {
+      "load_ok": true,
+      "sha256_before": "a8aaafb87f18dec326f2be7987956ecf2d896a1c858372da757e9521daeb5e9c",
+      "size_bytes": 29376
+    },
+    "phase14_mechanistic_analysis/phase14_3B_reconciliation_audit/phase14_3B_R_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "720a5a624b1b2d2e04257aafc888c704b9a795abb7eb7bf3316f303a48affef0",
+      "size_bytes": 2867
+    },
+    "phase14_mechanistic_analysis/phase14_3B_reconciliation_audit_final/phase14_3B_R2_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "f29ecb1465cf077f9f87a8e2ae3c4114a99e939f602f7a52ed7a55bb7719971b",
+      "size_bytes": 2404
+    },
+    "phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "1c377245e5be274277a5fff84eaa2686f0ecfb672f430d5bd7599d7de55d848b",
+      "size_bytes": 6060
+    },
+    "phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_generalization_rows.json": {
+      "load_ok": true,
+      "sha256_before": "43cc24256fb81acbf09ff51aa8a04dcff0b2d1a7cd3b5605b7a4d9df367b0e9a",
+      "size_bytes": 673185
+    },
+    "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "3b4f1e9e53782547b96274664437107a0f98322af1929c403a8eef9ae7638baf",
+      "size_bytes": 1998
+    },
+    "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "88ea7ad18ad61a16bf38bafa27cc5aa3060d7488af764ba0ccc10c8b7c718df0",
+      "size_bytes": 17680
+    },
+    "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "bec0dfcc4356aba8b385347739c9e7ece7727485311699d9a9e02ba8192a22fc",
+      "size_bytes": 11502
+    },
+    "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "ffd7462ea80552704d08fee9dff76f19075581d0ea82470b4cd82f4f8dd1d936",
+      "size_bytes": 15461
+    },
+    "phase14_mechanistic_analysis/phase14_4C_ood_model_output_audit/phase14_4C_audit_rows.json": {
+      "load_ok": true,
+      "sha256_before": "7827c1b55320acfd0123987d55138cb5709defd0e900581694a9fc70e1a549df",
+      "size_bytes": 25857
+    },
+    "phase14_mechanistic_analysis/phase14_4C_ood_model_output_audit/phase14_4C_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "c1fecc006aa28849e66e970d639a81dee4289d351bcefe291a8ec4a2fe1c353b",
+      "size_bytes": 2581
+    },
+    "phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6",
+      "size_bytes": 1273
+    },
+    "phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e",
+      "size_bytes": 9765
+    },
+    "phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f",
+      "size_bytes": 3633
+    },
+    "phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis.json": {
+      "load_ok": true,
+      "sha256_before": "28a80f4cad046a9f43aa712422be2aa1c9195948ba2e494c95d66eb62686bfb0",
+      "size_bytes": 3551
+    },
+    "phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis_rows.json": {
+      "load_ok": true,
+      "sha256_before": "cfcf1ad9eadb8ff07899e0bceec57a0b45dce398d3529a279cfa7fee73658402",
+      "size_bytes": 11308
+    },
+    "phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_recommended_contract.json": {
+      "load_ok": true,
+      "sha256_before": "221ec0712db28987111bcec9ee5d294ea4718378abd76c68481e65b29c810568",
+      "size_bytes": 1444
+    },
+    "phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "ad3a5e7d472dfdf4e73081103cc7579600133071b6582f1e041070939cb8d5f4",
+      "size_bytes": 1543
+    },
+    "phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json": {
+      "load_ok": true,
+      "sha256_before": "3b35b58a3bf3d06f6217c7f43ff35e619ea9118b18b093f0c4278a1f42745465",
+      "size_bytes": 5335
+    },
+    "phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json": {
+      "load_ok": true,
+      "sha256_before": "d367e1d51913f4a2412b73b410d9b2a2fa5dbb88c43fb4415c5cb94f625e56fb",
+      "size_bytes": 1635
+    },
+    "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "cfbb8f6bb4d82e218ae382778d59a989ae3bb6ba08a1d3af498b8f267c829c98",
+      "size_bytes": 3100
+    },
+    "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json": {
+      "load_ok": true,
+      "sha256_before": "74fdaa98ded51d70d16df5321c8aa8fcbf31be5e7771efa4a9820533fd8d7d26",
+      "size_bytes": 24681
+    },
+    "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_raw_results.json": {
+      "load_ok": true,
+      "sha256_before": "15eeb540c2f808f0bba47751f76fdff5c834f5864bc66452fc086e1f3ecfd751",
+      "size_bytes": 5464
+    },
+    "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json": {
+      "load_ok": true,
+      "sha256_before": "2d00b7cd4a68d615033b29e5a696257a529e530498e9e4ed11da55d421ca4805",
+      "size_bytes": 7087
+    },
+    "phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "a7f427f2f316f54dd7624f8cf6dba657ee4f1e9ba37d614b0b0894aa8b108b5d",
+      "size_bytes": 1848
+    },
+    "phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json": {
+      "load_ok": true,
+      "sha256_before": "357527fc05879b8d872b1b77cad61c2a8dd744116ec7007367396ad58ca46e7b",
+      "size_bytes": 11155
+    },
+    "phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_complete_report.json": {
+      "load_ok": true,
+      "sha256_before": "5b73c3cbe96654df73ab580bbcdb174d962e3030655e91719e92953dfc61da98",
+      "size_bytes": 8883
+    },
+    "phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_direct_answer_audit_rows.json": {
+      "load_ok": true,
+      "sha256_before": "4d060e081edb9baf48cdd08a125506c281e47583cddc2c4d88269b37136eeaa2",
+      "size_bytes": 6156
+    },
+    "phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_ground_truth_forensics_report.json": {
+      "load_ok": true,
+      "sha256_before": "6732d0a5b825230b31be3f8b3cb2423408f090af96770aee13eea259a48f3d6b",
+      "size_bytes": 4904
+    }
+  },
+  "experiment_root": "/content/drive/MyDrive/multi_agent_experiment",
+  "ground_truth_instance_coverage": {},
+  "immutability": {
+    "failures": [],
+    "verified": true
+  },
+  "phase": "14.4I-B",
+  "problem_to_instance_mapping": {
+    "1": {
+      "candidate_instance_ids": [],
+      "evidence": [],
+      "evidence_count": 0,
+      "status": "NO_CROSS_ARTIFACT_MAPPING_FOUND"
+    },
+    "2": {
+      "candidate_instance_ids": [],
+      "evidence": [],
+      "evidence_count": 0,
+      "status": "NO_CROSS_ARTIFACT_MAPPING_FOUND"
+    },
+    "3": {
+      "candidate_instance_ids": [],
+      "evidence": [],
+      "evidence_count": 0,
+      "status": "NO_CROSS_ARTIFACT_MAPPING_FOUND"
+    },
+    "4": {
+      "candidate_instance_ids": [],
+      "evidence": [],
+      "evidence_count": 0,
+      "status": "NO_CROSS_ARTIFACT_MAPPING_FOUND"
+    },
+    "5": {
+      "candidate_instance_ids": [],
+      "evidence": [],
+      "evidence_count": 0,
+      "status": "NO_CROSS_ARTIFACT_MAPPING_FOUND"
+    }
+  },
+  "research_safety_statement": "This phase searched for existing provenance evidence only. No ground truth was inferred from frequency, ordering, replicate position, prediction content, or any other heuristic. No accuracy was calculated.",
+  "scan_statistics": {
+    "direct_problem_instance_bridge_candidates": 0,
+    "ground_truth_records_discovered": 1350,
+    "instance_id_values_discovered": 500,
+    "json_files_scanned": 85,
+    "problem_id_hits": {
+      "1": 63,
+      "2": 62,
+      "3": 62,
+      "4": 61,
+      "5": 62
+    },
+    "text_files_scanned": 1,
+    "textual_bridge_candidates": 0
+  },
+  "selected_problem_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "strict_guarantees": {
+    "accuracy_calculated": false,
+    "ground_truth_inference": false,
+    "previous_artifacts_modified": false,
+    "read_only": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true
+  },
+  "timestamp_utc": "2026-08-25T05:28:48.274832Z",
+  "title": "Cross-Artifact Ground-Truth Provenance Recovery",
+  "validated_unique_mappings": {}
+}

@@ -1,0 +1,98 @@
+{
+  "phase": "14.4G",
+  "title": "Controlled OOD Model Re-Validation",
+  "decision": "PHASE_14_4G_COMPLETE",
+  "model": "openai/gpt-oss-120b",
+  "api_budget": {
+    "maximum": 10,
+    "attempted": 10,
+    "successful": 10,
+    "rate_limit_failures": 0,
+    "automatic_retries": 0
+  },
+  "ood_instances": {
+    "requested": 5,
+    "selected": 5,
+    "problem_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "contract": {
+    "people": [
+      "Alex",
+      "Ben",
+      "Cara",
+      "Dan"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "strict_json": true
+  },
+  "condition_summary": {
+    "ungated": {
+      "n": 5,
+      "valid": 5,
+      "correct": 0,
+      "valid_rate": 1.0,
+      "end_to_end_accuracy": 0.0,
+      "valid_answer_accuracy": 0.0
+    },
+    "reliability_gated": {
+      "n": 5,
+      "valid": 5,
+      "correct": 0,
+      "valid_rate": 1.0,
+      "end_to_end_accuracy": 0.0,
+      "valid_answer_accuracy": 0.0
+    }
+  },
+  "paired_comparison": {
+    "gated_improvements": 0,
+    "gated_regressions": 0,
+    "paired_fully_valid": 5
+  },
+  "effect": {
+    "ungated_valid_output_rate": 1.0,
+    "gated_valid_output_rate": 1.0,
+    "gated_format_advantage": 0.0,
+    "ungated_end_to_end_accuracy": 0.0,
+    "gated_end_to_end_accuracy": 0.0,
+    "absolute_gated_accuracy_advantage": 0.0
+  },
+  "provenance": {
+    "dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2"
+  },
+  "safety": {
+    "treatment_3_run": false,
+    "previous_artifacts_modified": false
+  },
+  "scientific_interpretation": "Phase 14.4G re-validates the OOD model conditions using the deterministic strict JSON contract validated in Phase 14.4F. Results should be interpreted separately for output validity and end-to-end correctness. If valid outputs remain insufficient, the model validation remains measurement-limited rather than constituting evidence against the mechanism.",
+  "gates": {
+    "prior_artifacts_present": true,
+    "dataset_identity": true,
+    "contract_validated": true,
+    "parser_spec_present": true,
+    "ood_instances": true,
+    "api_budget_respected": true,
+    "no_automatic_retries": true,
+    "previous_artifacts_read_only": true,
+    "treatment_3_not_run": true,
+    "raw_results_saved": true,
+    "scored_results_saved": true,
+    "prompt_manifest_saved": true
+  },
+  "artifacts": {
+    "raw_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_raw_results.json",
+    "scored_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+    "prompt_manifest": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+    "report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json"
+  }
+}

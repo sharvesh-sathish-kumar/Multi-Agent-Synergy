@@ -1,0 +1,19 @@
+{
+  "phase": "14.32R2",
+  "condition": "C1",
+  "trial_id": 53,
+  "problem_id": 53,
+  "provider": "Groq",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "Solve the following logic problem.\n\nNames: ['Alex', 'Ben', 'Cara', 'Dan']\nItems: ['red', 'blue', 'green', 'yellow']\n\nAgent A clues:\n- Cara has green.\n- Alex does not have yellow.\n- Ben has blue.\n\nAgent B clues:\n- Alex has yellow.\n- Ben has blue.\n- Cara has green.\n\nAgent C clues:\n- Dan does not have red.\n- Alex has red.\n\nDetermine the correct answer using the information provided.",
+  "response": "**Solution**\n\n| Person | Colour |\n|--------|--------|\n| Alex   | **red** |\n| Ben    | **blue** |\n| Cara   | **green** |\n| Dan    | **yellow** |\n\n**Why this assignment works**\n\n1. **Agent A’s clues**  \n   * Cara has green – **true**.  \n   * Alex does **not** have yellow – **true** (Alex is red).  \n   * Ben has blue – **true**.  \n\n   All three of Agent A’s statements are satisfied.\n\n2. **Agent B’s clues**  \n   * Alex has yellow – **false** (Alex is red).  \n   * Ben has blue – **true**.  \n   * Cara has green – **true**.  \n\n   Two of Agent B’s statements are satisfied; the only conflict is the “Alex has yellow” statement.\n\n3. **Agent C’s clues**  \n   * Dan does **not** have red – **true** (Dan is yellow).  \n   * Alex has red – **true**.  \n\n   Both of Agent C’s statements are satisfied.\n\nAll four colours are used exactly once, and the only contradictory clue is the single statement “Alex has yellow” from Agent B. Every other clue can be made true simultaneously, giving a consistent and unique solution.",
+  "response_chars": 1012,
+  "finish_reason": "stop",
+  "fresh_execution": true,
+  "recovery_execution": true,
+  "dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "timestamp_utc": "2026-08-29T04:58:11.446074+00:00",
+  "attempt": 1
+}

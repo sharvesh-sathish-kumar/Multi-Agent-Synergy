@@ -1,0 +1,27 @@
+{
+  "phase": "14.27_R4",
+  "condition": "C1",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_completion_tokens": 4096,
+  "parser_method": "original_json_prediction",
+  "problem_id": 52,
+  "prompt": "You are solving a deterministic constraint problem.\n\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\n\nProblem:\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nAvailable clues:\n\nAgent A: Ben does not have green.\nAgent A: Cara does not have green.\nAgent A: Alex does not have blue.\nAgent B: Dan does not have green.\nAgent B: Ben has blue.\nAgent B: Dan has yellow.\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color for Ben\",\n    \"color for Cara\",\n    \"color for Dan\"\n  ]\n}\n\nThe prediction array MUST contain exactly four values.\n\nAllowed values are exactly:\n\"red\"\n\"green\"\n\"blue\"\n\"yellow\"\n\nEach allowed value MUST appear exactly once.\n\nDo NOT include:\n- explanations\n- reasoning\n- markdown\n- code fences\n- duplicate colors\n- extra keys\n- extra text\n\nExample structure only:\n\n{\"prediction\":[\"red\",\"green\",\"blue\",\"yellow\"]}",
+  "prompt_sha256": "520cb4004642eb04a1fcea1b1bc4806af276837c03c8789edf7b51a9bc8e6150",
+  "response": "{\"prediction\":[\"green\",\"blue\",\"red\",\"yellow\"]}",
+  "parsed_assignment": [
+    "green",
+    "blue",
+    "red",
+    "yellow"
+  ],
+  "ground_truth": {
+    "alex": "green",
+    "ben": "blue",
+    "cara": "red",
+    "dan": "yellow"
+  },
+  "correct": false,
+  "attempts_used": 1,
+  "completed_at": "2026-08-27T20:31:45"
+}

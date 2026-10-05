@@ -1,0 +1,46 @@
+{
+  "phase": "14.4E",
+  "status": "DIAGNOSTIC_ONLY",
+  "api_calls_used": 0,
+  "model_calls_used": 0,
+  "important_warning": "This contract is a diagnostic recommendation only. It must not be used for scientific scoring until Phase 14.4F deterministically validates the parser.",
+  "required_output": {
+    "type": "JSON object",
+    "exact_fields": [
+      "Alex",
+      "Ben",
+      "Cara",
+      "Dan"
+    ],
+    "allowed_values": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "constraints": [
+      "Each person appears exactly once.",
+      "Each color appears exactly once.",
+      "No additional prediction fields are required.",
+      "No explanatory prose is required.",
+      "The response should contain exactly one JSON object."
+    ]
+  },
+  "canonical_example_shape": {
+    "Alex": "red",
+    "Ben": "green",
+    "Cara": "blue",
+    "Dan": "yellow"
+  },
+  "parser_policy": {
+    "strict_json": true,
+    "reject_duplicate_people": true,
+    "reject_duplicate_values": true,
+    "reject_missing_people": true,
+    "reject_unknown_people": true,
+    "reject_unknown_colors": true,
+    "ignore_explanatory_prose": false
+  },
+  "reason": "The current 14.4D experiment produced zero valid outputs. A strict, minimal JSON contract is recommended because it minimizes ambiguity and separates model reasoning from machine-readable prediction extraction.",
+  "current_failure_classification": "EMPTY_MODEL_RESPONSE"
+}

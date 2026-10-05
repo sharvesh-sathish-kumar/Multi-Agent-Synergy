@@ -1,0 +1,1407 @@
+{
+  "phase": "14.4I-M",
+  "title": "Explicit-Key Cross-Artifact Ground-Truth Join Audit",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "ground_truth_inference": false,
+    "ground_truth_interpretation": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "text_collision_identity_inference": false,
+    "prior_artifacts_modified": false
+  },
+  "candidate_identity": {
+    "1": {
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "explicit_identity_fields": {
+        "problem_id": {
+          "type": "number",
+          "value": "1"
+        }
+      }
+    },
+    "2": {
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "explicit_identity_fields": {
+        "problem_id": {
+          "type": "number",
+          "value": "2"
+        }
+      }
+    },
+    "3": {
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "explicit_identity_fields": {
+        "problem_id": {
+          "type": "number",
+          "value": "3"
+        }
+      }
+    },
+    "4": {
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+      "explicit_identity_fields": {
+        "problem_id": {
+          "type": "number",
+          "value": "4"
+        }
+      }
+    },
+    "5": {
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "explicit_identity_fields": {
+        "problem_id": {
+          "type": "number",
+          "value": "5"
+        }
+      }
+    }
+  },
+  "exact_record_occurrence_counts": {
+    "1": 24,
+    "2": 24,
+    "3": 24,
+    "4": 24,
+    "5": 24
+  },
+  "gt_bearing_structure_count": 3974,
+  "candidate_results": {
+    "1": {
+      "status": "AMBIGUOUS_EXPLICIT_GT_JOIN",
+      "total_gt_join_observations": 16,
+      "unique_gt_locations": 16,
+      "max_shared_identity_fields": 1,
+      "strongest_match_locations": 16,
+      "shared_field_patterns": {
+        "['problem_id']": 16
+      },
+      "observations": [
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "e2c3fd63d4303e6e96599bf841724419fcdd9cdc14b2da4105ecd30fa4798fec",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2d29d8ce397aed82b6515e24cf325be855909d3e3f935dcbde36c8bcdb12efb"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "161ab91956e50ccf6f28cba1b12cf15d0607c5c5bdcb0863a24ba6114c768d1b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2d29d8ce397aed82b6515e24cf325be855909d3e3f935dcbde36c8bcdb12efb"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "209f6c2d25461036602635dc37e54ba3ca6c29a222764bd4d2b01bd08e2298c4",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2d29d8ce397aed82b6515e24cf325be855909d3e3f935dcbde36c8bcdb12efb"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "0296b28041bc8a3f29f3eab46ad4b44ec4f6bb9b5c6074858b820a183741ac25",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2d29d8ce397aed82b6515e24cf325be855909d3e3f935dcbde36c8bcdb12efb"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+          "path": "$.results[0]",
+          "parent_path": "$.results",
+          "record_sha256": "cac1135c26a211cfcf189374f10708156efb20b6be0d99e8b4f9c7c468407fbf",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+          "path": "$.results[0]",
+          "parent_path": "$.results",
+          "record_sha256": "cac1135c26a211cfcf189374f10708156efb20b6be0d99e8b4f9c7c468407fbf",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "0b28aec9364a94a55992317c7d92b22882ca7b08a625f1f46e297c3bfc2fa959",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+          "path": "$.sample_payloads.1.dataset_record",
+          "parent_path": "$.sample_payloads.1",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "a0cd0cf01fe8d24d272f24cc1ffe1f340f33db0abe162ee2c548bbf9e8d17ad9",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2d29d8ce397aed82b6515e24cf325be855909d3e3f935dcbde36c8bcdb12efb"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+          "path": "$[0]",
+          "parent_path": "$",
+          "record_sha256": "f31610e4ac6ad1e18137dbb1338865cc4ca3fd720fe7332e064a8e53280daf3b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "70227f340b1928fa9c027dc5604da424531f83696456a80efb0c01ec44db15e0"
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "status": "AMBIGUOUS_EXPLICIT_GT_JOIN",
+      "total_gt_join_observations": 16,
+      "unique_gt_locations": 16,
+      "max_shared_identity_fields": 1,
+      "strongest_match_locations": 16,
+      "shared_field_patterns": {
+        "['problem_id']": 16
+      },
+      "observations": [
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "9bc20c3cdbbe93046055a879a05ccc11b722c3099c8b7b46d97c92adb47f205f",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "dc5ca248b1729121e7366b06a76742a1cb1e98cd653910cab153d2cb61c5d9db",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "ad3ff7e86cd3803fb40e7f0c8957e5922b5c65ffc1b2ee1b45795b02538a75c8",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "11878477340e04ed9715ab01af399c9db07d736a86bd979f5df474c79f64e42e",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+          "path": "$.results[1]",
+          "parent_path": "$.results",
+          "record_sha256": "c4a9a7ed06370572c61b67b1e4f4f2b1750ec0119a55dc7dc998b11cf5f6cf9b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+          "path": "$.results[1]",
+          "parent_path": "$.results",
+          "record_sha256": "c4a9a7ed06370572c61b67b1e4f4f2b1750ec0119a55dc7dc998b11cf5f6cf9b",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "426c29fb56f2024fdf0addd3f607a4956caef98f696a6cae9aec1150895e0ef2",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+          "path": "$.sample_payloads.2.dataset_record",
+          "parent_path": "$.sample_payloads.2",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "7264f0ad62cc8bbe3b761622ce5ce319fbc4672feba1abba700dcf122b69034d",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+          "path": "$[1]",
+          "parent_path": "$",
+          "record_sha256": "d8dd41f27a7670a3d4c74b76796e308a185abf0a27a5a26df0af10685d25dbcd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "status": "AMBIGUOUS_EXPLICIT_GT_JOIN",
+      "total_gt_join_observations": 16,
+      "unique_gt_locations": 16,
+      "max_shared_identity_fields": 1,
+      "strongest_match_locations": 16,
+      "shared_field_patterns": {
+        "['problem_id']": 16
+      },
+      "observations": [
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "24b1692505e251f7a8cb96b368504840dfa5d7a673f3ae15db368b3dc465d2c2",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "cf5749816eb12e296a752803dd2d02bbe83604764621db577562de22801d4858"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "ddd420b1d3b0372fac62938cf889c5bfd9c0ed6f135f0df4c8dd21ee901d76f0",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "cf5749816eb12e296a752803dd2d02bbe83604764621db577562de22801d4858"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "d740bdf0ab763d8d4caa56a4102f6c67735ebc4daeab5bbbbea68540f1c2c741",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "cf5749816eb12e296a752803dd2d02bbe83604764621db577562de22801d4858"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "163bbf15626991bb9eabc4ca77c1ecb3d48dd76e1c5a8d4cfcf605fb11753241",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "cf5749816eb12e296a752803dd2d02bbe83604764621db577562de22801d4858"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+          "path": "$.results[2]",
+          "parent_path": "$.results",
+          "record_sha256": "02889201831aa825be1559ff4482a3006450f21defdfd2e879c38ae1b9b261ca",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+          "path": "$.results[2]",
+          "parent_path": "$.results",
+          "record_sha256": "02889201831aa825be1559ff4482a3006450f21defdfd2e879c38ae1b9b261ca",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "100901a4a785cdb43dee059e7b27d5ea3ac5f6296ae0685373afdfba97fab0a0",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+          "path": "$.sample_payloads.3.dataset_record",
+          "parent_path": "$.sample_payloads.3",
+          "record_sha256": "52854990b6397b726eb77223e8131a2de30ead9510cf1a394ce7e8a67cb6dedb",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "2561cbf4c63ea0c30bea5d3faed82577e3602e643472a50a0b5dccf7da71f3cf",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "cf5749816eb12e296a752803dd2d02bbe83604764621db577562de22801d4858"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "e1ec76ce640e70f006b557344e621cb54d82ea34ddb5b90ab23f24fbfc369d02",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "52854990b6397b726eb77223e8131a2de30ead9510cf1a394ce7e8a67cb6dedb",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "e1ec76ce640e70f006b557344e621cb54d82ea34ddb5b90ab23f24fbfc369d02",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "52854990b6397b726eb77223e8131a2de30ead9510cf1a394ce7e8a67cb6dedb",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "e1ec76ce640e70f006b557344e621cb54d82ea34ddb5b90ab23f24fbfc369d02",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "52854990b6397b726eb77223e8131a2de30ead9510cf1a394ce7e8a67cb6dedb",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+          "path": "$[2]",
+          "parent_path": "$",
+          "record_sha256": "52854990b6397b726eb77223e8131a2de30ead9510cf1a394ce7e8a67cb6dedb",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "6e3f29503696adb5db5f8f165f011d9e605e4b91867e46bbd6419158908727db"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "status": "AMBIGUOUS_EXPLICIT_GT_JOIN",
+      "total_gt_join_observations": 15,
+      "unique_gt_locations": 15,
+      "max_shared_identity_fields": 1,
+      "strongest_match_locations": 15,
+      "shared_field_patterns": {
+        "['problem_id']": 15
+      },
+      "observations": [
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "cb8d56814b316c1cee10a4dd10e5d49cdc6d4fd3b9a541d35e26333fc32423e1",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "33880a304a50eeb0d24565c485a17c50234d0f4317f8c7c83eb458714f070abd",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "1bc57cab9e0eea0a364837d785141880073312bd84d5ec85b49be2b698c4fbe6",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+          "path": "$.results[3]",
+          "parent_path": "$.results",
+          "record_sha256": "1c0b3b2289e131df9ff89826cedfaaab52ea80b94b8cdd0de3a29200ed3179d0",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+          "path": "$.results[3]",
+          "parent_path": "$.results",
+          "record_sha256": "1c0b3b2289e131df9ff89826cedfaaab52ea80b94b8cdd0de3a29200ed3179d0",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "60429c1de1f2a8d35b6d0ed8d3cce4192088a94419d2f58e05e56b68a43eb9d1",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+          "path": "$.sample_payloads.4.dataset_record",
+          "parent_path": "$.sample_payloads.4",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "7879a5039aeb06a36993fc268c826c9bc45d5dcaab4cd1cda02325284a65d29f",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "bebe6b5bd409ba1ce71ac8ab597d89f9ff17424fb75eb3cdd73ca10af1ee8170"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+          "path": "$[3]",
+          "parent_path": "$",
+          "record_sha256": "674d4317db57c6bfc645fe1d7e8adc0d5d8c03afbaf6f3736d755a2636a1c431",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "93779708631dee29a421b248d26455fe8c0dd795eebaa90e6c50c7d667ae52f4"
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "status": "AMBIGUOUS_EXPLICIT_GT_JOIN",
+      "total_gt_join_observations": 15,
+      "unique_gt_locations": 15,
+      "max_shared_identity_fields": 1,
+      "strongest_match_locations": 15,
+      "shared_field_patterns": {
+        "['problem_id']": 15
+      },
+      "observations": [
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "a2eed1a714b704d166e6f8bf631f5696625cdeeb4f5622103e13d0925b1c69eb",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "8d532774f9caab7df34199d2f78f6698e71dd99773271f003ec14ef1441a0c22"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "8c8c4fb7a587edd2db09936ebb78c2eeeaef5433a4d33a480edc0b8e7bea9f75",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "8d532774f9caab7df34199d2f78f6698e71dd99773271f003ec14ef1441a0c22"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "65ccd2e74a8d4ced705bd688e7671f0bba978df7ae969f57fb70281189b7ace0",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "8d532774f9caab7df34199d2f78f6698e71dd99773271f003ec14ef1441a0c22"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+          "path": "$.results[4]",
+          "parent_path": "$.results",
+          "record_sha256": "2fe2f87ffef635d946439dff06a245a63268b41bb8eb1bc0753f37d07f582fb2",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+          "path": "$.results[4]",
+          "parent_path": "$.results",
+          "record_sha256": "2fe2f87ffef635d946439dff06a245a63268b41bb8eb1bc0753f37d07f582fb2",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "cc8dbe6383d0cbf5982a3083a6c1b0dda9880d4fb195621a070adf647349e52a",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+          "path": "$.sample_payloads.5.dataset_record",
+          "parent_path": "$.sample_payloads.5",
+          "record_sha256": "3daea99ba6a0acb93a603fdfdb0ca343830975a59b90a6616f6471e59a423c1e",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "ade6351efdd76ea939aa1bcbb44966831f1739479a68d2989f09360ed28e7728",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "8d532774f9caab7df34199d2f78f6698e71dd99773271f003ec14ef1441a0c22"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "37fb943cdf8f8be1242047da5d9bc38ca4a0255dca55f620abb6cb8bd805cf9c",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "3daea99ba6a0acb93a603fdfdb0ca343830975a59b90a6616f6471e59a423c1e",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "37fb943cdf8f8be1242047da5d9bc38ca4a0255dca55f620abb6cb8bd805cf9c",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "3daea99ba6a0acb93a603fdfdb0ca343830975a59b90a6616f6471e59a423c1e",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "37fb943cdf8f8be1242047da5d9bc38ca4a0255dca55f620abb6cb8bd805cf9c",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "c0483c7da2d9d01830ba92bf201d85a3f9d8bb7b2596110760b7dd015edb7f7e",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        },
+        {
+          "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+          "path": "$[4]",
+          "parent_path": "$",
+          "record_sha256": "c0483c7da2d9d01830ba92bf201d85a3f9d8bb7b2596110760b7dd015edb7f7e",
+          "shared_fields": [
+            "problem_id"
+          ],
+          "gt_fields": [
+            {
+              "field": "ground_truth",
+              "value_type": "dict",
+              "value_sha256": "d2ceaf11985797eb18c2bf3f4972649beb8b2513116925cf3fb1b0bf8adcab57"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "final_status": {
+    "1": "AMBIGUOUS_EXPLICIT_GT_PROVENANCE",
+    "2": "AMBIGUOUS_EXPLICIT_GT_PROVENANCE",
+    "3": "AMBIGUOUS_EXPLICIT_GT_PROVENANCE",
+    "4": "AMBIGUOUS_EXPLICIT_GT_PROVENANCE",
+    "5": "AMBIGUOUS_EXPLICIT_GT_PROVENANCE"
+  },
+  "cross_candidate_collision_locations": {},
+  "immutability": {
+    "baseline_count": 111,
+    "changed_artifacts": [],
+    "all_unchanged": true
+  },
+  "safety_summary": {
+    "candidate_mapping_from_text_collision": false,
+    "candidate_mapping_from_position": false,
+    "candidate_mapping_from_ordering": false,
+    "problem_number_inference": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "model_output_used": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "prior_artifacts_modified": false
+  }
+}

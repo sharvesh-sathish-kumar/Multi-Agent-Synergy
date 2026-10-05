@@ -1,0 +1,45 @@
+{
+  "phase": "13.1",
+  "purpose": "Zero-API cross-treatment forensic audit",
+  "api_calls": 0,
+  "model_calls": 0,
+  "read_only_existing_artifacts": true,
+  "dataset_records": 60,
+  "dataset_fingerprint": "e5a647bf4b77bc24c19b9ad912483bdf6a6e0489a8913dd0ea964465778c586b",
+  "ground_truth_unique_assignments": 23,
+  "treatment2_records": 60,
+  "treatment2_unique_predictions": 1,
+  "treatment2_dominant_prediction": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "treatment2_dominant_count": 60,
+  "treatment2_collapse_ratio": 1.0,
+  "ground_truth_changes_adjacent": 57,
+  "prediction_changes_adjacent": 0,
+  "treatment2_unique_response_hashes": 2,
+  "reliability_patterns": {
+    "(True, True, False)": 20,
+    "(True, False, True)": 20,
+    "(False, True, True)": 20
+  },
+  "mechanism_screen": {
+    "prediction_collapse": true,
+    "problem_identity_neglect": true,
+    "dataset_ground_truth_low_diversity": false,
+    "reliability_pattern_failure": false,
+    "response_level_collapse": false
+  },
+  "input_hashes": {
+    "frozen_dataset": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "treatment2_spec": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f",
+    "treatment2_raw": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341",
+    "treatment2_scored": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf",
+    "treatment1_raw": "4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3",
+    "treatment1_parsed": "888ed4af7181ef9efc7b87204c28a3b96b3add90d9e55080f7cb55a35e280896",
+    "paired_analysis": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5",
+    "statistical_analysis": "d789694ebb55bfa6eb429eb3a04ee0495a3e350b24e96d0b2632b2af7d87b7bd"
+  }
+}

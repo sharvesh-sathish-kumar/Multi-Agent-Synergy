@@ -1,0 +1,1738 @@
+{
+  "phase": "10.2",
+  "phase_name": "parsing_and_validation",
+  "created_at": "2026-08-24T15:00:07.669550+00:00",
+  "api_calls": 0,
+  "dataset": {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+    "problem_count": 60,
+    "problem_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "read_only": true
+  },
+  "source_results": {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.pkl",
+    "read_only": true
+  },
+  "summary": {
+    "total_problems": 60,
+    "parse_valid": 60,
+    "parse_invalid": 0,
+    "correct": 48,
+    "incorrect": 12,
+    "overall_accuracy": 0.8,
+    "repairs_present": 1
+  },
+  "by_conflict_level": {
+    "low_conflict": {
+      "n": 15,
+      "parse_valid": 15,
+      "correct": 15,
+      "incorrect": 0,
+      "accuracy": 1.0
+    },
+    "medium_conflict": {
+      "n": 15,
+      "parse_valid": 15,
+      "correct": 13,
+      "incorrect": 2,
+      "accuracy": 0.8666666666666667
+    },
+    "high_conflict": {
+      "n": 15,
+      "parse_valid": 15,
+      "correct": 10,
+      "incorrect": 5,
+      "accuracy": 0.6666666666666666
+    },
+    "adversarial": {
+      "n": 15,
+      "parse_valid": 15,
+      "correct": 10,
+      "incorrect": 5,
+      "accuracy": 0.6666666666666666
+    }
+  },
+  "results": [
+    {
+      "problem_id": 1,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = blue\nBen = yellow\nCara = red\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 177,
+        "total_tokens": 420
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 2,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = blue\nBen = green\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 218,
+        "total_tokens": 461
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 3,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = red\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 220,
+        "total_tokens": 463
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 4,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = blue\nBen = red\nCara = green\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 152,
+        "total_tokens": 395
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 5,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = green\nBen = blue\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 147,
+        "total_tokens": 390
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 6,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = yellow\nBen = green\nCara = red\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 158,
+        "total_tokens": 401
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 7,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = yellow\nBen = red\nCara = blue\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 245,
+        "total_tokens": 488
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 8,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = red\nBen = green\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 167,
+        "total_tokens": 410
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 9,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = yellow\nBen = blue\nCara = red\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 234,
+        "total_tokens": 477
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 10,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = yellow\nBen = blue\nCara = red\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 178,
+        "total_tokens": 421
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 11,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = red\nBen = yellow\nCara = green\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 136,
+        "total_tokens": 379
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 12,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = green\nBen = red\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 138,
+        "total_tokens": 381
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 13,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = yellow\nBen = red\nCara = blue\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 180,
+        "total_tokens": 423
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 14,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = green\nBen = blue\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 148,
+        "total_tokens": 391
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 15,
+      "conflict_level": "low_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = red\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 211,
+        "total_tokens": 454
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 16,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = green\nBen = red\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 208,
+        "total_tokens": 449
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 17,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = red\nBen = green\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 239,
+        "total_tokens": 480
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 18,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = red\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 349,
+        "total_tokens": 590
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 19,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = green\nBen = blue\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 399,
+        "total_tokens": 642
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 20,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = green\nBen = blue\nCara = yellow\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 204,
+        "total_tokens": 447
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 21,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = blue\nBen = red\nCara = green\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 240,
+        "total_tokens": 481
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 22,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = red\nBen = blue\nCara = green\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 542,
+        "total_tokens": 783
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 23,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = red\nBen = yellow\nCara = green\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 255,
+        "total_tokens": 498
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 24,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = red\nBen = green\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 412,
+        "total_tokens": 655
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 25,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = blue\nBen = green\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 187,
+        "total_tokens": 430
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 26,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = red\nBen = green\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 306,
+        "total_tokens": 549
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 27,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = red\nBen = yellow\nCara = green\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 169,
+        "total_tokens": 410
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 28,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = blue\nBen = yellow\nCara = red\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 329,
+        "total_tokens": 570
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 29,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = green\nBen = red\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 293,
+        "total_tokens": 534
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 30,
+      "conflict_level": "medium_conflict",
+      "model_response": "Alex = blue\nBen = red\nCara = yellow\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 421,
+        "total_tokens": 662
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 31,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = blue\nBen = yellow\nCara = red\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 176,
+        "total_tokens": 417
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 32,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = yellow\nBen = blue\nCara = green\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 266,
+        "total_tokens": 509
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 33,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = blue\nBen = red\nCara = green\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 525,
+        "total_tokens": 768
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 34,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = blue\nBen = red\nCara = green\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 267,
+        "total_tokens": 508
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 35,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = red\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 346,
+        "total_tokens": 591
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 36,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = red\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 380,
+        "total_tokens": 623
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 37,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = red\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 188,
+        "total_tokens": 431
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 38,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = yellow\nBen = green\nCara = blue\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 388,
+        "total_tokens": 629
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 39,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = red\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 162,
+        "total_tokens": 403
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 40,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = blue\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 307,
+        "total_tokens": 550
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 41,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = red\nBen = green\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 322,
+        "total_tokens": 565
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 42,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = blue\nCara = yellow\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 429,
+        "total_tokens": 672
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 43,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = green\nBen = yellow\nCara = blue\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 272,
+        "total_tokens": 517
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 44,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = red\nBen = green\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 424,
+        "total_tokens": 667
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 45,
+      "conflict_level": "high_conflict",
+      "model_response": "Alex = blue\nBen = red\nCara = yellow\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 193,
+        "total_tokens": 434
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 46,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = yellow\nCara = blue\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 275,
+        "total_tokens": 521
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 47,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = green\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 192,
+        "total_tokens": 433
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 48,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = yellow\nCara = blue\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 276,
+        "total_tokens": 517
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 49,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = yellow\nBen = green\nCara = blue\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 232,
+        "total_tokens": 478
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 50,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = green\nBen = yellow\nCara = blue\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 426,
+        "total_tokens": 667
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 51,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = yellow\nBen = green\nCara = blue\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 423,
+        "total_tokens": 664
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 52,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = green\nBen = blue\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 248,
+        "completion_tokens": 322,
+        "total_tokens": 570
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 53,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = blue\nCara = green\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 209,
+        "total_tokens": 448
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 54,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = green\nBen = blue\nCara = yellow\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 165,
+        "total_tokens": 406
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 55,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = green\nCara = blue\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 250,
+        "completion_tokens": 350,
+        "total_tokens": 600
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 56,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = blue\nBen = yellow\nCara = green\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 190,
+        "total_tokens": 433
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 57,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = blue\nBen = green\nCara = yellow\nDan = red",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 715,
+        "total_tokens": 954
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "exact_correct": false,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 58,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = green\nCara = yellow\nDan = blue",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 237,
+        "total_tokens": 483
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    },
+    {
+      "problem_id": 59,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = red\nBen = yellow\nCara = blue\nDan = green",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 529,
+        "total_tokens": 768
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": true
+    },
+    {
+      "problem_id": 60,
+      "conflict_level": "adversarial",
+      "model_response": "Alex = blue\nBen = green\nCara = red\nDan = yellow",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 325,
+        "total_tokens": 564
+      },
+      "parse_valid": true,
+      "parsed_assignment": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "exact_correct": true,
+      "validation_errors": [],
+      "repair_applied": false
+    }
+  ]
+}

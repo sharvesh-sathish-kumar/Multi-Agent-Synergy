@@ -1,0 +1,1069 @@
+{
+  "phase": "13.2",
+  "phase_name": "Treatment 2 Information-Flow / Serialization Forensic Audit",
+  "api_calls": 0,
+  "model_calls": 0,
+  "read_only": true,
+  "existing_experiment_files_modified": false,
+  "input_hashes": {
+    "frozen_dataset": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "treatment2_spec": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f",
+    "treatment2_raw": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341",
+    "treatment2_scored": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf",
+    "treatment1_raw": "4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3",
+    "treatment1_parsed": "888ed4af7181ef9efc7b87204c28a3b96b3add90d9e55080f7cb55a35e280896",
+    "paired_analysis": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5",
+    "statistical_analysis": "d789694ebb55bfa6eb429eb3a04ee0495a3e350b24e96d0b2632b2af7d87b7bd"
+  },
+  "dataset_fingerprint": "e5a647bf4b77bc24c19b9ad912483bdf6a6e0489a8913dd0ea964465778c586b",
+  "file_availability": {
+    "frozen_dataset": true,
+    "treatment2_spec": true,
+    "treatment2_raw": true,
+    "treatment2_scored": true,
+    "treatment1_raw": true,
+    "treatment1_parsed": true,
+    "paired_analysis": true,
+    "statistical_analysis": true
+  },
+  "structure": {
+    "dataset": {
+      "type": "list",
+      "length": 60,
+      "first_type": "dict",
+      "first_keys": [
+        "agent_a_clues",
+        "agent_a_reliable",
+        "agent_b_clues",
+        "agent_b_reliable",
+        "agent_c_clues",
+        "agent_c_reliable",
+        "conflict_level",
+        "ground_truth",
+        "items",
+        "names",
+        "problem_id"
+      ]
+    },
+    "treatment2_spec": {
+      "type": "dict",
+      "keys": [
+        "api_calls",
+        "hypothesis",
+        "phase",
+        "phase_name",
+        "prompt",
+        "quarantined_evidence_forbidden_roles",
+        "quarantined_evidence_role",
+        "read_only_dataset",
+        "treatment_name",
+        "treatment_principle"
+      ],
+      "length": 10
+    },
+    "treatment2_raw": {
+      "type": "list",
+      "length": 60,
+      "first_type": "dict",
+      "first_keys": [
+        "conflict_level",
+        "error",
+        "model",
+        "problem_id",
+        "response",
+        "temperature",
+        "treatment"
+      ]
+    },
+    "treatment2_scored": {
+      "type": "list",
+      "length": 60,
+      "first_type": "dict",
+      "first_keys": [
+        "conflict_level",
+        "ground_truth",
+        "problem_id",
+        "treatment_correct",
+        "treatment_parse_success",
+        "treatment_predicted"
+      ]
+    },
+    "treatment1_raw": {
+      "type": "list",
+      "length": 62,
+      "first_type": "dict",
+      "first_keys": [
+        "conflict_level",
+        "error_message",
+        "error_type",
+        "finish_reason",
+        "finished_at",
+        "problem_id",
+        "response",
+        "started_at",
+        "success",
+        "usage"
+      ]
+    },
+    "treatment1_parsed": {
+      "type": "dict",
+      "keys": [
+        "api_calls",
+        "by_conflict_level",
+        "created_at",
+        "dataset",
+        "phase",
+        "phase_name",
+        "results",
+        "source_results",
+        "summary"
+      ],
+      "length": 9
+    },
+    "paired_analysis": {
+      "type": "dict",
+      "keys": [
+        "api_calls",
+        "baseline_source",
+        "by_conflict_level",
+        "error_rescue",
+        "mcnemar",
+        "n",
+        "overall",
+        "paired_problem_ids",
+        "phase",
+        "phase_name",
+        "read_only",
+        "rows",
+        "transitions",
+        "treatment_source"
+      ],
+      "length": 14
+    },
+    "statistical_analysis": {
+      "type": "dict",
+      "keys": [
+        "api_calls",
+        "by_conflict_level",
+        "conflict_severity",
+        "incorrect_problems",
+        "overall",
+        "performance_drop",
+        "phase",
+        "phase_name",
+        "source"
+      ],
+      "length": 9
+    }
+  },
+  "dataset": {
+    "records": 60,
+    "ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60"
+    ]
+  },
+  "treatment2": {
+    "raw_records": 60,
+    "unique_ids": 60,
+    "missing_ids": [],
+    "extra_ids": [],
+    "unique_response_hashes": 1,
+    "unique_response_lengths": 1,
+    "unique_response_prefixes": 2,
+    "unique_parsed_predictions": 1,
+    "prediction_distribution": {
+      "('red', 'blue', 'green', 'yellow')": 60
+    },
+    "parse_failures": []
+  },
+  "clue_retention": {
+    "A": {
+      "expected_clues": 180,
+      "found_clues": 0,
+      "missing_clues": 180,
+      "retention_rate": 0.0
+    },
+    "B": {
+      "expected_clues": 180,
+      "found_clues": 0,
+      "missing_clues": 180,
+      "retention_rate": 0.0
+    },
+    "C": {
+      "expected_clues": 125,
+      "found_clues": 0,
+      "missing_clues": 125,
+      "retention_rate": 0.0
+    }
+  },
+  "payload_diagnostics": {
+    "problems_with_any_missing_clues": 60,
+    "problems_with_all_clues_missing": 60,
+    "total_missing_clue_strings": 485,
+    "unique_payload_fingerprints": 4,
+    "unique_payload_fingerprints_after_id_removal": 5
+  },
+  "problem_identity": {
+    "dataset_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60"
+    ],
+    "treatment2_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60"
+    ],
+    "missing_ids": [],
+    "extra_ids": [],
+    "ids_aligned": true,
+    "payload_contains_problem_id_count": 4
+  },
+  "fixed_answer_contamination": {
+    "complete_record": {
+      "Alex=red": 60,
+      "Ben=blue": 60,
+      "Cara=green": 60,
+      "Dan=yellow": 60
+    },
+    "nonresponse_fields": {
+      "Alex=red": 0,
+      "Ben=blue": 0,
+      "Cara=green": 0,
+      "Dan=yellow": 0
+    },
+    "response_fields": {
+      "Alex=red": 60,
+      "Ben=blue": 60,
+      "Cara=green": 60,
+      "Dan=yellow": 60
+    }
+  },
+  "problem_identity_sensitivity": {
+    "ground_truth_changes": 57,
+    "prediction_changes": 0,
+    "prediction_changes_without_response_changes": 0,
+    "response_changes_without_prediction_changes": 0
+  },
+  "recomputed_treatment2": {
+    "valid": 60,
+    "correct": 2,
+    "incorrect": 58,
+    "parse_success": 60,
+    "parse_failure": 0,
+    "accuracy": 0.03333333333333333
+  },
+  "stored_treatment2_score": {
+    "total": 60,
+    "correct": 2,
+    "accuracy": 0.03333333333333333,
+    "parse_success": 60
+  },
+  "score_contradiction": false,
+  "treatment1_treatment2_pairing": {
+    "common_ids": 60,
+    "missing_t1_ids": [],
+    "independent_pair": {
+      "n": 58,
+      "baseline_correct": 46,
+      "treatment_correct": 2,
+      "correct_to_correct": 2,
+      "correct_to_incorrect": 44,
+      "incorrect_to_correct": 0,
+      "incorrect_to_incorrect": 12,
+      "baseline_accuracy": 0.7931034482758621,
+      "treatment_accuracy": 0.034482758620689655,
+      "absolute_change": -0.7586206896551725
+    },
+    "stored_paired_analysis": {
+      "n": 30,
+      "overall": {
+        "baseline_correct": 29,
+        "treatment_correct": 28,
+        "baseline_accuracy": 0.9666666666666667,
+        "treatment_accuracy": 0.9333333333333333,
+        "absolute_improvement": -0.033333333333333326,
+        "relative_improvement": -0.03448275862068965
+      },
+      "transitions": {
+        "correct_to_correct": 27,
+        "correct_to_incorrect": 2,
+        "incorrect_to_correct": 1,
+        "incorrect_to_incorrect": 0,
+        "net_gain": -1
+      },
+      "error_rescue": {
+        "baseline_errors": 1,
+        "rescued_by_treatment": 1,
+        "rescue_rate": 1.0
+      },
+      "paired_problem_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    "contradictions": [
+      {
+        "field": "n",
+        "stored": 30,
+        "independent": 58
+      },
+      {
+        "field": "baseline_correct",
+        "stored": 29,
+        "independent": 46
+      },
+      {
+        "field": "treatment_correct",
+        "stored": 28,
+        "independent": 2
+      }
+    ]
+  },
+  "mechanism_screen": {
+    "prediction_collapse": true,
+    "response_collapse": true,
+    "problem_identity_failure_signature": true,
+    "clue_serialization_failure": true,
+    "complete_clue_serialization_failure": true,
+    "payload_collapse": false,
+    "payload_collapse_after_id_removal": false,
+    "fixed_answer_contamination_nonresponse": false,
+    "stored_score_recomputation_contradiction": false,
+    "stored_paired_analysis_contradiction": true
+  },
+  "interpretation": [
+    "Treatment 2 exhibits extreme prediction collapse.",
+    "Treatment 2 also exhibits extreme raw-response collapse.",
+    "Ground truth changes across problems while Treatment 2 predictions remain unchanged.",
+    "At least one dataset clue expected for Treatment 2 is absent from stored Treatment 2 payload content.",
+    "All Treatment 2 payloads appear to omit the dataset clue strings inspected by this audit.",
+    "The stored paired analysis does not agree with independent T1/T2 reconstruction."
+  ],
+  "decision_gate": "STOP_BEFORE_TREATMENT_3: Implementation / serialization / record-alignment issues remain unresolved.",
+  "sample_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "sample_payloads": {
+    "1": {
+      "raw_record": {
+        "problem_id": 1,
+        "conflict_level": "low_conflict",
+        "treatment": "reliability_gated_constraint_solving",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0,
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "error": null
+      },
+      "dataset_record": {
+        "problem_id": 1,
+        "conflict_level": "low_conflict",
+        "names": [
+          "Alex",
+          "Ben",
+          "Cara",
+          "Dan"
+        ],
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "ground_truth": {
+          "Alex": "blue",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "green"
+        },
+        "agent_a_clues": [
+          "Dan does not have yellow.",
+          "Cara does not have green.",
+          "Alex does not have green."
+        ],
+        "agent_b_clues": [
+          "Alex has blue.",
+          "Dan has green.",
+          "Ben has yellow."
+        ],
+        "agent_c_clues": [
+          "Cara has red.",
+          "Ben does not have blue."
+        ],
+        "agent_a_reliable": true,
+        "agent_b_reliable": true,
+        "agent_c_reliable": false
+      },
+      "payload_diagnostic": {
+        "problem_id": "1",
+        "total_strings": 11,
+        "nonempty_strings": 11,
+        "serialized_hash": "42894e25f8689f096b8d0cd51259e0cb439e598c9a2470b601deb33b6d3c5c3a",
+        "contains_problem_id": true,
+        "contains_agent_A_label": false,
+        "contains_agent_B_label": false,
+        "contains_agent_C_label": false,
+        "contains_reliability_terms": true,
+        "contains_clue_like_terms": true,
+        "contains_fixed_assignment": true,
+        "fixed_assignment_occurrences": {
+          "Alex=red": 1,
+          "Ben=blue": 1,
+          "Cara=green": 1,
+          "Dan=yellow": 1
+        },
+        "dataset_clues_found": {
+          "A": [],
+          "B": [],
+          "C": []
+        },
+        "dataset_clues_missing": {
+          "A": [
+            "Dan does not have yellow.",
+            "Cara does not have green.",
+            "Alex does not have green."
+          ],
+          "B": [
+            "Alex has blue.",
+            "Dan has green.",
+            "Ben has yellow."
+          ],
+          "C": [
+            "Cara has red.",
+            "Ben does not have blue."
+          ]
+        }
+      },
+      "response_inventory": {
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "normalized": "alex = red ben = blue cara = green dan = yellow",
+        "hash": "d3f56f2a40eaf77573151e80ac07fa93542931e9ff661860790b1bdefa32bfc3",
+        "length": 47,
+        "prefix_250": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow"
+      },
+      "parsed_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "2": {
+      "raw_record": {
+        "problem_id": 2,
+        "conflict_level": "low_conflict",
+        "treatment": "reliability_gated_constraint_solving",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0,
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "error": null
+      },
+      "dataset_record": {
+        "problem_id": 2,
+        "conflict_level": "low_conflict",
+        "names": [
+          "Alex",
+          "Ben",
+          "Cara",
+          "Dan"
+        ],
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "ground_truth": {
+          "Alex": "blue",
+          "Ben": "green",
+          "Cara": "red",
+          "Dan": "yellow"
+        },
+        "agent_a_clues": [
+          "Ben has green.",
+          "Cara does not have green.",
+          "Alex does not have green."
+        ],
+        "agent_b_clues": [
+          "Dan does not have red.",
+          "Cara has red.",
+          "Ben does not have yellow."
+        ],
+        "agent_c_clues": [
+          "Dan has yellow.",
+          "Alex has blue."
+        ],
+        "agent_a_reliable": true,
+        "agent_b_reliable": false,
+        "agent_c_reliable": true
+      },
+      "payload_diagnostic": {
+        "problem_id": "2",
+        "total_strings": 11,
+        "nonempty_strings": 11,
+        "serialized_hash": "42894e25f8689f096b8d0cd51259e0cb439e598c9a2470b601deb33b6d3c5c3a",
+        "contains_problem_id": true,
+        "contains_agent_A_label": false,
+        "contains_agent_B_label": false,
+        "contains_agent_C_label": false,
+        "contains_reliability_terms": true,
+        "contains_clue_like_terms": true,
+        "contains_fixed_assignment": true,
+        "fixed_assignment_occurrences": {
+          "Alex=red": 1,
+          "Ben=blue": 1,
+          "Cara=green": 1,
+          "Dan=yellow": 1
+        },
+        "dataset_clues_found": {
+          "A": [],
+          "B": [],
+          "C": []
+        },
+        "dataset_clues_missing": {
+          "A": [
+            "Ben has green.",
+            "Cara does not have green.",
+            "Alex does not have green."
+          ],
+          "B": [
+            "Dan does not have red.",
+            "Cara has red.",
+            "Ben does not have yellow."
+          ],
+          "C": [
+            "Dan has yellow.",
+            "Alex has blue."
+          ]
+        }
+      },
+      "response_inventory": {
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "normalized": "alex = red ben = blue cara = green dan = yellow",
+        "hash": "d3f56f2a40eaf77573151e80ac07fa93542931e9ff661860790b1bdefa32bfc3",
+        "length": 47,
+        "prefix_250": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow"
+      },
+      "parsed_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "3": {
+      "raw_record": {
+        "problem_id": 3,
+        "conflict_level": "low_conflict",
+        "treatment": "reliability_gated_constraint_solving",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0,
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "error": null
+      },
+      "dataset_record": {
+        "problem_id": 3,
+        "conflict_level": "low_conflict",
+        "names": [
+          "Alex",
+          "Ben",
+          "Cara",
+          "Dan"
+        ],
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "ground_truth": {
+          "Alex": "green",
+          "Ben": "yellow",
+          "Cara": "red",
+          "Dan": "blue"
+        },
+        "agent_a_clues": [
+          "Ben has yellow.",
+          "Dan has blue.",
+          "Ben does not have red."
+        ],
+        "agent_b_clues": [
+          "Ben has yellow.",
+          "Alex has green.",
+          "Dan does not have red."
+        ],
+        "agent_c_clues": [
+          "Alex does not have red.",
+          "Cara does not have blue."
+        ],
+        "agent_a_reliable": false,
+        "agent_b_reliable": true,
+        "agent_c_reliable": true
+      },
+      "payload_diagnostic": {
+        "problem_id": "3",
+        "total_strings": 11,
+        "nonempty_strings": 11,
+        "serialized_hash": "42894e25f8689f096b8d0cd51259e0cb439e598c9a2470b601deb33b6d3c5c3a",
+        "contains_problem_id": false,
+        "contains_agent_A_label": false,
+        "contains_agent_B_label": false,
+        "contains_agent_C_label": false,
+        "contains_reliability_terms": true,
+        "contains_clue_like_terms": true,
+        "contains_fixed_assignment": true,
+        "fixed_assignment_occurrences": {
+          "Alex=red": 1,
+          "Ben=blue": 1,
+          "Cara=green": 1,
+          "Dan=yellow": 1
+        },
+        "dataset_clues_found": {
+          "A": [],
+          "B": [],
+          "C": []
+        },
+        "dataset_clues_missing": {
+          "A": [
+            "Ben has yellow.",
+            "Dan has blue.",
+            "Ben does not have red."
+          ],
+          "B": [
+            "Ben has yellow.",
+            "Alex has green.",
+            "Dan does not have red."
+          ],
+          "C": [
+            "Alex does not have red.",
+            "Cara does not have blue."
+          ]
+        }
+      },
+      "response_inventory": {
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "normalized": "alex = red ben = blue cara = green dan = yellow",
+        "hash": "d3f56f2a40eaf77573151e80ac07fa93542931e9ff661860790b1bdefa32bfc3",
+        "length": 47,
+        "prefix_250": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow"
+      },
+      "parsed_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "4": {
+      "raw_record": {
+        "problem_id": 4,
+        "conflict_level": "low_conflict",
+        "treatment": "reliability_gated_constraint_solving",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0,
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "error": null
+      },
+      "dataset_record": {
+        "problem_id": 4,
+        "conflict_level": "low_conflict",
+        "names": [
+          "Alex",
+          "Ben",
+          "Cara",
+          "Dan"
+        ],
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "ground_truth": {
+          "Alex": "blue",
+          "Ben": "red",
+          "Cara": "green",
+          "Dan": "yellow"
+        },
+        "agent_a_clues": [
+          "Ben does not have blue.",
+          "Dan does not have red.",
+          "Cara has green."
+        ],
+        "agent_b_clues": [
+          "Dan has yellow.",
+          "Alex does not have red.",
+          "Cara does not have blue."
+        ],
+        "agent_c_clues": [
+          "Ben has red.",
+          "Alex has blue."
+        ],
+        "agent_a_reliable": true,
+        "agent_b_reliable": true,
+        "agent_c_reliable": false
+      },
+      "payload_diagnostic": {
+        "problem_id": "4",
+        "total_strings": 11,
+        "nonempty_strings": 11,
+        "serialized_hash": "42894e25f8689f096b8d0cd51259e0cb439e598c9a2470b601deb33b6d3c5c3a",
+        "contains_problem_id": false,
+        "contains_agent_A_label": false,
+        "contains_agent_B_label": false,
+        "contains_agent_C_label": false,
+        "contains_reliability_terms": true,
+        "contains_clue_like_terms": true,
+        "contains_fixed_assignment": true,
+        "fixed_assignment_occurrences": {
+          "Alex=red": 1,
+          "Ben=blue": 1,
+          "Cara=green": 1,
+          "Dan=yellow": 1
+        },
+        "dataset_clues_found": {
+          "A": [],
+          "B": [],
+          "C": []
+        },
+        "dataset_clues_missing": {
+          "A": [
+            "Ben does not have blue.",
+            "Dan does not have red.",
+            "Cara has green."
+          ],
+          "B": [
+            "Dan has yellow.",
+            "Alex does not have red.",
+            "Cara does not have blue."
+          ],
+          "C": [
+            "Ben has red.",
+            "Alex has blue."
+          ]
+        }
+      },
+      "response_inventory": {
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "normalized": "alex = red ben = blue cara = green dan = yellow",
+        "hash": "d3f56f2a40eaf77573151e80ac07fa93542931e9ff661860790b1bdefa32bfc3",
+        "length": 47,
+        "prefix_250": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow"
+      },
+      "parsed_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "5": {
+      "raw_record": {
+        "problem_id": 5,
+        "conflict_level": "low_conflict",
+        "treatment": "reliability_gated_constraint_solving",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0,
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "error": null
+      },
+      "dataset_record": {
+        "problem_id": 5,
+        "conflict_level": "low_conflict",
+        "names": [
+          "Alex",
+          "Ben",
+          "Cara",
+          "Dan"
+        ],
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "ground_truth": {
+          "Alex": "green",
+          "Ben": "blue",
+          "Cara": "red",
+          "Dan": "yellow"
+        },
+        "agent_a_clues": [
+          "Alex has green.",
+          "Cara has red.",
+          "Dan has yellow."
+        ],
+        "agent_b_clues": [
+          "Cara does not have green.",
+          "Ben has blue.",
+          "Cara does not have yellow."
+        ],
+        "agent_c_clues": [
+          "Ben does not have red.",
+          "Dan does not have blue."
+        ],
+        "agent_a_reliable": true,
+        "agent_b_reliable": false,
+        "agent_c_reliable": true
+      },
+      "payload_diagnostic": {
+        "problem_id": "5",
+        "total_strings": 11,
+        "nonempty_strings": 11,
+        "serialized_hash": "42894e25f8689f096b8d0cd51259e0cb439e598c9a2470b601deb33b6d3c5c3a",
+        "contains_problem_id": false,
+        "contains_agent_A_label": false,
+        "contains_agent_B_label": false,
+        "contains_agent_C_label": false,
+        "contains_reliability_terms": true,
+        "contains_clue_like_terms": true,
+        "contains_fixed_assignment": true,
+        "fixed_assignment_occurrences": {
+          "Alex=red": 1,
+          "Ben=blue": 1,
+          "Cara=green": 1,
+          "Dan=yellow": 1
+        },
+        "dataset_clues_found": {
+          "A": [],
+          "B": [],
+          "C": []
+        },
+        "dataset_clues_missing": {
+          "A": [
+            "Alex has green.",
+            "Cara has red.",
+            "Dan has yellow."
+          ],
+          "B": [
+            "Cara does not have green.",
+            "Ben has blue.",
+            "Cara does not have yellow."
+          ],
+          "C": [
+            "Ben does not have red.",
+            "Dan does not have blue."
+          ]
+        }
+      },
+      "response_inventory": {
+        "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+        "normalized": "alex = red ben = blue cara = green dan = yellow",
+        "hash": "d3f56f2a40eaf77573151e80ac07fa93542931e9ff661860790b1bdefa32bfc3",
+        "length": 47,
+        "prefix_250": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow"
+      },
+      "parsed_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    }
+  }
+}

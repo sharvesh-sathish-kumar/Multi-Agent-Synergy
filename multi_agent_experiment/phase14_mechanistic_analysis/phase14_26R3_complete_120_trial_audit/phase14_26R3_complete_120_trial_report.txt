@@ -1,0 +1,192 @@
+================================================================================
+PHASE 14.26R3 — COMPLETE 120-TRIAL FORENSIC AUDIT
+================================================================================
+
+ZERO API CALLS
+ZERO MODEL CALLS
+READ-ONLY INPUT ANALYSIS
+
+INPUTS
+--------------------------------------------------------------------------------
+Frozen dataset: /content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl
+Fresh C0:       /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0/phase14_25R2R1_c0_all_results.json
+C1 directory:   /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1
+
+EXCLUSIONS
+--------------------------------------------------------------------------------
+Old C0
+Failed 14.25R2 C0
+Diagnostic call
+
+SCORING POLICY
+--------------------------------------------------------------------------------
+Hidden reasoning is NOT treated as final answer.
+Only final response content is parsed.
+Exact four-person assignment required for correctness.
+Incomplete / unresolved outputs are not scored correct.
+
+CONDITION RESULTS
+--------------------------------------------------------------------------------
+
+C0
+Correct: 0/60
+Strict accuracy: 0.00%
+Complete parseable: 0/60
+Partial assignments: 2
+Unparsed final responses: 58
+Incomplete responses: 0
+Empty/refusal: 0
+Parseable-only: 0/0 = nan%
+
+C1
+Correct: 5/60
+Strict accuracy: 8.33%
+Complete parseable: 6/60
+Partial assignments: 20
+Unparsed final responses: 30
+Incomplete responses: 4
+Empty/refusal: 0
+Parseable-only: 5/6 = 83.33%
+
+PAIRED COMPARISON
+--------------------------------------------------------------------------------
+Both correct:   0
+C0 only:        0
+C1 only:        5
+Both incorrect: 55
+Discordant:     5
+Accuracy delta: +8.33 percentage points
+McNemar descriptive statistic: 3.2000
+
+CLASSIFICATION COUNTS
+--------------------------------------------------------------------------------
+INCOMPLETE_FINAL_RESPONSE: 4
+PARSED_CORRECT: 5
+PARSED_INCORRECT: 1
+PARTIAL_ASSIGNMENT: 22
+UNPARSED_FINAL_RESPONSE: 88
+
+UNRESOLVED TRIALS
+--------------------------------------------------------------------------------
+C0 problem 01 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 02 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=222
+C0 problem 03 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 04 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 05 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 06 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 07 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 08 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=83
+C0 problem 09 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 10 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 11 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 12 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 13 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 14 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=99
+C0 problem 15 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 16 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 17 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 18 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 19 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 20 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 21 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 22 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 23 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 24 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 25 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 26 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 27 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 28 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 29 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 30 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 31 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 32 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 33 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 34 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 35 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 36 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 37 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 38 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 39 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 40 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 41 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 42 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 43 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 44 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 45 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=99
+C0 problem 46 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 47 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 48 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 49 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 50 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 51 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=99
+C0 problem 52 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=282
+C0 problem 53 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=138
+C0 problem 54 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 55 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 56 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=420
+C0 problem 57 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C0 problem 58 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=174
+C0 problem 59 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=430
+C0 problem 60 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=131
+C1 problem 01 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=61
+C1 problem 02 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 04 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 05 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=129
+C1 problem 06 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=195
+C1 problem 08 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=61
+C1 problem 09 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 11 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=61
+C1 problem 12 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 13 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 14 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=78
+C1 problem 15 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=61
+C1 problem 16 | INCOMPLETE_FINAL_RESPONSE | finish=length | parser=none | content_len=0
+C1 problem 17 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=658
+C1 problem 18 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=242
+C1 problem 19 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=551
+C1 problem 20 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=298
+C1 problem 21 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=1006
+C1 problem 22 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=455
+C1 problem 23 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=870
+C1 problem 25 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=481
+C1 problem 26 | INCOMPLETE_FINAL_RESPONSE | finish=length | parser=none | content_len=0
+C1 problem 27 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=674
+C1 problem 28 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=536
+C1 problem 29 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=1015
+C1 problem 30 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=494
+C1 problem 31 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=1136
+C1 problem 32 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=488
+C1 problem 34 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=688
+C1 problem 35 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=915
+C1 problem 36 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 37 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=607
+C1 problem 38 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=541
+C1 problem 39 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=77
+C1 problem 40 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=867
+C1 problem 41 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=557
+C1 problem 42 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=794
+C1 problem 43 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=1209
+C1 problem 44 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=1123
+C1 problem 45 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=506
+C1 problem 46 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=299
+C1 problem 47 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=246
+C1 problem 48 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=929
+C1 problem 49 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=384
+C1 problem 50 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=285
+C1 problem 51 | UNPARSED_FINAL_RESPONSE | finish=length | parser=no_whole_text_relations | content_len=47
+C1 problem 52 | INCOMPLETE_FINAL_RESPONSE | finish=length | parser=none | content_len=0
+C1 problem 54 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=799
+C1 problem 55 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=918
+C1 problem 56 | INCOMPLETE_FINAL_RESPONSE | finish=length | parser=none | content_len=0
+C1 problem 57 | PARTIAL_ASSIGNMENT | finish=stop | parser=whole_text_relation | content_len=1095
+C1 problem 58 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=1277
+C1 problem 59 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=570
+C1 problem 60 | UNPARSED_FINAL_RESPONSE | finish=stop | parser=no_whole_text_relations | content_len=355
+
+CORRECT TRIALS
+--------------------------------------------------------------------------------
+C1 problem 03 | assignment_lines
+C1 problem 07 | assignment_lines
+C1 problem 10 | assignment_lines
+C1 problem 24 | assignment_lines
+C1 problem 53 | whole_text_relation

@@ -1,0 +1,35 @@
+{
+  "phase": "14.32",
+  "treatment": 3,
+  "condition": "C1",
+  "trial_id": 25,
+  "problem_id": 25,
+  "fresh_execution": true,
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are given a constrained assignment problem.\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\nConflict level: medium_conflict\n\nEach name must receive exactly one item, and each item must be assigned to exactly one name.\n\nAgent A clues:\n- Cara does not have blue.\n- Alex has blue.\n- Dan has yellow.\nAgent B clues:\n- Ben does not have yellow.\n- Dan does not have green.\n- Ben has green.\nAgent C clues:\n- Alex does not have green.\n- Dan has green.\n\nReturn the final assignment for every name.",
+  "prompt_sha256": "5dda258a4a11cdca733605a56bb3abc88eeed44ea1ecd6b042277d53db6131b1",
+  "response": "**Final assignment**\n\n| Name | Item |\n|------|------|\n| Alex | blue |\n| Ben  | green |\n| Dan  | yellow |\n| Cara | red |\n\nAll constraints are satisfied except the contradictory clue “Dan has green” (Agent C), which cannot hold together with the other consistent clues. This assignment respects every other clue and gives each name a unique item.",
+  "response_length": 344,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 784,
+    "prompt_tokens": 193,
+    "total_tokens": 977,
+    "completion_time": 1.652649372,
+    "completion_tokens_details": {
+      "reasoning_tokens": 697
+    },
+    "prompt_time": 0.008536815,
+    "prompt_tokens_details": null,
+    "queue_time": 0.313123523,
+    "total_time": 1.661186187
+  },
+  "attempts_used": 1,
+  "retry_log": [],
+  "elapsed_seconds": 9.58646297454834,
+  "executed_at_utc": "2026-08-29T04:09:34.434932+00:00",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+}

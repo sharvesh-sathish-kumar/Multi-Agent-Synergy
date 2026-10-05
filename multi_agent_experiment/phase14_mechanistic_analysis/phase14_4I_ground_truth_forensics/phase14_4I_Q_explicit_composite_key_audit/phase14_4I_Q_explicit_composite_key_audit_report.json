@@ -1,0 +1,422 @@
+{
+  "phase": "14.4I-Q",
+  "title": "Explicit Composite-Key GT Provenance Audit",
+  "candidate_fingerprints": {
+    "1": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "2": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "3": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "4": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+    "5": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+  },
+  "artifact_count": 115,
+  "loaded_artifact_count": 115,
+  "gt_bearing_container_count": 6221,
+  "candidate_shared_explicit_pairs": {
+    "1": [
+      {
+        "field": "problem_id",
+        "value_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "gt_match_count": 16,
+        "locations": [
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+            "path": "$.results[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+            "path": "$.results[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+            "path": "$.sample_payloads.1.dataset_record"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+            "path": "$[0]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+            "path": "$[0]"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "field": "problem_id",
+        "value_hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "gt_match_count": 16,
+        "locations": [
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+            "path": "$.results[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+            "path": "$.results[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+            "path": "$.sample_payloads.2.dataset_record"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+            "path": "$[1]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+            "path": "$[1]"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "field": "problem_id",
+        "value_hash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+        "gt_match_count": 16,
+        "locations": [
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+            "path": "$.results[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+            "path": "$.results[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+            "path": "$.sample_payloads.3.dataset_record"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+            "path": "$[2]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+            "path": "$[2]"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "field": "problem_id",
+        "value_hash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "gt_match_count": 15,
+        "locations": [
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+            "path": "$.results[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+            "path": "$.results[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+            "path": "$.sample_payloads.4.dataset_record"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+            "path": "$[3]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+            "path": "$[3]"
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "field": "problem_id",
+        "value_hash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "gt_match_count": 15,
+        "locations": [
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+            "path": "$.results[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+            "path": "$.results[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+            "path": "$.sample_payloads.5.dataset_record"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase1_logic_dataset.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_before_ambiguity_repair.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_final.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_pre_repair.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired.pkl",
+            "path": "$[4]"
+          },
+          {
+            "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_repaired_backup_before_duplicates.pkl",
+            "path": "$[4]"
+          }
+        ]
+      }
+    ]
+  },
+  "composite_results": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "final_status": {
+    "1": {
+      "status": "NO_UNIQUE_EXPLICIT_COMPOSITE_PROVENANCE",
+      "composite_count": 0,
+      "unique_locations": []
+    },
+    "2": {
+      "status": "NO_UNIQUE_EXPLICIT_COMPOSITE_PROVENANCE",
+      "composite_count": 0,
+      "unique_locations": []
+    },
+    "3": {
+      "status": "NO_UNIQUE_EXPLICIT_COMPOSITE_PROVENANCE",
+      "composite_count": 0,
+      "unique_locations": []
+    },
+    "4": {
+      "status": "NO_UNIQUE_EXPLICIT_COMPOSITE_PROVENANCE",
+      "composite_count": 0,
+      "unique_locations": []
+    },
+    "5": {
+      "status": "NO_UNIQUE_EXPLICIT_COMPOSITE_PROVENANCE",
+      "composite_count": 0,
+      "unique_locations": []
+    }
+  },
+  "cross_candidate_composite_collisions": {},
+  "safety": {
+    "candidate_mapping_from_text_collision": false,
+    "problem_number_inference": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "numeric_semantics_used": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "model_output_used": false,
+    "prior_artifacts_modified": false
+  },
+  "changed_previous_artifacts": []
+}

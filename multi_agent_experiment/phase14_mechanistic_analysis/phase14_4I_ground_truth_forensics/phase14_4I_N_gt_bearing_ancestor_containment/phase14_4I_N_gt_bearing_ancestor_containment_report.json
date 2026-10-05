@@ -1,0 +1,1330 @@
+{
+  "phase": "14.4I-N",
+  "title": "GT-BEARING ANCESTOR / CONTAINMENT PROVENANCE AUDIT",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "ground_truth_inference": false,
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "positional_mapping": false,
+    "order_based_mapping": false,
+    "text_collision_identity_inference": false,
+    "proximity_based_gt_assignment": false,
+    "prior_artifact_modification": false
+  },
+  "candidate_identity": {
+    "1": {
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f"
+    },
+    "2": {
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab"
+    },
+    "3": {
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143"
+    },
+    "4": {
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    },
+    "5": {
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+    }
+  },
+  "artifact_statistics": {
+    "discovered_artifacts": 112,
+    "loaded_artifacts": 112
+  },
+  "exact_record_occurrences": {
+    "1": 24,
+    "2": 24,
+    "3": 24,
+    "4": 24,
+    "5": 24
+  },
+  "ancestor_observations": {
+    "1": {
+      "raw": 42,
+      "unique": 42
+    },
+    "2": {
+      "raw": 42,
+      "unique": 42
+    },
+    "3": {
+      "raw": 42,
+      "unique": 42
+    },
+    "4": {
+      "raw": 42,
+      "unique": 42
+    },
+    "5": {
+      "raw": 42,
+      "unique": 42
+    }
+  },
+  "cross_candidate_gt_collisions": [
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[19].value[0].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[19].value[1].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[19].value[2].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[19].value[3].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[19].value[4].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[33].value[0].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[33].value[1].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[33].value[2].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[33].value[3].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "gt_path": "$.selection_hits[33].value[4].ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[10].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[12].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[14].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[16].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[18].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[30].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[32].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[34].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[36].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[38].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[50].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[52].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[54].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[56].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[58].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[70].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[72].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[74].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[76].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.1[78].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[10].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[12].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[14].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[16].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[18].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[30].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[32].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[34].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[36].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[38].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[50].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[52].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[54].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[56].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[58].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[70].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[72].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[74].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[76].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.2[78].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[10].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[12].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[14].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[16].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[18].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[30].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[32].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[34].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[36].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[38].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[50].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[52].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[54].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[56].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[58].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[70].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[72].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[74].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[76].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.3[78].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[10].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[12].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[14].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[16].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[18].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[30].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[32].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[34].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[36].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[38].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[50].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[52].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[54].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[56].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[58].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[70].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[72].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[74].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[76].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.4[78].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[10].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[12].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[14].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[16].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[18].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[30].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[32].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[34].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[36].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[38].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[50].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[52].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[54].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[56].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[58].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[70].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[72].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[74].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[76].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "gt_path": "$.exact_match_contexts.5[78].containing_record.ground_truth",
+      "candidate_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  ],
+  "candidate_status": {
+    "1": {
+      "status": "AMBIGUOUS_GT_BEARING_CONTAINMENT",
+      "unique_gt_locations": 110,
+      "cross_candidate_conflicts": 110,
+      "observation_count": 42
+    },
+    "2": {
+      "status": "AMBIGUOUS_GT_BEARING_CONTAINMENT",
+      "unique_gt_locations": 110,
+      "cross_candidate_conflicts": 110,
+      "observation_count": 42
+    },
+    "3": {
+      "status": "AMBIGUOUS_GT_BEARING_CONTAINMENT",
+      "unique_gt_locations": 110,
+      "cross_candidate_conflicts": 110,
+      "observation_count": 42
+    },
+    "4": {
+      "status": "AMBIGUOUS_GT_BEARING_CONTAINMENT",
+      "unique_gt_locations": 110,
+      "cross_candidate_conflicts": 110,
+      "observation_count": 42
+    },
+    "5": {
+      "status": "AMBIGUOUS_GT_BEARING_CONTAINMENT",
+      "unique_gt_locations": 110,
+      "cross_candidate_conflicts": 110,
+      "observation_count": 42
+    }
+  },
+  "gt_value_hash_counts": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "safety_audit": {
+    "candidate_mapping_from_text_collision": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "problem_number_inference": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "model_output_used": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "prior_artifacts_modified": false
+  }
+}

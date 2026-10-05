@@ -1,0 +1,500 @@
+[
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[147].text",
+    "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[149].text",
+    "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[151].text",
+    "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[153].text",
+    "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[155].text",
+    "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[4].text",
+    "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[6].text",
+    "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[8].text",
+    "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[10].text",
+    "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[12].text",
+    "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 7,
+    "path": "ROOT.execution_code_matches[142].text",
+    "text": "\"text\": \"\\\"baseline_response\\\": \\\"**FINAL ANSWER:**  \\\\nAlex = green  \\\\nBen = blue  \\\\nCara = yellow  \\\\nDan = red  \\\\n\\\\n**REASON:**  \\\\nAgents\\\\u202fA and\\\\u202fB are treated as reliable (no \\\\u201creliable: False\\\\u201d flag).  \\\\n- Agent\\\\u202fA directly assigns each person a distinct colour: Alex\\\\u202f\\\\u2192\\\\u202fgreen, Ben\\\\u202f\\\\u2192\\\\u202fblue, Cara\\\\u202f\\\\u2192\\\\u202fyellow, Dan\\\\u202f\\\\u2192\\\\u202fred.  \\\\n- All of Agent\\\\u202fB\\\\u2019s statements are compatible with these assignments (none of the four persons is red except Dan, and Dan is not blue).  \\\\n\\\\nSince the assignments satisfy every trusted statement and use each colour exactly once, they constitute the consistent solution. Agent\\\\u202fC is marked unreliable, so its claims are ignored.\\\",\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[148].text",
+    "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[150].text",
+    "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[152].text",
+    "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[154].text",
+    "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[156].text",
+    "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[5].text",
+    "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[7].text",
+    "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[9].text",
+    "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[11].text",
+    "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 6,
+    "path": "ROOT.execution_code_matches[13].text",
+    "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 4,
+    "path": "ROOT.treatment_3.conditions.C1_unreliable_exposed.description",
+    "text": "The same reliable-agent information is present, but controlled unreliable-agent information is also admitted into the shared reasoning state."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 4,
+    "path": "ROOT.treatment_3.conditions.C0_reliable_only.description",
+    "text": "Only reliable-agent information is admitted into the shared reasoning state."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 4,
+    "path": "ROOT.C1_nonempty_records[1].response",
+    "text": "- Alex: red  \n- Ben: yellow  \n- Cara: green  \n- Dan: blue"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 4,
+    "path": "ROOT.C1_nonempty_records[2].response",
+    "text": "- Alex: yellow  \n- Ben: red  \n- Cara: blue  \n- Dan"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 4,
+    "path": "ROOT.treatment_3.controlled_variables[4]",
+    "text": "same unreliable-agent information"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 4,
+    "path": "ROOT.treatment_3.controlled_variables[3]",
+    "text": "same reliable-agent information"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 3,
+    "path": "ROOT.treatment_3.independent_variable",
+    "text": "Whether controlled unreliable information is admitted into the shared reasoning state."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 3,
+    "path": "ROOT.treatment_3.primary_comparison",
+    "text": "C1_unreliable_exposed versus C0_reliable_only"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 3,
+    "path": "ROOT.treatment_3.agents.Agent_C.role",
+    "text": "controlled_unreliable_information_source"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 3,
+    "path": "ROOT.treatment_3.agents.Agent_A.role",
+    "text": "reliable_information_source"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 3,
+    "path": "ROOT.treatment_3.agents.Agent_B.role",
+    "text": "reliable_information_source"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 3,
+    "path": "ROOT.treatment_3.controlled_variables[5]",
+    "text": "same agent roles"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.mechanistic_target.causal_prediction",
+    "text": "Holding the underlying problem, reliable-agent information, model, prompt structure, and output contract constant, exposure to unreliable information should increase the probability of an incorrect final answer."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.mechanistic_target.hypothesis",
+    "text": "When an unreliable agent's information is allowed to enter the shared reasoning state, collective performance can decrease relative to a matched condition in which that unreliable information is excluded."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[1]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.execution_code_matches[2].file",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.execution_code_matches[3].file",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.execution_code_matches[17].text",
+    "text": "\"checkpoint\": \"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\""
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[16]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[3]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[4]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_pre_execution_validation.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+    "score": 2,
+    "path": "ROOT.design_source",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[10]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.execution_code_matches[14].file",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[15]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.execution_code_matches[15].file",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.execution_code_matches[141].text",
+    "text": "\"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\","
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[12]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.source_artifacts.raw_results",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[13]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.source_artifacts.checkpoint",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+    "score": 2,
+    "path": "ROOT.candidate_execution_files[14]",
+    "text": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.outcome_logic.does_not_support_mechanism",
+    "text": "C1 does not degrade relative to C0, or the observed difference is not reproducible under the predefined analysis."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.outcome_logic.supports_mechanism",
+    "text": "C1 shows a reproducible degradation in correctness relative to C0 under the matched controlled comparison."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R1_t3_c0_spec_recovery/phase14_25R1_c0_verified_specification.json",
+    "score": 2,
+    "path": "ROOT.c0_definition",
+    "text": "For each problem, include exactly those agents whose agent_*_reliable flag is True."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.dependent_variable",
+    "text": "Final-answer correctness under the predetermined ground truth."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.scientific_boundaries[0]",
+    "text": "Does not reproduce historical Agent A/B/C model assignments."
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.identifier",
+    "text": "T3_information_flow_contamination_ablation"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[11]",
+    "text": "same randomization policy where applicable"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[10]",
+    "text": "same maximum token policy"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[9]",
+    "text": "same temperature policy"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[2]",
+    "text": "same problem instances"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[6]",
+    "text": "same output contract"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.model.model",
+    "text": "openai/gpt-oss-120b"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[1]",
+    "text": "same model version"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[8]",
+    "text": "same scoring rule"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "score": 2,
+    "path": "ROOT.required_keys[1]",
+    "text": "agent_a_reliable"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "score": 2,
+    "path": "ROOT.required_keys[3]",
+    "text": "agent_b_reliable"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "score": 2,
+    "path": "ROOT.required_keys[5]",
+    "text": "agent_c_reliable"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "score": 2,
+    "path": "ROOT.required_keys[0]",
+    "text": "agent_a_clues"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "score": 2,
+    "path": "ROOT.required_keys[2]",
+    "text": "agent_b_clues"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "score": 2,
+    "path": "ROOT.required_keys[4]",
+    "text": "agent_c_clues"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.status",
+    "text": "DESIGN_ONLY"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[7]",
+    "text": "same parser"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.controlled_variables[0]",
+    "text": "same model"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.conditions.C0_reliable_only.Agent_A",
+    "text": "included"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.conditions.C0_reliable_only.Agent_B",
+    "text": "included"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.conditions.C0_reliable_only.Agent_C",
+    "text": "excluded"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.conditions.C1_unreliable_exposed.Agent_A",
+    "text": "included"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.conditions.C1_unreliable_exposed.Agent_B",
+    "text": "included"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.conditions.C1_unreliable_exposed.Agent_C",
+    "text": "included"
+  },
+  {
+    "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "score": 2,
+    "path": "ROOT.treatment_3.model.provider",
+    "text": "Groq"
+  }
+]

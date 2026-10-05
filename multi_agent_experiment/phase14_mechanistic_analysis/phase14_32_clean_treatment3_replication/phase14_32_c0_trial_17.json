@@ -1,0 +1,35 @@
+{
+  "phase": "14.32",
+  "treatment": 3,
+  "condition": "C0",
+  "trial_id": 17,
+  "problem_id": 17,
+  "fresh_execution": true,
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are given a constrained assignment problem.\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\nConflict level: medium_conflict\n\nEach name must receive exactly one item, and each item must be assigned to exactly one name.\n\nAgent A clues:\n- Ben has green.\n- Cara has blue.\n- Alex does not have yellow.\nAgent B clues:\n- Dan has yellow.\n- Cara does not have yellow.\n- Cara has red.\n\nReturn the final assignment for every name.",
+  "prompt_sha256": "4e60a317a98e44487098e008d7204189245ec0b796430b64c2e1b966cc8469fb",
+  "response": "**Possible consistent assignments (one clue from each agent must be wrong – the conflict is “medium”)**\n\n| Name | Item (if Cara = blue) | Item (if Cara = red) |\n|------|----------------------|----------------------|\n| Alex | red                  | blue                 |\n| Ben  | green                | green                |\n| Cara | **blue** (Agent A true, Agent B’s “Cara has red” false) | **red** (Agent B true, Agent A’s “Cara has blue” false) |\n| Dan  | yellow               | yellow               |\n\nBoth tables satisfy all the other clues:\n\n* Ben = green (Agent A) – satisfied in both.\n* Alex ≠ yellow (Agent A) – satisfied in both.\n* Dan = yellow (Agent B) – satisfied in both.\n* Cara ≠ yellow (Agent B) – satisfied in both.\n\nThus the only unresolved conflict is whether Cara’s item is **blue** or **red**.  \nEither of the two assignments above is a valid solution given the “medium‑conflict” level.",
+  "response_length": 908,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 921,
+    "prompt_tokens": 175,
+    "total_tokens": 1096,
+    "completion_time": 1.915170416,
+    "completion_tokens_details": {
+      "reasoning_tokens": 663
+    },
+    "prompt_time": 0.007285913,
+    "prompt_tokens_details": null,
+    "queue_time": 0.404509186,
+    "total_time": 1.922456329
+  },
+  "attempts_used": 1,
+  "retry_log": [],
+  "elapsed_seconds": 2.4756052494049072,
+  "executed_at_utc": "2026-08-29T04:02:38.660096+00:00",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+}

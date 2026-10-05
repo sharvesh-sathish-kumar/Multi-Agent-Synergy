@@ -1,0 +1,17 @@
+{
+  "phase": "14.24",
+  "trial_id": 2,
+  "condition": "C0",
+  "treatment": "Treatment 3",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 4096,
+  "status": "api_error",
+  "attempts": 5,
+  "error_type": "RateLimitError",
+  "error_message": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m09kvmd7evjsbyn3tc8czyyd` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198427, Requested 4284. Please try again in 19m31.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Ben has green.\n- Cara does not have green.\n- Alex does not have green.\nAgent C clues:\n- Dan has yellow.\n- Alex has blue.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+  "source_prompt_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+  "historical_artifacts_modified": false,
+  "created_at_utc": "2026-08-25T23:32:21.563014+00:00"
+}

@@ -1,0 +1,306 @@
+{
+  "phase": "14.12",
+  "title": "Established Mechanistic Model Formulation",
+  "timestamp_utc": "2026-08-25T17:07:30.258168+00:00",
+  "safety": {
+    "read_only": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "candidate_problem_mapping": false,
+    "agent_model_inference": false,
+    "inference": false,
+    "reconstruction": false,
+    "historical_artifact_modification": false
+  },
+  "source_inventory": {
+    "found": [
+      "14.10H_configuration",
+      "14.10I_direct_provenance",
+      "14.11_mechanistic_integration",
+      "14.2",
+      "14.3A",
+      "14.3B",
+      "14.4B",
+      "14.4D",
+      "14.4G",
+      "14.4H",
+      "T2_raw"
+    ],
+    "missing": []
+  },
+  "structural_inventory": {
+    "14.11_mechanistic_integration": [
+      "Agent_A",
+      "Agent_B",
+      "Agent_C",
+      "accuracy",
+      "control",
+      "ground_truth",
+      "information_flow",
+      "mapping",
+      "openai/gpt-oss-120b",
+      "output_contract",
+      "parser",
+      "reliable",
+      "robustness",
+      "selected",
+      "treatment",
+      "unreliable"
+    ],
+    "14.10I_direct_provenance": [
+      "Agent_A",
+      "Agent_B",
+      "Agent_C",
+      "accuracy",
+      "control",
+      "information_flow",
+      "mapping",
+      "openai/gpt-oss-120b",
+      "reliable",
+      "treatment",
+      "unreliable"
+    ],
+    "14.10H_configuration": [
+      "Agent_A",
+      "accuracy",
+      "mapping",
+      "selected",
+      "treatment"
+    ],
+    "14.4B": [
+      "accuracy",
+      "failure",
+      "openai/gpt-oss-120b",
+      "treatment"
+    ],
+    "14.4D": [
+      "control",
+      "openai/gpt-oss-120b",
+      "treatment"
+    ],
+    "14.4G": [
+      "accuracy",
+      "control",
+      "failure",
+      "openai/gpt-oss-120b",
+      "parser",
+      "selected",
+      "treatment"
+    ],
+    "14.4H": [
+      "ground_truth",
+      "selected",
+      "treatment"
+    ],
+    "14.2": [
+      "accuracy",
+      "failure",
+      "ground_truth",
+      "information_flow",
+      "openai/gpt-oss-120b",
+      "reliable",
+      "robustness",
+      "treatment",
+      "unreliable"
+    ],
+    "14.3A": [
+      "Agent_A",
+      "Agent_B",
+      "Agent_C",
+      "failure",
+      "parser",
+      "reliable",
+      "robustness",
+      "treatment",
+      "unreliable"
+    ],
+    "14.3B": [
+      "Agent_A",
+      "Agent_B",
+      "Agent_C",
+      "ground_truth",
+      "information_flow",
+      "reliable",
+      "treatment",
+      "unreliable"
+    ],
+    "T2_raw": [
+      "Agent_A",
+      "Agent_B",
+      "Agent_C",
+      "openai/gpt-oss-120b",
+      "reliable",
+      "treatment",
+      "unreliable"
+    ]
+  },
+  "historical_configuration_status": {
+    "model_explicit": true,
+    "agent_abc_explicit": true,
+    "treatment_explicit": true,
+    "agent_model_mapping_established": false
+  },
+  "established_observations": [
+    {
+      "id": "OBS-01",
+      "status": "established",
+      "claim": "The experiment contains a measurable multi-agent reasoning performance phenomenon in which multi-agent behavior can fail to improve performance.",
+      "basis": [
+        "Phase 11 treatment outcome",
+        "Phase 12 treatment outcome",
+        "Phase 13 mechanistic investigation"
+      ]
+    },
+    {
+      "id": "OBS-02",
+      "status": "established",
+      "claim": "Agent reliability is an explicit experimental variable in the surviving historical artifacts.",
+      "basis": [
+        "T2 raw results",
+        "Phase 14.2",
+        "Phase 14.3A",
+        "Phase 14.3B"
+      ]
+    },
+    {
+      "id": "OBS-03",
+      "status": "established",
+      "claim": "The experimental pipeline explicitly investigated information flow between agents.",
+      "basis": [
+        "Phase 13 information-flow audit",
+        "Phase 14.1",
+        "Phase 14.2"
+      ]
+    },
+    {
+      "id": "OBS-04",
+      "status": "established",
+      "claim": "Output-contract and parser behavior were separately investigated, rather than assuming every failure was caused by reasoning alone.",
+      "basis": [
+        "Phase 14.4D",
+        "Phase 14.4E",
+        "Phase 14.4F",
+        "Phase 14.4G"
+      ]
+    },
+    {
+      "id": "OBS-05",
+      "status": "established",
+      "claim": "OOD behavior and robustness were explicitly tested during Phase 14.",
+      "basis": [
+        "Phase 14.4A",
+        "Phase 14.4B",
+        "Phase 14.4G",
+        "Phase 14.3A",
+        "Phase 14.3B"
+      ]
+    },
+    {
+      "id": "OBS-06",
+      "status": "established",
+      "claim": "Ground-truth provenance and scoring were independently audited because the original selected-problem mapping was not preserved.",
+      "basis": [
+        "Phase 14.4H",
+        "Phase 14.4I",
+        "Phase 14.4I-A",
+        "Phase 14.11"
+      ]
+    },
+    {
+      "id": "OBS-07",
+      "status": "established",
+      "claim": "The surviving historical artifacts explicitly identify the model openai/gpt-oss-120b.",
+      "basis": [
+        "Phase 14.10I direct historical provenance"
+      ]
+    },
+    {
+      "id": "OBS-08",
+      "status": "established",
+      "claim": "The surviving artifacts contain literal Agent A/B/C structures.",
+      "basis": [
+        "Phase 14.10I",
+        "Phase 13.4 controlled T2 raw results"
+      ]
+    },
+    {
+      "id": "OBS-09",
+      "status": "established",
+      "claim": "The surviving artifacts do not establish the exact historical mapping from Agent A/B/C identifiers to model identities.",
+      "basis": [
+        "Phase 14.10I",
+        "Phase 14.11"
+      ]
+    }
+  ],
+  "mechanistic_model": {
+    "model_name": "Reliability-sensitive information-flow failure model",
+    "core_question": "Why can multi-agent AI perform worse than the intended baseline?",
+    "mechanism": "Multi-agent coordination can propagate, incorporate, or amplify unreliable information. When information from agents is treated as usable shared evidence, the system's collective reasoning state can become less reliable than the information available from reliable agents alone.",
+    "mechanistic_chain": [
+      "Agent-level information has heterogeneous reliability.",
+      "Agents communicate information into a shared reasoning process.",
+      "Unreliable information can enter that shared information state.",
+      "Downstream reasoning can condition on contaminated shared information.",
+      "The resulting collective state can produce an incorrect final answer.",
+      "Therefore, adding agents does not guarantee improved performance."
+    ],
+    "important_controls": [
+      "reliability-gated information flow",
+      "controlled output contract",
+      "deterministic parsing",
+      "OOD validation",
+      "robustness testing",
+      "ground-truth/scoring audit"
+    ],
+    "supported_interpretation": "The evidence supports investigating information reliability and information-flow contamination as a causal mechanism of multi-agent degradation.",
+    "not_established": [
+      "Exact Agent A/B/C -> model assignment",
+      "Any missing historical problem-to-record mapping",
+      "A claim that every observed failure is caused exclusively by reliability",
+      "A claim that Treatment 3 has already been validated"
+    ]
+  },
+  "alternative_explanations": [
+    {
+      "candidate": "Output-format / contract failure",
+      "investigated": true,
+      "reason": "Phase 14.4D–F explicitly isolated output-contract and parser behavior."
+    },
+    {
+      "candidate": "OOD generalization failure",
+      "investigated": true,
+      "reason": "Phase 14.4A/B/G explicitly tested OOD behavior."
+    },
+    {
+      "candidate": "Ground-truth / scoring artifact",
+      "investigated": true,
+      "reason": "Phase 14.4H/I and 14.4I-A audited provenance and scoring."
+    },
+    {
+      "candidate": "Reliability / information-flow contamination",
+      "investigated": true,
+      "reason": "Phase 13 and Phase 14 explicitly manipulated or audited reliability and information flow."
+    }
+  ],
+  "treatment3_justification": {
+    "justified": true,
+    "reason": "The mechanism is sufficiently defined and experimentally testable using a new controlled design. The missing historical Agent A/B/C -> model mapping remains explicitly unresolved and is not reconstructed."
+  },
+  "scientific_boundary": {
+    "historical_reproduction": "NOT CLAIMED",
+    "historical_agent_model_mapping": "UNRECOVERED",
+    "causal_hypothesis": "RELIABILITY-SENSITIVE INFORMATION-FLOW CONTAMINATION",
+    "treatment3": "NOT EXECUTED IN THIS PHASE",
+    "new_experiment_required": "YES",
+    "new_experiment_must_be_controlled": "YES"
+  },
+  "no_new_experiment_executed": true,
+  "no_historical_artifact_modified": true
+}

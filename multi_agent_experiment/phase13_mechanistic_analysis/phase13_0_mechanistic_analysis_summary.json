@@ -1,0 +1,26 @@
+{
+  "phase": "13.0",
+  "purpose": "Mechanistic failure analysis before Treatment 3",
+  "zero_api_calls": true,
+  "zero_model_calls": true,
+  "read_only_existing_artifacts": true,
+  "statistical_significance_testing": false,
+  "dataset_count": 60,
+  "candidate_raw_result_sets": [
+    "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json"
+  ],
+  "hypotheses": [
+    {
+      "code": "PREDICTION_COLLAPSE",
+      "description": "Extremely low output diversity suggests the system may be producing a near-fixed answer independent of problem identity."
+    },
+    {
+      "code": "CONFLICT_SENSITIVITY",
+      "description": "Conflict level should be examined as a possible driver of reasoning degradation."
+    },
+    {
+      "code": "RELIABILITY_INTERACTION",
+      "description": "Different reliability configurations provide a natural test of whether the system actually uses reliability information."
+    }
+  ]
+}

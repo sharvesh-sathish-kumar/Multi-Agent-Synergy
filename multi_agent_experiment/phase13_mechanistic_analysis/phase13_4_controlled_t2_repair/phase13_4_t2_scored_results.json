@@ -1,0 +1,1117 @@
+[
+  {
+    "problem_id": "1",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "blue",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "004af88725e317372e43032fd60246c4732f4ceb483b24a7216f78b27dba450b",
+    "prompt_sha256": "b8de8f6de1c6295879e9ea89a9085f80256794e5030078ad56c664adb59cea17",
+    "payload_sha256": "80f18cab260f56dc098b72961a6c704829a7a94b24b7b7cbda37b060ac7c2135",
+    "error": null
+  },
+  {
+    "problem_id": "2",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "9b9e5b6484c4de127f193dd86ab24beb535bed8d5eaabb259bf50d0162827e92",
+    "prompt_sha256": "a13942c7ea8584a01fb775b99eedaded6e3c45e2733bf66ecb33fabdf3ab07c3",
+    "payload_sha256": "5d6f6ec2c430b56eac0caa5398b486d8cc77f1c6f5b37a7e1d8e10e5cf17436b",
+    "error": null
+  },
+  {
+    "problem_id": "3",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "055d15597633182de9e9d8fc18f6a2cd99307b96ff9f3fd0a17d43ed9a4917d0",
+    "payload_sha256": "4adcf197ff72811102adcffe97a1c6aa97235ff291e66a433e34ce50df77ac3d",
+    "error": null
+  },
+  {
+    "problem_id": "4",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "3737fee8b57f5a3db1ec49c06493fa2d1fc2effb0af4665333b0e75129f3ab47",
+    "prompt_sha256": "c738cf578cc1ec8a8003c01891f461e4e5de71976aa8a7098b437de33bde0e7f",
+    "payload_sha256": "b742b235d4ac84de34a1dbc44cb8c5f2a42de35a92c3565381cc73b351ea1fa7",
+    "error": null
+  },
+  {
+    "problem_id": "5",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "green",
+      "blue",
+      "red",
+      "yellow"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "3d8a90d3a8673fda4b47a63b613b822f7305a38f1f1743646f2e02c3f5146749",
+    "prompt_sha256": "49615e16a970a484144e13c5859fe983d434857897e7aa0ccc2f5569baf7e4a1",
+    "payload_sha256": "989eafbc8dc4675e704abbcbbec4c8f592082860c1eea750263e8ec15dca8c1b",
+    "error": null
+  },
+  {
+    "problem_id": "6",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "yellow",
+      "green",
+      "red",
+      "blue"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "fc7b88c80cb2a1779280b1ef153242c87d843933961c4fc96af1de65aabb5dcc",
+    "prompt_sha256": "73b9dca1a461f0b564080af60366bb54139ca6ba65e114fdf29f3a7147f0d1e6",
+    "payload_sha256": "c0d858b004f74407379dd51bb522a845edf19eb38a1bd3726774103ec6f02b76",
+    "error": null
+  },
+  {
+    "problem_id": "7",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "yellow",
+      "red",
+      "blue",
+      "green"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "4c175595232dfd295e309647d1696c1c5b0901674a66c7b077271e39776ede36",
+    "prompt_sha256": "9090d70898d47cd2378e5236b8027c23fee49e526d638edfb1475c35ca2a0c12",
+    "payload_sha256": "db72138d228f104eb1c65691505f9c55f312f26ce3c014afcb3bd457ce1a55cc",
+    "error": null
+  },
+  {
+    "problem_id": "8",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "75e19ce1d5eb1f96416210ce6170214ce96c84de42ffc4fe41c186b8e6f22fdd",
+    "prompt_sha256": "10335f80bb631ab8cb1d1b4d88918d54474923b5f4abc97663fcb6e5338e1b13",
+    "payload_sha256": "a5602c97655921f0829ac714c5e23b0ef4a971987543bf70dcea1562be5fc964",
+    "error": null
+  },
+  {
+    "problem_id": "9",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "c24616456c847149159216536598bc37525ce8635791df60b58c0be1a2df3f35",
+    "payload_sha256": "0121a5d28f17986108f6e563e297e481bda7944de293488e864e641efeda144f",
+    "error": null
+  },
+  {
+    "problem_id": "10",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "bd21ad262c3edb8dc3a427e89df5cce1b8154f6d0c2649f376a09571f4969d7a",
+    "payload_sha256": "28ab490797d62b912d53f02235132a0c9a8c0f35decfa4cc735740790e172ee4",
+    "error": null
+  },
+  {
+    "problem_id": "11",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "e3b548caf41c6263998663c18a39595ec668c3d1730d7529f1e893046bf4e194",
+    "payload_sha256": "61fe6ec5c66ec3af53d96916bb7c8464104238d7677b89b7589020a3ece49df1",
+    "error": null
+  },
+  {
+    "problem_id": "12",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "326540c700f1266f9cffdf533915c4406735bdb1ff3c8c16ab8a97c420e17ecd",
+    "payload_sha256": "d59357be06567b2058820a1ff32544defbd3b40f548e38afd9dce148b2373971",
+    "error": null
+  },
+  {
+    "problem_id": "13",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "8ad3379ae6b6e75d082a62da229353a819ad8d68f16965896ab03e09e5c2fa2f",
+    "payload_sha256": "204addc4ccd93d3af2309c3956c77dead0d81fddb68c2685672750248a644f33",
+    "error": null
+  },
+  {
+    "problem_id": "14",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "cc75b32ff8e0333f914e0ec3f425ba9820272b3371e1e0f05d06717970822abe",
+    "payload_sha256": "4e5db5ce3d847f8f99c466ebb7171aa76e16efbe03162aa49888d92a67bdfb80",
+    "error": null
+  },
+  {
+    "problem_id": "15",
+    "conflict_level": "low_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "93b53efb6da3c6470da2776840e9edbdee473532ec583eea8b97a7d9f7a334a7",
+    "payload_sha256": "b869737402877a94b80f1f8cc74298f1f5c8df18e79593061e344fbb126cc6d6",
+    "error": null
+  },
+  {
+    "problem_id": "16",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "green",
+      "red",
+      "blue",
+      "yellow"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "351b8dd4b98d1d0e3f7173d88c5bfbbf79bfb6b08f5ff5f67060156790a22513",
+    "prompt_sha256": "765dde797a45b44e5f5e919281165461af016629661db7582d05dfac9b504d3d",
+    "payload_sha256": "ac2ca03eeed97a3fc313995038a9335fad8bf61e6867f950488c647471d8567a",
+    "error": null
+  },
+  {
+    "problem_id": "17",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "79cf0ad3557bffbd463a513004658d4d5473f98a97939f0cf6bb944c44283aeb",
+    "payload_sha256": "ee4b4fed48f218c1b9a499189853757be264086f3fbf94d960edfeee9f454199",
+    "error": null
+  },
+  {
+    "problem_id": "18",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "31559b5d01b242800d85b7b5629552c4d78fb3b96d6879b7742da5714f709318",
+    "payload_sha256": "e370141619a2c1ff5b7f984d6f4f878373846feaa7841dbedc48c94e51f444bb",
+    "error": null
+  },
+  {
+    "problem_id": "19",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "95d8862c48a219cf7e8a313f03d84167fd88dc4a57d1b101d96547139ca22771",
+    "payload_sha256": "47dabb988328675785446c481d3ee5f73f20a1f9e83317b2bc4af799b04344aa",
+    "error": null
+  },
+  {
+    "problem_id": "20",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "green",
+      "blue",
+      "yellow",
+      "red"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "ce755f3537b27d90ded6cd0aa3f931edacbb654e9814073b54e7a028e102f8f1",
+    "prompt_sha256": "6141cc29e7ec1accc22f9f25268ec0141947d343155b5a191e7e18255b83d26a",
+    "payload_sha256": "db29a3b6bda52f967202a7e85331e7fff524eef07bbed8f3f190c73f8db2fd84",
+    "error": null
+  },
+  {
+    "problem_id": "21",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "86cdc901677c86238afcf9326623f63368442515e388aa9dda19395990ea0d19",
+    "payload_sha256": "f8ba526445eec82ae225f355c9cec05c981c6e370a48ecba12d6e3e71bedec9d",
+    "error": null
+  },
+  {
+    "problem_id": "22",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "87bd6bef60ff5c19ea24d502a25287d0cdbb212f2c268c4931e3f0c838a58f9d",
+    "payload_sha256": "2f66233a6814d4ba8b5a4ad9d1881498fc904fc487eeeab614140031d4fa73d2",
+    "error": null
+  },
+  {
+    "problem_id": "23",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "c130bb6b40adb36a2db9b24a0014cf12c0cb7dd0d2ca8af66cf065a979a26def",
+    "prompt_sha256": "f1c9aea5f62e9324f981ec78487db8a9c8f924fc42c3458f1f3ae90fdb927987",
+    "payload_sha256": "99fd3af5437b3cd4d3673bb686d2ba3a7a28799114095d149672673f4dc37d9b",
+    "error": null
+  },
+  {
+    "problem_id": "24",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "fe9da52b77b3f1fe905fb736f817b0fc5502880542aff930050b2479c1210c2c",
+    "payload_sha256": "2db2e41565ae4a0cce2a9a13f801860ef71c9a4471a972aebebba774f983d506",
+    "error": null
+  },
+  {
+    "problem_id": "25",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "41a605947c218116322ccecc246a84a0b6a32466cc0427c457987cc5f613c478",
+    "payload_sha256": "52a330841862128fd056a1bc83f4a8ccfd5b22e8ca1b0374681cef0900242b37",
+    "error": null
+  },
+  {
+    "problem_id": "26",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "cad9d028f1875a081fbcd5eff7b2ca3bc1ac7dac4b1b92f0845f269c0136b53e",
+    "payload_sha256": "0c6913a5d71c11e2b37080698224cedf429b8a7f41f357b921b5db66d725fb91",
+    "error": null
+  },
+  {
+    "problem_id": "27",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "20b2418f8128772c3d697855f4c2246ce624286d675718c500d0874e747a5264",
+    "payload_sha256": "81255f2eea8716ae4558532451233cd58487b2588996f8bb9ee99c6c3750dd61",
+    "error": null
+  },
+  {
+    "problem_id": "28",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "blue",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "004af88725e317372e43032fd60246c4732f4ceb483b24a7216f78b27dba450b",
+    "prompt_sha256": "bbbd364144ef467900e0f5bf8a0b1a510b8a28d2abdd29337cfe50a9c0b6d6c0",
+    "payload_sha256": "b5226d98171f61651baf5092a1a6e8bdba9c672a7e094259212b5168885a3efc",
+    "error": null
+  },
+  {
+    "problem_id": "29",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "green",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "36b9ac348bb9b58d8bece479734c1213357e24107a27b39ca65ca17ce8058100",
+    "prompt_sha256": "296ae9b2fd607a19b6daf8bbfc2ea89bc1c4978667b9bc11bae4688e1f710de3",
+    "payload_sha256": "ceb08920fc4d4ef552dec0ade24d7ff9c12f6368d2c38bea97127952206d20cf",
+    "error": null
+  },
+  {
+    "problem_id": "30",
+    "conflict_level": "medium_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "a651488c2a152ac405c78c988459e7a649f7354c27a454bfe48ecabae48a806d",
+    "payload_sha256": "631d9de035549e545de79cbbb21d4731d04c8dd0f5446d2831544cd7bdae1262",
+    "error": null
+  },
+  {
+    "problem_id": "31",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "blue",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "004af88725e317372e43032fd60246c4732f4ceb483b24a7216f78b27dba450b",
+    "prompt_sha256": "0f57fe6e20230cff1d7061e26e84b3d2987b6b75a9c9a91c85d9ffe03c7de4f7",
+    "payload_sha256": "92d090e7085daa76e6db28de80ca13d0c086d60638ee3030d358834eb1b01da5",
+    "error": null
+  },
+  {
+    "problem_id": "32",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "33413d456f8ace9b95017bcf4acfaa275d1a2a626d76df5dee5944956302a7aa",
+    "payload_sha256": "2641f823c93d5fc87e19e50beab749aeddf64c7d7bb275c162256de3e551c08f",
+    "error": null
+  },
+  {
+    "problem_id": "33",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "f2c86f8c6193b3e5e6ec8d923f57a8128e97852ab2c4378b00182a99e6b85f89",
+    "payload_sha256": "7e6ae4a95ca6384a0510344a52d7f380710c84eb15e5ec4cc807920e2dbe9c47",
+    "error": null
+  },
+  {
+    "problem_id": "34",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "d33d826602d5479259d1741d545646c8c060eb320073cfd763b00218f3053529",
+    "prompt_sha256": "8fe7b563ef73d03161c1ab70381a382839d399121fab180bf2851f74fca3b4d7",
+    "payload_sha256": "0ebb028426f45ca7688325384058bfd85f2455ede782a546b53e27a311fa6c7a",
+    "error": null
+  },
+  {
+    "problem_id": "35",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "2986fa028eed8a924606adac49562e5a2ce3c3fa4fa09b3ee98ecd2e5c66b138",
+    "payload_sha256": "cf5759e68ae0793a9647e7395923aebba388cf4b766405507017fbf40c5b1e88",
+    "error": null
+  },
+  {
+    "problem_id": "36",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "7b7a28195532affe92710b72fd935e6c8bda15ec5de9eb41bd87a02b627913ff",
+    "payload_sha256": "95c88c52bb7e2e593db828a25e23f345080edf34a4dd8bf83fff98f78a9fdcfc",
+    "error": null
+  },
+  {
+    "problem_id": "37",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "1ebf65b7ef8bb40f71ba248fa3021b2e4ff6d0398361cf079e2ba6e000a8ae64",
+    "payload_sha256": "c2cbb7686aa63d013d5b41ce510e8f7dd04cb5f8e04e65dc55f09787ad677d28",
+    "error": null
+  },
+  {
+    "problem_id": "38",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "b1e853bd522b4920bb2a8a525b984afea7c4b4d63964baed7d1d199bbc6e759b",
+    "payload_sha256": "c062336382db4ac05fb2a62afb1bae9a8a4c021232c090dbd1f62aba2045bf40",
+    "error": null
+  },
+  {
+    "problem_id": "39",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "90ce6d20928f2abf54e28598a6361f4c4a46d24ed37360f93151418de4a191fe",
+    "payload_sha256": "ae9cc34c95f9cce333fb76896694521e9127d1be4617c6e46e9adb18da39534c",
+    "error": null
+  },
+  {
+    "problem_id": "40",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "22533d98302f7847c68430724624e149df87bf860056186739e4e97c98c5b8c0",
+    "payload_sha256": "cb5741dc14441d4835bad00cb55496f6cc7c6d82d7fb597f89991f948d50ee6b",
+    "error": null
+  },
+  {
+    "problem_id": "41",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "f105f0fe523a82f313651fc594afb2c1755bbb0565d00dff57a9221286c12c0c",
+    "payload_sha256": "096a6c84acb37a984ee12223472291dff4bae127fc0263a70900fd3061783a0d",
+    "error": null
+  },
+  {
+    "problem_id": "42",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "09b0160d50422601d93b8bc361329fd859ef767806e2872a2095a3622187816e",
+    "payload_sha256": "2a7c004d7f5deb372e3151c4f8a3f2f287659c976a2a7a57680532c7f5f36dc1",
+    "error": null
+  },
+  {
+    "problem_id": "43",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "green",
+      "yellow",
+      "blue",
+      "red"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "8e249cb3e75bce9e841586b2d5995e31889d221d559f33d88f956ea264a06526",
+    "prompt_sha256": "ae6f33157e0fb636e04877747ce8d7e6d4db49c7059b948f97afb4f137228483",
+    "payload_sha256": "2f0a747482743244a0b00c21bd571aaeb463a5754aba258324feaac05e604b7e",
+    "error": null
+  },
+  {
+    "problem_id": "44",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "0241d35ea86d6ab5f986f4e7a0ea1b04acea29bf97b2d3791aba1e7c067b92af",
+    "payload_sha256": "a992073bc52b5c0824f10d283f1aa25fb7c84de76020c289f5ed77a43b08b05a",
+    "error": null
+  },
+  {
+    "problem_id": "45",
+    "conflict_level": "high_conflict",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "1c57cf7f17686ab445aaee8bb50fad3d551fdbce0aeae442f77bea40bcb9a077",
+    "prompt_sha256": "a694462eff6cba35b7977986aaff2bee3a39249eaf7cc4501d19ec6e797b171c",
+    "payload_sha256": "da8123dac7b98d16d5a0049b0bb490d947dc1b586f6af339ae9bda6a48dbea1c",
+    "error": null
+  },
+  {
+    "problem_id": "46",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "red",
+      "yellow",
+      "blue",
+      "green"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "8ddddb9b5e3ecc79e720f6a08feacb1c75b7251a2a4af0dd1f68d971af9a2f96",
+    "prompt_sha256": "a837724625cd4ec3f3448b2efda60a0353fe06ce066bc9f71addcb3b95385a4e",
+    "payload_sha256": "85d1707057d46c1f59b7a059cf7be3c928c9725c701b95430b5cf7cea2bc5b23",
+    "error": null
+  },
+  {
+    "problem_id": "47",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "286b0f7883927d915358c844ff61741d3102709fce344060d63eef0113c91de1",
+    "prompt_sha256": "e9edf3ef7b5d6455ce61226aa11af3df8930295611718b468d44f3f3b0c012fe",
+    "payload_sha256": "76d062a7adb43df6483b8455c1b10db451a1bf0c16bb8514063ae862864819a6",
+    "error": null
+  },
+  {
+    "problem_id": "48",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "3cd1807a9ece7527617efcd2c03d57aa20e32e11237f79787cc84dae444e34d8",
+    "payload_sha256": "d82912811052aa4a16e5b72b825fae60662b81c76437920c04bee61b47a9dfd7",
+    "error": null
+  },
+  {
+    "problem_id": "49",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "yellow",
+      "green",
+      "blue",
+      "red"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "d190d19a64a3f192bf9a69dda6447d1fc9ba92d20b8087808e423608213f1b27",
+    "prompt_sha256": "a576de9f4ccfc6d3052106dcd09b90adf8ec4bde9d60d347fda53affd6e45eb9",
+    "payload_sha256": "c70545be8e1780a226d79bcb097578440cc7bff0ba14c0e6d374e10a7dbbbadb",
+    "error": null
+  },
+  {
+    "problem_id": "50",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "75e19ce1d5eb1f96416210ce6170214ce96c84de42ffc4fe41c186b8e6f22fdd",
+    "prompt_sha256": "4358cef971c88048f17e4e905c191c9c0ce6fa43f07babfaa1f7e712f32a37ce",
+    "payload_sha256": "356f7aabeea39d4384d5b813f95bcaeeb12cee6b0b41c9ea2380e4e508370918",
+    "error": null
+  },
+  {
+    "problem_id": "51",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "a178d93e37ed9e97e3faa306a9369c45f57db033081afb8f55259263e2c476d5",
+    "prompt_sha256": "e660d66e5381776cbb51ce489d9e0833546225d8f6983600c3cda12ed6277447",
+    "payload_sha256": "3354e5e3cbfdb87e3f50ae7cab22e7901cf5d39809428998926d48178446bc39",
+    "error": null
+  },
+  {
+    "problem_id": "52",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "a16ea29c2b7ad2bb64c3dcd993e89168decf5ad3d775e24876e140c56a1ee69a",
+    "payload_sha256": "da9253c39b3c001dbf99af4732ee156cbcbd2816bbafbfc30f3b87c2dd4d26a7",
+    "error": null
+  },
+  {
+    "problem_id": "53",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "7604d123a8ebe55832dd38724bdb790d3cc32ea6bce7c70aacf0f5856991eda9",
+    "payload_sha256": "be2967e69af559bd83a524df8d1b9d3340f466964bc14de53d08980fa8840d41",
+    "error": null
+  },
+  {
+    "problem_id": "54",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "cbb2fe485ae9f6bf6012eabb59035413ea09a7c0e602ca6b18b5bcc195fe72ac",
+    "payload_sha256": "2b15845abf4ce78cae3f43cd8bd172d87df262074ff71a06209378178ac06315",
+    "error": null
+  },
+  {
+    "problem_id": "55",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "286b0f7883927d915358c844ff61741d3102709fce344060d63eef0113c91de1",
+    "prompt_sha256": "244e708b12057ccb859e51f8f6396c29a1c033d618671ee61701b65b791a38ee",
+    "payload_sha256": "940b33b105f8060dbb813effbb4dd07e84564d22daa77d4b3aa2febe1fed3a9c",
+    "error": null
+  },
+  {
+    "problem_id": "56",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "7489c23c3a5d03de5c9b9471019882c19ac48bd221b872856655c0f423249d65",
+    "payload_sha256": "161e3c75a6c97f5e7dc5c83a3cfe8bfb842f89cecebe6dacaf8551357c41d354",
+    "error": null
+  },
+  {
+    "problem_id": "57",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "yellow",
+      "blue",
+      "green",
+      "red"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "101962468db327b431c364f2515c1e15256c25d86284947ce45d571ed8fcac40",
+    "prompt_sha256": "ab46f2d084941854e23aa01588cc1c9358d4bebcd04726805043351d5d49ff9d",
+    "payload_sha256": "e0d6a0a15acd8675ef885a62bdff9c3e5f460e50307115cccf36e239a04526bf",
+    "error": null
+  },
+  {
+    "problem_id": "58",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": [
+      "red",
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "treatment_parse_success": true,
+    "treatment_correct": false,
+    "response_sha256": "75e19ce1d5eb1f96416210ce6170214ce96c84de42ffc4fe41c186b8e6f22fdd",
+    "prompt_sha256": "dcdbe27b0f6513b59b8fea79bb51db92594c418a941b3d85692e40b9ad9d0ffc",
+    "payload_sha256": "1ae7a147201452955c09b99f3ebe07376d3ea599cbba2e058579c94c0e0f8d18",
+    "error": null
+  },
+  {
+    "problem_id": "59",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "89713c8f36593c315c0abc10827a7c799db33df4340250a8db01a8fe24d77c8a",
+    "payload_sha256": "f21f21e835cd4bb0090b18366f000045add7620c8d38721daf042431e109d4e8",
+    "error": null
+  },
+  {
+    "problem_id": "60",
+    "conflict_level": "adversarial",
+    "ground_truth": [
+      "alex",
+      "ben",
+      "cara",
+      "dan"
+    ],
+    "treatment_predicted": null,
+    "treatment_parse_success": false,
+    "treatment_correct": false,
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompt_sha256": "5294f1b3a25087c9da2cc781d9ebf1d8de1817ed36a5180b1bc8544832123e22",
+    "payload_sha256": "7a294d4a19d7235ca912e60f5cf52a3b5ece962d09f5bee80d00bdfe66b9548f",
+    "error": null
+  }
+]

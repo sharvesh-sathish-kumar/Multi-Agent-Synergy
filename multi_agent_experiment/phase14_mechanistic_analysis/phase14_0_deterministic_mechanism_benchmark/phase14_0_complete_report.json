@@ -1,0 +1,2496 @@
+{
+  "phase": "14.0",
+  "phase_name": "deterministic_multi_agent_mechanism_benchmark",
+  "timestamp_utc": "2026-08-25T00:16:24.994718+00:00",
+  "read_only": true,
+  "api_calls": 0,
+  "model_calls": 0,
+  "dataset": {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+    "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "n": 60,
+    "unique_problem_ids": 60
+  },
+  "parser": {
+    "total_clues": 8,
+    "parse_failures": 0,
+    "status": "PASS"
+  },
+  "deterministic_solvability": {
+    "solution_count_distribution": {
+      "1": 60
+    },
+    "unique_solution_problems": 60,
+    "multiple_solution_problems": 0,
+    "unsatisfiable_problems": 0
+  },
+  "mechanism_summary": {
+    "n": 60,
+    "reliable_only_unique": 60,
+    "reliable_only_unique_rate": 1.0,
+    "reliable_only_ground_truth_supported": 60,
+    "reliable_only_ground_truth_support_rate": 1.0,
+    "all_agent_unique": 15,
+    "all_agent_unique_rate": 0.25,
+    "all_agent_ground_truth_supported": 15,
+    "all_agent_ground_truth_support_rate": 0.25,
+    "mean_reliable_uncertainty_bits": 0.0,
+    "mean_all_agent_uncertainty_bits": Infinity
+  },
+  "conflict_summary": {
+    "adversarial": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_unique_rate": 1.0,
+      "reliable_support_ground_truth": 15,
+      "reliable_support_rate": 1.0,
+      "all_agents_unique": 0,
+      "all_agents_unique_rate": 0.0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_agent_solution_count": 0.0
+    },
+    "high_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_unique_rate": 1.0,
+      "reliable_support_ground_truth": 15,
+      "reliable_support_rate": 1.0,
+      "all_agents_unique": 0,
+      "all_agents_unique_rate": 0.0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_agent_solution_count": 0.0
+    },
+    "low_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_unique_rate": 1.0,
+      "reliable_support_ground_truth": 15,
+      "reliable_support_rate": 1.0,
+      "all_agents_unique": 15,
+      "all_agents_unique_rate": 1.0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_agent_solution_count": 1.0
+    },
+    "medium_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "reliable_unique_rate": 1.0,
+      "reliable_support_ground_truth": 15,
+      "reliable_support_rate": 1.0,
+      "all_agents_unique": 0,
+      "all_agents_unique_rate": 0.0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_agent_solution_count": 0.0
+    }
+  },
+  "agent_summary": {
+    "Agent_A": {
+      "n": 60,
+      "unique_solution_rate": 0.15,
+      "ground_truth_support_rate": 0.75,
+      "mean_solution_count": 2.9,
+      "solution_count_distribution": {
+        "10": 3,
+        "6": 3,
+        "2": 23,
+        "3": 1,
+        "1": 16,
+        "11": 3,
+        "0": 4,
+        "4": 7
+      }
+    },
+    "Agent_B": {
+      "n": 60,
+      "unique_solution_rate": 0.16666666666666666,
+      "ground_truth_support_rate": 0.75,
+      "mean_solution_count": 2.433333333333333,
+      "solution_count_distribution": {
+        "1": 14,
+        "4": 12,
+        "3": 2,
+        "2": 22,
+        "0": 5,
+        "6": 4,
+        "10": 1
+      }
+    },
+    "Agent_C": {
+      "n": 60,
+      "unique_solution_rate": 0.0,
+      "ground_truth_support_rate": 0.75,
+      "mean_solution_count": 6.466666666666667,
+      "solution_count_distribution": {
+        "4": 17,
+        "2": 11,
+        "14": 13,
+        "6": 13,
+        "12": 3,
+        "1": 2,
+        "0": 1
+      }
+    }
+  },
+  "benchmark_rows": [
+    {
+      "problem_id": "1",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 10,
+        "Agent_B": 1,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "2",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 6,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "3",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 1,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "4",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 3,
+        "Agent_B": 3,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "5",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "6",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 11,
+        "Agent_B": 2,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "7",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "8",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 4,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "9",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "10",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "11",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 1,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "12",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 1,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "13",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 6,
+        "Agent_B": 2,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "14",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "15",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 1,
+      "all_agents_support_ground_truth": true,
+      "all_agents_unique": true,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": 0.0,
+      "reliability_information_gain_bits": 0.0
+    },
+    {
+      "problem_id": "16",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 10,
+        "Agent_B": 1,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "17",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "18",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 0,
+        "Agent_B": 2,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "19",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 6,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "20",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 0,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "21",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 1,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "22",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 6,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "23",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 0,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "24",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "yellow",
+        "red",
+        "green",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 1,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "25",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 6,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "26",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 0,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "27",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 0,
+        "Agent_B": 6,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "28",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "29",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "30",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 4,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "31",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "32",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 4,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "33",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "yellow",
+        "red",
+        "green",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 2,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "34",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "35",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 2,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "36",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 12
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "37",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 10,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "38",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 0,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "39",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 0,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "40",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 4,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "41",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 12
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "42",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 6,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "43",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 4,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "44",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 1,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "45",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 0,
+        "Agent_B": 1,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "46",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "47",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "48",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "49",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 11,
+        "Agent_B": 1,
+        "Agent_C": 1
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "50",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 1,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "51",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 14
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "52",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 10,
+        "Agent_B": 2,
+        "Agent_C": 0
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "53",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 1,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "54",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 3,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "55",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 4,
+        "Agent_B": 4,
+        "Agent_C": 2
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "56",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 0,
+        "Agent_C": 12
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "57",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 6
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "58",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_B"
+      ],
+      "unreliable_agents": [
+        "Agent_C"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 11,
+        "Agent_B": 1,
+        "Agent_C": 1
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "59",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "reliable_agents": [
+        "Agent_A",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_B"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 2,
+        "Agent_B": 1,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    },
+    {
+      "problem_id": "60",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "reliable_agents": [
+        "Agent_B",
+        "Agent_C"
+      ],
+      "unreliable_agents": [
+        "Agent_A"
+      ],
+      "individual_solution_counts": {
+        "Agent_A": 1,
+        "Agent_B": 2,
+        "Agent_C": 4
+      },
+      "all_agents_solution_count": 0,
+      "all_agents_support_ground_truth": false,
+      "all_agents_unique": false,
+      "reliable_solution_count": 1,
+      "reliable_support_ground_truth": true,
+      "reliable_unique": true,
+      "reliable_uncertainty_bits": 0.0,
+      "all_agents_uncertainty_bits": Infinity,
+      "reliability_information_gain_bits": Infinity
+    }
+  ],
+  "deterministic_solutions": {
+    "1": [
+      [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ]
+    ],
+    "2": [
+      [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ]
+    ],
+    "3": [
+      [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ]
+    ],
+    "4": [
+      [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ]
+    ],
+    "5": [
+      [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ]
+    ],
+    "6": [
+      [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ]
+    ],
+    "7": [
+      [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ]
+    ],
+    "8": [
+      [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ]
+    ],
+    "9": [
+      [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ]
+    ],
+    "10": [
+      [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ]
+    ],
+    "11": [
+      [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ]
+    ],
+    "12": [
+      [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "13": [
+      [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ]
+    ],
+    "14": [
+      [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ]
+    ],
+    "15": [
+      [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ]
+    ],
+    "16": [
+      [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "17": [
+      [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "18": [
+      [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ]
+    ],
+    "19": [
+      [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "20": [
+      [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ]
+    ],
+    "21": [
+      [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ]
+    ],
+    "22": [
+      [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    ],
+    "23": [
+      [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ]
+    ],
+    "24": [
+      [
+        "yellow",
+        "red",
+        "green",
+        "blue"
+      ]
+    ],
+    "25": [
+      [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ]
+    ],
+    "26": [
+      [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ]
+    ],
+    "27": [
+      [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ]
+    ],
+    "28": [
+      [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ]
+    ],
+    "29": [
+      [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ]
+    ],
+    "30": [
+      [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ]
+    ],
+    "31": [
+      [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ]
+    ],
+    "32": [
+      [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ]
+    ],
+    "33": [
+      [
+        "yellow",
+        "red",
+        "green",
+        "blue"
+      ]
+    ],
+    "34": [
+      [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ]
+    ],
+    "35": [
+      [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ]
+    ],
+    "36": [
+      [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ]
+    ],
+    "37": [
+      [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ]
+    ],
+    "38": [
+      [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ]
+    ],
+    "39": [
+      [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ]
+    ],
+    "40": [
+      [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ]
+    ],
+    "41": [
+      [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "42": [
+      [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ]
+    ],
+    "43": [
+      [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ]
+    ],
+    "44": [
+      [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ]
+    ],
+    "45": [
+      [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ]
+    ],
+    "46": [
+      [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ]
+    ],
+    "47": [
+      [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "48": [
+      [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ]
+    ],
+    "49": [
+      [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ]
+    ],
+    "50": [
+      [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ]
+    ],
+    "51": [
+      [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ]
+    ],
+    "52": [
+      [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ]
+    ],
+    "53": [
+      [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    ],
+    "54": [
+      [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ]
+    ],
+    "55": [
+      [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ]
+    ],
+    "56": [
+      [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ]
+    ],
+    "57": [
+      [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ]
+    ],
+    "58": [
+      [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ]
+    ],
+    "59": [
+      [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ]
+    ],
+    "60": [
+      [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ]
+    ]
+  },
+  "scientific_boundary": {
+    "can_support": [
+      "Exact deterministic solvability of the frozen puzzles.",
+      "Whether reliable-agent clues uniquely determine the solution.",
+      "Whether adding unreliable-agent clues changes constraint satisfiability.",
+      "Information available from each individual agent.",
+      "Information gain/loss caused by combining constraint sources.",
+      "Conflict-level differences in deterministic constraint structure."
+    ],
+    "cannot_support": [
+      "Neural-network internal representations.",
+      "Attention-head mechanisms.",
+      "Residual-stream mechanisms.",
+      "Hidden-layer causal effects.",
+      "Claims about model cognition.",
+      "Causal claims about multi-agent LLM degradation."
+    ]
+  }
+}

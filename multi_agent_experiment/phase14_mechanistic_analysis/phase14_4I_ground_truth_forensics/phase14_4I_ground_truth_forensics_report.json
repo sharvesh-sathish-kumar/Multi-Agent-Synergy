@@ -1,0 +1,136 @@
+{
+  "global_selected_id_hits": {
+    "1": [
+      {
+        "key": "instance_id",
+        "path": "$.phase14_4A_rows[0].instance_id",
+        "value": 1
+      }
+    ],
+    "2": [
+      {
+        "key": "instance_id",
+        "path": "$.phase14_4A_rows[1].instance_id",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "key": "instance_id",
+        "path": "$.phase14_4A_rows[2].instance_id",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "key": "instance_id",
+        "path": "$.phase14_4A_rows[3].instance_id",
+        "value": 4
+      }
+    ],
+    "5": [
+      {
+        "key": "instance_id",
+        "path": "$.phase14_4A_rows[4].instance_id",
+        "value": 5
+      }
+    ]
+  },
+  "ground_truth_counts": {
+    "report": 0,
+    "rows": 500,
+    "total": 500
+  },
+  "ground_truth_value_frequencies": {
+    "{\"Alex\": \"blue\", \"Ben\": \"green\", \"Cara\": \"red\", \"Dan\": \"yellow\"}": 21,
+    "{\"Alex\": \"blue\", \"Ben\": \"green\", \"Cara\": \"yellow\", \"Dan\": \"red\"}": 20,
+    "{\"Alex\": \"blue\", \"Ben\": \"red\", \"Cara\": \"green\", \"Dan\": \"yellow\"}": 16,
+    "{\"Alex\": \"blue\", \"Ben\": \"red\", \"Cara\": \"yellow\", \"Dan\": \"green\"}": 20,
+    "{\"Alex\": \"blue\", \"Ben\": \"yellow\", \"Cara\": \"green\", \"Dan\": \"red\"}": 26,
+    "{\"Alex\": \"blue\", \"Ben\": \"yellow\", \"Cara\": \"red\", \"Dan\": \"green\"}": 20,
+    "{\"Alex\": \"green\", \"Ben\": \"blue\", \"Cara\": \"red\", \"Dan\": \"yellow\"}": 28,
+    "{\"Alex\": \"green\", \"Ben\": \"blue\", \"Cara\": \"yellow\", \"Dan\": \"red\"}": 17,
+    "{\"Alex\": \"green\", \"Ben\": \"red\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}": 18,
+    "{\"Alex\": \"green\", \"Ben\": \"red\", \"Cara\": \"yellow\", \"Dan\": \"blue\"}": 24,
+    "{\"Alex\": \"green\", \"Ben\": \"yellow\", \"Cara\": \"blue\", \"Dan\": \"red\"}": 22,
+    "{\"Alex\": \"green\", \"Ben\": \"yellow\", \"Cara\": \"red\", \"Dan\": \"blue\"}": 16,
+    "{\"Alex\": \"red\", \"Ben\": \"blue\", \"Cara\": \"green\", \"Dan\": \"yellow\"}": 18,
+    "{\"Alex\": \"red\", \"Ben\": \"blue\", \"Cara\": \"yellow\", \"Dan\": \"green\"}": 33,
+    "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}": 20,
+    "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"yellow\", \"Dan\": \"blue\"}": 26,
+    "{\"Alex\": \"red\", \"Ben\": \"yellow\", \"Cara\": \"blue\", \"Dan\": \"green\"}": 19,
+    "{\"Alex\": \"red\", \"Ben\": \"yellow\", \"Cara\": \"green\", \"Dan\": \"blue\"}": 18,
+    "{\"Alex\": \"yellow\", \"Ben\": \"blue\", \"Cara\": \"green\", \"Dan\": \"red\"}": 16,
+    "{\"Alex\": \"yellow\", \"Ben\": \"blue\", \"Cara\": \"red\", \"Dan\": \"green\"}": 13,
+    "{\"Alex\": \"yellow\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"red\"}": 20,
+    "{\"Alex\": \"yellow\", \"Ben\": \"green\", \"Cara\": \"red\", \"Dan\": \"blue\"}": 19,
+    "{\"Alex\": \"yellow\", \"Ben\": \"red\", \"Cara\": \"blue\", \"Dan\": \"green\"}": 29,
+    "{\"Alex\": \"yellow\", \"Ben\": \"red\", \"Cara\": \"green\", \"Dan\": \"blue\"}": 21
+  },
+  "guarantees": {
+    "accuracy_calculated": false,
+    "api_calls": 0,
+    "ground_truth_fabricated": false,
+    "model_calls": 0,
+    "previous_artifacts_modified": false
+  },
+  "identifier_counts": {
+    "instance_id": 500
+  },
+  "inputs": {
+    "phase14_4A_report": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_complete_report.json",
+      "sha256_before": "1c377245e5be274277a5fff84eaa2686f0ecfb672f430d5bd7599d7de55d848b"
+    },
+    "phase14_4A_rows": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_generalization_rows.json",
+      "sha256_before": "43cc24256fb81acbf09ff51aa8a04dcff0b2d1a7cd3b5605b7a4d9df367b0e9a"
+    }
+  },
+  "mapping_status": {
+    "1": {
+      "candidate_count": 0,
+      "status": "NO_CANDIDATE",
+      "unique_ground_truth_values": 0
+    },
+    "2": {
+      "candidate_count": 0,
+      "status": "NO_CANDIDATE",
+      "unique_ground_truth_values": 0
+    },
+    "3": {
+      "candidate_count": 0,
+      "status": "NO_CANDIDATE",
+      "unique_ground_truth_values": 0
+    },
+    "4": {
+      "candidate_count": 0,
+      "status": "NO_CANDIDATE",
+      "unique_ground_truth_values": 0
+    },
+    "5": {
+      "candidate_count": 0,
+      "status": "NO_CANDIDATE",
+      "unique_ground_truth_values": 0
+    }
+  },
+  "phase": "14.4I-A",
+  "selected_problem_candidates": {},
+  "structural_patterns": [
+    {
+      "count": 500,
+      "parent_keys": [
+        "all_agents",
+        "condition",
+        "ground_truth",
+        "instance_id",
+        "reliability_gated",
+        "reliable_constraints",
+        "reliable_only",
+        "replicate",
+        "unreliable_constraints"
+      ]
+    }
+  ],
+  "title": "Deterministic Ground-Truth Provenance Forensics"
+}

@@ -1,0 +1,477 @@
+{
+  "phase": "14.4E",
+  "diagnostic_rows": [
+    {
+      "record_index": 1,
+      "problem_id": "1",
+      "condition": "ungated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 2,
+      "problem_id": "1",
+      "condition": "reliability_gated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 3,
+      "problem_id": "2",
+      "condition": "ungated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 4,
+      "problem_id": "2",
+      "condition": "reliability_gated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 5,
+      "problem_id": "3",
+      "condition": "ungated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 6,
+      "problem_id": "3",
+      "condition": "reliability_gated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 7,
+      "problem_id": "4",
+      "condition": "ungated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 8,
+      "problem_id": "4",
+      "condition": "reliability_gated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 9,
+      "problem_id": "5",
+      "condition": "ungated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    },
+    {
+      "record_index": 10,
+      "problem_id": "5",
+      "condition": "reliability_gated",
+      "response_source": "raw_response",
+      "response_length": 0,
+      "response_empty": true,
+      "response_preview": "",
+      "color_token_mentions": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "yellow": 0
+      },
+      "json_like": false,
+      "has_equals": false,
+      "has_colon": false,
+      "has_brace": false,
+      "mentions_agent": false,
+      "assignment_patterns": {
+        "name_value": false,
+        "name_has_value": false,
+        "json_key_value": false,
+        "tuple_like": false
+      },
+      "record_keys": [
+        "api_attempted",
+        "condition",
+        "model",
+        "parse_error",
+        "parsed_prediction",
+        "problem_id",
+        "rate_limit",
+        "raw_response",
+        "success",
+        "timestamp_utc"
+      ]
+    }
+  ],
+  "hypothesis_rows": [
+    {
+      "record_index": 1,
+      "problem_id": "1",
+      "condition": "ungated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 2,
+      "problem_id": "1",
+      "condition": "reliability_gated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 3,
+      "problem_id": "2",
+      "condition": "ungated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 4,
+      "problem_id": "2",
+      "condition": "reliability_gated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 5,
+      "problem_id": "3",
+      "condition": "ungated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 6,
+      "problem_id": "3",
+      "condition": "reliability_gated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 7,
+      "problem_id": "4",
+      "condition": "ungated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 8,
+      "problem_id": "4",
+      "condition": "reliability_gated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 9,
+      "problem_id": "5",
+      "condition": "ungated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    },
+    {
+      "record_index": 10,
+      "problem_id": "5",
+      "condition": "reliability_gated",
+      "candidate_matches": [],
+      "candidate_count": 0,
+      "duplicate_people": false,
+      "duplicate_values": false
+    }
+  ]
+}

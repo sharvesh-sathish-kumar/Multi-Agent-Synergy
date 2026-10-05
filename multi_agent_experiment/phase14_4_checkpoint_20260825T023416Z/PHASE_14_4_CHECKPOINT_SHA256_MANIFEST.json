@@ -1,0 +1,122 @@
+{
+  "checkpoint_type": "phase14_4_complete_experiment_checkpoint",
+  "created_utc": "2026-08-25T02:34:17.598701+00:00",
+  "experiment_root": "/content/drive/MyDrive/multi_agent_experiment",
+  "checkpoint_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z",
+  "zero_api_calls": true,
+  "zero_model_calls": true,
+  "existing_artifacts_modified": false,
+  "treatment_3_run": false,
+  "artifact_count": 21,
+  "missing_phase_directories": [
+    "phase14_4C"
+  ],
+  "copy_errors": [],
+  "artifacts": [
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_complete_report.json",
+      "size_bytes": 6060,
+      "sha256": "1c377245e5be274277a5fff84eaa2686f0ecfb672f430d5bd7599d7de55d848b"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_generalization_rows.json",
+      "size_bytes": 673185,
+      "sha256": "43cc24256fb81acbf09ff51aa8a04dcff0b2d1a7cd3b5605b7a4d9df367b0e9a"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_complete_report.json",
+      "size_bytes": 1998,
+      "sha256": "3b4f1e9e53782547b96274664437107a0f98322af1929c403a8eef9ae7638baf"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_prompt_manifest.json",
+      "size_bytes": 17680,
+      "sha256": "88ea7ad18ad61a16bf38bafa27cc5aa3060d7488af764ba0ccc10c8b7c718df0"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_raw_results.json",
+      "size_bytes": 11502,
+      "sha256": "bec0dfcc4356aba8b385347739c9e7ece7727485311699d9a9e02ba8192a22fc"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_scored_results.json",
+      "size_bytes": 15461,
+      "sha256": "ffd7462ea80552704d08fee9dff76f19075581d0ea82470b4cd82f4f8dd1d936"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json",
+      "size_bytes": 1273,
+      "sha256": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "size_bytes": 9765,
+      "sha256": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_raw_results.json",
+      "size_bytes": 3633,
+      "sha256": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis.json",
+      "size_bytes": 3551,
+      "sha256": "28a80f4cad046a9f43aa712422be2aa1c9195948ba2e494c95d66eb62686bfb0"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis_rows.json",
+      "size_bytes": 11308,
+      "sha256": "cfcf1ad9eadb8ff07899e0bceec57a0b45dce398d3529a279cfa7fee73658402"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_recommended_contract.json",
+      "size_bytes": 1444,
+      "sha256": "221ec0712db28987111bcec9ee5d294ea4718378abd76c68481e65b29c810568"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json",
+      "size_bytes": 1543,
+      "sha256": "ad3a5e7d472dfdf4e73081103cc7579600133071b6582f1e041070939cb8d5f4"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json",
+      "size_bytes": 5335,
+      "sha256": "3b35b58a3bf3d06f6217c7f43ff35e619ea9118b18b093f0c4278a1f42745465"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json",
+      "size_bytes": 1635,
+      "sha256": "d367e1d51913f4a2412b73b410d9b2a2fa5dbb88c43fb4415c5cb94f625e56fb"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+      "size_bytes": 3100,
+      "sha256": "cfbb8f6bb4d82e218ae382778d59a989ae3bb6ba08a1d3af498b8f267c829c98"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+      "size_bytes": 24681,
+      "sha256": "74fdaa98ded51d70d16df5321c8aa8fcbf31be5e7771efa4a9820533fd8d7d26"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_raw_results.json",
+      "size_bytes": 5464,
+      "sha256": "15eeb540c2f808f0bba47751f76fdff5c834f5864bc66452fc086e1f3ecfd751"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+      "size_bytes": 7087,
+      "sha256": "2d00b7cd4a68d615033b29e5a696257a529e530498e9e4ed11da55d421ca4805"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json",
+      "size_bytes": 1848,
+      "sha256": "a7f427f2f316f54dd7624f8cf6dba657ee4f1e9ba37d614b0b0894aa8b108b5d"
+    },
+    {
+      "relative_path": "phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json",
+      "size_bytes": 11155,
+      "sha256": "357527fc05879b8d872b1b77cad61c2a8dd744116ec7007367396ad58ca46e7b"
+    }
+  ]
+}

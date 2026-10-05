@@ -1,0 +1,151 @@
+{
+  "phase": "14.36",
+  "purpose": "Final statistical and parser sensitivity audit for Treatment 3",
+  "read_only": true,
+  "model_calls": 0,
+  "api_calls": 0,
+  "experiment_execution": 0,
+  "authoritative_source": {
+    "r3_trial_scores": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_35_authoritative_final_analysis/phase14_35_fix_r3_trial_level_scores.json",
+    "r3_summary": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_35_authoritative_final_analysis/phase14_35_fix_r3_final_summary.json",
+    "r3_provenance": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_35_authoritative_final_analysis/phase14_35_fix_r3_provenance.json"
+  },
+  "n": 60,
+  "primary_results": {
+    "c0_correct": 32,
+    "c0_accuracy": 0.5333333333333333,
+    "c0_wilson_95_ci": [
+      0.4089342702715789,
+      0.6537209395856151
+    ],
+    "c1_correct": 38,
+    "c1_accuracy": 0.6333333333333333,
+    "c1_wilson_95_ci": [
+      0.5068300063010303,
+      0.7437908331277456
+    ],
+    "accuracy_delta_c1_minus_c0": 0.09999999999999998,
+    "accuracy_delta_percentage_points": 9.999999999999998
+  },
+  "paired_results": {
+    "both_correct": 24,
+    "c0_only": 8,
+    "c1_only": 14,
+    "both_incorrect": 14,
+    "discordant_pairs": 22,
+    "net_paired_effect": 6
+  },
+  "mcnemar": {
+    "chi_square_without_continuity_correction": 1.6363636363636365,
+    "exact_two_sided_p": 0.28627872467041016
+  },
+  "bootstrap": {
+    "method": "paired nonparametric bootstrap",
+    "repetitions": 100000,
+    "seed": 1436,
+    "observed_delta": 0.09999999999999998,
+    "ci_95": [
+      -0.05,
+      0.25
+    ]
+  },
+  "parser_forensics": {
+    "c0_methods": {
+      "unparsed": 14,
+      "markdown_table": 42,
+      "assignment_lines": 4
+    },
+    "c1_methods": {
+      "markdown_table": 33,
+      "unparsed": 10,
+      "assignment_lines": 15,
+      "dash_lines": 2
+    },
+    "c0_parse_failures": [
+      1,
+      2,
+      17,
+      18,
+      24,
+      27,
+      32,
+      33,
+      36,
+      38,
+      41,
+      44,
+      45,
+      53
+    ],
+    "c1_parse_failures": [
+      4,
+      31,
+      32,
+      34,
+      35,
+      41,
+      42,
+      45,
+      55,
+      60
+    ]
+  },
+  "sensitivity_analysis": {
+    "primary": {
+      "c0_correct": 32,
+      "c1_correct": 38,
+      "delta": 0.09999999999999998
+    },
+    "scenario_a_unparsed_as_incorrect": {
+      "c0_correct": 32,
+      "c1_correct": 38,
+      "delta": 0.1,
+      "delta_percentage_points": 10.0
+    },
+    "scenario_b_unparsed_as_correct": {
+      "c0_correct": 46,
+      "c1_correct": 48,
+      "delta": 0.03333333333333333,
+      "delta_percentage_points": 3.3333333333333335
+    },
+    "scenario_c_complete_case": {
+      "complete_pairs": 39,
+      "c0_correct": 28,
+      "c1_correct": 30,
+      "delta": 0.05128205128205132,
+      "delta_percentage_points": 5.128205128205132
+    }
+  },
+  "old_phase_14_26r2": {
+    "c0_correct": 4,
+    "c0_accuracy": 0.06666666666666667,
+    "c1_correct": 19,
+    "c1_accuracy": 0.31666666666666665,
+    "delta": 0.25,
+    "delta_percentage_points": 25.0,
+    "exact_mcnemar_p": null
+  },
+  "current_verdict": {
+    "direction": "IMPROVEMENT",
+    "statistically_significant_at_alpha_0_05": false,
+    "interpretation": "Observed improvement, not statistically significant"
+  },
+  "source_integrity": {
+    "r3_scores_sha256": "2e1d40ca23e64a8abd9ae4c1dc60c1b2622b6fd17a3ecc8ecfced293f787ff6b",
+    "r3_summary_sha256": "b1088e3d46d2ba4cfe81512724a65b9aaff1583a8fa19516f80aac3781ca14b1",
+    "r3_provenance_sha256": "69e1cc7722edb237e99de3e0a09e3e1bebda27aedeb6986533b010f220d973e0",
+    "old_summary_sha256": "868110c66e2add5c7831f9f225d3c841999810d2f06d2fe85a14caa84c285cea"
+  },
+  "final_checks": {
+    "60 paired problems": true,
+    "C0 decomposition": true,
+    "C1 decomposition": true,
+    "Pair decomposition": true,
+    "Discordant decomposition": true,
+    "Net paired effect": true,
+    "C0 expected result": true,
+    "C1 expected result": true,
+    "Delta expected result": true,
+    "McNemar exact p expected": true
+  }
+}

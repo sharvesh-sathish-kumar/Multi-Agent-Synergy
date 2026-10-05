@@ -1,0 +1,15 @@
+{
+  "phase": "14.1A",
+  "purpose": "frozen_dataset_provenance_recovery",
+  "read_only": true,
+  "api_calls": 0,
+  "model_calls": 0,
+  "expected_raw_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "candidate_count": 1,
+  "selected_source": "runtime:frozen",
+  "selected_method": "current_python_runtime",
+  "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+  "n_problems": 60,
+  "clue_count": 485,
+  "metadata": {}
+}

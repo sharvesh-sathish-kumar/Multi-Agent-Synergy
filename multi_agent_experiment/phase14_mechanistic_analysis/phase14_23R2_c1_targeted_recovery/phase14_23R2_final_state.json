@@ -1,0 +1,30 @@
+{
+  "phase": "14.23R2",
+  "condition": "C1",
+  "target_trial_ids": [
+    16,
+    26,
+    51,
+    52,
+    56
+  ],
+  "original_max_tokens": 1200,
+  "recovery_max_tokens": 2048,
+  "clean_nonempty_stop": [
+    16,
+    26,
+    51,
+    56
+  ],
+  "still_truncated": [],
+  "still_empty": [
+    52
+  ],
+  "api_failures": [],
+  "clean_count": 4,
+  "truncated_count": 0,
+  "empty_count": 1,
+  "failure_count": 0,
+  "historical_phase14_23_modified": false,
+  "completed_at_utc": "2026-08-25T23:22:19.079309+00:00"
+}

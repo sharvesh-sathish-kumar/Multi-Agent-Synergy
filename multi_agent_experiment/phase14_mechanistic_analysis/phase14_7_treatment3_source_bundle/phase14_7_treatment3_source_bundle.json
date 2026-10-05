@@ -1,0 +1,107 @@
+{
+  "phase": "14.7",
+  "purpose": "Treatment 3 provenance-safe source-bundle construction and pre-execution validation",
+  "created_utc": "2026-08-25T06:15:49.449495+00:00",
+  "treatment_3_executed": false,
+  "ready_for_treatment_3": true,
+  "decision": "READY_FOR_TREATMENT_3_PREPARATION",
+  "safety": {
+    "read_only_previous_artifacts": true,
+    "model_calls": false,
+    "api_calls": false,
+    "treatment_3_execution": false,
+    "ground_truth_interpretation": false,
+    "answer_recomputation": false,
+    "accuracy_calculation": false,
+    "legacy_GT_reconstruction": false,
+    "positional_mapping": false,
+    "ordering_mapping": false,
+    "text_matching_mapping": false,
+    "cross_candidate_guessing": false,
+    "prior_artifact_modification": false
+  },
+  "forbidden_mapping_methods": [
+    "candidate_text_matching",
+    "cross_candidate_guessing",
+    "list_position",
+    "manual_reconstruction",
+    "numeric_semantics_inference",
+    "ordering",
+    "problem_number_inference",
+    "problem_text_matching"
+  ],
+  "candidate_identities": [
+    {
+      "candidate_id": "candidate_1937a8706bd403e7",
+      "candidate_fingerprint": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "source_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "source_record_hash": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f"
+    },
+    {
+      "candidate_id": "candidate_662c8a23191d37ea",
+      "candidate_fingerprint": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "source_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "source_record_hash": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab"
+    },
+    {
+      "candidate_id": "candidate_5c7d89e5f2dc086e",
+      "candidate_fingerprint": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "source_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "source_record_hash": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143"
+    },
+    {
+      "candidate_id": "candidate_fb480b2a4151a078",
+      "candidate_fingerprint": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+      "source_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "source_record_hash": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    },
+    {
+      "candidate_id": "candidate_563709a7fbfb43d9",
+      "candidate_fingerprint": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "source_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "source_record_hash": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+    }
+  ],
+  "canonical_manifest": {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+    "sha256": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e",
+    "selected_instances_count": 5
+  },
+  "explicit_source_census": {
+    "identity_structures": 2817,
+    "gt_identity_structures": 2,
+    "problem_identity_structures": 2812,
+    "candidate_identity_structures": 8,
+    "problem_gt_same_record_bindings": 2,
+    "candidate_problem_same_record_bindings": 3,
+    "ground_truth_identity_hash_structures": 1
+  },
+  "required_treatment3_fields": [
+    "candidate_id",
+    "problem_id",
+    "ground_truth_id",
+    "ground_truth_hash",
+    "model_output_id",
+    "model_output_hash",
+    "evaluation_id"
+  ],
+  "deferred_post_execution_fields": [
+    "model_output_id",
+    "model_output_hash",
+    "evaluation_id"
+  ],
+  "readiness": {
+    "candidate_identity": true,
+    "canonical_manifest_integrity": true,
+    "problem_gt_same_record_binding": true,
+    "candidate_problem_same_record_binding": true,
+    "ground_truth_identity_hash_surface": true,
+    "model_output_identity": false,
+    "model_output_hash": false,
+    "evaluation_identity": false,
+    "positional_mapping_forbidden": true,
+    "ordering_mapping_forbidden": true,
+    "text_matching_forbidden": true,
+    "legacy_GT_reconstruction_forbidden": true
+  }
+}

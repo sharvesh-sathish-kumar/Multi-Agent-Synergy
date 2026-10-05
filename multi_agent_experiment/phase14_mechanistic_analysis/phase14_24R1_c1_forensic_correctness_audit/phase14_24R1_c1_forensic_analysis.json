@@ -1,0 +1,1170 @@
+{
+  "phase": "14.24R1",
+  "analysis_type": "ZERO_API_C1_FORENSIC_CORRECTNESS_AUDIT",
+  "api_calls": 0,
+  "model_calls": 0,
+  "historical_artifacts_modified": false,
+  "expected_trials": 60,
+  "loaded_original_trials": 60,
+  "recovery_trials": [
+    16,
+    26,
+    51,
+    52,
+    56
+  ],
+  "authoritative_trials": 60,
+  "forensic_summary": {
+    "CLEAN_NONEMPTY_STOP": 60
+  },
+  "ground_truth_trials": [],
+  "correct_count": 0,
+  "incorrect_count": 0,
+  "scorable_count": 0,
+  "accuracy_percent": null,
+  "results": {
+    "1": {
+      "trial_id": 1,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_1.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 61,
+      "response_preview": "- Alex → blue  \n- Ben → yellow  \n- Cara → red  \n- Dan → green",
+      "finish_reason": "stop",
+      "completion_tokens": 248,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "2": {
+      "trial_id": 2,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_2.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → blue  \n- Ben → green  \n- Cara → red  \n- Dan → yellow",
+      "finish_reason": "stop",
+      "completion_tokens": 280,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "3": {
+      "trial_id": 3,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_3.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 142,
+      "response_preview": "**Assignment**\n\n- Alex – green  \n- Ben – yellow  \n- Cara – red  \n- Dan – blue  \n\nThis assignment satisfies every clue from Agents A, B, and C.",
+      "finish_reason": "stop",
+      "completion_tokens": 297,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "4": {
+      "trial_id": 4,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_4.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → blue  \n- Ben → red  \n- Cara → green  \n- Dan → yellow",
+      "finish_reason": "stop",
+      "completion_tokens": 298,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "5": {
+      "trial_id": 5,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_5.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 129,
+      "response_preview": "**Assignment**\n\n- Alex → green  \n- Ben → blue  \n- Cara → red  \n- Dan → yellow  \n\nAll clues from Agents A, B, and C are satisfied.",
+      "finish_reason": "stop",
+      "completion_tokens": 306,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "6": {
+      "trial_id": 6,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_6.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 195,
+      "response_preview": "**Assignments**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → red  \n- Dan → blue  \n\nThese assignments satisfy every clue from Agents A, B, and C, and each entity and each item is used exactly once.",
+      "finish_reason": "stop",
+      "completion_tokens": 277,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "7": {
+      "trial_id": 7,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_7.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex – yellow  \n- Ben – red  \n- Cara – blue  \n- Dan – green",
+      "finish_reason": "stop",
+      "completion_tokens": 252,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "8": {
+      "trial_id": 8,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_8.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 61,
+      "response_preview": "- Alex → red  \n- Ben → green  \n- Cara → yellow  \n- Dan → blue",
+      "finish_reason": "stop",
+      "completion_tokens": 229,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "9": {
+      "trial_id": 9,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_9.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → yellow  \n- Ben → blue  \n- Cara → red  \n- Dan → green",
+      "finish_reason": "stop",
+      "completion_tokens": 266,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "10": {
+      "trial_id": 10,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_10.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 78,
+      "response_preview": "**Assignments**\n\n- Alex – yellow  \n- Ben – blue  \n- Cara – red  \n- Dan – green",
+      "finish_reason": "stop",
+      "completion_tokens": 266,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "11": {
+      "trial_id": 11,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_11.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 61,
+      "response_preview": "- Alex → red  \n- Ben → yellow  \n- Cara → green  \n- Dan → blue",
+      "finish_reason": "stop",
+      "completion_tokens": 211,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "12": {
+      "trial_id": 12,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_12.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → green  \n- Ben → red  \n- Cara → blue  \n- Dan → yellow",
+      "finish_reason": "stop",
+      "completion_tokens": 206,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "13": {
+      "trial_id": 13,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_13.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → yellow  \n- Ben → red  \n- Cara → blue  \n- Dan → green",
+      "finish_reason": "stop",
+      "completion_tokens": 217,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "14": {
+      "trial_id": 14,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_14.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 78,
+      "response_preview": "**Assignments**\n\n- Alex → green  \n- Ben → blue  \n- Cara → red  \n- Dan → yellow",
+      "finish_reason": "stop",
+      "completion_tokens": 277,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "15": {
+      "trial_id": 15,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_15.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 61,
+      "response_preview": "- Alex → green  \n- Ben → yellow  \n- Cara → red  \n- Dan → blue",
+      "finish_reason": "stop",
+      "completion_tokens": 156,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "16": {
+      "trial_id": 16,
+      "authoritative_source": "R2",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R2_c1_targeted_recovery/phase14_23R2_recovery_trial_16.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → yellow  \n- Ben → red  \n- Cara → blue  \n- Dan → green",
+      "finish_reason": "stop",
+      "completion_tokens": 769,
+      "max_tokens": null,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "17": {
+      "trial_id": 17,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_17.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 658,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\n| Entity | Item (from clues) | Conflict? |\n|--------|-------------------|-----------|\n| Ben    | green (Agent A)   | – |\n| Cara   | blue (Agent A) **and** red (Agent B) | Cannot have two different items. |\n| Dan    | yellow (Agent B)  | – |\n| Alex   | red (Agent C) – also “does not have yellow” (Agent A) – both are compatible | – |\n\nBecause *Cara* is forced to be both **blue** and **red**, and each item can be assigned to only one en",
+      "finish_reason": "stop",
+      "completion_tokens": 536,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "18": {
+      "trial_id": 18,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_18.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 242,
+      "response_preview": "**Result:** No assignment of the items to the four entities can satisfy all of the supplied clues simultaneously. The clues contain a direct contradiction (both “Alex has red” and “Cara has red”), which makes a consistent solution impossible.",
+      "finish_reason": "stop",
+      "completion_tokens": 723,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "19": {
+      "trial_id": 19,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_19.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 551,
+      "response_preview": "**Result:** The supplied clues are contradictory and no assignment can satisfy all of them simultaneously.\n\n- Agent A says **Cara has blue** while Agent C says **Cara has red** – Cara cannot have both a blue and a red item, yet each entity must receive exactly one item.\n- Because the clues for Cara alone are mutually exclusive, it is impossible to assign the four items (red, blue, green, yellow) to the four entities (Alex, Ben, Cara, Dan) while satisfying every clue.\n\nTherefore, there is **no co",
+      "finish_reason": "stop",
+      "completion_tokens": 654,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "20": {
+      "trial_id": 20,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_20.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 298,
+      "response_preview": "**Assignment**\n\n- Alex → green  \n- Ben → blue  \n- Cara → yellow  \n- Dan → red  \n\nAll clues are satisfied except the contradictory pair from Agent B (“Ben does not have green” and “Ben has green”). With the above unique assignment each item is used exactly once and all non‑contradictory clues hold.",
+      "finish_reason": "stop",
+      "completion_tokens": 601,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "21": {
+      "trial_id": 21,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_21.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1006,
+      "response_preview": "**Result:** No assignment of the four items to the four entities can satisfy **all** of the supplied clues simultaneously.\n\n**Reasoning**\n\n| Entity | Clues that fix the item | Resulting item |\n|--------|------------------------|----------------|\n| Alex   | – “Alex does not have red” (A)  <br> – “Alex has blue” (B) | Must be **blue** (from B) |\n| Ben    | – “Ben has blue” (A)  <br> – “Ben has red” (B)  <br> – “Ben does not have green” (C) | Contradiction: A says **blue**, B says **red** – both ca",
+      "finish_reason": "stop",
+      "completion_tokens": 700,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "22": {
+      "trial_id": 22,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_22.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 455,
+      "response_preview": "**Result:** The given clues are contradictory, so no assignment can satisfy all of them simultaneously.\n\n- Agent A says **Ben has blue**.  \n- Agent C says **Ben has red**.  \n\nBen cannot have both colors at once, and there is no way to reinterpret the other clues to avoid this conflict while still assigning each color to a different entity. Therefore a consistent one‑to‑one mapping for all four entities cannot be produced from the supplied information.",
+      "finish_reason": "stop",
+      "completion_tokens": 568,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "23": {
+      "trial_id": 23,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_23.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 870,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\n1. From Agent A we obtain  \n   *Ben = yellow* (and therefore Ben cannot have any other colour).\n\n2. From Agent C we obtain  \n   *Alex = red* (and therefore Alex cannot have any other colour).\n\n3. Agent B gives two statements about Dan:  \n   *Dan = blue* **and** *Dan = green*.  \n   Because each entity can receive **exactly one** item, Dan cannot simultaneously have both blue and green.\n\nSince the three sets of clues together force Ben t",
+      "finish_reason": "stop",
+      "completion_tokens": 884,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "24": {
+      "trial_id": 24,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_24.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 287,
+      "response_preview": "**Assignment**\n\n- Alex — yellow  \n- Ben — red  \n- Cara — green  \n- Dan — blue  \n\nAll clues are satisfied except the third clue from Agent A (“Cara has yellow”), which must be false for the puzzle to be consistent. This yields a unique, conflict‑free assignment of each item to an entity.",
+      "finish_reason": "stop",
+      "completion_tokens": 1129,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "25": {
+      "trial_id": 25,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_25.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 481,
+      "response_preview": "After examining all of the supplied clues, we find that they cannot all be satisfied simultaneously:\n\n* Agent A says **Dan has yellow**.  \n* Agent C says **Dan has green**.  \n* Agent B says **Dan does not have green**.\n\nSince Dan cannot be both yellow and green, and he also cannot be green according to Agent B, the set of clues is internally contradictory. Consequently, there is **no possible assignment** of the four items to Alex, Ben, Cara, and Dan that satisfies every clue.",
+      "finish_reason": "stop",
+      "completion_tokens": 423,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "26": {
+      "trial_id": 26,
+      "authoritative_source": "R2",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R2_c1_targeted_recovery/phase14_23R2_recovery_trial_26.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 292,
+      "response_preview": "**Assignment**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → red  \n- Dan → blue  \n\nThis assignment satisfies all of Agent A’s clues (Dan has blue; Ben has green) while at least one clue from Agents B and C is false, matching the condition that only Agent A’s set of clues is completely correct.",
+      "finish_reason": "stop",
+      "completion_tokens": 1580,
+      "max_tokens": null,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "27": {
+      "trial_id": 27,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_27.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 674,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\nThe four items (red, blue, green, yellow) must each be given to exactly one of the four entities (Alex, Ben, Cara, Dan).  \nAll of the supplied clues are required to hold simultaneously.\n\nFrom **Agent A** we have both  \n\n* “Dan has **blue**.”  \n* “Dan has **green**.”\n\nSince an entity can receive only one item, Dan cannot be both blue and green. This direct conflict makes it impossible to satisfy **all** of the given clues at once.\n\nBeca",
+      "finish_reason": "stop",
+      "completion_tokens": 649,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "28": {
+      "trial_id": 28,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_28.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 536,
+      "response_preview": "Given the clues, there is no way to assign a unique colour to each person without violating at least one of the statements:\n\n* Agent A says Cara ≠ yellow, Ben = yellow, Dan = green.  \n* Agent B says Alex = blue, Ben ≠ blue, Cara = red.  \n* Agent C says Dan ≠ red, Cara = green.\n\nThe two statements “Cara = red” (Agent B) and “Cara = green” (Agent C) are mutually exclusive, and the remaining clues cannot be satisfied simultaneously with either of them. Therefore no consistent one‑to‑one assignment ",
+      "finish_reason": "stop",
+      "completion_tokens": 527,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "29": {
+      "trial_id": 29,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_29.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1015,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\n| Entity | Clues from Agent A | Clues from Agent B | Combined requirement |\n|--------|-------------------|-------------------|----------------------|\n| **Alex** | “Alex has green.” | “Alex does **not** have red.” (and no other claim) | Must be **green** (the only specific item given). |\n| **Ben** | “Ben does **not** have yellow.” | none (Agent B has no clue about Ben) | Only restriction: **not yellow**. |\n| **Cara** | “Cara has yellow.",
+      "finish_reason": "stop",
+      "completion_tokens": 382,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "30": {
+      "trial_id": 30,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_30.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 494,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\nThe clues together contain contradictions:\n\n* Agent A says “Cara has green.”\n* Agent B says “Cara has yellow” **and** “Cara does not have green.”\n\nThese two statements cannot both be true, so there is no way to assign the four items (red, blue, green, yellow) to the four entities (Alex, Ben, Cara, Dan) that satisfies **all** of the supplied clues simultaneously. Hence a valid assignment is impossible under the given conditions.",
+      "finish_reason": "stop",
+      "completion_tokens": 415,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "31": {
+      "trial_id": 31,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_31.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1136,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\n| Entity | Items forced by the clues | Conflict |\n|--------|---------------------------|----------|\n| **Dan** | – Agent A: Dan **has** green<br>– Agent A: Dan **does not** have blue (consistent with green) | – |\n| **Alex**| – Agent A: Alex **has** blue<br>– Agent B: Alex **does not** have yellow (compatible) | – |\n| **Ben** | – Agent B: Ben **has** yellow<br>– Agent C: Ben **does not** have yellow | **Direct contradiction** |\n| **Car",
+      "finish_reason": "stop",
+      "completion_tokens": 650,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "32": {
+      "trial_id": 32,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_32.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 488,
+      "response_preview": "After trying to satisfy all of the given statements simultaneously, we find a direct conflict:\n\n- Agent A says **Cara has green**.  \n- Agent B says **Cara has blue**.  \n\nSince each entity can receive only one item, Cara cannot be both green and blue at the same time. This contradiction makes it impossible to construct an assignment that honors every supplied clue.\n\n**Result:** No valid one‑to‑one assignment of the items to Alex, Ben, Cara, and Dan exists that satisfies all the clues.",
+      "finish_reason": "stop",
+      "completion_tokens": 504,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "33": {
+      "trial_id": 33,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_33.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 754,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Why**\n\n| Entity | Clues that assign an item | Result from those clues |\n|--------|---------------------------|------------------------|\n| **Dan** | “Dan has yellow” (Agent A) | Dan = yellow |\n| **Alex**| “Alex has yellow” (Agent B) | Alex = yellow |\n| **Cara**| “Cara has green” (Agent B) | Cara = green |\n| **Ben** | “Ben has red” (Agent C)   | Ben = red |\n\nThese four deductions already use all four items (yellow, yellow, green, red).  \nBecause each",
+      "finish_reason": "stop",
+      "completion_tokens": 740,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "34": {
+      "trial_id": 34,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_34.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 688,
+      "response_preview": "**Result:** There is no way to assign the four items to the four entities that satisfies **all** of the supplied clues.\n\n**Reasoning**\n\n| Entity | Item (from Agent A + B) | Agent C statement |\n|--------|------------------------|-------------------|\n| Alex   | blue  (Agent A)        | – |\n| Ben    | red  (Agent A)         | “Ben does **not** have red” (Agent C) → conflict |\n| Cara   | green  (Agent B)       | “Cara has red” (Agent C) → conflict |\n| Dan    | yellow  (Agent B)      | – |\n\nThe clues",
+      "finish_reason": "stop",
+      "completion_tokens": 718,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "35": {
+      "trial_id": 35,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_35.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 915,
+      "response_preview": "**Result:**  \nThe given clues are mutually contradictory, so no assignment can satisfy all of them simultaneously.\n\n**Why the clues conflict**\n\n| Entity | Direct clue(s) | Implied item |\n|--------|----------------|--------------|\n| Alex   | “Alex has green” (Agent A) | **green** |\n| Ben    | “Ben has red” (Agent B) | **red** |\n| Dan    | “Dan has red” (Agent C) | **red** |\n\nSince each item may be assigned to **exactly one** entity, the two statements “Ben has red” and “Dan has red” cannot both b",
+      "finish_reason": "stop",
+      "completion_tokens": 718,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "36": {
+      "trial_id": 36,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_36.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → blue  \n- Ben → red  \n- Cara → yellow  \n- Dan → green",
+      "finish_reason": "stop",
+      "completion_tokens": 885,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "37": {
+      "trial_id": 37,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_37.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 607,
+      "response_preview": "**Result:** No assignment of the items {red, blue, green, yellow} to the entities {Alex, Ben, Cara, Dan} can satisfy **all** of the supplied clues simultaneously.\n\n- Agent A states that *Dan has blue* and *Cara has red*.\n- Agent C states that *Dan has red* (directly contradicting Agent A’s claim about Dan) and also that *Ben does not have yellow* (contradicting Agent A’s claim that *Ben has yellow*).\n\nBecause the clues from Agent A and Agent C are mutually exclusive, there is no consistent way t",
+      "finish_reason": "stop",
+      "completion_tokens": 1052,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "38": {
+      "trial_id": 38,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_38.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 541,
+      "response_preview": "**Result:**  \nThe supplied clues are contradictory, so no assignment of the four items to the four entities can satisfy all of them simultaneously.\n\n- Agent A fixes Cara → blue and Dan → red.  \n- Agent B asserts both Ben → green **and** Alex → green, while also stating Alex ≠ yellow.  \n- Agent C asserts Alex → yellow **and** Alex ≠ blue.\n\nBecause Agent B requires Alex to have green (and not yellow) while Agent C requires Alex to have yellow, the clues cannot all be true at once. Therefore a cons",
+      "finish_reason": "stop",
+      "completion_tokens": 414,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "39": {
+      "trial_id": 39,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_39.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 77,
+      "response_preview": "**Assignment**\n\n- Alex → green  \n- Ben → yellow  \n- Cara → red  \n- Dan → blue",
+      "finish_reason": "stop",
+      "completion_tokens": 804,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "40": {
+      "trial_id": 40,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_40.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 867,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\nThe clues together are contradictory:\n\n| Entity | Clues |\n|--------|-------|\n| **Alex** | – Agent A: *Alex has yellow*  <br>– Agent C: *Alex has green* and *Alex does not have yellow* |\n| **Cara** | – Agent A: *Cara has blue*  <br>– Agent B: *Cara does not have red* (compatible) |\n| **Dan**  | – Agent A: *Dan does not have blue*  <br>– Agent B: *Dan has red* (compatible) |\n| **Ben**  | – No direct clues |\n\nBecause Alex cannot simultane",
+      "finish_reason": "stop",
+      "completion_tokens": 827,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "41": {
+      "trial_id": 41,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_41.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 557,
+      "response_preview": "**Result:** The supplied clues are contradictory, so no assignment can satisfy all of them simultaneously.\n\n- Agent A says Alex = red, Cara = blue, Dan = yellow.  \n- Agent B says Ben = red (conflicts with Alex = red) and also says Alex is not blue (which is fine).  \n- Agent C adds further restrictions that do not resolve the conflict.\n\nBecause the same colour (“red”) would have to belong to both Alex and Ben, the constraints cannot all be met. Therefore there is **no consistent way to assign a u",
+      "finish_reason": "stop",
+      "completion_tokens": 650,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "42": {
+      "trial_id": 42,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_42.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 794,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\nThe clues together imply two contradictory facts:\n\n| Entity | Clue(s) that assign an item | Result |\n|--------|----------------------------|--------|\n| Ben    | “Ben has blue.” (Agent A)  | Ben → **blue** |\n| Dan    | “Dan has red.” (Agent A)   | Dan → **red** |\n| Alex   | “Alex has red.” (Agent C)  | Alex → **red** |\n\nSince each item may be assigned to **only one** entity, the item **red** cannot simultaneously belong to both Dan and ",
+      "finish_reason": "stop",
+      "completion_tokens": 771,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "43": {
+      "trial_id": 43,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_43.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1209,
+      "response_preview": "**Result:** No assignment can satisfy all of the supplied clues simultaneously.\n\n**Explanation**\n\n| Entity | Item (required by clues) | Reason it cannot be satisfied |\n|--------|--------------------------|--------------------------------|\n| **Cara** | *Agent A*: “Cara has **blue**.” <br>*Agent C*: “Cara does **not** have **blue**.” | Direct contradiction – Cara cannot both have and not have blue. |\n| **Ben** | *Agent A*: “Ben does **not** have **red**.” <br>*Agent C*: “Ben has **green**.” | This",
+      "finish_reason": "stop",
+      "completion_tokens": 661,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "44": {
+      "trial_id": 44,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_44.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1123,
+      "response_preview": "**Result – no consistent assignment exists**\n\nWhen we try to satisfy **all** of the supplied clues simultaneously we run into direct contradictions:\n\n| Entity | Clue from Agent A | Clue from Agent B | Conflict? |\n|--------|-------------------|-------------------|------------|\n| **Cara** | “Cara has yellow.” | “Cara does **not** have yellow.” | Direct contradiction |\n| **Ben**  | “Ben does **not** have red.” | “Ben has red.” | Direct contradiction |\n| **Ben**  | — | “Ben has red.” | “Ben has gree",
+      "finish_reason": "stop",
+      "completion_tokens": 665,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "45": {
+      "trial_id": 45,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_45.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 506,
+      "response_preview": "**Result:** No assignment can satisfy all of the supplied clues simultaneously.\n\nThe clues contain direct contradictions:\n\n* Cara is said to have **both** yellow **and** blue (Agent A), but each entity can receive only one item.\n* Alex is said to **have** blue (Agent B) and also to **not have** blue (Agent A).\n\nBecause the set of clues is internally inconsistent, there is no way to assign the four items (red, blue, green, yellow) to the four entities (Alex, Ben, Cara, Dan) while satisfying every",
+      "finish_reason": "stop",
+      "completion_tokens": 703,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "46": {
+      "trial_id": 46,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_46.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 299,
+      "response_preview": "**Assignment**\n\n- Alex → red  \n- Ben → yellow  \n- Cara → blue  \n- Dan → green  \n\nThis assignment satisfies every clue given by Agent A and Agent B, and no combination of clues from Agent C can coexist with those from Agents A and B. Hence it is the unique solution that uses only the supplied clues.",
+      "finish_reason": "stop",
+      "completion_tokens": 918,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "47": {
+      "trial_id": 47,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_47.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 246,
+      "response_preview": "**Result:**  \nNo assignment of the four items to the four entities can satisfy all of the supplied clues simultaneously. The clues contain a direct contradiction (Alex is said to have both red and yellow), so a consistent solution does not exist.",
+      "finish_reason": "stop",
+      "completion_tokens": 727,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "48": {
+      "trial_id": 48,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_48.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 929,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\n| Entity | Clues from the agents |\n|--------|-----------------------|\n| Alex   | – “Alex has red” (Agent A) <br>– “Alex does not have green” (Agent C) |\n| Ben    | – “Ben has yellow” (Agent A) <br>– “Ben has green” (Agent B) |\n| Cara   | – “Cara has blue” (Agent A & B) <br>– “Cara does not have green” (Agent B) |\n| Dan    | – “Dan does not have yellow” (Agent C) |\n\nThe only direct conflict is for **Ben**: one clue says Ben’s item is ",
+      "finish_reason": "stop",
+      "completion_tokens": 672,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "49": {
+      "trial_id": 49,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_49.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 384,
+      "response_preview": "**Assignment**\n\n| Entity | Item |\n|--------|------|\n| Alex   | **blue** |\n| Ben    | **green** |\n| Cara   | **red** |\n| Dan    | **yellow** |\n\nThis assignment satisfies all of Agent A’s clues (Cara ≠ yellow, Dan ≠ blue, Alex ≠ green) and cannot satisfy the complete set of clues given by either Agent B or Agent C, making it the only consistent solution when using the supplied clues.",
+      "finish_reason": "stop",
+      "completion_tokens": 875,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "50": {
+      "trial_id": 50,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_50.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 285,
+      "response_preview": "**Assignment (using only the Agent C clues – condition C1)**  \n\n- **Alex:** red  \n- **Ben:** blue  \n- **Cara:** yellow  \n- **Dan:** green  \n\nThis assignment satisfies the two clues supplied by Agent C (Alex does not have blue; Cara has yellow) while giving each entity a distinct item.",
+      "finish_reason": "stop",
+      "completion_tokens": 636,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "51": {
+      "trial_id": 51,
+      "authoritative_source": "R2",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R2_c1_targeted_recovery/phase14_23R2_recovery_trial_51.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 252,
+      "response_preview": "**Assignment**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → blue  \n- Dan → red  \n\nThis assignment satisfies the greatest number of the supplied clues (six of the eight clues) while respecting the rule that each entity receives exactly one distinct item.",
+      "finish_reason": "stop",
+      "completion_tokens": 1848,
+      "max_tokens": null,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "52": {
+      "trial_id": 52,
+      "authoritative_source": "R3",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R3_trial52_high_token_recovery/phase14_23R3_c1_trial_52.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 448,
+      "response_preview": "**Result:** No assignment of the four items to the four entities can satisfy all of the supplied clues simultaneously.  \n\nThe clues contain direct contradictions (e.g., Agent C states that Alex has both yellow **and** green, and Agent B states that Dan has yellow while Agent C also states that Alex has yellow). Because each entity must receive exactly one distinct item, these contradictions make the puzzle unsolvable under the given conditions.",
+      "finish_reason": "stop",
+      "completion_tokens": 544,
+      "max_tokens": 4096,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "53": {
+      "trial_id": 53,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_53.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 440,
+      "response_preview": "**Assignment**\n\n- **Alex – red**  \n- **Ben – blue**  \n- **Cara – green**  \n- **Dan – yellow**  \n\nThis assignment satisfies all of the non‑contradictory clues:\n\n- Cara has green (Agent A & B).  \n- Ben has blue (Agent A & B).  \n- Alex does not have yellow (Agent A) → Alex has red.  \n- Alex has red (Agent C).  \n- Dan does not have red (Agent C) → Dan has yellow.  \n\nAll items are used exactly once, and each entity receives exactly one item.",
+      "finish_reason": "stop",
+      "completion_tokens": 1075,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "54": {
+      "trial_id": 54,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_54.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 799,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\nThe eight clues together require the following:\n\n| Entity | From Agent A | From Agent C |\n|--------|--------------|--------------|\n| Alex   | green        | blue         |\n| Ben    | blue         | –            |\n| Cara   | yellow       | –            |\n| Dan    | red          | –            |\n\nAll other clues are compatible with these assignments (e.g., “Ben does not have green”, “Cara does not have blue”, “Dan does not have blue”).  ",
+      "finish_reason": "stop",
+      "completion_tokens": 792,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "55": {
+      "trial_id": 55,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_55.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 918,
+      "response_preview": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\n| Entity | Items forced by clues | Items prohibited by clues |\n|--------|----------------------|----------------------------|\n| Alex   | red (Agent A)        | blue (Agent A)             |\n| Ben    | green (Agent C)      | blue (Agent B)             |\n| Dan    | yellow (Agent B)     | blue (Agent B)             |\n| Cara   | **yellow** (Agent C) **and** not‑yellow (Agent A) – contradictory; also not‑red (Agent C) |\n\nAll items (red, blue",
+      "finish_reason": "stop",
+      "completion_tokens": 558,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "56": {
+      "trial_id": 56,
+      "authoritative_source": "R2",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R2_c1_targeted_recovery/phase14_23R2_recovery_trial_56.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1153,
+      "response_preview": "**Result – no consistent assignment exists**\n\nThe six clues given contain direct contradictions:\n\n| Contradictory pair | Reason it cannot both be true |\n|--------------------|------------------------------|\n| “Alex has red.” (Agent B) vs. “Alex does **not** have red.” (Agent B) | An entity cannot both have and not have the same item. |\n| “Cara has green.” (Agent A) vs. “Cara has blue.” (Agent B) | An entity can be assigned only one colour. |\n| “Cara does not have yellow.” (Agent C) vs. “Ben has ",
+      "finish_reason": "stop",
+      "completion_tokens": 635,
+      "max_tokens": null,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "57": {
+      "trial_id": 57,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_57.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1095,
+      "response_preview": "**Result:** There is **no possible assignment** that satisfies all of the supplied clues at once.\n\n**Why**\n\n| Entity | Items forced by clues | Conflict |\n|--------|----------------------|----------|\n| Alex   | – Agent A: **red**  <br>– Agent C: **not red**  <br>– Agent B: **yellow** | Alex cannot be both red, not‑red and yellow simultaneously. |\n| Ben    | – Agent A: **green**  <br>– Agent B: **blue** (and “not red”) | Ben cannot be both green and blue. |\n| Dan    | – Agent C: **red**  <br>– Age",
+      "finish_reason": "stop",
+      "completion_tokens": 964,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "58": {
+      "trial_id": 58,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_58.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 1277,
+      "response_preview": "**Result:** No assignment of the four items to the four entities can satisfy **all** of the supplied clues simultaneously.\n\n**Why?**\n\n| Entity | Agent A (what is *not* allowed) | Agent B (what is required) | Agent C (what is required) |\n|--------|--------------------------------|----------------------------|----------------------------|\n| Alex   | not yellow                     | red                        | yellow                     |\n| Ben    | not blue                       | –              ",
+      "finish_reason": "stop",
+      "completion_tokens": 473,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "59": {
+      "trial_id": 59,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_59.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 570,
+      "response_preview": "After checking the three groups of clues we find that they cannot all be true at the same time:\n\n* Agent A says “Alex does **not** have blue,” while Agent B says “Alex **has** blue.”\n* Agent B says “Alex has blue,” but Agent C says “Alex has red.”\n* Agent A says “Cara has blue,” while Agent B says “Cara has yellow.”\n\nBecause these statements directly contradict each other, there is **no assignment of the items (red, blue, green, yellow) to the entities (Alex, Ben, Cara, Dan) that can satisfy eve",
+      "finish_reason": "stop",
+      "completion_tokens": 370,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    },
+    "60": {
+      "trial_id": 60,
+      "authoritative_source": "ORIGINAL",
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_60.json",
+      "response_field": "response",
+      "response_candidate_count": 1,
+      "response_length": 355,
+      "response_preview": "**Assignment**\n\n| Entity | Item |\n|--------|------|\n| Alex   | blue |\n| Ben    | green |\n| Cara   | red |\n| Dan    | yellow |\n\nThis assignment satisfies all of the clues from **Agent B** and **Agent C**, while the clues from **Agent A** are not used (they would conflict with a consistent solution). All four items are each assigned to exactly one entity.",
+      "finish_reason": "stop",
+      "completion_tokens": 880,
+      "max_tokens": 1200,
+      "forensic_classification": "CLEAN_NONEMPTY_STOP",
+      "ground_truth_candidates": [],
+      "has_explicit_ground_truth": false
+    }
+  },
+  "correctness": {
+    "1": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "2": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "3": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "4": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "5": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "6": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "7": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "8": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "9": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "10": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "11": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "12": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "13": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "14": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "15": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "16": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "17": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "18": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "19": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "20": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "21": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "22": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "23": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "24": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "25": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "26": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "27": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "28": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "29": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "30": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "31": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "32": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "33": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "34": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "35": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "36": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "37": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "38": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "39": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "40": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "41": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "42": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "43": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "44": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "45": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "46": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "47": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "48": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "49": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "50": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "51": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "52": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "53": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "54": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "55": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "56": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "57": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "58": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "59": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    },
+    "60": {
+      "status": "NO_GROUND_TRUTH",
+      "correct": null
+    }
+  },
+  "generated_at_utc": "2026-08-26T05:07:28.333528+00:00"
+}

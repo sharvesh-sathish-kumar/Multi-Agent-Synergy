@@ -1,0 +1,191 @@
+{
+  "phase": "14.10F",
+  "timestamp_utc": "2026-08-25T16:50:32.387192+00:00",
+  "root": "/content/drive/MyDrive/multi_agent_experiment",
+  "safety": {
+    "read_only_sources": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "candidate_problem_mapping": false,
+    "inference": false,
+    "reconstruction": false,
+    "historical_artifact_modification": false
+  },
+  "files_scanned": [
+    {
+      "file": "groq_experiment_results.json",
+      "status": "valid_json",
+      "sha256": "e91b6a1125a506da3a650f0f9b6cf5f39b7e99fea3e165e69ca4c31ae8a6bd71",
+      "literal_model_count": 30,
+      "agent_record_count": 0
+    },
+    {
+      "file": "phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json",
+      "status": "valid_json",
+      "sha256": "4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3",
+      "literal_model_count": 0,
+      "agent_record_count": 0
+    },
+    {
+      "file": "phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "status": "valid_json",
+      "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341",
+      "literal_model_count": 60,
+      "agent_record_count": 0
+    },
+    {
+      "file": "phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "status": "valid_json",
+      "sha256": "5747643787f59084f6cf31ffc10b6a1fb1541f95b313cd893f3a82e2950d7c58",
+      "literal_model_count": 5,
+      "agent_record_count": 0
+    },
+    {
+      "file": "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json",
+      "status": "valid_json",
+      "sha256": "9e39d122663e2dde84b04050058fc4af509154e9d54e63a01b8d1ebe949a2e05",
+      "literal_model_count": 60,
+      "agent_record_count": 180
+    },
+    {
+      "file": "phase14_mechanistic_analysis/phase14_0_deterministic_mechanism_benchmark/phase14_0_complete_report.json",
+      "status": "valid_json",
+      "sha256": "1525a6ec168c3bf35cdd604f1d8843de69bf250d9a53f2875089b2935a7a5e56",
+      "literal_model_count": 0,
+      "agent_record_count": 3
+    },
+    {
+      "file": "phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+      "status": "valid_json",
+      "sha256": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+      "literal_model_count": 0,
+      "agent_record_count": 3
+    },
+    {
+      "file": "phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_complete_report.json",
+      "status": "valid_json",
+      "sha256": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+      "literal_model_count": 1,
+      "agent_record_count": 0
+    },
+    {
+      "file": "phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+      "status": "valid_json",
+      "sha256": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+      "literal_model_count": 0,
+      "agent_record_count": 6
+    },
+    {
+      "file": "phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json",
+      "status": "valid_json",
+      "sha256": "1b7d1643cb811f39ce760d61079399ed767b720f3d4f49bb67777b5dd014c942",
+      "literal_model_count": 0,
+      "agent_record_count": 6
+    }
+  ],
+  "literal_models": {
+    "groq_experiment_results.json": [
+      "openai/gpt-oss-120b"
+    ],
+    "phase10_results/phase12_treatment2/phase12_2_raw_results.json": [
+      "openai/gpt-oss-120b"
+    ],
+    "phase13_mechanistic_analysis/phase13_2_information_flow_audit.json": [
+      "openai/gpt-oss-120b"
+    ],
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json": [
+      "openai/gpt-oss-120b"
+    ],
+    "phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_complete_report.json": [
+      "openai/gpt-oss-120b"
+    ]
+  },
+  "agent_evidence": {
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json": {
+      "total_agent_records": 180,
+      "by_agent": {
+        "Agent_A": 60,
+        "Agent_B": 60,
+        "Agent_C": 60
+      },
+      "reliability_counts": {
+        "true": 120,
+        "false": 60
+      }
+    },
+    "phase14_mechanistic_analysis/phase14_0_deterministic_mechanism_benchmark/phase14_0_complete_report.json": {
+      "total_agent_records": 3,
+      "by_agent": {
+        "Agent_A": 1,
+        "Agent_B": 1,
+        "Agent_C": 1
+      },
+      "reliability_counts": {
+        "true": 0,
+        "false": 0
+      }
+    },
+    "phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json": {
+      "total_agent_records": 3,
+      "by_agent": {
+        "Agent_A": 1,
+        "Agent_B": 1,
+        "Agent_C": 1
+      },
+      "reliability_counts": {
+        "true": 0,
+        "false": 0
+      }
+    },
+    "phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json": {
+      "total_agent_records": 6,
+      "by_agent": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 2
+      },
+      "reliability_counts": {
+        "true": 0,
+        "false": 0
+      }
+    },
+    "phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json": {
+      "total_agent_records": 6,
+      "by_agent": {
+        "Agent_A": 2,
+        "Agent_B": 2,
+        "Agent_C": 2
+      },
+      "reliability_counts": {
+        "true": 0,
+        "false": 0
+      }
+    }
+  },
+  "direct_model_record_counts": {},
+  "historical_model_identifiers": [
+    "openai/gpt-oss-120b"
+  ],
+  "totals": {
+    "files_scanned": 10,
+    "valid_json": 10,
+    "invalid_or_unreadable": 0,
+    "files_with_agent_evidence": 5,
+    "literal_model_identifiers": 1
+  },
+  "not_established": [
+    "Treatment 1 vs Treatment 2 assignment by inference",
+    "Agent A/B/C identity beyond literal historical labels",
+    "Candidate-problem mapping",
+    "Ground-truth reconstruction",
+    "Treatment 3 model selection",
+    "Any new model execution",
+    "Any API execution"
+  ]
+}

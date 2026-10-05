@@ -1,0 +1,35 @@
+{
+  "phase": "14.32",
+  "treatment": 3,
+  "condition": "C0",
+  "trial_id": 5,
+  "problem_id": 5,
+  "fresh_execution": true,
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are given a constrained assignment problem.\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\nConflict level: low_conflict\n\nEach name must receive exactly one item, and each item must be assigned to exactly one name.\n\nAgent A clues:\n- Alex has green.\n- Cara has red.\n- Dan has yellow.\nAgent B clues:\n- Cara does not have green.\n- Ben has blue.\n- Cara does not have yellow.\n\nReturn the final assignment for every name.",
+  "prompt_sha256": "e1e8fb09ed0ecb0df1abecc13f17b6aa5dd36f9c9dd43f1b2b24e3ab01f355dd",
+  "response": "**Final assignment**\n\n| Name | Item |\n|------|------|\n| Alex | green |\n| Ben  | blue |\n| Cara | red |\n| Dan  | yellow |",
+  "response_length": 119,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 175,
+    "total_tokens": 383,
+    "completion_time": 0.432486756,
+    "completion_tokens_details": {
+      "reasoning_tokens": 163
+    },
+    "prompt_time": 0.007448243,
+    "prompt_tokens_details": null,
+    "queue_time": 0.375273146,
+    "total_time": 0.439934999
+  },
+  "attempts_used": 1,
+  "retry_log": [],
+  "elapsed_seconds": 0.9420416355133057,
+  "executed_at_utc": "2026-08-29T04:02:01.820441+00:00",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+}

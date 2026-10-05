@@ -1,0 +1,357 @@
+{
+  "phase": "13.3",
+  "phase_name": "Experiment Provenance & Record-Reconstruction Audit",
+  "timestamp_utc": "2026-08-24T23:50:47.090423Z",
+  "constraints": {
+    "api_calls": 0,
+    "model_calls": 0,
+    "statistical_significance_tests": 0,
+    "read_only": true,
+    "existing_files_modified": false
+  },
+  "experiment_root": "/content/drive/MyDrive/multi_agent_experiment",
+  "input_files": {
+    "frozen_dataset": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+      "size": 16092,
+      "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+    },
+    "treatment2_spec": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+      "size": 4995,
+      "sha256": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f"
+    },
+    "treatment2_raw": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "size": 16358,
+      "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341"
+    },
+    "treatment2_scored": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "size": 22596,
+      "sha256": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf"
+    },
+    "treatment1_raw": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json",
+      "size": 28947,
+      "sha256": "4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3"
+    },
+    "treatment1_parsed": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+      "size": 42880,
+      "sha256": "888ed4af7181ef9efc7b87204c28a3b96b3add90d9e55080f7cb55a35e280896"
+    },
+    "paired_analysis": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "size": 6247,
+      "sha256": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5"
+    },
+    "statistical_analysis": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json",
+      "size": 7852,
+      "sha256": "d789694ebb55bfa6eb429eb3a04ee0495a3e350b24e96d0b2632b2af7d87b7bd"
+    }
+  },
+  "dataset": {
+    "record_count": 60,
+    "unique_problem_ids": 60,
+    "fingerprint": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "integrity": {
+      "record_count": 60,
+      "unique_problem_ids": 60,
+      "duplicate_problem_ids": {},
+      "missing_problem_id_records": 0,
+      "missing_clue_fields": [],
+      "empty_clue_fields": [],
+      "missing_ground_truth": [],
+      "missing_conflict_level": [],
+      "missing_reliability_fields": []
+    },
+    "ground_truth_unique_assignments": 23,
+    "ground_truth_distribution": {
+      "('blue', 'yellow', 'red', 'green')": 3,
+      "('blue', 'green', 'red', 'yellow')": 3,
+      "('green', 'yellow', 'red', 'blue')": 5,
+      "('blue', 'red', 'green', 'yellow')": 3,
+      "('green', 'blue', 'red', 'yellow')": 3,
+      "('yellow', 'green', 'red', 'blue')": 1,
+      "('yellow', 'red', 'blue', 'green')": 3,
+      "('red', 'green', 'yellow', 'blue')": 5,
+      "('yellow', 'blue', 'red', 'green')": 2,
+      "('red', 'yellow', 'green', 'blue')": 3,
+      "('green', 'red', 'blue', 'yellow')": 3,
+      "('red', 'green', 'blue', 'yellow')": 4,
+      "('green', 'blue', 'yellow', 'red')": 2,
+      "('red', 'blue', 'green', 'yellow')": 2,
+      "('yellow', 'red', 'green', 'blue')": 2,
+      "('green', 'red', 'yellow', 'blue')": 1,
+      "('blue', 'red', 'yellow', 'green')": 2,
+      "('yellow', 'blue', 'green', 'red')": 2,
+      "('yellow', 'green', 'blue', 'red')": 4,
+      "('red', 'blue', 'yellow', 'green')": 2,
+      "('green', 'yellow', 'blue', 'red')": 1,
+      "('red', 'yellow', 'blue', 'green')": 2,
+      "('blue', 'yellow', 'green', 'red')": 2
+    }
+  },
+  "treatment2": {
+    "raw_records": 60,
+    "unique_ids": 60,
+    "duplicate_ids": {},
+    "missing_ids": [],
+    "extra_ids": [],
+    "unique_response_hashes": 1,
+    "response_hash_distribution": {
+      "d3f56f2a40eaf77573151e80ac07fa93542931e9ff661860790b1bdefa32bfc3": 60
+    },
+    "unique_predictions": 1,
+    "prediction_distribution": {
+      "('red', 'blue', 'green', 'yellow')": 60
+    },
+    "parse_failures": [],
+    "clue_retention": {
+      "A": {
+        "expected": 180,
+        "found": 0,
+        "missing": 180,
+        "retention_rate": 0.0
+      },
+      "B": {
+        "expected": 180,
+        "found": 0,
+        "missing": 180,
+        "retention_rate": 0.0
+      },
+      "C": {
+        "expected": 125,
+        "found": 0,
+        "missing": 125,
+        "retention_rate": 0.0
+      }
+    },
+    "problems_with_any_missing_clues": 60,
+    "problems_with_all_clues_missing": 60,
+    "payload_unique_hashes": 60,
+    "payload_unique_hashes_without_id": 5,
+    "fixed_answer_occurrences": {
+      "Alex=red": 0,
+      "Ben=blue": 0,
+      "Cara=green": 0,
+      "Dan=yellow": 0
+    },
+    "problem_identity_explicit_count": 0,
+    "ground_truth_adjacent_changes": 57,
+    "prediction_adjacent_changes": 0,
+    "independent_scoring": {
+      "valid": 60,
+      "parse_success": 60,
+      "parse_failure": 0,
+      "exact_correct": 2,
+      "incorrect": 58,
+      "person_correct": {
+        "Alex": 18,
+        "Ben": 13,
+        "Cara": 14,
+        "Dan": 18
+      },
+      "exact_accuracy": 0.03333333333333333,
+      "person_accuracy": {
+        "Alex": 0.3,
+        "Ben": 0.21666666666666667,
+        "Cara": 0.23333333333333334,
+        "Dan": 0.3
+      }
+    },
+    "raw_scored_mismatches": []
+  },
+  "treatment1": {
+    "raw_records": 62,
+    "unique_ids": 60,
+    "duplicate_ids": {
+      "20": 2,
+      "34": 2
+    },
+    "conflicting_duplicate_ids": {
+      "20": {
+        "record_count": 2,
+        "unique_response_hashes": 2
+      },
+      "34": {
+        "record_count": 2,
+        "unique_response_hashes": 2
+      }
+    }
+  },
+  "pairing": {
+    "stored_analysis_n": 30,
+    "stored_paired_id_count": 30,
+    "stored_unique_paired_id_count": 30,
+    "stored_duplicate_paired_ids": {},
+    "dataset_ids_missing_from_stored_pairing": [
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60"
+    ],
+    "extra_stored_pair_ids": [],
+    "independent_pair_rows": 62,
+    "selection_policy_results": {
+      "first": {
+        "n": 58,
+        "baseline_correct": 46,
+        "treatment_correct": 2,
+        "baseline_accuracy": 0.7931034482758621,
+        "treatment_accuracy": 0.034482758620689655,
+        "absolute_change": -0.7586206896551724,
+        "transitions": {
+          "correct_to_incorrect": 44,
+          "incorrect_to_incorrect": 12,
+          "correct_to_correct": 2
+        }
+      },
+      "last": {
+        "n": 60,
+        "baseline_correct": 48,
+        "treatment_correct": 2,
+        "baseline_accuracy": 0.8,
+        "treatment_accuracy": 0.03333333333333333,
+        "absolute_change": -0.7666666666666667,
+        "transitions": {
+          "correct_to_incorrect": 46,
+          "incorrect_to_incorrect": 12,
+          "correct_to_correct": 2
+        }
+      },
+      "successful": {
+        "n": 60,
+        "baseline_correct": 48,
+        "treatment_correct": 2,
+        "baseline_accuracy": 0.8,
+        "treatment_accuracy": 0.03333333333333333,
+        "absolute_change": -0.7666666666666667,
+        "transitions": {
+          "correct_to_incorrect": 46,
+          "incorrect_to_incorrect": 12,
+          "correct_to_correct": 2
+        }
+      }
+    }
+  },
+  "failure_chain": {
+    "stage_1_frozen_dataset": {
+      "status": "PASS"
+    },
+    "stage_2_problem_identity": {
+      "status": "PASS"
+    },
+    "stage_3_t2_clue_preservation": {
+      "status": "FAIL",
+      "expected_clues": 485,
+      "found_clues": 0
+    },
+    "stage_4_t2_response_diversity": {
+      "status": "FAIL",
+      "unique_responses": 1
+    },
+    "stage_5_t2_prediction_diversity": {
+      "status": "FAIL",
+      "unique_predictions": 1
+    },
+    "stage_6_t1_duplicate_integrity": {
+      "status": "WARNING",
+      "duplicate_ids": {
+        "20": 2,
+        "34": 2
+      }
+    },
+    "stage_7_stored_pair_analysis": {
+      "status": "PASS"
+    }
+  },
+  "root_cause_priority": [
+    {
+      "priority": 1,
+      "mechanism": "T2 information/serialization loss",
+      "evidence": "0/485 expected dataset clue strings were retained.",
+      "confidence": "HIGH"
+    },
+    {
+      "priority": 2,
+      "mechanism": "T2 response collapse",
+      "evidence": "All stored T2 responses are identical after normalization.",
+      "confidence": "HIGH"
+    },
+    {
+      "priority": 3,
+      "mechanism": "T2 problem-identity insensitivity",
+      "evidence": "Ground truth varies while parsed prediction remains fixed.",
+      "confidence": "HIGH"
+    },
+    {
+      "priority": 4,
+      "mechanism": "T1 record duplication / alignment ambiguity",
+      "evidence": "2 problem IDs contain duplicate T1 records.",
+      "confidence": "HIGH"
+    }
+  ],
+  "blocking_conditions": [
+    "T2 clue serialization is incomplete.",
+    "T2 response collapse remains unresolved.",
+    "T2 prediction collapse remains unresolved.",
+    "T1 contains duplicate problem IDs."
+  ],
+  "treatment3_ready": false,
+  "scientific_interpretation": {
+    "what_this_phase_can_support": [
+      "The integrity of the frozen dataset can be audited.",
+      "Stored T2 records can be checked for preservation of expected clue strings.",
+      "T2 response and prediction collapse can be quantified.",
+      "T1 duplicate problem IDs can be identified.",
+      "T1/T2 alignment can be reconstructed independently.",
+      "Stored paired-analysis bookkeeping can be compared with independent reconstruction.",
+      "A likely failure stage in the experimental information pipeline can be identified."
+    ],
+    "what_this_phase_cannot_support": [
+      "A claim about any specific neural-network layer.",
+      "A claim about hidden-layer activations.",
+      "A claim about attention-head behavior.",
+      "A claim about residual-stream representations.",
+      "A claim that the model itself caused the serialization failure.",
+      "A causal claim that reliability gating improves reasoning."
+    ]
+  }
+}

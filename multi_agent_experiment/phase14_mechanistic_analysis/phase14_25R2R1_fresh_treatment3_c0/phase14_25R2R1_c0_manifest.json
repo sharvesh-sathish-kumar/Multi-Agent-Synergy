@@ -1,0 +1,23 @@
+{
+  "phase": "14.25R2R1",
+  "condition": "C0",
+  "status": "fresh_execution",
+  "n": 60,
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "distribution": {
+    "A,B": 20,
+    "A,C": 20,
+    "B,C": 20
+  },
+  "old_c0_used": false,
+  "old_14_25R2_used": false,
+  "diagnostic_call_used": false,
+  "c1_used": false,
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "t3_design_sha256": "0cb4ee22cd3296b55ce19deb65ddc22be8119fe2c04e5532798ffffb27f26dfd",
+  "t3_preflight_sha256": "03f76d8005fd3390883b5fd46d0604593d7c25519e581443f0490cc1eb73bff6",
+  "source_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0",
+  "timestamp_utc": "2026-08-26T20:21:48Z"
+}

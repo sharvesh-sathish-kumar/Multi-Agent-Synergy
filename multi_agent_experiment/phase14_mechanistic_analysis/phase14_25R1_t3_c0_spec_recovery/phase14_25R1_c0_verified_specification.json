@@ -1,0 +1,26 @@
+{
+  "phase": "14.25R1",
+  "purpose": "treatment3_c0_specification_recovery",
+  "api_calls": 0,
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 200,
+  "num_problems": 60,
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "t3_design_sha256": "0cb4ee22cd3296b55ce19deb65ddc22be8119fe2c04e5532798ffffb27f26dfd",
+  "t3_preflight_sha256": "03f76d8005fd3390883b5fd46d0604593d7c25519e581443f0490cc1eb73bff6",
+  "c0_definition": "For each problem, include exactly those agents whose agent_*_reliable flag is True.",
+  "ground_truth_records": 60,
+  "c0_distribution": {
+    "A,B": 20,
+    "A,C": 20,
+    "B,C": 20
+  },
+  "integrity": {
+    "frozen_dataset_modified": false,
+    "t3_design_modified": false,
+    "t3_preflight_modified": false,
+    "api_calls": 0,
+    "model_calls": 0
+  }
+}

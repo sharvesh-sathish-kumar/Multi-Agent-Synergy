@@ -1,0 +1,19 @@
+{
+  "phase": "14.32R2",
+  "condition": "C1",
+  "trial_id": 54,
+  "problem_id": 54,
+  "provider": "Groq",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "Solve the following logic problem.\n\nNames: ['Alex', 'Ben', 'Cara', 'Dan']\nItems: ['red', 'blue', 'green', 'yellow']\n\nAgent A clues:\n- Alex has green.\n- Ben has blue.\n- Cara has yellow.\n\nAgent B clues:\n- Ben does not have green.\n- Cara does not have blue.\n- Dan has red.\n\nAgent C clues:\n- Dan does not have blue.\n- Alex has blue.\n\nDetermine the correct answer using the information provided.",
+  "response": "**Solution**\n\n| Person | Colour |\n|--------|--------|\n| Alex   | **green** |\n| Ben    | **blue** |\n| Cara   | **yellow** |\n| Dan    | **red** |\n\n**Reasoning**\n\n1. From Agent A we have three definite statements:  \n   - Alex = green  \n   - Ben = blue  \n   - Cara = yellow  \n\n2. From Agent B we have:  \n   - Ben ≠ green – satisfied (Ben is blue)  \n   - Cara ≠ blue – satisfied (Cara is yellow)  \n   - Dan = red – gives Dan’s colour.\n\n3. From Agent C we have two statements:  \n   - Dan ≠ blue – satisfied (Dan is red)  \n   - Alex = blue – **conflicts** with Agent A’s “Alex = green”.\n\n   The only way to keep all other clues consistent is to treat the last statement (Alex = blue) as false.  \n\n4. With Alex = green, Ben = blue, Cara = yellow, Dan = red we have a one‑to‑one assignment of the four colours to the four people, and every clue except the contradictory one from Agent C is satisfied.\n\nHence the correct assignment is:\n\n- **Alex – green**  \n- **Ben – blue**  \n- **Cara – yellow**  \n- **Dan – red**.",
+  "response_chars": 1005,
+  "finish_reason": "stop",
+  "fresh_execution": true,
+  "recovery_execution": true,
+  "dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "timestamp_utc": "2026-08-29T04:58:23.013672+00:00",
+  "attempt": 1
+}

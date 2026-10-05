@@ -1,0 +1,41 @@
+================================================================================
+PHASE 14.21 — C1 RESPONSE-QUALITY FORENSIC AUDIT
+================================================================================
+ZERO API CALLS | ZERO MODEL CALLS | READ-ONLY
+
+EXECUTION COVERAGE
+----------------------------------------
+Expected trials:          60
+Actually executed:        60/60
+Nonempty responses:       36/60
+Empty responses:          24/60
+Length-truncated:         38/60
+Stored errors:            0/60
+Usage metadata present:   60/60
+Clean nonempty stop:      22/60
+Potentially usable:       22/60
+
+CLASSIFICATIONS
+----------------------------------------
+EMPTY_TRUNCATED: 24/60
+NONEMPTY_TRUNCATED: 14/60
+USABLE_STOP: 22/60
+
+EMPTY TRIALS
+----------------------------------------
+16, 18, 19, 21, 23, 24, 27, 28, 35, 36, 37, 39, 40, 41, 42, 44, 45, 47, 48, 50, 51, 55, 57, 59
+
+TRUNCATED TRIALS
+----------------------------------------
+16, 17, 18, 19, 20, 21, 22, 23, 24, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 53, 55, 57, 58, 59, 60
+
+POTENTIALLY USABLE TRIALS
+----------------------------------------
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 25, 26, 29, 43, 52, 54, 56
+
+IMPORTANT INTERPRETATION
+----------------------------------------
+This audit does not determine scientific correctness.
+It determines whether a saved C1 response is structurally
+usable for downstream analysis based on response presence,
+finish reason, stored error state, and execution metadata.

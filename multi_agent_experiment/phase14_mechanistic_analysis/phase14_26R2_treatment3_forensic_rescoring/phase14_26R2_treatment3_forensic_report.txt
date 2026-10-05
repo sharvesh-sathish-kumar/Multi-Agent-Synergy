@@ -1,0 +1,46 @@
+================================================================================
+PHASE 14.26R2 — TREATMENT 3 FORENSIC RESCORING REPORT
+================================================================================
+
+ZERO API CALLS
+ZERO MODEL CALLS
+READ-ONLY INPUT ANALYSIS
+
+INPUTS
+--------------------------------------------------------------------------------
+Frozen dataset : /content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl
+Fresh C0      : /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0/phase14_25R2R1_c0_all_results.json
+C1 directory  : /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1
+
+EXCLUDED
+--------------------------------------------------------------------------------
+Old C0
+Failed 14.25R2 C0
+Diagnostic call
+Phase 14.26R1 verdict
+
+PARSER FORENSICS
+--------------------------------------------------------------------------------
+GT structured: 60
+C0:assignment_lines: 5
+C0:whole_text_relation: 2
+C1:assignment_lines: 19
+C1:whole_text_relation: 27
+
+RESULTS
+--------------------------------------------------------------------------------
+C0: 4/60 (6.67%)
+C1: 19/60 (31.67%)
+Delta: +25.00 percentage points
+
+PAIRED
+Both correct   : 2
+C0 only        : 2
+C1 only        : 17
+Both incorrect : 39
+Discordant     : 19
+McNemar        : 10.3158
+
+VERDICT: IMPROVEMENT
+
+Treatment 3 produced higher accuracy than the fresh C0 baseline on the paired 60-problem evaluation.

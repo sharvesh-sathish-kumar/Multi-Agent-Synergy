@@ -1,0 +1,36 @@
+{
+  "phase": "14.10H",
+  "purpose": "Compact literal configuration provenance consolidation",
+  "source": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10G_configuration_provenance.json",
+  "safety": {
+    "read_only": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "candidate_problem_mapping": false,
+    "inference": false,
+    "reconstruction": false,
+    "artifact_modification": false
+  },
+  "literal_models": {},
+  "literal_providers": {},
+  "agent_identifier_hits": {},
+  "configuration_key_hits": {
+    "agent": 378
+  },
+  "treatment_condition_literals": {},
+  "interpretation": {
+    "historical_literal_evidence_only": true,
+    "agent_assignment_inferred": false,
+    "treatment_1_configuration_reconstructed": false,
+    "treatment_2_configuration_reconstructed": false,
+    "treatment_3_configuration_selected": false,
+    "model_executed": false,
+    "api_called": false
+  }
+}

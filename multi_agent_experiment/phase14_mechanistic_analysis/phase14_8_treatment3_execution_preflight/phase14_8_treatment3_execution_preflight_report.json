@@ -1,0 +1,94 @@
+{
+  "artifact_state": {
+    "preflight_artifact_count": 128,
+    "previous_artifacts_modified": false
+  },
+  "candidate_identity": {
+    "count": 5,
+    "identities": [
+      "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    ],
+    "identity_resolution_method": "exact cryptographic equality only",
+    "ordering_mapping": false,
+    "positional_mapping": false,
+    "text_matching": false
+  },
+  "execution_requirements": {
+    "candidate_ground_truth_binding": "must be derivable only through explicit source bindings",
+    "candidate_id": "must be explicit",
+    "candidate_problem_binding": "must be explicit",
+    "cross_candidate_guessing": "forbidden",
+    "evaluation_id": "must be generated explicitly",
+    "ground_truth_hash": "must be explicit and verified",
+    "ground_truth_id": "must be explicit",
+    "manual_reconstruction": "forbidden",
+    "model_output_hash": "must be computed from saved output",
+    "model_output_id": "must be generated explicitly",
+    "numeric_semantics_inference": "forbidden",
+    "ordering_mapping": "forbidden",
+    "positional_mapping": "forbidden",
+    "problem_ground_truth_binding": "must be explicit",
+    "problem_id": "must be explicit",
+    "text_matching": "forbidden"
+  },
+  "execution_status": {
+    "execution_allowed_for_future_cell": true,
+    "treatment_3_executed": false
+  },
+  "fail_closed_conditions": [
+    "missing_candidate_id",
+    "missing_problem_id",
+    "missing_ground_truth_id",
+    "missing_ground_truth_hash",
+    "missing_model_output_id",
+    "missing_model_output_hash",
+    "missing_evaluation_id",
+    "hash_mismatch",
+    "duplicate_identity",
+    "ambiguous_binding",
+    "positional_mapping_detected",
+    "ordering_mapping_detected",
+    "text_matching_mapping_detected",
+    "inferred_GT_detected",
+    "cross_candidate_collision"
+  ],
+  "forbidden_methods": {
+    "candidate_text_matching": false,
+    "cross_candidate_guessing": false,
+    "legacy_GT_reconstruction": false,
+    "list_position": false,
+    "manual_reconstruction": false,
+    "numeric_semantics_inference": false,
+    "ordering": false,
+    "problem_number_inference": false,
+    "problem_text_matching": false
+  },
+  "next_action": "IMPLEMENT_SEPARATE_TREATMENT_3_EXECUTION_CELL",
+  "phase": "14.8",
+  "safety": {
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "api_calls": false,
+    "cross_candidate_guessing": false,
+    "ground_truth_interpretation": false,
+    "legacy_GT_reconstruction": false,
+    "manual_reconstruction": false,
+    "model_calls": false,
+    "ordering_mapping": false,
+    "positional_mapping": false,
+    "prior_artifact_modification": false,
+    "read_only_previous_artifacts": true,
+    "text_matching_mapping": false,
+    "treatment_3_execution": false
+  },
+  "source_provenance": {
+    "phase_14_7_ready": true,
+    "required_source_checks_verified": true
+  },
+  "timestamp_utc": "2026-08-25T06:18:41.764892+00:00",
+  "title": "Treatment 3 Execution-Preflight Gate — Final Provenance / Identity / Hash Validation"
+}

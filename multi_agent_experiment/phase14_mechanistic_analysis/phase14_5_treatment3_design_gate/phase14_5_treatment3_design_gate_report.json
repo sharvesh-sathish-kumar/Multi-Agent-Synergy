@@ -1,0 +1,82 @@
+{
+  "candidate_count": 5,
+  "candidate_fingerprints": {
+    "1": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "2": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "3": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "4": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+    "5": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+  },
+  "contract_path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json",
+  "failure_policy": {
+    "ambiguous_binding": "FAIL",
+    "duplicate_identity": "FAIL",
+    "hash_mismatch": "FAIL",
+    "inferred_GT_detected": "FAIL",
+    "missing_candidate_id": "FAIL",
+    "missing_ground_truth_id": "FAIL",
+    "missing_model_output_id": "FAIL",
+    "missing_problem_id": "FAIL",
+    "ordering_mapping_detected": "FAIL",
+    "positional_mapping_detected": "FAIL",
+    "text_matching_mapping_detected": "FAIL"
+  },
+  "legacy_provenance_decision": {
+    "decision": "PROVENANCE_EXHAUSTION_ESTABLISHED",
+    "recoverability": "NO_DEFENSIBLE_CANDIDATE_GT_MAPPING_FROM_EXISTING_FORENSIC_SURFACE",
+    "status": "CLOSED"
+  },
+  "name": "TREATMENT 3 PROVENANCE-FIRST DESIGN GATE",
+  "next_action": "IMPLEMENT_AND_VALIDATE_TREATMENT_3_GENERATION_PIPELINE",
+  "phase": "14.5",
+  "post_run_checkpoints": [
+    "every_output_has_candidate_id",
+    "every_output_has_problem_id",
+    "every_output_has_model_output_id",
+    "every_output_has_model_output_hash",
+    "every_evaluation_has_ground_truth_id",
+    "every_evaluation_has_model_output_id",
+    "every_evaluation_has_candidate_id",
+    "every_evaluation_has_problem_id",
+    "all_ground_truth_hashes_match_source",
+    "all_output_hashes_match_saved_outputs",
+    "no_duplicate_evaluation_ids",
+    "no_cross_candidate_binding_collisions",
+    "source_artifacts_unchanged"
+  ],
+  "pre_existing_artifact_count": 61,
+  "pre_existing_artifacts_changed": 0,
+  "pre_run_checkpoints": [
+    "manifest_integrity_verified",
+    "problem_ids_unique",
+    "candidate_ids_unique",
+    "ground_truth_ids_unique",
+    "candidate_problem_bindings_explicit",
+    "problem_ground_truth_bindings_explicit",
+    "output_ids_generated_explicitly",
+    "evaluation_ids_generated_explicitly",
+    "all_hashes_recorded",
+    "source_records_immutable",
+    "no_positional_mapping",
+    "no_ordering_mapping",
+    "no_text_matching_mapping",
+    "no_legacy_GT_reconstruction"
+  ],
+  "purpose": "Establish a fail-closed explicit provenance contract for Treatment 3 following Phase 14.4I provenance exhaustion.",
+  "safety": {
+    "accuracy_calculated": false,
+    "answer_recomputed": false,
+    "candidate_mapping_from_text_collision": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "model_output_used": false,
+    "numeric_semantics_used": false,
+    "ordering_used": false,
+    "positional_mapping": false,
+    "prior_artifacts_modified": false,
+    "problem_number_inference": false,
+    "treatment_3_executed": false
+  },
+  "status": "COMPLETE",
+  "treatment_3_status": "NOT_RUN"
+}

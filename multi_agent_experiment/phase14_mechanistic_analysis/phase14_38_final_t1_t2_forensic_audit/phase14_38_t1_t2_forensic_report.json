@@ -1,0 +1,27 @@
+{
+  "phase": "14.38",
+  "purpose": "Final Treatment 1 and Treatment 2 forensic audit",
+  "locks": {
+    "zero_model_calls": true,
+    "zero_api_calls": true,
+    "zero_experiment_execution": true,
+    "source_artifacts_read_only": true
+  },
+  "root": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis",
+  "counts": {
+    "all_json": 520,
+    "t1_candidates": 0,
+    "t2_candidates": 0,
+    "t1_trial_candidates": 0,
+    "t2_trial_candidates": 0,
+    "t1_60_trial_candidates": 0,
+    "t2_60_trial_candidates": 0
+  },
+  "t1_summary_records": [],
+  "t2_summary_records": [],
+  "t1_trial_candidates": [],
+  "t2_trial_candidates": [],
+  "t1_complete_candidates": [],
+  "t2_complete_candidates": [],
+  "candidate_hashes": []
+}

@@ -1,0 +1,644 @@
+{
+  "phase": "14.4B",
+  "phase_name": "OOD Model Validation",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "n_ood_problems": 10,
+  "api_calls_attempted": 20,
+  "successful_calls": 20,
+  "failed_calls": 0,
+  "rate_limit_failures": 0,
+  "ungated_summary": {
+    "n": 10,
+    "valid": 2,
+    "correct": 0,
+    "invalid": 8,
+    "end_to_end_accuracy": 0.0,
+    "valid_answer_accuracy": 0.0
+  },
+  "reliability_gated_summary": {
+    "n": 10,
+    "valid": 5,
+    "correct": 0,
+    "invalid": 5,
+    "end_to_end_accuracy": 0.0,
+    "valid_answer_accuracy": 0.0
+  },
+  "absolute_gated_advantage": 0.0,
+  "gated_improvements": 0,
+  "gated_regressions": 0,
+  "paired_results": [
+    {
+      "problem_id": "127",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": true,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "134",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": false,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "147",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": false,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "15",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": true,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "160",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": false,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "215",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": true,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "315",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": false,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "404",
+      "ungated_valid": false,
+      "ungated_correct": false,
+      "gated_valid": false,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "49",
+      "ungated_valid": true,
+      "ungated_correct": false,
+      "gated_valid": true,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    },
+    {
+      "problem_id": "50",
+      "ungated_valid": true,
+      "ungated_correct": false,
+      "gated_valid": true,
+      "gated_correct": false,
+      "gated_improvement": false,
+      "gated_regression": false
+    }
+  ],
+  "results": [
+    {
+      "problem_id": 127,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 1,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 331,
+        "total_tokens": 539
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 127,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 2,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+      "prediction": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 369,
+        "total_tokens": 589
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    },
+    {
+      "problem_id": 134,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 3,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 239,
+        "total_tokens": 447
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 134,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 4,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\"prediction\": [\"\", \"\", \"\", \"\"]}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 330,
+        "total_tokens": 550
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 147,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 5,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 246,
+        "total_tokens": 454
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 147,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 6,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 406,
+        "total_tokens": 626
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 15,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 7,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 358,
+        "total_tokens": 566
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 15,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 8,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"1\", \"2\", \"3\", \"4\"]\n}",
+      "prediction": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 354,
+        "total_tokens": 574
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    },
+    {
+      "problem_id": 160,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 9,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 191,
+        "total_tokens": 399
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 160,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 10,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"?\",\"?\",\"?\",\"?\"]\n}",
+      "prediction": [
+        "?",
+        "?",
+        "?",
+        "?"
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 352,
+        "total_tokens": 572
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 215,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 11,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 199,
+        "total_tokens": 407
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 215,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 12,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+      "prediction": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 358,
+        "total_tokens": 578
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    },
+    {
+      "problem_id": 315,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 13,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 237,
+        "total_tokens": 445
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 315,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 14,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 425,
+        "total_tokens": 645
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 404,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 15,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 182,
+        "total_tokens": 390
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 404,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 16,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}",
+      "prediction": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parse_error": "duplicate_prediction_values",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 378,
+        "total_tokens": 598
+      },
+      "ground_truth": null,
+      "valid": false,
+      "correct": false
+    },
+    {
+      "problem_id": 49,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 17,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\"prediction\":[\"A\",\"B\",\"C\",\"D\"]}",
+      "prediction": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 538,
+        "total_tokens": 746
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    },
+    {
+      "problem_id": 49,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 18,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"1\", \"2\", \"3\", \"4\"]\n}",
+      "prediction": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 364,
+        "total_tokens": 584
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    },
+    {
+      "problem_id": 50,
+      "condition": "ungated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 19,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+      "prediction": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 447,
+        "total_tokens": 655
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    },
+    {
+      "problem_id": 50,
+      "condition": "reliability_gated",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "api_call_number": 20,
+      "status": "success",
+      "error_type": null,
+      "error": null,
+      "raw_response": "{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+      "prediction": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "parse_error": null,
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 358,
+        "total_tokens": 578
+      },
+      "ground_truth": null,
+      "valid": true,
+      "correct": false
+    }
+  ]
+}

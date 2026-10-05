@@ -1,0 +1,143 @@
+{
+  "phase": "14.4I-K",
+  "title": "Explicit Provenance Graph Traversal",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "no_ground_truth_inference": true,
+    "no_accuracy_calculation": true,
+    "no_answer_recomputation": true,
+    "no_positional_mapping": true,
+    "no_order_based_mapping": true,
+    "no_text_collision_identity_inference": true,
+    "no_numeric_semantic_inference": true,
+    "no_prior_artifact_modification": true
+  },
+  "configuration": {
+    "max_depth": 6,
+    "gt_field_names": [
+      "answer_key",
+      "answerkey",
+      "correct_answer",
+      "expected_answer",
+      "expected_output",
+      "gold",
+      "gold_answer",
+      "ground_truth",
+      "ground_truth_answer",
+      "groundtruth",
+      "groundtruth_answer",
+      "reference_answer"
+    ],
+    "provenance_field_names": [
+      "artifact",
+      "artifact_id",
+      "artifact_path",
+      "fingerprint",
+      "parent_id",
+      "parent_path",
+      "parent_record",
+      "parent_record_id",
+      "parent_ref",
+      "provenance",
+      "provenance_id",
+      "provenance_path",
+      "provenance_ref",
+      "record_id",
+      "record_path",
+      "record_sha256",
+      "sha256",
+      "source",
+      "source_id",
+      "source_path",
+      "source_record",
+      "source_record_id",
+      "source_ref",
+      "source_reference",
+      "upstream_id",
+      "upstream_path",
+      "upstream_record",
+      "upstream_record_id",
+      "upstream_ref"
+    ]
+  },
+  "candidate_fingerprints": {
+    "1": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "2": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "3": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "4": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+    "5": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+  },
+  "artifact_count": 109,
+  "loaded_artifact_count": 109,
+  "exact_record_location_counts": {
+    "1": 24,
+    "2": 24,
+    "3": 24,
+    "4": 24,
+    "5": 24
+  },
+  "explicit_graph_node_count": 120,
+  "explicit_graph_edge_count": 0,
+  "cross_candidate_gt_provenance_collisions": {},
+  "candidate_results": {
+    "1": {
+      "candidate_id": "1",
+      "status": "NO_EXPLICIT_GT_PROVENANCE_REACHED",
+      "max_depth_examined": 0,
+      "exact_record_nodes": [],
+      "explicit_edges": [],
+      "gt_observations": [],
+      "termination_reasons": []
+    },
+    "2": {
+      "candidate_id": "2",
+      "status": "NO_EXPLICIT_GT_PROVENANCE_REACHED",
+      "max_depth_examined": 0,
+      "exact_record_nodes": [],
+      "explicit_edges": [],
+      "gt_observations": [],
+      "termination_reasons": []
+    },
+    "3": {
+      "candidate_id": "3",
+      "status": "NO_EXPLICIT_GT_PROVENANCE_REACHED",
+      "max_depth_examined": 0,
+      "exact_record_nodes": [],
+      "explicit_edges": [],
+      "gt_observations": [],
+      "termination_reasons": []
+    },
+    "4": {
+      "candidate_id": "4",
+      "status": "NO_EXPLICIT_GT_PROVENANCE_REACHED",
+      "max_depth_examined": 0,
+      "exact_record_nodes": [],
+      "explicit_edges": [],
+      "gt_observations": [],
+      "termination_reasons": []
+    },
+    "5": {
+      "candidate_id": "5",
+      "status": "NO_EXPLICIT_GT_PROVENANCE_REACHED",
+      "max_depth_examined": 0,
+      "exact_record_nodes": [],
+      "explicit_edges": [],
+      "gt_observations": [],
+      "termination_reasons": []
+    }
+  },
+  "changed_artifacts": [],
+  "safety_status": {
+    "candidate_mapping_from_text_collision": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "model_output_used": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "prior_artifacts_modified": false
+  }
+}

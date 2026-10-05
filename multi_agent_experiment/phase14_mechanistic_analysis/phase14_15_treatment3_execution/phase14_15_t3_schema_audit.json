@@ -1,0 +1,261 @@
+{
+  "phase": "14.15R5",
+  "schema_source": "verified frozen dataset schema",
+  "record_count": 60,
+  "required_keys": [
+    "agent_a_clues",
+    "agent_a_reliable",
+    "agent_b_clues",
+    "agent_b_reliable",
+    "agent_c_clues",
+    "agent_c_reliable",
+    "conflict_level",
+    "ground_truth",
+    "items",
+    "names",
+    "problem_id"
+  ],
+  "rows": [
+    {
+      "problem_id": 1,
+      "valid": true
+    },
+    {
+      "problem_id": 2,
+      "valid": true
+    },
+    {
+      "problem_id": 3,
+      "valid": true
+    },
+    {
+      "problem_id": 4,
+      "valid": true
+    },
+    {
+      "problem_id": 5,
+      "valid": true
+    },
+    {
+      "problem_id": 6,
+      "valid": true
+    },
+    {
+      "problem_id": 7,
+      "valid": true
+    },
+    {
+      "problem_id": 8,
+      "valid": true
+    },
+    {
+      "problem_id": 9,
+      "valid": true
+    },
+    {
+      "problem_id": 10,
+      "valid": true
+    },
+    {
+      "problem_id": 11,
+      "valid": true
+    },
+    {
+      "problem_id": 12,
+      "valid": true
+    },
+    {
+      "problem_id": 13,
+      "valid": true
+    },
+    {
+      "problem_id": 14,
+      "valid": true
+    },
+    {
+      "problem_id": 15,
+      "valid": true
+    },
+    {
+      "problem_id": 16,
+      "valid": true
+    },
+    {
+      "problem_id": 17,
+      "valid": true
+    },
+    {
+      "problem_id": 18,
+      "valid": true
+    },
+    {
+      "problem_id": 19,
+      "valid": true
+    },
+    {
+      "problem_id": 20,
+      "valid": true
+    },
+    {
+      "problem_id": 21,
+      "valid": true
+    },
+    {
+      "problem_id": 22,
+      "valid": true
+    },
+    {
+      "problem_id": 23,
+      "valid": true
+    },
+    {
+      "problem_id": 24,
+      "valid": true
+    },
+    {
+      "problem_id": 25,
+      "valid": true
+    },
+    {
+      "problem_id": 26,
+      "valid": true
+    },
+    {
+      "problem_id": 27,
+      "valid": true
+    },
+    {
+      "problem_id": 28,
+      "valid": true
+    },
+    {
+      "problem_id": 29,
+      "valid": true
+    },
+    {
+      "problem_id": 30,
+      "valid": true
+    },
+    {
+      "problem_id": 31,
+      "valid": true
+    },
+    {
+      "problem_id": 32,
+      "valid": true
+    },
+    {
+      "problem_id": 33,
+      "valid": true
+    },
+    {
+      "problem_id": 34,
+      "valid": true
+    },
+    {
+      "problem_id": 35,
+      "valid": true
+    },
+    {
+      "problem_id": 36,
+      "valid": true
+    },
+    {
+      "problem_id": 37,
+      "valid": true
+    },
+    {
+      "problem_id": 38,
+      "valid": true
+    },
+    {
+      "problem_id": 39,
+      "valid": true
+    },
+    {
+      "problem_id": 40,
+      "valid": true
+    },
+    {
+      "problem_id": 41,
+      "valid": true
+    },
+    {
+      "problem_id": 42,
+      "valid": true
+    },
+    {
+      "problem_id": 43,
+      "valid": true
+    },
+    {
+      "problem_id": 44,
+      "valid": true
+    },
+    {
+      "problem_id": 45,
+      "valid": true
+    },
+    {
+      "problem_id": 46,
+      "valid": true
+    },
+    {
+      "problem_id": 47,
+      "valid": true
+    },
+    {
+      "problem_id": 48,
+      "valid": true
+    },
+    {
+      "problem_id": 49,
+      "valid": true
+    },
+    {
+      "problem_id": 50,
+      "valid": true
+    },
+    {
+      "problem_id": 51,
+      "valid": true
+    },
+    {
+      "problem_id": 52,
+      "valid": true
+    },
+    {
+      "problem_id": 53,
+      "valid": true
+    },
+    {
+      "problem_id": 54,
+      "valid": true
+    },
+    {
+      "problem_id": 55,
+      "valid": true
+    },
+    {
+      "problem_id": 56,
+      "valid": true
+    },
+    {
+      "problem_id": 57,
+      "valid": true
+    },
+    {
+      "problem_id": 58,
+      "valid": true
+    },
+    {
+      "problem_id": 59,
+      "valid": true
+    },
+    {
+      "problem_id": 60,
+      "valid": true
+    }
+  ],
+  "ground_truth_sent_to_model": false
+}

@@ -1,0 +1,227 @@
+{
+  "api_calls": 0,
+  "decision": "PHASE_14_4A_SUPPORT \u2014 the reliability-gated information-flow mechanism generalizes to newly generated out-of-distribution deterministic instances.",
+  "effect_sizes": {
+    "gt_support_loss": 0.8,
+    "gt_support_recovered_by_gating": 0.8,
+    "uniqueness_loss": 0.8,
+    "uniqueness_recovered_by_gating": 0.8
+  },
+  "experiment": {
+    "conditions": {
+      "adversarial": {
+        "unreliable_constraints": 4
+      },
+      "clean": {
+        "unreliable_constraints": 0
+      },
+      "high_conflict": {
+        "unreliable_constraints": 3
+      },
+      "low_conflict": {
+        "unreliable_constraints": 1
+      },
+      "medium_conflict": {
+        "unreliable_constraints": 2
+      }
+    },
+    "new_instances_per_condition": 100,
+    "seed": 1404,
+    "total_new_instances": 500
+  },
+  "immutability": {
+    "phase14_1": {
+      "after": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+      "before": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+      "unchanged": true
+    },
+    "phase14_1A": {
+      "after": "9f92d4defbd98fcc6708467450ee95e9802dad5ecda6b94de13be2ebd2d0cca2",
+      "before": "9f92d4defbd98fcc6708467450ee95e9802dad5ecda6b94de13be2ebd2d0cca2",
+      "unchanged": true
+    },
+    "phase14_2": {
+      "after": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+      "before": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+      "unchanged": true
+    },
+    "phase14_3A": {
+      "after": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+      "before": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+      "unchanged": true
+    },
+    "phase14_3B": {
+      "after": "090c5a3f1558cc678d666819e068db1bdef91b005c4bd97069d59166461d6353",
+      "before": "090c5a3f1558cc678d666819e068db1bdef91b005c4bd97069d59166461d6353",
+      "unchanged": true
+    },
+    "phase14_3B_R2": {
+      "after": "f29ecb1465cf077f9f87a8e2ae3c4114a99e939f602f7a52ed7a55bb7719971b",
+      "before": "f29ecb1465cf077f9f87a8e2ae3c4114a99e939f602f7a52ed7a55bb7719971b",
+      "unchanged": true
+    }
+  },
+  "model_calls": 0,
+  "overall": {
+    "all_agents": {
+      "gt_support_rate": 0.2,
+      "gt_supported": 100,
+      "n": 500,
+      "unique": 100,
+      "unique_rate": 0.2
+    },
+    "reliability_gated": {
+      "gt_support_rate": 1.0,
+      "gt_supported": 500,
+      "n": 500,
+      "unique": 500,
+      "unique_rate": 1.0
+    },
+    "reliable_only": {
+      "gt_support_rate": 1.0,
+      "gt_supported": 500,
+      "n": 500,
+      "unique": 500,
+      "unique_rate": 1.0
+    }
+  },
+  "phase": "14.4A",
+  "phase_name": "Out-of-Distribution Deterministic Mechanism Generalization",
+  "provenance": {
+    "original_clue_count": 485,
+    "original_dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "original_dataset_size": 60,
+    "phase14_3B_R2_verified": true
+  },
+  "read_only_previous_artifacts": true,
+  "scientific_gates": {
+    "gating_preserves_gt": true,
+    "gating_recovers_information": true,
+    "new_ood_instances_generated": true,
+    "previous_artifacts_not_modified": true,
+    "reliable_baseline_generalizes": true,
+    "reliable_gt_generalizes": true,
+    "ungated_information_loss_reappears": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true
+  },
+  "summary": {
+    "adversarial": {
+      "all_agents": {
+        "gt_support_rate": 0.0,
+        "gt_supported": 0,
+        "n": 100,
+        "unique": 0,
+        "unique_rate": 0.0
+      },
+      "reliability_gated": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      },
+      "reliable_only": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      }
+    },
+    "clean": {
+      "all_agents": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      },
+      "reliability_gated": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      },
+      "reliable_only": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      }
+    },
+    "high_conflict": {
+      "all_agents": {
+        "gt_support_rate": 0.0,
+        "gt_supported": 0,
+        "n": 100,
+        "unique": 0,
+        "unique_rate": 0.0
+      },
+      "reliability_gated": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      },
+      "reliable_only": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      }
+    },
+    "low_conflict": {
+      "all_agents": {
+        "gt_support_rate": 0.0,
+        "gt_supported": 0,
+        "n": 100,
+        "unique": 0,
+        "unique_rate": 0.0
+      },
+      "reliability_gated": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      },
+      "reliable_only": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      }
+    },
+    "medium_conflict": {
+      "all_agents": {
+        "gt_support_rate": 0.0,
+        "gt_supported": 0,
+        "n": 100,
+        "unique": 0,
+        "unique_rate": 0.0
+      },
+      "reliability_gated": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      },
+      "reliable_only": {
+        "gt_support_rate": 1.0,
+        "gt_supported": 100,
+        "n": 100,
+        "unique": 100,
+        "unique_rate": 1.0
+      }
+    }
+  },
+  "timestamp_utc": "2026-08-25T02:06:56.244591+00:00",
+  "treatment_3_run": false
+}

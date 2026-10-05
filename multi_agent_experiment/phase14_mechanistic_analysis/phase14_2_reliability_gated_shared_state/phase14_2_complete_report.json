@@ -1,0 +1,112 @@
+{
+  "phase": "14.2",
+  "phase_name": "explicit_reliability_gated_shared_constraint_state",
+  "timestamp_utc": "2026-08-25T01:51:35.246500+00:00",
+  "experimental_design": {
+    "api_calls": 60,
+    "model_calls": 60,
+    "temperature": 0,
+    "model": "openai/gpt-oss-120b",
+    "old_treatment_3_run": false,
+    "previous_artifacts_modified": false
+  },
+  "dataset": {
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "problems": 60,
+    "clues": 485
+  },
+  "deterministic_baseline": {
+    "problems_uniquely_solvable": 60,
+    "ground_truths_valid": 60
+  },
+  "intervention": {
+    "active_state": "reliable-agent constraints only",
+    "quarantined_state": "unreliable-agent clues preserved but prohibited from constraint reasoning",
+    "explicit_conflict_tracking": true,
+    "independent_final_verification": true
+  },
+  "results": {
+    "total": 60,
+    "valid": 59,
+    "parse_or_validation_failures": 1,
+    "correct": 59,
+    "incorrect": 0,
+    "accuracy_valid": 1.0,
+    "accuracy_end_to_end": 0.9833333333333333,
+    "response_hashes": 59,
+    "unique_valid_predictions": 23,
+    "response_collapse": false,
+    "prediction_collapse": false
+  },
+  "person_level": {
+    "Alex": {
+      "correct": 59,
+      "valid": 59,
+      "accuracy": 1.0
+    },
+    "Ben": {
+      "correct": 59,
+      "valid": 59,
+      "accuracy": 1.0
+    },
+    "Cara": {
+      "correct": 59,
+      "valid": 59,
+      "accuracy": 1.0
+    },
+    "Dan": {
+      "correct": 59,
+      "valid": 59,
+      "accuracy": 1.0
+    }
+  },
+  "conflict_levels": {
+    "low_conflict": {
+      "n": 15,
+      "valid": 14,
+      "correct": 14,
+      "accuracy_valid": 1.0,
+      "end_to_end_accuracy": 0.9333333333333333,
+      "quarantine_leakage": 0
+    },
+    "medium_conflict": {
+      "n": 15,
+      "valid": 15,
+      "correct": 15,
+      "accuracy_valid": 1.0,
+      "end_to_end_accuracy": 1.0,
+      "quarantine_leakage": 0
+    },
+    "high_conflict": {
+      "n": 15,
+      "valid": 15,
+      "correct": 15,
+      "accuracy_valid": 1.0,
+      "end_to_end_accuracy": 1.0,
+      "quarantine_leakage": 0
+    },
+    "adversarial": {
+      "n": 15,
+      "valid": 15,
+      "correct": 15,
+      "accuracy_valid": 1.0,
+      "end_to_end_accuracy": 1.0,
+      "quarantine_leakage": 0
+    }
+  },
+  "information_flow_integrity": {
+    "quarantine_leakage_cases": 0,
+    "quarantine_leak_problem_ids": [],
+    "active_state_verification_failures": 0,
+    "active_state_verification_failure_ids": []
+  },
+  "mechanistic_comparison": {
+    "phase14_1_reliable_only_unique": 60,
+    "phase14_1_all_agent_unique": 15,
+    "phase14_1_conflict_induced_loss": 45,
+    "phase14_2_correct": 59,
+    "phase14_2_valid": 59
+  },
+  "scientific_decision": "PHASE_14_2_SUPPORT — reliability-gated shared state substantially improved information-flow robustness."
+}

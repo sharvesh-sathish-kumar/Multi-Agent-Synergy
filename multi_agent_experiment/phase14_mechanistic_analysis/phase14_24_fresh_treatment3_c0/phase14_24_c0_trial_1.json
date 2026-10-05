@@ -1,0 +1,34 @@
+{
+  "phase": "14.24",
+  "trial_id": 1,
+  "condition": "C0",
+  "treatment": "Treatment 3",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 4096,
+  "prompt": "Condition: C0\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Dan does not have yellow.\n- Cara does not have green.\n- Alex does not have green.\nAgent B clues:\n- Alex has blue.\n- Dan has green.\n- Ben has yellow.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+  "response": "**Assignment**\n\n- Alex → blue  \n- Ben → yellow  \n- Cara → red  \n- Dan → green",
+  "response_length": 77,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 232,
+    "total_tokens": 427
+  },
+  "status": "success",
+  "attempt": 1,
+  "request_started_at_utc": "2026-08-25T23:31:16.003434+00:00",
+  "request_completed_at_utc": "2026-08-25T23:31:16.917590+00:00",
+  "source_prompt_artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+  "historical_artifacts_modified": false,
+  "execution_metadata": {
+    "phase_14_24_fresh_c0": true,
+    "paired_with_condition": "C1",
+    "c1_reference_phases": [
+      "14.23",
+      "14.23R2",
+      "14.23R3"
+    ],
+    "output_ceiling": 4096
+  }
+}

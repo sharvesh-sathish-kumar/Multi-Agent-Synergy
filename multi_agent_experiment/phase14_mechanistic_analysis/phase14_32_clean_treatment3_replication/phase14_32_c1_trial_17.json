@@ -1,0 +1,35 @@
+{
+  "phase": "14.32",
+  "treatment": 3,
+  "condition": "C1",
+  "trial_id": 17,
+  "problem_id": 17,
+  "fresh_execution": true,
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are given a constrained assignment problem.\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\nConflict level: medium_conflict\n\nEach name must receive exactly one item, and each item must be assigned to exactly one name.\n\nAgent A clues:\n- Ben has green.\n- Cara has blue.\n- Alex does not have yellow.\nAgent B clues:\n- Dan has yellow.\n- Cara does not have yellow.\n- Cara has red.\nAgent C clues:\n- Ben does not have blue.\n- Alex has red.\n\nReturn the final assignment for every name.",
+  "prompt_sha256": "f2a289f261e9bc0c46975219ab995cee9035d021a869e31527ecf99618f55f9a",
+  "response": "**Final assignment**\n\n| Name  | Item |\n|-------|------|\n| Alex  | red |\n| Ben   | green |\n| Cara  | blue |\n| Dan   | yellow |\n\nThis assignment satisfies all non‑contradictory clues:\n\n- **Agent A** – Ben = green ✔, Cara = blue ✔, Alex ≠ yellow ✔  \n- **Agent B** – Dan = yellow ✔, Cara ≠ yellow ✔ (the “Cara = red” clue is the conflicting one)  \n- **Agent C** – Ben ≠ blue ✔, Alex = red ✔  \n\nThus each name receives exactly one unique item, and the only inconsistency is the single false clue from Agent B.",
+  "response_length": 504,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 702,
+    "prompt_tokens": 191,
+    "total_tokens": 893,
+    "completion_time": 1.474905538,
+    "completion_tokens_details": {
+      "reasoning_tokens": 530
+    },
+    "prompt_time": 0.008136893,
+    "prompt_tokens_details": null,
+    "queue_time": 0.313444295,
+    "total_time": 1.4830424309999999
+  },
+  "attempts_used": 1,
+  "retry_log": [],
+  "elapsed_seconds": 6.046173334121704,
+  "executed_at_utc": "2026-08-29T04:08:33.691639+00:00",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+}

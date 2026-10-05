@@ -1,0 +1,409 @@
+{
+  "phase": "14.33R10",
+  "purpose": "deterministic parse salvage and score recheck",
+  "locks": {
+    "model_calls": 0,
+    "api_calls": 0,
+    "experiment_execution": 0,
+    "existing_artifacts_modified": 0
+  },
+  "dataset": {
+    "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "length": 60
+  },
+  "existing_scores": {
+    "C0": "36/60",
+    "C1": "40/60"
+  },
+  "failure_trials": {
+    "C0": [
+      18,
+      24,
+      29,
+      32,
+      33,
+      36,
+      38,
+      41,
+      44,
+      53
+    ],
+    "C1": [
+      32,
+      34,
+      35,
+      42,
+      45,
+      52,
+      55,
+      60
+    ]
+  },
+  "classification_counts": {
+    "GENUINE_NO_ASSIGNMENT_RESPONSE": 11,
+    "SALVAGED_COMPLETE_ASSIGNMENT": 4,
+    "UNPARSED_REMAINS": 3
+  },
+  "results": [
+    {
+      "condition": "C0",
+      "trial": 18,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_18.json",
+      "response_length": 800,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "green",
+        "ben": "yellow",
+        "cara": "red",
+        "dan": "blue"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 24,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_24.json",
+      "response_length": 1311,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "red",
+        "cara": "green",
+        "dan": "blue"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 29,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_29.json",
+      "response_length": 1056,
+      "contradiction_language": false,
+      "candidate_methods": [
+        "explicit_lines"
+      ],
+      "salvaged_assignment": {
+        "alex": "green",
+        "ben": "blue",
+        "cara": "yellow",
+        "dan": "red"
+      },
+      "classification": "SALVAGED_COMPLETE_ASSIGNMENT",
+      "ground_truth": {
+        "alex": "green",
+        "ben": "red",
+        "cara": "yellow",
+        "dan": "blue"
+      },
+      "salvaged_exact_correct": false,
+      "salvaged_correct_fields": 2
+    },
+    {
+      "condition": "C0",
+      "trial": 32,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_32.json",
+      "response_length": 617,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "blue",
+        "cara": "green",
+        "dan": "red"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 33,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_33.json",
+      "response_length": 467,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "red",
+        "cara": "green",
+        "dan": "blue"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 36,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_36.json",
+      "response_length": 663,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "red",
+        "cara": "blue",
+        "dan": "green"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 38,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_38.json",
+      "response_length": 753,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "green",
+        "cara": "blue",
+        "dan": "red"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 41,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_41.json",
+      "response_length": 388,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "red",
+        "ben": "green",
+        "cara": "blue",
+        "dan": "yellow"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 44,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_44.json",
+      "response_length": 570,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "red",
+        "ben": "green",
+        "cara": "yellow",
+        "dan": "blue"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C0",
+      "trial": 53,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c0_trial_53.json",
+      "response_length": 279,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "red",
+        "ben": "blue",
+        "cara": "green",
+        "dan": "yellow"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C1",
+      "trial": 32,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_32.json",
+      "response_length": 357,
+      "contradiction_language": false,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "UNPARSED_REMAINS",
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "blue",
+        "cara": "green",
+        "dan": "red"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C1",
+      "trial": 34,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_34.json",
+      "response_length": 846,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "blue",
+        "ben": "red",
+        "cara": "green",
+        "dan": "yellow"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C1",
+      "trial": 35,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_35.json",
+      "response_length": 1021,
+      "contradiction_language": true,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "ground_truth": {
+        "alex": "green",
+        "ben": "blue",
+        "cara": "yellow",
+        "dan": "red"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C1",
+      "trial": 42,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_42.json",
+      "response_length": 617,
+      "contradiction_language": true,
+      "candidate_methods": [
+        "explicit_lines"
+      ],
+      "salvaged_assignment": {
+        "alex": "green",
+        "ben": "blue",
+        "cara": "yellow",
+        "dan": "red"
+      },
+      "classification": "SALVAGED_COMPLETE_ASSIGNMENT",
+      "ground_truth": {
+        "alex": "red",
+        "ben": "blue",
+        "cara": "yellow",
+        "dan": "green"
+      },
+      "salvaged_exact_correct": false,
+      "salvaged_correct_fields": 2
+    },
+    {
+      "condition": "C1",
+      "trial": 45,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/phase14_32_c1_trial_45.json",
+      "response_length": 2,
+      "contradiction_language": false,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "UNPARSED_REMAINS",
+      "ground_truth": {
+        "alex": "blue",
+        "ben": "red",
+        "cara": "yellow",
+        "dan": "green"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    },
+    {
+      "condition": "C1",
+      "trial": 52,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_52.json",
+      "response_length": 2404,
+      "contradiction_language": false,
+      "candidate_methods": [
+        "explicit_lines"
+      ],
+      "salvaged_assignment": {
+        "alex": "red",
+        "ben": "yellow",
+        "cara": "blue",
+        "dan": "green"
+      },
+      "classification": "SALVAGED_COMPLETE_ASSIGNMENT",
+      "ground_truth": {
+        "alex": "green",
+        "ben": "blue",
+        "cara": "red",
+        "dan": "yellow"
+      },
+      "salvaged_exact_correct": false,
+      "salvaged_correct_fields": 0
+    },
+    {
+      "condition": "C1",
+      "trial": 55,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_55.json",
+      "response_length": 2297,
+      "contradiction_language": true,
+      "candidate_methods": [
+        "explicit_lines"
+      ],
+      "salvaged_assignment": {
+        "alex": "red",
+        "ben": "green",
+        "cara": "blue",
+        "dan": "yellow"
+      },
+      "classification": "SALVAGED_COMPLETE_ASSIGNMENT",
+      "ground_truth": {
+        "alex": "red",
+        "ben": "green",
+        "cara": "blue",
+        "dan": "yellow"
+      },
+      "salvaged_exact_correct": true,
+      "salvaged_correct_fields": 4
+    },
+    {
+      "condition": "C1",
+      "trial": 60,
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication/c1_recovery_r2/phase14_32R2_c1_trial_60.json",
+      "response_length": 1190,
+      "contradiction_language": false,
+      "candidate_methods": [],
+      "salvaged_assignment": null,
+      "classification": "UNPARSED_REMAINS",
+      "ground_truth": {
+        "alex": "blue",
+        "ben": "green",
+        "cara": "red",
+        "dan": "yellow"
+      },
+      "salvaged_exact_correct": null,
+      "salvaged_correct_fields": null
+    }
+  ],
+  "salvage_summary": {
+    "C0_salvaged_total": 1,
+    "C0_salvaged_correct": 0,
+    "C1_salvaged_total": 3,
+    "C1_salvaged_correct": 1,
+    "potential_C0_score": "36/60",
+    "potential_C1_score": "41/60"
+  }
+}

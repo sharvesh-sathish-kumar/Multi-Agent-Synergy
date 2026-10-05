@@ -1,0 +1,113 @@
+{
+  "phase": "14.33R11",
+  "purpose": "final forensic audit of remaining C1 parse failures",
+  "locks": {
+    "model_calls": 0,
+    "api_calls": 0,
+    "experiment_execution": 0,
+    "existing_artifacts_modified": 0
+  },
+  "dataset": {
+    "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+    "length": 60
+  },
+  "prior_scores": {
+    "C0": "36/60",
+    "C1": "41/60"
+  },
+  "trials": {
+    "32": {
+      "classification": "GENUINE_NO_ASSIGNMENT_RESPONSE",
+      "response_length": 357,
+      "indicator_matches": [
+        "no assignment",
+        "no possible way",
+        "contradictions"
+      ],
+      "ground_truth": {
+        "alex": "yellow",
+        "ben": "blue",
+        "cara": "green",
+        "dan": "red"
+      }
+    },
+    "45": {
+      "classification": "TEXT_PRESENT_REQUIRES_REVIEW",
+      "response_length": 2,
+      "raw_repr": "'**'",
+      "ground_truth": {
+        "alex": "blue",
+        "ben": "red",
+        "cara": "yellow",
+        "dan": "green"
+      }
+    },
+    "60": {
+      "classification": "DETERMINISTICALLY_RECONSTRUCTED_COMPLETE_ASSIGNMENT",
+      "response_length": 1190,
+      "reconstructed_assignment": {
+        "alex": "blue",
+        "ben": "green",
+        "cara": "red",
+        "dan": "yellow"
+      },
+      "ground_truth": {
+        "alex": "blue",
+        "ben": "green",
+        "cara": "red",
+        "dan": "yellow"
+      },
+      "exact_match": true,
+      "correct_fields": 4,
+      "evidence": [
+        {
+          "type": "DERIVATION",
+          "person": "ben",
+          "color": "green",
+          "reason": "Explicit statement: Ben = green"
+        },
+        {
+          "type": "DERIVATION",
+          "person": "ben",
+          "color": "green",
+          "reason": "Explicit statement: Ben has green"
+        },
+        {
+          "type": "DERIVATION",
+          "person": "dan",
+          "color": "yellow",
+          "reason": "Explicit statement: Dan = yellow"
+        },
+        {
+          "type": "DERIVATION",
+          "person": "dan",
+          "color": "yellow",
+          "reason": "Explicit statement: Dan has yellow"
+        },
+        {
+          "type": "DERIVATION",
+          "person": "alex",
+          "color": "blue",
+          "reason": "Explicit statement: Alex = blue"
+        },
+        {
+          "type": "DERIVATION",
+          "person": "alex",
+          "color": "blue",
+          "reason": "Explicit statement: Alex has blue"
+        },
+        {
+          "type": "DERIVATION",
+          "person": "cara",
+          "color": "red",
+          "reason": "Deterministic elimination: Ben=green, Dan=yellow, Alex=blue; Cara is not yellow; therefore remaining color is red."
+        }
+      ]
+    }
+  },
+  "final_candidate_scores": {
+    "C0": "36/60",
+    "C1": "42/60"
+  },
+  "additional_c1_correct_from_r11": 1
+}

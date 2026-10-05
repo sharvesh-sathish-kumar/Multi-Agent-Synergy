@@ -1,0 +1,542 @@
+[
+  {
+    "problem_id": 1,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 2,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 3,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 4,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 5,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 6,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 7,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 8,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 9,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 10,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 11,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 12,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 13,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 14,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 15,
+    "conflict_level": "low_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 16,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 17,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = red\nBen = blue\nCara = green\nDan = yellow",
+    "error": null
+  },
+  {
+    "problem_id": 18,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 19,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 20,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 21,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 22,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = red\nBen = blue\nCara = green\nDan = yellow",
+    "error": null
+  },
+  {
+    "problem_id": 23,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 24,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 25,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 26,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 27,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 28,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 29,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 30,
+    "conflict_level": "medium_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 31,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 32,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 33,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 34,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 35,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 36,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 37,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 38,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 39,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 40,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 41,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 42,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 43,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 44,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 45,
+    "conflict_level": "high_conflict",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 46,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 47,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 48,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 49,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 50,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 51,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 52,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 53,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 54,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 55,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 56,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 57,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 58,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 59,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  },
+  {
+    "problem_id": 60,
+    "conflict_level": "adversarial",
+    "treatment": "reliability_gated_constraint_solving",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "response": "Alex = Red\nBen = Blue\nCara = Green\nDan = Yellow",
+    "error": null
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "phase": "14.32",
+  "treatment": 3,
+  "condition": "C0",
+  "trial_id": 27,
+  "problem_id": 27,
+  "fresh_execution": true,
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are given a constrained assignment problem.\n\nNames: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\nConflict level: medium_conflict\n\nEach name must receive exactly one item, and each item must be assigned to exactly one name.\n\nAgent A clues:\n- Dan has blue.\n- Ben has yellow.\n- Dan has green.\nAgent B clues:\n- Ben does not have red.\n- Alex does not have yellow.\n- Alex has red.\n\nReturn the final assignment for every name.",
+  "prompt_sha256": "06ca6a751086521f61bfcb1ef2fdb00c1cd777f23f84de70ec73e85d27873a62",
+  "response": "**Possible consistent assignments (the only source of conflict is the two contradictory clues about Dan; one of them must be false).**\n\n| Name | Item (if Dan = **blue**) | Item (if Dan = **green**) |\n|------|--------------------------|---------------------------|\n| Alex | red                      | red                       |\n| Ben  | yellow                   | yellow                    |\n| Dan  | **blue** (green false)  | **green** (blue false)   |\n| Cara | green                    | blue                      |\n\nBoth tables satisfy every non‑contradictory clue:\n\n* Alex has red – true in both cases.  \n* Alex does not have yellow – true in both cases.  \n* Ben has yellow – true in both cases.  \n* Ben does not have red – true in both cases.  \n\nThe only conflict is the pair of clues “Dan has blue” vs. “Dan has green”; exactly one of those must be false, giving the two possible solutions shown above.",
+  "response_length": 908,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1075,
+    "prompt_tokens": 175,
+    "total_tokens": 1250,
+    "completion_time": 2.283552051,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    },
+    "prompt_time": 0.007493317,
+    "prompt_tokens_details": null,
+    "queue_time": 0.31975958,
+    "total_time": 2.291045368
+  },
+  "attempts_used": 1,
+  "retry_log": [],
+  "elapsed_seconds": 6.8662428855896,
+  "executed_at_utc": "2026-08-29T04:03:42.190702+00:00",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+}

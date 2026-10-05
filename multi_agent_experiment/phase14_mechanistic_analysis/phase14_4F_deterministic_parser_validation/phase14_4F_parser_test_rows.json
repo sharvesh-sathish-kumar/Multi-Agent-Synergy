@@ -1,0 +1,217 @@
+{
+  "phase": "14.4F",
+  "unit_tests": [
+    {
+      "test_number": 1,
+      "name": "valid_canonical",
+      "expected_valid": true,
+      "actual_valid": true,
+      "expected_error": null,
+      "actual_error": null,
+      "passed": true
+    },
+    {
+      "test_number": 2,
+      "name": "valid_permuted_colors",
+      "expected_valid": true,
+      "actual_valid": true,
+      "expected_error": null,
+      "actual_error": null,
+      "passed": true
+    },
+    {
+      "test_number": 3,
+      "name": "empty_response",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "empty_response",
+      "actual_error": "empty_response",
+      "passed": true
+    },
+    {
+      "test_number": 4,
+      "name": "whitespace_response",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "empty_response",
+      "actual_error": "empty_response",
+      "passed": true
+    },
+    {
+      "test_number": 5,
+      "name": "invalid_json",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "invalid_json",
+      "actual_error": "invalid_json",
+      "passed": true
+    },
+    {
+      "test_number": 6,
+      "name": "prose",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "invalid_json",
+      "actual_error": "invalid_json",
+      "passed": true
+    },
+    {
+      "test_number": 7,
+      "name": "json_array",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "json_array",
+      "actual_error": "json_array",
+      "passed": true
+    },
+    {
+      "test_number": 8,
+      "name": "missing_person",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "missing_people",
+      "actual_error": "missing_people",
+      "passed": true
+    },
+    {
+      "test_number": 9,
+      "name": "unknown_person",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_people",
+      "actual_error": "unknown_people",
+      "passed": true
+    },
+    {
+      "test_number": 10,
+      "name": "duplicate_color",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "duplicate_color",
+      "actual_error": "duplicate_color",
+      "passed": true
+    },
+    {
+      "test_number": 11,
+      "name": "unknown_color",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_color",
+      "actual_error": "unknown_color",
+      "passed": true
+    },
+    {
+      "test_number": 12,
+      "name": "numeric_value",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "non_string_value",
+      "actual_error": "non_string_value",
+      "passed": true
+    },
+    {
+      "test_number": 13,
+      "name": "extra_field",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_people",
+      "actual_error": "unknown_people",
+      "passed": true
+    },
+    {
+      "test_number": 14,
+      "name": "old_array_format",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_people",
+      "actual_error": "unknown_people",
+      "passed": true
+    },
+    {
+      "test_number": 15,
+      "name": "old_empty_array_format",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_people",
+      "actual_error": "unknown_people",
+      "passed": true
+    },
+    {
+      "test_number": 16,
+      "name": "old_letter_format",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_people",
+      "actual_error": "unknown_people",
+      "passed": true
+    },
+    {
+      "test_number": 17,
+      "name": "old_numeric_format",
+      "expected_valid": false,
+      "actual_valid": false,
+      "expected_error": "unknown_people",
+      "actual_error": "unknown_people",
+      "passed": true
+    }
+  ],
+  "additional_tests": [
+    {
+      "name": "canonical_exact_schema",
+      "expected_valid": true,
+      "expected_error": null
+    },
+    {
+      "name": "all_colors_unique",
+      "expected_valid": true,
+      "expected_error": null
+    },
+    {
+      "name": "duplicate_red",
+      "expected_valid": false,
+      "expected_error": "duplicate_color"
+    },
+    {
+      "name": "missing_dan",
+      "expected_valid": false,
+      "expected_error": "missing_people"
+    },
+    {
+      "name": "unknown_eve",
+      "expected_valid": false,
+      "expected_error": "unknown_people"
+    },
+    {
+      "name": "unknown_purple",
+      "expected_valid": false,
+      "expected_error": "unknown_color"
+    }
+  ],
+  "legacy_tests": [
+    {
+      "input": "{\"prediction\":[\"red\",\"green\",\"blue\",\"yellow\"]}",
+      "rejected": true,
+      "error": "unknown_people"
+    },
+    {
+      "input": "{\"prediction\":[\"a\",\"b\",\"c\",\"d\"]}",
+      "rejected": true,
+      "error": "unknown_people"
+    },
+    {
+      "input": "{\"prediction\":[\"1\",\"2\",\"3\",\"4\"]}",
+      "rejected": true,
+      "error": "unknown_people"
+    },
+    {
+      "input": "{\"prediction\":[\"\",\"\",\"\",\"\"]}",
+      "rejected": true,
+      "error": "unknown_people"
+    },
+    {
+      "input": "{\"prediction\":[\"?\",\"?\",\"?\",\"?\"]}",
+      "rejected": true,
+      "error": "unknown_people"
+    }
+  ]
+}

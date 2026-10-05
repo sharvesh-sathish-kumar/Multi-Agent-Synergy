@@ -1,0 +1,563 @@
+{
+  "phase": "14.39",
+  "total_files": 596,
+  "filename_candidates": 11,
+  "content_candidates": 45,
+  "json_trial_candidates": 4,
+  "complete_like_artifacts": 4,
+  "possible_complete_t1_t2": 3,
+  "historical_numeric_files": 18,
+  "top_candidates": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json",
+      "score": 91,
+      "ids": 60,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+      "score": 83,
+      "ids": 60,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json",
+      "score": 83,
+      "ids": 0,
+      "t1_hits": [
+        "t1 ",
+        "t1_",
+        "treatment 1",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment 2",
+        "treatment2",
+        "treatment_2"
+      ],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R3_complete_120_trial_audit/phase14_26R3_complete_120_trial_report.txt",
+      "score": 80,
+      "ids": 60,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "3.33%"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_report.txt",
+      "score": 78,
+      "ids": 60,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "2/60"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "score": 72,
+      "ids": 60,
+      "t1_hits": [],
+      "t2_hits": [
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "score": 70,
+      "ids": 60,
+      "t1_hits": [],
+      "t2_hits": [
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "score": 68,
+      "ids": 5,
+      "t1_hits": [
+        "t1_",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment 2",
+        "treatment2"
+      ],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10G_configuration_provenance.json",
+      "score": 68,
+      "ids": 0,
+      "t1_hits": [
+        "t1_",
+        "treatment1",
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2",
+        "treatment_2"
+      ],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json",
+      "score": 68,
+      "ids": 0,
+      "t1_hits": [
+        "t1 ",
+        "t1_",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10F_compact_historical_configuration_recovery.json",
+      "score": 54,
+      "ids": 0,
+      "t1_hits": [
+        "treatment 1",
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment 2",
+        "treatment2",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "score": 50,
+      "ids": 30,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "score": 47,
+      "ids": 5,
+      "t1_hits": [
+        "t1_"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json",
+      "score": 47,
+      "ids": 0,
+      "t1_hits": [
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+      "score": 46,
+      "ids": 0,
+      "t1_hits": [
+        "treatment 1",
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "treatment 2",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10I_direct_historical_provenance.json",
+      "score": 44,
+      "ids": 0,
+      "t1_hits": [
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment 2",
+        "treatment2",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_complete_report.json",
+      "score": 44,
+      "ids": 0,
+      "t1_hits": [
+        "t1_"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment 2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+      "score": 42,
+      "ids": 0,
+      "t1_hits": [
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_provenance_audit.json",
+      "score": 40,
+      "ids": 0,
+      "t1_hits": [
+        "t1_"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment 2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_report.txt",
+      "score": 38,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "19/60",
+        "31.67%",
+        "4/60",
+        "6.67%"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+      "score": 36,
+      "ids": 0,
+      "t1_hits": [
+        "t1_",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_38_final_t1_t2_forensic_audit/phase14_38_t1_t2_forensic_report.json",
+      "score": 36,
+      "ids": 0,
+      "t1_hits": [
+        "t1_",
+        "treatment 1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment 2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+      "score": 34,
+      "ids": 0,
+      "t1_hits": [
+        "treatment 1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_11_mechanistic_evidence_integration.json",
+      "score": 32,
+      "ids": 0,
+      "t1_hits": [
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "score": 31,
+      "ids": 1,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+      "score": 31,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_37_cross_treatment_synthesis/phase14_37_cross_treatment_synthesis.json",
+      "score": 31,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "2/60",
+        "3.33%"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json",
+      "score": 31,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_independent_paired_analysis.json",
+      "score": 26,
+      "ids": 0,
+      "t1_hits": [
+        "t1_"
+      ],
+      "t2_hits": [
+        "t2_"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+      "score": 24,
+      "ids": 0,
+      "t1_hits": [
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_34R1_compact_forensic_report.txt",
+      "score": 23,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_M_explicit_key_gt_join/phase14_4I_M_explicit_key_gt_join_report.json",
+      "score": 22,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_summary.json",
+      "score": 22,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json",
+      "score": 22,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_21_treatment3_c1_response_quality_forensics/phase14_21_c1_response_quality_report.txt",
+      "score": 22,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "2/60",
+        "4/60"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+      "score": 18,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_Q_explicit_composite_key_audit/phase14_4I_Q_explicit_composite_key_audit_report.json",
+      "score": 18,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "treatment2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_33R11_final_c1_forensics/phase14_33R11_report.json",
+      "score": 18,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "2/60"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10H_compact_configuration_provenance.json",
+      "score": 18,
+      "ids": 0,
+      "t1_hits": [
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "treatment_2"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json",
+      "score": 16,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+      "score": 14,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json",
+      "score": 12,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+      "score": 12,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [],
+      "numeric_hits": [
+        "0.033333"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json",
+      "score": 10,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "t2_"
+      ],
+      "numeric_hits": []
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_0_mechanistic_analysis_summary.json",
+      "score": 10,
+      "ids": 0,
+      "t1_hits": [],
+      "t2_hits": [
+        "treatment2"
+      ],
+      "numeric_hits": []
+    }
+  ]
+}

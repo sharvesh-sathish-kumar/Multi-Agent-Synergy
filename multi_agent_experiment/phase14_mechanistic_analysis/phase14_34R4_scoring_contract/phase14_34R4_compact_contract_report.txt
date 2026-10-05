@@ -1,0 +1,979 @@
+====================================================================================================
+PHASE 14.34R4 — DETERMINISTIC SCORING CONTRACT REPORT
+====================================================================================================
+
+[LOCK] ZERO MODEL CALLS
+[LOCK] ZERO API CALLS
+[LOCK] ZERO EXPERIMENT EXECUTION
+[LOCK] ZERO SCORING
+[LOCK] EXISTING ARTIFACTS READ-ONLY
+
+TIMESTAMP UTC: 2026-08-29T05:26:38.619917+00:00
+
+====================================================================================================
+1. STRONGEST HISTORICAL CONTRACT CANDIDATES
+====================================================================================================
+
+[01] CONTRACT RELEVANCE SCORE: 460
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json
+  - validated_parser
+  - scoring x35
+  - ground_truth x1610
+  - prediction x20
+  - deterministic x356
+  - direct_answer x43
+
+[02] CONTRACT RELEVANCE SCORE: 460
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+  - validated_parser
+  - scoring x48
+  - ground_truth x3533
+  - prediction x537
+  - deterministic x187
+  - direct_answer x74
+
+[03] CONTRACT RELEVANCE SCORE: 252
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json
+  - scoring x8
+  - ground_truth x1691
+  - prediction x40
+  - deterministic x134
+  - direct_answer x4
+
+[04] CONTRACT RELEVANCE SCORE: 245
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+  - deterministic parser validation
+  - ground_truth x5
+  - prediction x55
+  - deterministic x26
+
+[05] CONTRACT RELEVANCE SCORE: 235
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+  - scoring x2
+  - correctness x5
+  - ground_truth x419
+  - prediction x592
+  - deterministic x280
+
+[06] CONTRACT RELEVANCE SCORE: 213
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json
+  - validated_parser
+  - scoring x4
+  - ground_truth x11
+  - prediction x1
+  - deterministic x12
+  - direct_answer x3
+
+[07] CONTRACT RELEVANCE SCORE: 200
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json
+  - ground_truth x820
+  - prediction x4315
+  - deterministic x1705
+
+[08] CONTRACT RELEVANCE SCORE: 200
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json
+  - ground_truth x1197
+  - prediction x1225
+  - deterministic x489
+
+[09] CONTRACT RELEVANCE SCORE: 200
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G_parent_structure_provenance/phase14_4I_G_parent_structure_provenance_report.json
+  - ground_truth x672
+  - prediction x736
+  - deterministic x489
+
+[10] CONTRACT RELEVANCE SCORE: 140
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json
+  - ground_truth x20
+  - prediction x10
+  - filename:scoring
+
+====================================================================================================
+2. VALIDATED PARSER FILES
+====================================================================================================
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json
+
+====================================================================================================
+3. HISTORICAL SCORING/CORRECTNESS FILES
+====================================================================================================
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json
+
+====================================================================================================
+4. EXPLICIT CONTRACT EVIDENCE
+====================================================================================================
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: scor
+  MATCH: scor
+  MATCH: scor
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: scor
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json
+PATTERN: correct.{0,150}(prediction|ground.?truth)
+  MATCH: prediction
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: Parser
+  MATCH: parser
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json
+PATTERN: accuracy.{0,100}(correct|prediction)
+  MATCH: correct
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+PATTERN: prediction.{0,100}array
+  MATCH: prediction array
+  MATCH: prediction array
+  MATCH: prediction array
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+PATTERN: exactly.{0,100}json
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+  MATCH: EXACTLY ONE JSON
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: parser
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json
+PATTERN: ground.?truth.{0,150}(compare|comparison|correct)
+  MATCH: correct
+  MATCH: correct
+  MATCH: correct
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json
+PATTERN: accuracy.{0,100}(correct|prediction)
+  MATCH: correct
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: parser
+  MATCH: parser
+  MATCH: parser
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json
+PATTERN: correct.{0,150}(prediction|ground.?truth)
+  MATCH: ground_truth
+  MATCH: ground_truth
+  MATCH: ground_truth
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: scor
+  MATCH: scor
+  MATCH: scor
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+PATTERN: prediction.{0,100}array
+  MATCH: prediction array
+  MATCH: prediction array
+  MATCH: prediction array
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+PATTERN: exactly.{0,100}json
+  MATCH: exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object. Your response MUST contain NOTHING except this JSON
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+PATTERN: correct.{0,150}(prediction|ground.?truth)
+  MATCH: ground_truth
+  MATCH: ground_truth
+  MATCH: ground_truth
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: parser
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+PATTERN: prediction.{0,100}array
+  MATCH: prediction array
+  MATCH: prediction array
+  MATCH: prediction array
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+PATTERN: exactly.{0,100}json
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+PATTERN: ground.?truth.{0,150}(compare|comparison|correct)
+  MATCH: correct
+  MATCH: correct
+  MATCH: correct
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+PATTERN: correct.{0,150}(prediction|ground.?truth)
+  MATCH: ground_truth
+  MATCH: ground_truth
+  MATCH: ground_truth
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+PATTERN: deterministic.{0,150}(parser|scor)
+  MATCH: parser
+  MATCH: parser
+  MATCH: parser
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json
+PATTERN: prediction.{0,100}array
+  MATCH: prediction array
+  MATCH: prediction array
+  MATCH: prediction array
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json
+PATTERN: exactly.{0,100}json
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+  MATCH: exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON
+
+PATH: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json
+PATTERN: prediction.{0,100}array
+  MATCH: prediction array
+  MATCH: prediction array
+  MATCH: prediction array
+
+====================================================================================================
+5. TOP CANDIDATE FIELD EVIDENCE
+====================================================================================================
+
+FILE: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json
+  root.provenance_hits[821].file = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[821].path = $.deterministic_results.1.problem_id
+  root.provenance_hits[822].file = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[822].path = $.deterministic_results.2.problem_id
+  root.provenance_hits[823].file = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[823].path = $.deterministic_results.3.problem_id
+  root.provenance_hits[824].file = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[824].path = $.deterministic_results.4.problem_id
+  root.provenance_hits[825].file = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[825].path = $.deterministic_results.5.problem_id
+  root.provenance_hits[826].file = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[826].path = $.deterministic_results.6.problem_id
+
+FILE: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+  root.inventory.priority_artifacts[35] = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.inventory.priority_artifacts[51] = /content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json
+  root.inventory.priority_artifacts[52] = /content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json
+  root.inventory.priority_artifacts[53] = /content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json
+  root.inventory.priority_artifacts[61] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_0_deterministic_mechanism_benchmark/phase14_0_complete_report.json
+  root.inventory.priority_artifacts[68] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json
+  root.inventory.priority_artifacts[69] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json
+  root.inventory.priority_artifacts[88] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json
+  root.inventory.priority_artifacts[89] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json
+  root.inventory.priority_artifacts[90] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json
+  root.inventory.priority_artifacts[97] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_complete_report.json
+  root.inventory.priority_artifacts[98] = /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_direct_answer_audit_rows.json
+
+FILE: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json
+  root.provenance_hits[18].path = /content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json
+  root.provenance_hits[36].path = /content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json
+  root.provenance_hits[36].problem_reference_hits[0].path = $.deterministic_results.1.problem_id
+  root.provenance_hits[36].problem_reference_hits[1].path = $.deterministic_results.2.problem_id
+  root.provenance_hits[36].problem_reference_hits[2].path = $.deterministic_results.3.problem_id
+  root.provenance_hits[36].problem_reference_hits[3].path = $.deterministic_results.4.problem_id
+  root.provenance_hits[36].problem_reference_hits[4].path = $.deterministic_results.5.problem_id
+  root.provenance_hits[36].key_hits[2].path = $.deterministic_results.1.problem_id
+  root.provenance_hits[36].key_hits[3].path = $.deterministic_results.1.ground_truth
+  root.provenance_hits[36].key_hits[4].path = $.deterministic_results.2.problem_id
+  root.provenance_hits[36].key_hits[5].path = $.deterministic_results.2.ground_truth
+  root.provenance_hits[36].key_hits[6].path = $.deterministic_results.3.problem_id
+
+FILE: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+  root.purpose = Controlled OOD model re-validation after deterministic parser validation
+  root.selected_instances[0].problem_text = You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+  root.selected_instances[0].ungated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+  root.selected_instances[0].reliability_gated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+  root.selected_instances[1].problem_text = You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+  root.selected_instances[1].ungated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+  root.selected_instances[1].reliability_gated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+  root.selected_instances[2].problem_text = You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+  root.selected_instances[2].ungated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+  root.selected_instances[2].reliability_gated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+  root.selected_instances[3].problem_text = You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+  root.selected_instances[3].ungated_prompt = You are solving a deterministic logic problem.
+
+PROBLEM:
+You are solving a deterministic constraint problem.
+
+Use ALL supplied clues, including clues from unreliable agents.
+
+Problem:
+
+
+Available clues:
+
+
+Determine the color assigned to each of:
+Alex, Ben, Cara, Dan.
+
+You MUST return exactly ONE JSON object.
+
+Your response MUST contain NOTHING except this JSON object.
+
+Required schema:
+
+{
+  "prediction": [
+    "color for Alex",
+    "color for Ben",
+    "color for Cara",
+    "color for Dan"
+  ]
+}
+
+The prediction array MUST contain exactly four values.
+
+Allowed values are exactly:
+"red"
+"green"
+"blue"
+"yellow"
+
+Each allowed value MUST appear exactly once.
+
+Do NOT include:
+- explanations
+- reasoning
+- markdown
+- code fences
+- duplicate colors
+- extra keys
+- extra text
+
+Example structure only:
+
+{"prediction":["red","green","blue","yellow"]}
+
+You must determine the correct assignment of colors to four people.
+
+The four people are exactly:
+Alex
+Ben
+Cara
+Dan
+
+The four colors are exactly:
+red
+
+
+FILE: /content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+  root.phase14_4g_selection_records[1].value_repr = [{'problem_id': '1', 'source_path': 'phase14_4D.selected_instances[0]', 'problem_text': 'You are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  "prediction": [\n    "color for Alex",\n    "color for Ben",\n    "color for Cara",\n    "color for Dan"\n  ]\n}\n\nThe prediction array MUST contain exactly four values.\n\nAllowed values are exactly:\n"red"\n"green"\n"blue"\n"yellow"\n\nEach allowed value MUST appear exactly once.\n\nDo NOT include:\n- explanations\n- reasoning\n- markdown\n- code fences\n- duplicate colors\n- extra keys\n- extra text\n\nExample structure only:\n\n{"prediction":["red","green","blue","yellow"]}', 'ground_truth': None, 'ungated_prompt': 'You are solving a determini
+  root.phase14_4g_selection_records[7].value_repr = [{'problem_id': '1', 'source_path': 'phase14_4D.selected_instances[0]', 'problem_text': 'You are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  "prediction": [\n    "color for Alex",\n    "color for Ben",\n    "color for Cara",\n    "color for Dan"\n  ]\n}\n\nThe prediction array MUST contain exactly four values.\n\nAllowed values are exactly:\n"red"\n"green"\n"blue"\n"yellow"\n\nEach allowed value MUST appear exactly once.\n\nDo NOT include:\n- explanations\n- reasoning\n- markdown\n- code fences\n- duplicate colors\n- extra keys\n- extra text\n\nExample structure only:\n\n{"prediction":["red","green","blue","yellow"]}', 'ground_truth': None, 'ungated_prompt': 'You are solving a determini
+  root.candidate_problem_texts[0].text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+  root.candidate_problem_texts[1].text = You are solving a deterministic logic problem. PROBLEM: You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]} You must determine the correct assignment of colors to four people. The four people are exactly: Alex Ben Cara Dan The four colors are exactly: red green blue yellow Condition: ungated OUT
+  root.candidate_problem_texts[2].text = You are solving a deterministic logic problem. PROBLEM: You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]} You must determine the correct assignment of colors to four people. The four people are exactly: Alex Ben Cara Dan The four colors are exactly: red green blue yellow Condition: reliability
+  root.candidate_problem_texts[3].text = Phase 14.4G re-validates the OOD model conditions using the deterministic strict JSON contract validated in Phase 14.4F. Results should be interpreted separately for output validity and end-to-end correctness. If valid outputs remain insufficient, the model validation remains measurement-limited rather than constituting evidence against the mechanism.
+  root.exact_problem_text_matches[0].source_14_4G.text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+  root.exact_problem_text_matches[0].upstream_text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+  root.exact_problem_text_matches[1].source_14_4G.text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+  root.exact_problem_text_matches[1].upstream_text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+  root.exact_problem_text_matches[2].source_14_4G.text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+  root.exact_problem_text_matches[2].upstream_text = You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { "prediction": [ "color for Alex", "color for Ben", "color for Cara", "color for Dan" ] } The prediction array MUST contain exactly four values. Allowed values are exactly: "red" "green" "blue" "yellow" Each allowed value MUST appear exactly once. Do NOT include: - explanations - reasoning - markdown - code fences - duplicate colors - extra keys - extra text Example structure only: {"prediction":["red","green","blue","yellow"]}
+
+====================================================================================================
+6. DECISION
+====================================================================================================
+[PASS] Historical parser and scoring evidence both exist.
+[PASS] Proceed to deterministic contract adjudication.
+The next phase should construct a NEW scorer for Treatment 3 Trial 2
+using the recovered contract, without modifying Trial 1 or Trial 2.
+
+====================================================================================================
+7. EXPERIMENTAL BOUNDARY
+====================================================================================================
+Trial 1 remains an incomplete historical trial.
+Trial 2 is treated as a separate/new Treatment 3 trial.
+This phase does not combine Trial 1 and Trial 2.
+This phase does not calculate Trial 2 accuracy.
+
+====================================================================================================
+END PHASE 14.34R4
+====================================================================================================

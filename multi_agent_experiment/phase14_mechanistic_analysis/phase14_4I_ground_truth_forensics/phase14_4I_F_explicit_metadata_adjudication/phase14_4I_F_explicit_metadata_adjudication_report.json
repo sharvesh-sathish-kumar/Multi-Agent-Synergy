@@ -1,0 +1,49 @@
+{
+  "phase": "14.4I-F",
+  "title": "Explicit Metadata Adjudication",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "no_ground_truth_inference": true,
+    "no_accuracy_calculation": true,
+    "no_answer_recomputation": true,
+    "no_positional_mapping": true,
+    "no_order_based_mapping": true
+  },
+  "input": {
+    "phase14_4I_E_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+    "candidate_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "counts": {
+    "raw_observations": 80,
+    "explicit_candidate_to_other_id_observations": 0,
+    "bidirectional_conflicts": 0,
+    "same_record_conflicts": 0
+  },
+  "candidate_status": {
+    "1": "NO_EXPLICIT_MAPPING",
+    "2": "NO_EXPLICIT_MAPPING",
+    "3": "NO_EXPLICIT_MAPPING",
+    "4": "NO_EXPLICIT_MAPPING",
+    "5": "NO_EXPLICIT_MAPPING"
+  },
+  "adjudicated_explicit_mappings": {},
+  "uniqueness": {
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": {},
+    "5": {}
+  },
+  "bidirectional_conflicts": [],
+  "same_record_conflicts": [],
+  "explicit_link_observations": [],
+  "methodological_statement": "A candidate-to-upstream relationship was accepted only when the relationship was explicitly represented by provenance-bearing metadata in the same record. No relationship was inferred from ordering, position, filename similarity, repeated text, or model output. Ground truth and accuracy were not computed."
+}

@@ -1,0 +1,72 @@
+{
+  "api_execution": false,
+  "candidate_problem_binding": {
+    "reason": "Phase 14.7 does not establish an explicit candidate\u2192problem same-record binding for every canonical candidate. No inference is permitted.",
+    "reported_count": 3,
+    "required_count": 5,
+    "status": "INCOMPLETE"
+  },
+  "canonical_candidate_count": 5,
+  "canonical_candidate_ids": [
+    "candidate_1937a8706bd403e7",
+    "candidate_662c8a23191d37ea",
+    "candidate_5c7d89e5f2dc086e",
+    "candidate_fb480b2a4151a078",
+    "candidate_563709a7fbfb43d9"
+  ],
+  "created_utc": "2026-08-25T06:37:00.317947+00:00",
+  "decision": "BLOCKED_PENDING_EXPLICIT_SOURCE_BINDINGS",
+  "execution_permission": false,
+  "explicit_source_census": {
+    "candidate_identity_structures": 8,
+    "candidate_problem_same_record_bindings": 3,
+    "ground_truth_identity_hash_structures": 1,
+    "gt_identity_structures": 2,
+    "identity_structures": 2817,
+    "problem_gt_same_record_bindings": 2,
+    "problem_identity_structures": 2812
+  },
+  "model_execution": false,
+  "notes": [
+    "No candidate\u2192problem mapping was inferred.",
+    "No positional mapping was performed.",
+    "No ordering mapping was performed.",
+    "No text matching was performed.",
+    "No numeric semantics were inferred.",
+    "No ground truth was interpreted.",
+    "No answers were recomputed.",
+    "No accuracy was calculated.",
+    "No Treatment 3 model execution occurred.",
+    "Prior artifacts were read-only."
+  ],
+  "phase": "14.9A",
+  "prohibited_actions_performed": false,
+  "read_only": true,
+  "safety": {
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "api_calls": false,
+    "cross_candidate_guessing": false,
+    "ground_truth_interpretation": false,
+    "legacy_GT_reconstruction": false,
+    "manual_reconstruction": false,
+    "model_calls": false,
+    "numeric_semantics_inference": false,
+    "ordering_mapping": false,
+    "positional_mapping": false,
+    "prior_artifact_modification": false,
+    "read_only_previous_artifacts": true,
+    "text_matching_mapping": false,
+    "treatment_3_execution": false
+  },
+  "source_artifacts": {
+    "phase_14_4D_manifest": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+    "phase_14_5": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json",
+    "phase_14_6": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_6_treatment3_provenance_safe_pipeline/phase14_6_treatment3_provenance_safe_pipeline_report.json",
+    "phase_14_7": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json",
+    "phase_14_7_preflight": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_pre_execution_validation.json",
+    "phase_14_8": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_8_treatment3_execution_preflight/phase14_8_treatment3_execution_preflight_report.json"
+  },
+  "title": "Treatment 3 Execution-Binding Audit",
+  "treatment_3_executed": false
+}

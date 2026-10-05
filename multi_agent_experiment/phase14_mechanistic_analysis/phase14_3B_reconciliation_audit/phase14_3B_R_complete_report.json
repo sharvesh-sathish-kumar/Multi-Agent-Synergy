@@ -1,0 +1,70 @@
+{
+  "phase": "14.3B-R",
+  "phase_name": "Corrected Mechanism Stress-Test Audit / Gate Reconciliation",
+  "api_calls": 0,
+  "model_calls": 0,
+  "read_only_previous_artifacts": true,
+  "treatment_3_run": false,
+  "configuration": {
+    "expected_canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_problems": 60,
+    "expected_clues": 485
+  },
+  "dataset_identity": {
+    "recovery_hash_locations": [
+      "canonical_sha256"
+    ],
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2"
+  },
+  "gate_results": {
+    "recovery_identity": true,
+    "phase14_1_reliable_unique": true,
+    "phase14_1_reliable_gt": false,
+    "phase14_3A_reliable_unique": true,
+    "phase14_3A_reliable_gt": true,
+    "phase14_3B_reliable_unique": true,
+    "phase14_3B_reliable_gt": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "treatment_3_not_run": true,
+    "previous_artifacts_present": true,
+    "previous_artifacts_unmodified": true
+  },
+  "previous_artifact_hashes_before": {
+    "phase14_1A": "9f92d4defbd98fcc6708467450ee95e9802dad5ecda6b94de13be2ebd2d0cca2",
+    "phase14_1": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+    "phase14_2": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+    "phase14_3A": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+    "phase14_3B": "090c5a3f1558cc678d666819e068db1bdef91b005c4bd97069d59166461d6353",
+    "phase14_3B_rows": "a8aaafb87f18dec326f2be7987956ecf2d896a1c858372da757e9521daeb5e9c"
+  },
+  "previous_artifact_hashes_after": {
+    "phase14_1A": "9f92d4defbd98fcc6708467450ee95e9802dad5ecda6b94de13be2ebd2d0cca2",
+    "phase14_1": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+    "phase14_2": "617ccf5c06abc126f9d22e1c702a5de6b593508ab0ceefd8da0b8964714a3eea",
+    "phase14_3A": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+    "phase14_3B": "090c5a3f1558cc678d666819e068db1bdef91b005c4bd97069d59166461d6353",
+    "phase14_3B_rows": "a8aaafb87f18dec326f2be7987956ecf2d896a1c858372da757e9521daeb5e9c"
+  },
+  "previous_artifacts_unchanged": true,
+  "phase14_1_evidence": {
+    "reliable_unique_verified": true,
+    "reliable_unique_source": "mechanism_summary.reliable_unique",
+    "reliable_gt_verified": false,
+    "reliable_gt_source": null
+  },
+  "phase14_2_evidence": {
+    "accuracy_metrics_found": 8,
+    "end_to_end_accuracy_approx_0_9833": false,
+    "valid_accuracy_1_0_detected": true
+  },
+  "phase14_3A_evidence": {
+    "reliable_unique_verified": true,
+    "reliable_gt_verified": true
+  },
+  "phase14_3B_evidence": {
+    "reliable_unique_verified": true,
+    "reliable_gt_verified": true
+  },
+  "decision": "PHASE_14_3B_R_REVIEW_REQUIRED — one or more audit gates could not be independently verified."
+}

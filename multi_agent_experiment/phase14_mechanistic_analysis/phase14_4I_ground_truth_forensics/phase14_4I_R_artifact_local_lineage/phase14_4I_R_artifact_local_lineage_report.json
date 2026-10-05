@@ -1,0 +1,147 @@
+{
+  "phase": "14.4I-R",
+  "title": "Artifact-Local Explicit Lineage / GT Anchor Audit",
+  "mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "ground_truth_inference": false,
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "positional_mapping": false,
+    "ordering_mapping": false,
+    "text_collision_identity": false,
+    "prior_artifact_modification": false
+  },
+  "prior_reports": {
+    "phase_14_4I_I": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_I_exact_record_identity/phase14_4I_I_exact_record_identity_report.json",
+    "phase_14_4I_M": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_M_explicit_key_gt_join/phase14_4I_M_explicit_key_gt_join_report.json"
+  },
+  "candidate_identity": {
+    "1": {
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "problem_id": "1"
+    },
+    "2": {
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "problem_id": "2"
+    },
+    "3": {
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "problem_id": "3"
+    },
+    "4": {
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+      "problem_id": "4"
+    },
+    "5": {
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "problem_id": "5"
+    }
+  },
+  "candidate_records": {
+    "1": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f"
+    },
+    "2": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab"
+    },
+    "3": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143"
+    },
+    "4": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    },
+    "5": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "parent_path": "$.selected_instances",
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+    }
+  },
+  "artifact_local_results": {
+    "1": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "exact_record_locations": [
+        "$.selected_instances[0]"
+      ],
+      "exact_record_count": 1,
+      "artifact_gt_structural_observations": 0,
+      "direct_same_container_gt": [],
+      "ancestor_gt": []
+    },
+    "2": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "exact_record_locations": [
+        "$.selected_instances[1]"
+      ],
+      "exact_record_count": 1,
+      "artifact_gt_structural_observations": 0,
+      "direct_same_container_gt": [],
+      "ancestor_gt": []
+    },
+    "3": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "exact_record_locations": [
+        "$.selected_instances[2]"
+      ],
+      "exact_record_count": 1,
+      "artifact_gt_structural_observations": 0,
+      "direct_same_container_gt": [],
+      "ancestor_gt": []
+    },
+    "4": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "exact_record_locations": [
+        "$.selected_instances[3]"
+      ],
+      "exact_record_count": 1,
+      "artifact_gt_structural_observations": 0,
+      "direct_same_container_gt": [],
+      "ancestor_gt": []
+    },
+    "5": {
+      "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+      "exact_record_locations": [
+        "$.selected_instances[4]"
+      ],
+      "exact_record_count": 1,
+      "artifact_gt_structural_observations": 0,
+      "direct_same_container_gt": [],
+      "ancestor_gt": []
+    }
+  },
+  "final_status": {
+    "1": "NO_ARTIFACT_LOCAL_EXPLICIT_GT_ANCHOR",
+    "2": "NO_ARTIFACT_LOCAL_EXPLICIT_GT_ANCHOR",
+    "3": "NO_ARTIFACT_LOCAL_EXPLICIT_GT_ANCHOR",
+    "4": "NO_ARTIFACT_LOCAL_EXPLICIT_GT_ANCHOR",
+    "5": "NO_ARTIFACT_LOCAL_EXPLICIT_GT_ANCHOR"
+  },
+  "cross_candidate_collision_count": 0,
+  "cross_candidate_collisions": {},
+  "safety_audit": {
+    "candidate_mapping_from_text_collision": false,
+    "problem_number_inference": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "numeric_semantics_used": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "model_output_used": false,
+    "prior_artifacts_modified": false
+  },
+  "immutability": {
+    "baseline_artifacts": 116,
+    "changed_artifacts": 0
+  }
+}

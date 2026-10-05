@@ -1,0 +1,1022 @@
+[
+  {
+    "index": 1,
+    "problem_id": "127",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "f9dce84bad7d293d6dba54c04efbab67e244a6e71e12b55ca2f0f864163f1cf3"
+  },
+  {
+    "index": 2,
+    "problem_id": "127",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"a\", \"b\", \"c\", \"d\"]",
+        "normalized": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "4695d77a3fc5cf3cc42de772640fc9904c2ea5ceb82e60c729a7cff95870449d"
+  },
+  {
+    "index": 3,
+    "problem_id": "134",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "2cf784d5bcfe78301d0cb221f6ad797243d6e984e1878b5152b29d9386168532"
+  },
+  {
+    "index": 4,
+    "problem_id": "134",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\"prediction\": [\"\", \"\", \"\", \"\"]}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "bea92d461e695b09a0656302c519946ddf77674e3d1a8b0f656db6d12aa22a3f"
+  },
+  {
+    "index": 5,
+    "problem_id": "147",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "19f97f097c82c5a4262a338b8d3f51b5d6a1c09643165875811f27678315fe15"
+  },
+  {
+    "index": 6,
+    "problem_id": "147",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "03042136ed29c3ffa7f1074c994fa53dd006f27ea1b27cce3152b202d2412660"
+  },
+  {
+    "index": 7,
+    "problem_id": "15",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "142e6f47405b8934338c0d10d061758699ef527bb9b33faa4cd4b716fcfdf1dc"
+  },
+  {
+    "index": 8,
+    "problem_id": "15",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"1\", \"2\", \"3\", \"4\"]",
+        "normalized": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"1\", \"2\", \"3\", \"4\"]\n}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "56b89ca116af2ee9672c90ad4c009521349a8d6948560bc1d4dff8b1db799ba6"
+  },
+  {
+    "index": 9,
+    "problem_id": "160",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "6d8b5ba9f695f1012e6d2ffbf4104b1e072b55df117da4b6632470546e321a10"
+  },
+  {
+    "index": 10,
+    "problem_id": "160",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"?\", \"?\", \"?\", \"?\"]",
+        "normalized": [
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "?",
+            "?",
+            "?",
+            "?"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"?\",\"?\",\"?\",\"?\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "404d50374b5534fdb4f183a7868781e5ebae5f8954c4a04572672c4f726c26e4"
+  },
+  {
+    "index": 11,
+    "problem_id": "215",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "541bcb2398873a15fe6117261f16ec4414f7c7e5d29294103d98ed5ba845a39d"
+  },
+  {
+    "index": 12,
+    "problem_id": "215",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"a\", \"b\", \"c\", \"d\"]",
+        "normalized": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "ff62b140aa7a94d9db9b2e791f970a9d5da3d02bfd53e9ba0e200e005b800a84"
+  },
+  {
+    "index": 13,
+    "problem_id": "315",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "c5faa2cda703ed4ff382fbeb437e6c20781c82eff237ddde416861c7bdec9cee"
+  },
+  {
+    "index": 14,
+    "problem_id": "315",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "4cb07f6c7b95f74b80d08b83e0465c009ee285afc142fe0debc897b51473c29f"
+  },
+  {
+    "index": 15,
+    "problem_id": "404",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "50b40026304bb190ed35621eb9b8dd8756424603c8e125144b071d009a0714fb"
+  },
+  {
+    "index": 16,
+    "problem_id": "404",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": "duplicate_prediction_values"
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"\", \"\", \"\", \"\"]",
+        "normalized": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "duplicate_prediction_values",
+          "values": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 1,
+    "reported_duplicate_failure": true,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"\", \"\", \"\", \"\"]\n}\nduplicate_prediction_values",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "e4f273e551fc15c81a85eea444b60b3ee74a55c10ac4af76a91c2359486a259e"
+  },
+  {
+    "index": 17,
+    "problem_id": "49",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"a\", \"b\", \"c\", \"d\"]",
+        "normalized": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\"prediction\":[\"A\",\"B\",\"C\",\"D\"]}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "aaa601ffdbb61f6d7002e716e8cc4cdbc569462c1122a0d5ab26c29c0926e914"
+  },
+  {
+    "index": 18,
+    "problem_id": "49",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"1\", \"2\", \"3\", \"4\"]",
+        "normalized": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"1\", \"2\", \"3\", \"4\"]\n}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "275ae72bc2d2ea4e44b08209d27e8a634e821c40b6f01fec29720078be252804"
+  },
+  {
+    "index": 19,
+    "problem_id": "50",
+    "condition": "ungated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"a\", \"b\", \"c\", \"d\"]",
+        "normalized": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "ungated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "527c8bf5a7c562c8303fe9b0cf72fcb25ec4b51fa3ea4a999d2bab1c053ae6af"
+  },
+  {
+    "index": 20,
+    "problem_id": "50",
+    "condition": "reliability_gated",
+    "reported_errors": [
+      {
+        "field": "status",
+        "value": "success"
+      },
+      {
+        "field": "error",
+        "value": null
+      },
+      {
+        "field": "parse_error",
+        "value": null
+      }
+    ],
+    "prediction_candidates": [
+      {
+        "field": "prediction",
+        "raw_value": "[\"a\", \"b\", \"c\", \"d\"]",
+        "normalized": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "permutation_status": {
+          "is_permutation": false,
+          "reason": "wrong_prediction_domain",
+          "values": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ],
+    "valid_prediction_candidates": 0,
+    "duplicate_prediction_candidates": 0,
+    "reported_duplicate_failure": false,
+    "reported_parse_or_validation_failure": false,
+    "response_text": "reliability_gated\nopenai/gpt-oss-120b\nsuccess\n{\n  \"prediction\": [\"A\", \"B\", \"C\", \"D\"]\n}",
+    "duplicate_analysis": {
+      "color_mentions": [],
+      "contains_duplicate_color_words": false
+    },
+    "record_hash": "d563f2926fccbba2cccc099999458ed63cdb392f4c11f63aba37c7d1bfbc808c"
+  }
+]

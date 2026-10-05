@@ -1,0 +1,593 @@
+{
+  "phase": "14.34R4",
+  "timestamp_utc": "2026-08-29T05:26:38.619917+00:00",
+  "locks": {
+    "zero_model_calls": true,
+    "zero_api_calls": true,
+    "zero_experiment_execution": true,
+    "zero_scoring": true,
+    "existing_artifacts_read_only": true
+  },
+  "json_artifacts_inspected": 34,
+  "ranked_candidates": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json",
+      "score": 460,
+      "evidence": [
+        "validated_parser",
+        "scoring x35",
+        "ground_truth x1610",
+        "prediction x20",
+        "deterministic x356",
+        "direct_answer x43"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "score": 460,
+      "evidence": [
+        "validated_parser",
+        "scoring x48",
+        "ground_truth x3533",
+        "prediction x537",
+        "deterministic x187",
+        "direct_answer x74"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+      "score": 252,
+      "evidence": [
+        "scoring x8",
+        "ground_truth x1691",
+        "prediction x40",
+        "deterministic x134",
+        "direct_answer x4"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+      "score": 245,
+      "evidence": [
+        "deterministic parser validation",
+        "ground_truth x5",
+        "prediction x55",
+        "deterministic x26"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "score": 235,
+      "evidence": [
+        "scoring x2",
+        "correctness x5",
+        "ground_truth x419",
+        "prediction x592",
+        "deterministic x280"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json",
+      "score": 213,
+      "evidence": [
+        "validated_parser",
+        "scoring x4",
+        "ground_truth x11",
+        "prediction x1",
+        "deterministic x12",
+        "direct_answer x3"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "score": 200,
+      "evidence": [
+        "ground_truth x820",
+        "prediction x4315",
+        "deterministic x1705"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json",
+      "score": 200,
+      "evidence": [
+        "ground_truth x1197",
+        "prediction x1225",
+        "deterministic x489"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G_parent_structure_provenance/phase14_4I_G_parent_structure_provenance_report.json",
+      "score": 200,
+      "evidence": [
+        "ground_truth x672",
+        "prediction x736",
+        "deterministic x489"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+      "score": 140,
+      "evidence": [
+        "ground_truth x20",
+        "prediction x10",
+        "filename:scoring"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json",
+      "score": 124,
+      "evidence": [
+        "scoring x6",
+        "ground_truth x5",
+        "prediction x62",
+        "deterministic x1",
+        "filename:audit"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json",
+      "score": 100,
+      "evidence": [
+        "filename:parser",
+        "filename:validated"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json",
+      "score": 65,
+      "evidence": [
+        "prediction x5",
+        "filename:parser"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_I_exact_record_identity/phase14_4I_I_exact_record_identity_report.json",
+      "score": 60,
+      "evidence": [
+        "ground_truth x463"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_J_fingerprint_anchored_gt_provenance/phase14_4I_J_fingerprint_anchored_gt_provenance_report.json",
+      "score": 60,
+      "evidence": [
+        "ground_truth x233"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_L_cross_format_upstream_discovery/phase14_4I_L_cross_format_upstream_discovery_report.json",
+      "score": 60,
+      "evidence": [
+        "ground_truth x222"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_M_explicit_key_gt_join/phase14_4I_M_explicit_key_gt_join_report.json",
+      "score": 60,
+      "evidence": [
+        "ground_truth x82"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_N_gt_bearing_ancestor_containment/phase14_4I_N_gt_bearing_ancestor_containment_report.json",
+      "score": 60,
+      "evidence": [
+        "ground_truth x223"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_T_artifact_surface_census/phase14_4I_T_artifact_surface_census_report.json",
+      "score": 60,
+      "evidence": [
+        "ground_truth x274"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+      "score": 41,
+      "evidence": [
+        "scoring x5",
+        "ground_truth x4",
+        "deterministic x1"
+      ]
+    }
+  ],
+  "validated_parser_files": [
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json"
+  ],
+  "scoring_files": [
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json"
+  ],
+  "explicit_contracts": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "scor"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json",
+      "pattern": "correct.{0,150}(prediction|ground.?truth)",
+      "matches": [
+        "prediction"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "Parser",
+        "parser"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+      "pattern": "accuracy.{0,100}(correct|prediction)",
+      "matches": [
+        "correct"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+      "pattern": "prediction.{0,100}array",
+      "matches": [
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+      "pattern": "exactly.{0,100}json",
+      "matches": [
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "parser"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+      "pattern": "ground.?truth.{0,150}(compare|comparison|correct)",
+      "matches": [
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+      "pattern": "accuracy.{0,100}(correct|prediction)",
+      "matches": [
+        "correct"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "parser",
+        "parser",
+        "parser",
+        "parser",
+        "parser",
+        "parser"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+      "pattern": "correct.{0,150}(prediction|ground.?truth)",
+      "matches": [
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor",
+        "scor"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "pattern": "prediction.{0,100}array",
+      "matches": [
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "pattern": "exactly.{0,100}json",
+      "matches": [
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object. Your response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object. Your response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON",
+        "exactly ONE JSON object. Your response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON",
+        "exactly ONE JSON object. Your response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object. Your response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object. Your response MUST contain NOTHING except this JSON"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "pattern": "correct.{0,150}(prediction|ground.?truth)",
+      "matches": [
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "parser"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "pattern": "prediction.{0,100}array",
+      "matches": [
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "pattern": "exactly.{0,100}json",
+      "matches": [
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "pattern": "ground.?truth.{0,150}(compare|comparison|correct)",
+      "matches": [
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct",
+        "correct"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "pattern": "correct.{0,150}(prediction|ground.?truth)",
+      "matches": [
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "ground_truth",
+        "prediction",
+        "ground_truth"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "pattern": "deterministic.{0,150}(parser|scor)",
+      "matches": [
+        "parser",
+        "parser",
+        "parser",
+        "parser",
+        "parser",
+        "parser",
+        "scor",
+        "scor",
+        "scor",
+        "scor"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "pattern": "prediction.{0,100}array",
+      "matches": [
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+      "pattern": "exactly.{0,100}json",
+      "matches": [
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json",
+      "pattern": "prediction.{0,100}array",
+      "matches": [
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json",
+      "pattern": "exactly.{0,100}json",
+      "matches": [
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "EXACTLY ONE JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G_parent_structure_provenance/phase14_4I_G_parent_structure_provenance_report.json",
+      "pattern": "prediction.{0,100}array",
+      "matches": [
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array",
+        "prediction array"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G_parent_structure_provenance/phase14_4I_G_parent_structure_provenance_report.json",
+      "pattern": "exactly.{0,100}json",
+      "matches": [
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON",
+        "exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON"
+      ]
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_K_explicit_provenance_graph/phase14_4I_K_explicit_provenance_graph_report.json",
+      "pattern": "correct.{0,150}(prediction|ground.?truth)",
+      "matches": [
+        "ground_truth"
+      ]
+    }
+  ]
+}

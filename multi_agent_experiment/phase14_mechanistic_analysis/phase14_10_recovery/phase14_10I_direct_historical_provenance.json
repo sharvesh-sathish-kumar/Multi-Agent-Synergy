@@ -1,0 +1,1602 @@
+{
+  "phase": "14.10I",
+  "source_files": [
+    "groq_experiment_results.json",
+    "phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+    "phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json"
+  ],
+  "literal_evidence": {
+    "groq_experiment_results.json": [
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[0].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[1].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[2].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[3].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[4].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[4].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[5].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[5].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[6].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[6].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[7].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[7].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[8].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[8].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[9].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[9].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[10].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[10].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[11].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[11].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[12].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[12].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[13].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[13].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[14].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[14].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[15].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[15].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[16].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[16].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[17].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[17].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[18].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[18].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[19].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[19].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[20].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[20].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[21].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[21].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[22].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[22].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[23].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[23].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[24].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[24].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[25].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[25].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[26].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[26].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[27].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[27].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[28].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[28].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[29].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[29].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      }
+    ],
+    "phase10_results/phase12_treatment2/phase12_2_raw_results.json": [
+      {
+        "type": "TREATMENT",
+        "path": "$[0].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[0].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[0].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[1].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[1].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[1].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[2].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[2].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[2].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[3].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[3].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[3].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[4].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[4].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[4].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[4].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[5].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[5].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[5].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[5].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[6].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[6].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[6].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[6].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[7].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[7].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[7].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[7].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[8].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[8].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[8].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[8].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[9].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[9].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[9].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[9].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[10].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[10].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[10].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[10].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[11].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[11].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[11].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[11].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[12].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[12].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[12].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[12].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[13].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[13].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[13].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[13].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[14].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[14].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[14].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[14].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[15].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[15].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[15].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[15].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[16].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[16].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[16].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[16].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[17].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[17].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[17].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[17].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[18].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[18].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[18].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[18].temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[19].treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[19].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[19].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[19].temperature",
+        "value": "0"
+      }
+    ],
+    "phase13_mechanistic_analysis/phase13_2_information_flow_audit.json": [
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.phase_name",
+        "matched": [
+          "treatment 2"
+        ],
+        "value": "\"Treatment 2 Information-Flow / Serialization Forensic Audit\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.structure.dataset.first_keys[0]",
+        "matched": [
+          "agent_a"
+        ],
+        "value": "\"agent_a_clues\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.structure.dataset.first_keys[1]",
+        "matched": [
+          "agent_a"
+        ],
+        "value": "\"agent_a_reliable\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.structure.dataset.first_keys[2]",
+        "matched": [
+          "agent_b"
+        ],
+        "value": "\"agent_b_clues\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.structure.dataset.first_keys[3]",
+        "matched": [
+          "agent_b"
+        ],
+        "value": "\"agent_b_reliable\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.structure.dataset.first_keys[4]",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"agent_c_clues\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.structure.dataset.first_keys[5]",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"agent_c_reliable\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.interpretation[0]",
+        "matched": [
+          "treatment 2"
+        ],
+        "value": "\"Treatment 2 exhibits extreme prediction collapse.\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.interpretation[1]",
+        "matched": [
+          "treatment 2"
+        ],
+        "value": "\"Treatment 2 also exhibits extreme raw-response collapse.\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.interpretation[2]",
+        "matched": [
+          "treatment 2"
+        ],
+        "value": "\"Ground truth changes across problems while Treatment 2 predictions remain unchanged.\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.interpretation[3]",
+        "matched": [
+          "treatment 2"
+        ],
+        "value": "\"At least one dataset clue expected for Treatment 2 is absent from stored Treatment 2 payload content.\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.interpretation[4]",
+        "matched": [
+          "treatment 2"
+        ],
+        "value": "\"All Treatment 2 payloads appear to omit the dataset clue strings inspected by this audit.\""
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$.sample_payloads.1.raw_record.treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$.sample_payloads.1.raw_record.model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.sample_payloads.1.raw_record.model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$.sample_payloads.1.raw_record.temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$.sample_payloads.2.raw_record.treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$.sample_payloads.2.raw_record.model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.sample_payloads.2.raw_record.model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$.sample_payloads.2.raw_record.temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$.sample_payloads.3.raw_record.treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$.sample_payloads.3.raw_record.model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.sample_payloads.3.raw_record.model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$.sample_payloads.3.raw_record.temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$.sample_payloads.4.raw_record.treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$.sample_payloads.4.raw_record.model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.sample_payloads.4.raw_record.model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$.sample_payloads.4.raw_record.temperature",
+        "value": "0"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$.sample_payloads.5.raw_record.treatment",
+        "value": "\"reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$.sample_payloads.5.raw_record.model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$.sample_payloads.5.raw_record.model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$.sample_payloads.5.raw_record.temperature",
+        "value": "0"
+      }
+    ],
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json": [
+      {
+        "type": "TREATMENT",
+        "path": "$[0].treatment",
+        "value": "\"T2_reliability_gated_constraint_solving_REPAIRED\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[0].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[0].temperature",
+        "value": "0"
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[0].max_tokens",
+        "value": "300"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[0].input_provenance.payload.experiment",
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].input_provenance.payload.experiment",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[0].input_provenance.payload.treatment",
+        "value": "\"T2_reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[0].input_provenance.payload.agents",
+        "value": "{\"Agent_A\": {\"clues\": [\"Dan does not have yellow.\", \"Cara does not have green.\", \"Alex does not have green.\"], \"reliable\": true}, \"Agent_B\": {\"clues\": [\"Alex has blue.\", \"Dan has green.\", \"Ben has yellow.\"], \"reliable\": true}, \"Agent_C\": {\"..."
+      },
+      {
+        "type": "AGENT",
+        "path": "$[0].input_provenance.payload.agents.Agent_A",
+        "value": "{\"clues\": [\"Dan does not have yellow.\", \"Cara does not have green.\", \"Alex does not have green.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[0].input_provenance.payload.agents.Agent_B",
+        "value": "{\"clues\": [\"Alex has blue.\", \"Dan has green.\", \"Ben has yellow.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[0].input_provenance.payload.agents.Agent_C",
+        "value": "{\"clues\": [\"Cara has red.\", \"Ben does not have blue.\"], \"reliable\": false}"
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].input_provenance.payload.reliability_policy.reliable_agents[0]",
+        "matched": [
+          "agent_a"
+        ],
+        "value": "\"Agent_A\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].input_provenance.payload.reliability_policy.reliable_agents[1]",
+        "matched": [
+          "agent_b"
+        ],
+        "value": "\"Agent_B\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].input_provenance.payload.reliability_policy.unreliable_agents[0]",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"Agent_C\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[0].input_provenance.prompt",
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n1\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[0].input_provenance.prompt",
+        "matched": [
+          "agent_a",
+          "agent_b",
+          "agent_c"
+        ],
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n1\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[1].treatment",
+        "value": "\"T2_reliability_gated_constraint_solving_REPAIRED\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[1].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[1].temperature",
+        "value": "0"
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[1].max_tokens",
+        "value": "300"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[1].input_provenance.payload.experiment",
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].input_provenance.payload.experiment",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[1].input_provenance.payload.treatment",
+        "value": "\"T2_reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[1].input_provenance.payload.agents",
+        "value": "{\"Agent_A\": {\"clues\": [\"Ben has green.\", \"Cara does not have green.\", \"Alex does not have green.\"], \"reliable\": true}, \"Agent_B\": {\"clues\": [\"Dan does not have red.\", \"Cara has red.\", \"Ben does not have yellow.\"], \"reliable\": false}, \"Agent..."
+      },
+      {
+        "type": "AGENT",
+        "path": "$[1].input_provenance.payload.agents.Agent_A",
+        "value": "{\"clues\": [\"Ben has green.\", \"Cara does not have green.\", \"Alex does not have green.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[1].input_provenance.payload.agents.Agent_B",
+        "value": "{\"clues\": [\"Dan does not have red.\", \"Cara has red.\", \"Ben does not have yellow.\"], \"reliable\": false}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[1].input_provenance.payload.agents.Agent_C",
+        "value": "{\"clues\": [\"Dan has yellow.\", \"Alex has blue.\"], \"reliable\": true}"
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].input_provenance.payload.reliability_policy.reliable_agents[0]",
+        "matched": [
+          "agent_a"
+        ],
+        "value": "\"Agent_A\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].input_provenance.payload.reliability_policy.reliable_agents[1]",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"Agent_C\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].input_provenance.payload.reliability_policy.unreliable_agents[0]",
+        "matched": [
+          "agent_b"
+        ],
+        "value": "\"Agent_B\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[1].input_provenance.prompt",
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n2\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[1].input_provenance.prompt",
+        "matched": [
+          "agent_a",
+          "agent_b",
+          "agent_c"
+        ],
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n2\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[2].treatment",
+        "value": "\"T2_reliability_gated_constraint_solving_REPAIRED\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[2].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[2].temperature",
+        "value": "0"
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[2].max_tokens",
+        "value": "300"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[2].input_provenance.payload.experiment",
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].input_provenance.payload.experiment",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[2].input_provenance.payload.treatment",
+        "value": "\"T2_reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[2].input_provenance.payload.agents",
+        "value": "{\"Agent_A\": {\"clues\": [\"Ben has yellow.\", \"Dan has blue.\", \"Ben does not have red.\"], \"reliable\": false}, \"Agent_B\": {\"clues\": [\"Ben has yellow.\", \"Alex has green.\", \"Dan does not have red.\"], \"reliable\": true}, \"Agent_C\": {\"clues\": [\"Alex ..."
+      },
+      {
+        "type": "AGENT",
+        "path": "$[2].input_provenance.payload.agents.Agent_A",
+        "value": "{\"clues\": [\"Ben has yellow.\", \"Dan has blue.\", \"Ben does not have red.\"], \"reliable\": false}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[2].input_provenance.payload.agents.Agent_B",
+        "value": "{\"clues\": [\"Ben has yellow.\", \"Alex has green.\", \"Dan does not have red.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[2].input_provenance.payload.agents.Agent_C",
+        "value": "{\"clues\": [\"Alex does not have red.\", \"Cara does not have blue.\"], \"reliable\": true}"
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].input_provenance.payload.reliability_policy.reliable_agents[0]",
+        "matched": [
+          "agent_b"
+        ],
+        "value": "\"Agent_B\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].input_provenance.payload.reliability_policy.reliable_agents[1]",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"Agent_C\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].input_provenance.payload.reliability_policy.unreliable_agents[0]",
+        "matched": [
+          "agent_a"
+        ],
+        "value": "\"Agent_A\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[2].input_provenance.prompt",
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n3\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[2].input_provenance.prompt",
+        "matched": [
+          "agent_a",
+          "agent_b",
+          "agent_c"
+        ],
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n3\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[3].treatment",
+        "value": "\"T2_reliability_gated_constraint_solving_REPAIRED\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[3].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[3].temperature",
+        "value": "0"
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[3].max_tokens",
+        "value": "300"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[3].input_provenance.payload.experiment",
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].input_provenance.payload.experiment",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[3].input_provenance.payload.treatment",
+        "value": "\"T2_reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[3].input_provenance.payload.agents",
+        "value": "{\"Agent_A\": {\"clues\": [\"Ben does not have blue.\", \"Dan does not have red.\", \"Cara has green.\"], \"reliable\": true}, \"Agent_B\": {\"clues\": [\"Dan has yellow.\", \"Alex does not have red.\", \"Cara does not have blue.\"], \"reliable\": true}, \"Agent_C\"..."
+      },
+      {
+        "type": "AGENT",
+        "path": "$[3].input_provenance.payload.agents.Agent_A",
+        "value": "{\"clues\": [\"Ben does not have blue.\", \"Dan does not have red.\", \"Cara has green.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[3].input_provenance.payload.agents.Agent_B",
+        "value": "{\"clues\": [\"Dan has yellow.\", \"Alex does not have red.\", \"Cara does not have blue.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[3].input_provenance.payload.agents.Agent_C",
+        "value": "{\"clues\": [\"Ben has red.\", \"Alex has blue.\"], \"reliable\": false}"
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].input_provenance.payload.reliability_policy.reliable_agents[0]",
+        "matched": [
+          "agent_a"
+        ],
+        "value": "\"Agent_A\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].input_provenance.payload.reliability_policy.reliable_agents[1]",
+        "matched": [
+          "agent_b"
+        ],
+        "value": "\"Agent_B\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].input_provenance.payload.reliability_policy.unreliable_agents[0]",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"Agent_C\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[3].input_provenance.prompt",
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n4\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[3].input_provenance.prompt",
+        "matched": [
+          "agent_a",
+          "agent_b",
+          "agent_c"
+        ],
+        "value": "\"You are solving ONE isolated reasoning problem.\\n\\nIMPORTANT PROBLEM ID:\\n4\\n\\nDo NOT use information from any other problem.\\n\\nThe complete problem input is the JSON object below.\\n\\n---------------- BEGIN PROBLEM INPUT ----------------\\..."
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[4].treatment",
+        "value": "\"T2_reliability_gated_constraint_solving_REPAIRED\""
+      },
+      {
+        "type": "MODEL_PROVIDER",
+        "path": "$[4].model",
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[4].model",
+        "matched": [
+          "openai/gpt-oss-120b"
+        ],
+        "value": "\"openai/gpt-oss-120b\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[4].temperature",
+        "value": "0"
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[4].max_tokens",
+        "value": "300"
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[4].input_provenance.payload.experiment",
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "LITERAL_STRING",
+        "path": "$[4].input_provenance.payload.experiment",
+        "matched": [
+          "agent_c"
+        ],
+        "value": "\"multi_agent_constraint_reasoning\""
+      },
+      {
+        "type": "TREATMENT",
+        "path": "$[4].input_provenance.payload.treatment",
+        "value": "\"T2_reliability_gated_constraint_solving\""
+      },
+      {
+        "type": "CONFIG",
+        "path": "$[4].input_provenance.payload.agents",
+        "value": "{\"Agent_A\": {\"clues\": [\"Alex has green.\", \"Cara has red.\", \"Dan has yellow.\"], \"reliable\": true}, \"Agent_B\": {\"clues\": [\"Cara does not have green.\", \"Ben has blue.\", \"Cara does not have yellow.\"], \"reliable\": false}, \"Agent_C\": {\"clues\": [\"..."
+      },
+      {
+        "type": "AGENT",
+        "path": "$[4].input_provenance.payload.agents.Agent_A",
+        "value": "{\"clues\": [\"Alex has green.\", \"Cara has red.\", \"Dan has yellow.\"], \"reliable\": true}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[4].input_provenance.payload.agents.Agent_B",
+        "value": "{\"clues\": [\"Cara does not have green.\", \"Ben has blue.\", \"Cara does not have yellow.\"], \"reliable\": false}"
+      },
+      {
+        "type": "AGENT",
+        "path": "$[4].input_provenance.payload.agents.Agent_C",
+        "value": "{\"clues\": [\"Ben does not have red.\", \"Dan does not have blue.\"], \"reliable\": true}"
+      }
+    ]
+  },
+  "explicit_models": [
+    "openai/gpt-oss-120b"
+  ],
+  "explicit_providers": [],
+  "agent_evidence_files": [
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json"
+  ],
+  "treatment_evidence_files": [
+    "phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+    "phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+    "phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json"
+  ],
+  "safety": {
+    "read_only": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "candidate_problem_mapping": false,
+    "inference": false,
+    "reconstruction": false,
+    "artifact_modification": false
+  },
+  "non_actions": {
+    "model_execution": false,
+    "api_calls": false,
+    "treatment_execution": false,
+    "scoring": false,
+    "mapping": false,
+    "inference": false,
+    "reconstruction": false
+  }
+}

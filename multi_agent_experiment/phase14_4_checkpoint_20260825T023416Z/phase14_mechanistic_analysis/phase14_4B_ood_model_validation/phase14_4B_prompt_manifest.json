@@ -1,0 +1,162 @@
+[
+  {
+    "problem_id": 127,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 5\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 127,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 134,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 7\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 134,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 6\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 147,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 5\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 147,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 15,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 15,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 160,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 7\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 160,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 6\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 215,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 6\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 215,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 315,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 7\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 315,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 404,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 8\ngt_supported: False\nsolution_count: 0\nunique: False\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 404,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 49,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 49,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 50,
+    "condition": "ungated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information comes from all agents.\nUse the entire shared state.\n\nIMPORTANT:\nNo reliability filtering has been applied.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  },
+  {
+    "problem_id": 50,
+    "condition": "reliability_gated",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "system_prompt": "You are solving a constrained logic puzzle.\n\nYou must return ONLY a JSON object with this exact structure:\n\n{\n  \"prediction\": [\"...\", \"...\", \"...\", \"...\"]\n}\n\nThe prediction must contain exactly four entries.\n\nDo not provide explanations.\nDo not add markdown.\nDo not add extra keys.\n\nSolve the puzzle using only the information supplied in the user message.",
+    "user_prompt": "SHARED INFORMATION STATE:\nThe following information has passed the\nreliability gate.\n\nUse ONLY this active shared state.\n\nInformation excluded by the reliability gate is quarantined\nand must NOT be used.\n\nCONSTRAINTS:\nactive_constraint_count: 4\ngt_supported: True\nsolution_count: 1\nunique: True\n\nReturn the unique four-entry solution as JSON."
+  }
+]

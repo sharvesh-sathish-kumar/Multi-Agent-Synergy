@@ -1,0 +1,58 @@
+{
+  "phase": "14.4E",
+  "title": "Output-Contract Forensic Diagnosis",
+  "timestamp_utc": "2026-08-25T02:20:49.395047+00:00",
+  "safety": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "treatment_3_run": false,
+    "previous_artifacts_read_only": true
+  },
+  "dataset_provenance": {
+    "expected_canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "provenance_sources": [
+      "phase14_4A",
+      "phase14_4B",
+      "phase14_4C",
+      "phase14_4D"
+    ]
+  },
+  "input_artifacts": {
+    "phase14_4A_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4A_ood_generalization/phase14_4A_complete_report.json",
+    "phase14_4B_raw": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_raw_results.json",
+    "phase14_4B_scored": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_scored_results.json",
+    "phase14_4C_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4C_ood_model_output_audit/phase14_4C_complete_report.json",
+    "phase14_4C_rows": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4C_ood_model_output_audit/phase14_4C_audit_rows.json",
+    "phase14_4D_raw": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_raw_results.json",
+    "phase14_4D_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json",
+    "phase14_4D_manifest": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json"
+  },
+  "raw_result_count": 10,
+  "response_forensics": {
+    "empty_responses": 10,
+    "json_like_responses": 0,
+    "responses_with_equals": 0,
+    "responses_with_colon": 0,
+    "responses_mentioning_agents": 0,
+    "prediction_syntax_counts": {
+      "name_value": 0,
+      "name_has_value": 0,
+      "json_key_value": 0,
+      "tuple_like": 0
+    }
+  },
+  "failure_classification": "EMPTY_MODEL_RESPONSE",
+  "interpretation": "Phase 14.4D cannot currently provide model-level scientific evidence because the prediction-output contract failed for all tested calls. This phase diagnoses the failure without making additional model calls.",
+  "recommended_next_phase": "PHASE_14_4F_DETERMINISTIC_CONTRACT_VALIDATION",
+  "recommended_contract_path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_recommended_contract.json",
+  "immutability_baseline": {
+    "phase14_4A_report": "1c377245e5be274277a5fff84eaa2686f0ecfb672f430d5bd7599d7de55d848b",
+    "phase14_4B_raw": "bec0dfcc4356aba8b385347739c9e7ece7727485311699d9a9e02ba8192a22fc",
+    "phase14_4B_scored": "ffd7462ea80552704d08fee9dff76f19075581d0ea82470b4cd82f4f8dd1d936",
+    "phase14_4C_report": "c1fecc006aa28849e66e970d639a81dee4289d351bcefe291a8ec4a2fe1c353b",
+    "phase14_4C_rows": "7827c1b55320acfd0123987d55138cb5709defd0e900581694a9fc70e1a549df",
+    "phase14_4D_raw": "e6a148269e09ff3a27fad2f3a393c4da4fbbbe8bbeabb6cf42f9f852edba4b8f",
+    "phase14_4D_report": "f3c2532edd8da5668610f507aa47ebb3423618e5c785532f1a51337cddedf5f6",
+    "phase14_4D_manifest": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e"
+  }
+}

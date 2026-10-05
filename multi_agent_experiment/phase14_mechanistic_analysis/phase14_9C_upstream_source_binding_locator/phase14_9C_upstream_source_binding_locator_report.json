@@ -1,0 +1,83 @@
+{
+  "canonical_candidates": [
+    "candidate_1937a8706bd403e7",
+    "candidate_662c8a23191d37ea",
+    "candidate_5c7d89e5f2dc086e",
+    "candidate_fb480b2a4151a078",
+    "candidate_563709a7fbfb43d9"
+  ],
+  "conflicts": {},
+  "created_utc": "2026-08-25T06:40:16.573443+00:00",
+  "decision": "UPSTREAM_BINDINGS_STILL_INCOMPLETE",
+  "literal_same_record_binding_results": {
+    "candidate_coverage": {
+      "candidate_1937a8706bd403e7": 0,
+      "candidate_563709a7fbfb43d9": 0,
+      "candidate_5c7d89e5f2dc086e": 0,
+      "candidate_662c8a23191d37ea": 0,
+      "candidate_fb480b2a4151a078": 0
+    },
+    "explicitly_bound_candidates": [],
+    "records": [],
+    "total_records_found": 0,
+    "unbound_candidates": [
+      "candidate_1937a8706bd403e7",
+      "candidate_662c8a23191d37ea",
+      "candidate_5c7d89e5f2dc086e",
+      "candidate_fb480b2a4151a078",
+      "candidate_563709a7fbfb43d9"
+    ]
+  },
+  "methodological_constraints": [
+    "literal same-record inspection only",
+    "no positional mapping",
+    "no ordering mapping",
+    "no text matching",
+    "no problem-number inference",
+    "no numeric semantics inference",
+    "no manual reconstruction",
+    "no cross-candidate guessing",
+    "no ground-truth interpretation",
+    "no answer recomputation",
+    "no accuracy calculation",
+    "no model execution",
+    "no API calls"
+  ],
+  "phase": "14.9C",
+  "prior_artifacts_modified": false,
+  "protected_artifact_baseline": {
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json": "168169e12b4cd7491d5941f1d752489f6b1e06b3520c39cb83a9967ab6d16c49",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_6_treatment3_provenance_safe_pipeline/phase14_6_treatment3_provenance_safe_pipeline_report.json": "22f1b894c2476d3894d9ad91b44c3993d65ac4ce5ecd6d6a7bb4ce7e661953a1",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_pre_execution_validation.json": "d316a7786a9baba472fa2c0b1a293fdb48678210827c927fab2bac0c52ca9ddc",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json": "75b353a350e5dafaa9542ea74c79fcbf77b65eccc7259ca354d8d67c6094af5c",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_8_treatment3_execution_preflight/phase14_8_treatment3_execution_preflight_report.json": "d9eed62b22629cb12b08fb12bb5271b529c3698836f06c13715a71ee3cbf4bb1"
+  },
+  "purpose": "Locate literal upstream JSON records that already contain candidate_id and problem_id in the same JSON object.",
+  "safety": {
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "api_calls": false,
+    "cross_candidate_guessing": false,
+    "ground_truth_interpretation": false,
+    "legacy_GT_reconstruction": false,
+    "manual_reconstruction": false,
+    "model_calls": false,
+    "numeric_semantics_inference": false,
+    "ordering_mapping": false,
+    "positional_mapping": false,
+    "prior_artifact_modification": false,
+    "read_only_previous_artifacts": true,
+    "text_matching_mapping": false,
+    "treatment_3_execution": false
+  },
+  "search_scope": {
+    "base_directory": "/content/drive/MyDrive/multi_agent_experiment",
+    "json_files_discovered": 116,
+    "json_files_scanned": 116,
+    "valid_json_files": 116
+  },
+  "title": "Upstream Source-Binding Provenance Locator",
+  "treatment_3_executed": false,
+  "treatment_3_execution_allowed": false
+}

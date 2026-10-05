@@ -1,0 +1,137 @@
+{
+  "phase": "13.4",
+  "phase_name": "Controlled Treatment 2 Re-execution & Provenance Lock",
+  "decision": "T2_COLLAPSE_RESOLVED_AFTER_REPAIR — previous collapse is strongly consistent with an information-flow / implementation failure.",
+  "key_findings": {
+    "dataset_records": 60,
+    "expected_clues": 485,
+    "serialized_clues": 485,
+    "unique_prompts": 60,
+    "unique_payloads": 60,
+    "old_t2_unique_responses": 1,
+    "new_t2_unique_responses": 20,
+    "new_t2_unique_predictions": 14,
+    "new_t2_accuracy": 0.0,
+    "t1_duplicate_ids": {
+      "20": 2,
+      "34": 2
+    },
+    "paired_n": 60,
+    "t1_accuracy": 0.0,
+    "t2_accuracy": 0.0,
+    "absolute_change": 0.0
+  },
+  "outputs": {
+    "raw": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json",
+    "scored": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json",
+    "paired": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_independent_paired_analysis.json",
+    "audit": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_provenance_audit.json"
+  },
+  "final_audit": {
+    "phase": "13.4",
+    "purpose": "Controlled Treatment 2 re-execution after information-flow / serialization audit.",
+    "api_calls": 60,
+    "dataset": {
+      "records": 60,
+      "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+    },
+    "serialization": {
+      "problems": 60,
+      "expected_clues": 485,
+      "found_clues": 485,
+      "clue_retention": 1.0,
+      "unique_prompt_hashes": 60,
+      "unique_payload_hashes": 60,
+      "duplicate_prompt_groups": {},
+      "duplicate_payload_groups": {},
+      "fixed_assignment_contamination": {
+        "Alex=red": 0,
+        "Ben=blue": 0,
+        "Cara=green": 0,
+        "Dan=yellow": 0
+      }
+    },
+    "t2": {
+      "records": 60,
+      "successful": 60,
+      "unique_responses": 20,
+      "unique_predictions": 14,
+      "prediction_collapse": false,
+      "response_collapse": false,
+      "valid": 19,
+      "parse_failures": 41,
+      "correct": 0,
+      "accuracy": 0.0,
+      "person_accuracy": {
+        "Alex": 0.0,
+        "Ben": 0.0,
+        "Cara": 0.0,
+        "Dan": 0.0
+      },
+      "by_conflict_level": {
+        "adversarial": {
+          "n": 15,
+          "correct": 0,
+          "incorrect": 15,
+          "accuracy": 0.0
+        },
+        "high_conflict": {
+          "n": 15,
+          "correct": 0,
+          "incorrect": 15,
+          "accuracy": 0.0
+        },
+        "low_conflict": {
+          "n": 15,
+          "correct": 0,
+          "incorrect": 15,
+          "accuracy": 0.0
+        },
+        "medium_conflict": {
+          "n": 15,
+          "correct": 0,
+          "incorrect": 15,
+          "accuracy": 0.0
+        }
+      }
+    },
+    "t1": {
+      "raw_records": 62,
+      "unique_ids": 60,
+      "duplicate_ids": {
+        "20": 2,
+        "34": 2
+      },
+      "selection_policy": "last successful record; otherwise last record"
+    },
+    "paired": {
+      "phase": "13.4",
+      "phase_name": "controlled_t2_reexecution_and_provenance_lock",
+      "n": 60,
+      "baseline_correct": 0,
+      "treatment_correct": 0,
+      "baseline_accuracy": 0.0,
+      "treatment_accuracy": 0.0,
+      "absolute_change": 0.0,
+      "transitions": {
+        "correct_to_correct": 0,
+        "correct_to_incorrect": 0,
+        "incorrect_to_correct": 0,
+        "incorrect_to_incorrect": 60
+      },
+      "net_gain": 0,
+      "t1_duplicate_ids": {
+        "20": 2,
+        "34": 2
+      },
+      "t1_selection_policy": "last successful record; otherwise last record",
+      "mcnemar_exact_two_sided": null
+    },
+    "scientific_interpretation": {
+      "serialization_fixed": true,
+      "collapse_survives_repair": false,
+      "interpretation_rule": "Only if the repaired T2 receives complete, problem-specific inputs and still collapses should model-level reasoning mechanisms be investigated."
+    },
+    "timestamp_utc": "2026-08-25T00:07:20.922577+00:00"
+  }
+}

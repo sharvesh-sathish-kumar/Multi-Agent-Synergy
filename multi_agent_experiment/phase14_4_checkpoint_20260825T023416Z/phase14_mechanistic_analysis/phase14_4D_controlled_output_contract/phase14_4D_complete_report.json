@@ -1,0 +1,43 @@
+{
+  "phase": "14.4D",
+  "title": "Controlled Output-Contract Correction",
+  "dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+  "model": "openai/gpt-oss-120b",
+  "design": {
+    "ood_instances": 5,
+    "conditions": [
+      "ungated",
+      "reliability_gated"
+    ],
+    "maximum_model_calls": 10,
+    "expected_model_calls": 10,
+    "actual_model_calls": 10,
+    "automatic_retries": 0,
+    "treatment_3_run": false
+  },
+  "scores": {
+    "ungated": {
+      "n": 5,
+      "successful_api_calls": 5,
+      "valid_predictions": 0,
+      "invalid_predictions": 5,
+      "valid_prediction_rate": 0.0
+    },
+    "reliability_gated": {
+      "n": 5,
+      "successful_api_calls": 5,
+      "valid_predictions": 0,
+      "invalid_predictions": 5,
+      "valid_prediction_rate": 0.0
+    }
+  },
+  "format_effect": {
+    "ungated_valid_rate": 0.0,
+    "gated_valid_rate": 0.0,
+    "gated_format_advantage": 0.0
+  },
+  "decision": "PHASE_14_4D_FORMAT_GATE_FAILED",
+  "interpretation": "This phase tests whether strengthening the output contract removes the measurement bottleneck identified in Phase 14.4C. It does not change the underlying reliability-gating mechanism.",
+  "previous_artifacts_read_only": true,
+  "zero_automatic_retries": true
+}

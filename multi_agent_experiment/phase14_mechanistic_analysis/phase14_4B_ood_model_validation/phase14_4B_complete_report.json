@@ -1,0 +1,52 @@
+{
+  "phase": "14.4B",
+  "phase_name": "OOD Model Validation",
+  "timestamp_utc": "2026-08-25T02:13:24Z",
+  "read_only_previous_artifacts": true,
+  "api_calls": 20,
+  "model_calls": 20,
+  "automatic_retries": false,
+  "rate_limit_failures": 0,
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "n_ood_problems": 10,
+  "max_model_calls": 20,
+  "canonical_dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+  "ungated_summary": {
+    "n": 10,
+    "valid": 2,
+    "correct": 0,
+    "invalid": 8,
+    "end_to_end_accuracy": 0.0,
+    "valid_answer_accuracy": 0.0
+  },
+  "reliability_gated_summary": {
+    "n": 10,
+    "valid": 5,
+    "correct": 0,
+    "invalid": 5,
+    "end_to_end_accuracy": 0.0,
+    "valid_answer_accuracy": 0.0
+  },
+  "absolute_gated_advantage": 0.0,
+  "gated_improvements": 0,
+  "gated_regressions": 0,
+  "scientific_gates": {
+    "ood_instances": true,
+    "api_budget_respected": true,
+    "no_automatic_retries": true,
+    "previous_artifacts_read_only": true,
+    "treatment_3_not_run": true,
+    "model_calls_attempted": true,
+    "gated_condition_present": true,
+    "ungated_condition_present": true
+  },
+  "decision": "PHASE_14_4B_INCONCLUSIVE — OOD model validation did not provide sufficient evidence for the proposed intervention.",
+  "treatment_3_run": false,
+  "outputs": {
+    "raw_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_raw_results.json",
+    "scored_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_scored_results.json",
+    "prompt_manifest": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_prompt_manifest.json",
+    "complete_report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_complete_report.json"
+  }
+}

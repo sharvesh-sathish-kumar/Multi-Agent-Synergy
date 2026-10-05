@@ -1,0 +1,397 @@
+{
+  "phase": "14.4H",
+  "purpose": "OOD ground-truth and scoring provenance audit",
+  "api_calls_used": 0,
+  "model_calls_used": 0,
+  "treatment_3_run": false,
+  "dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+  "selected_problem_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "prediction_rows": [
+    {
+      "record_index": 1,
+      "problem_id": "1",
+      "condition": "ungated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 2,
+      "problem_id": "1",
+      "condition": "reliability_gated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 3,
+      "problem_id": "2",
+      "condition": "ungated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 4,
+      "problem_id": "2",
+      "condition": "reliability_gated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 5,
+      "problem_id": "3",
+      "condition": "ungated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 6,
+      "problem_id": "3",
+      "condition": "reliability_gated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 7,
+      "problem_id": "4",
+      "condition": "ungated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 8,
+      "problem_id": "4",
+      "condition": "reliability_gated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 9,
+      "problem_id": "5",
+      "condition": "ungated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    },
+    {
+      "record_index": 10,
+      "problem_id": "5",
+      "condition": "reliability_gated",
+      "prediction_source": "parsed_prediction",
+      "prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_canonical": "{\"Alex\": \"red\", \"Ben\": \"green\", \"Cara\": \"blue\", \"Dan\": \"yellow\"}",
+      "valid_prediction": true,
+      "raw_response_length": 57
+    }
+  ],
+  "problem_audit": [
+    {
+      "problem_id": "1",
+      "manifest_present": true,
+      "manifest_problem_text_present": true,
+      "manifest_gt_fields": [
+        {
+          "path": "root.ground_truth",
+          "value": null
+        }
+      ],
+      "cross_artifact_occurrences": {
+        "14.4A_report": 0,
+        "14.4A_rows": 5,
+        "14.4B_report": 0,
+        "14.4B_raw": 0,
+        "14.4D_report": 0,
+        "14.4D_raw": 10,
+        "14.4D_manifest": 5,
+        "14.4G_report": 0,
+        "14.4G_raw": 10,
+        "14.4G_scored": 10,
+        "14.4G_manifest": 5
+      },
+      "raw_prediction_ungated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "raw_prediction_gated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "scored_gt_ungated": null,
+      "scored_gt_gated": null,
+      "gt_recoverable": true,
+      "scoring_comparable": true,
+      "interpretability": "POTENTIALLY_INTERPRETABLE"
+    },
+    {
+      "problem_id": "2",
+      "manifest_present": true,
+      "manifest_problem_text_present": true,
+      "manifest_gt_fields": [
+        {
+          "path": "root.ground_truth",
+          "value": null
+        }
+      ],
+      "cross_artifact_occurrences": {
+        "14.4A_report": 0,
+        "14.4A_rows": 5,
+        "14.4B_report": 0,
+        "14.4B_raw": 0,
+        "14.4D_report": 0,
+        "14.4D_raw": 10,
+        "14.4D_manifest": 5,
+        "14.4G_report": 0,
+        "14.4G_raw": 10,
+        "14.4G_scored": 10,
+        "14.4G_manifest": 5
+      },
+      "raw_prediction_ungated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "raw_prediction_gated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "scored_gt_ungated": null,
+      "scored_gt_gated": null,
+      "gt_recoverable": true,
+      "scoring_comparable": true,
+      "interpretability": "POTENTIALLY_INTERPRETABLE"
+    },
+    {
+      "problem_id": "3",
+      "manifest_present": true,
+      "manifest_problem_text_present": true,
+      "manifest_gt_fields": [
+        {
+          "path": "root.ground_truth",
+          "value": null
+        }
+      ],
+      "cross_artifact_occurrences": {
+        "14.4A_report": 0,
+        "14.4A_rows": 5,
+        "14.4B_report": 0,
+        "14.4B_raw": 0,
+        "14.4D_report": 0,
+        "14.4D_raw": 10,
+        "14.4D_manifest": 5,
+        "14.4G_report": 0,
+        "14.4G_raw": 10,
+        "14.4G_scored": 10,
+        "14.4G_manifest": 5
+      },
+      "raw_prediction_ungated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "raw_prediction_gated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "scored_gt_ungated": null,
+      "scored_gt_gated": null,
+      "gt_recoverable": true,
+      "scoring_comparable": true,
+      "interpretability": "POTENTIALLY_INTERPRETABLE"
+    },
+    {
+      "problem_id": "4",
+      "manifest_present": true,
+      "manifest_problem_text_present": true,
+      "manifest_gt_fields": [
+        {
+          "path": "root.ground_truth",
+          "value": null
+        }
+      ],
+      "cross_artifact_occurrences": {
+        "14.4A_report": 0,
+        "14.4A_rows": 5,
+        "14.4B_report": 0,
+        "14.4B_raw": 0,
+        "14.4D_report": 0,
+        "14.4D_raw": 10,
+        "14.4D_manifest": 5,
+        "14.4G_report": 0,
+        "14.4G_raw": 10,
+        "14.4G_scored": 10,
+        "14.4G_manifest": 5
+      },
+      "raw_prediction_ungated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "raw_prediction_gated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "scored_gt_ungated": null,
+      "scored_gt_gated": null,
+      "gt_recoverable": true,
+      "scoring_comparable": true,
+      "interpretability": "POTENTIALLY_INTERPRETABLE"
+    },
+    {
+      "problem_id": "5",
+      "manifest_present": true,
+      "manifest_problem_text_present": true,
+      "manifest_gt_fields": [
+        {
+          "path": "root.ground_truth",
+          "value": null
+        }
+      ],
+      "cross_artifact_occurrences": {
+        "14.4A_report": 0,
+        "14.4A_rows": 5,
+        "14.4B_report": 0,
+        "14.4B_raw": 0,
+        "14.4D_report": 0,
+        "14.4D_raw": 10,
+        "14.4D_manifest": 5,
+        "14.4G_report": 0,
+        "14.4G_raw": 10,
+        "14.4G_scored": 10,
+        "14.4G_manifest": 5
+      },
+      "raw_prediction_ungated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "raw_prediction_gated": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "scored_gt_ungated": null,
+      "scored_gt_gated": null,
+      "gt_recoverable": true,
+      "scoring_comparable": true,
+      "interpretability": "POTENTIALLY_INTERPRETABLE"
+    }
+  ],
+  "gt_evidence_summary": {
+    "14.4A_report": 0,
+    "14.4A_rows": 500,
+    "14.4B_report": 2,
+    "14.4B_raw": 0,
+    "14.4D_report": 0,
+    "14.4D_raw": 0,
+    "14.4D_manifest": 0,
+    "14.4G_report": 2,
+    "14.4G_raw": 0,
+    "14.4G_scored": 22,
+    "14.4G_manifest": 5
+  },
+  "paired_output_summary": {
+    "identical": 5,
+    "different": 0,
+    "missing_pairs": 0
+  },
+  "independent_valid_predictions": 10,
+  "classification": "MODEL_RESULT_POTENTIALLY_INTERPRETABLE",
+  "interpretation": "All 10 model outputs are independently valid and ground truth is recoverable for all five OOD instances. The 0/5 ungated and 0/5 gated result is therefore potentially a genuine model-performance result, subject to direct recomputation of the answer comparison.",
+  "recommendation": "Proceed to a deterministic direct-answer recomputation audit before any further Groq calls. If the recomputed ground truth confirms 0/5 for both conditions, then the OOD model result is evidence that the current model/task setup does not demonstrate the proposed intervention.",
+  "timestamp_utc": "2026-08-25T02:31:15.120705+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "14.32",
+  "description": "Clean controlled Treatment 3 replication reconstructed from the frozen dataset schema.",
+  "treatment": 3,
+  "conditions": {
+    "C0": {
+      "included_agents": [
+        "A",
+        "B"
+      ],
+      "excluded_agents": [
+        "C"
+      ],
+      "description": "Only Agent A and Agent B information is admitted."
+    },
+    "C1": {
+      "included_agents": [
+        "A",
+        "B",
+        "C"
+      ],
+      "excluded_agents": [],
+      "description": "Agent A, Agent B, and Agent C information is admitted."
+    }
+  },
+  "provider": "Groq",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "problems": 60,
+  "planned_trials": 120,
+  "matched_pairs": 60,
+  "frozen_dataset": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+  "frozen_dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "t3_design": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+  "t3_design_sha256": "f9b8a5a95f057edf92aa156eec3259d8542db60ed33f2dc9e5dd1734befb10e3",
+  "t3_preflight": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+  "t3_preflight_sha256": "5e6948750fd46dca241c76050dc30ea0a11dab794c7d956f57ec46e5413471d8",
+  "output_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_32_clean_treatment3_replication",
+  "historical_artifacts_modified": false,
+  "fresh_execution": true,
+  "per_trial_checkpointing": true,
+  "created_at_utc": "2026-08-29T04:01:52.281118+00:00"
+}

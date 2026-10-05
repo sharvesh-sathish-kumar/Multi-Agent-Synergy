@@ -1,0 +1,558 @@
+====================================================================================================
+PHASE 14.34R1 — COMPACT SCORER/PARSER FORENSIC REPORT
+====================================================================================================
+Generated: 2026-08-29T05:16:23.313247+00:00
+
+SAFETY:
+  READ-ONLY analysis of existing artifacts
+  ZERO model calls
+  ZERO API calls
+  ZERO experiment execution
+  ZERO scoring
+  ZERO accuracy calculation
+  ZERO modification of existing artifacts
+
+====================================================================================================
+DISCOVERY
+====================================================================================================
+Text/code artifacts scanned: 514
+Relevant candidates: 215
+
+====================================================================================================
+TOP SCORER/PARSER CANDIDATES
+====================================================================================================
+
+[01] FORENSIC RELEVANCE SCORE = 154
+PATH: phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json
+SHA256: f337fe102166b8f77e65c21092ddb3d3bfd9e7d7d7e449c8ffc6bf0355af95c2
+EVIDENCE:
+  - body:deterministic x1
+  - body:parser x5
+  - body:scoring x5
+  - body:ground_truth x4
+  - body:accuracy x7
+  - STRONG:phase 14.4f
+  - STRONG:phase 14.4g
+  - STRONG:phase 14.4i
+  - STRONG:controlled output contract
+  - pattern:ground_truth
+
+[02] FORENSIC RELEVANCE SCORE = 110
+PATH: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+SHA256: 78b5f8395b79a71fa77c67a5520bc4e4526b7c4acc6099b1fb5f8844144461f8
+EVIDENCE:
+  - body:deterministic x280
+  - body:parser x2
+  - body:scoring x2
+  - body:ground_truth x419
+  - body:accuracy x1
+  - body:correctness x5
+  - STRONG:phase 14.4f
+  - STRONG:phase 14.4g
+  - pattern:ground_truth
+  - pattern:return\s+.*correct
+
+[03] FORENSIC RELEVANCE SCORE = 91
+PATH: phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_complete_report.json
+SHA256: 5b73c3cbe96654df73ab580bbcdb174d962e3030655e91719e92953dfc61da98
+EVIDENCE:
+  - body:deterministic x2
+  - body:direct-answer x2
+  - body:ground_truth x11
+  - body:accuracy x7
+  - STRONG:phase 14.4g
+  - STRONG:deterministic direct-answer recomputation
+  - pattern:ground_truth
+
+[04] FORENSIC RELEVANCE SCORE = 75
+PATH: phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json
+SHA256: 357527fc05879b8d872b1b77cad61c2a8dd744116ec7007367396ad58ca46e7b
+EVIDENCE:
+  - body:deterministic x1
+  - body:scoring x6
+  - body:direct-answer x1
+  - filename:ground_truth
+  - body:ground_truth x5
+  - STRONG:deterministic direct-answer recomputation
+  - pattern:ground_truth
+
+[05] FORENSIC RELEVANCE SCORE = 72
+PATH: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+SHA256: eff7485462c1fbe7a785a10adbe9ed0bfb63d82d5510a9b812ded3fe7912ed30
+EVIDENCE:
+  - body:deterministic x187
+  - body:parser x10
+  - body:scoring x48
+  - body:direct_answer x74
+  - body:ground_truth x3533
+  - body:accuracy x11
+  - pattern:ground_truth
+  - pattern:return\s+.*correct
+
+[06] FORENSIC RELEVANCE SCORE = 71
+PATH: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json
+SHA256: b8ba9962c41d7a93e04c4b3e3435798b34403131c82508341cc697bc043be6f8
+EVIDENCE:
+  - body:deterministic x489
+  - body:ground_truth x1197
+  - body:accuracy x1
+  - STRONG:phase 14.4i
+  - pattern:ground_truth
+  - pattern:return\s+.*correct
+
+[07] FORENSIC RELEVANCE SCORE = 70
+PATH: phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json
+SHA256: cfbb8f6bb4d82e218ae382778d59a989ae3bb6ba08a1d3af498b8f267c829c98
+EVIDENCE:
+  - body:deterministic x1
+  - body:parser x1
+  - body:accuracy x7
+  - body:correctness x1
+  - STRONG:phase 14.4f
+  - STRONG:phase 14.4g
+
+[08] FORENSIC RELEVANCE SCORE = 68
+PATH: phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+SHA256: 74fdaa98ded51d70d16df5321c8aa8fcbf31be5e7771efa4a9820533fd8d7d26
+EVIDENCE:
+  - body:deterministic x26
+  - body:parser x1
+  - body:ground_truth x5
+  - STRONG:deterministic parser validation
+  - pattern:ground_truth
+  - pattern:return\s+.*correct
+
+[09] FORENSIC RELEVANCE SCORE = 57
+PATH: phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json
+SHA256: 650b3a42eddc74fbbd311f239d02031b673b7dd5c4c2c36f4f42dc1801d50a3d
+EVIDENCE:
+  - body:deterministic x3
+  - body:scoring x4
+  - body:direct_answer x1
+  - body:ground_truth x190
+  - body:accuracy x1
+  - filename:correctness
+  - body:correctness x63
+  - pattern:ground_truth
+
+[10] FORENSIC RELEVANCE SCORE = 53
+PATH: phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json
+SHA256: d2a1eb2d0ff3ed04e79808833d847a74d4d230f69a889fbec83307328edb56e0
+EVIDENCE:
+  - body:deterministic x356
+  - body:parser x10
+  - body:scoring x35
+  - body:direct_answer x43
+  - body:ground_truth x1610
+  - body:accuracy x1
+  - pattern:ground_truth
+
+[11] FORENSIC RELEVANCE SCORE = 52
+PATH: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_J_fingerprint_anchored_gt_provenance/phase14_4I_J_fingerprint_anchored_gt_provenance_report.json
+SHA256: 242e39fd046cf667d8566c73e267b2a3ad5aa2549f317e07b935f29162925f44
+EVIDENCE:
+  - body:ground_truth x233
+  - body:accuracy x2
+  - STRONG:phase 14.4i
+  - pattern:ground_truth
+
+[12] FORENSIC RELEVANCE SCORE = 50
+PATH: phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json
+SHA256: 2550048bb812d73edff701469986e8e71829c897ba7948acb96e01ba24a63ac0
+EVIDENCE:
+  - body:deterministic x1
+  - filename:scoring
+  - body:scoring x1
+  - body:ground_truth x120
+  - body:accuracy x246
+  - pattern:ground_truth
+
+[13] FORENSIC RELEVANCE SCORE = 50
+PATH: phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json
+SHA256: f49ddabba29575e527747c6353a70865edd64d1f6b2e72f8fecf562ed5314208
+EVIDENCE:
+  - body:ground_truth x7
+  - body:accuracy x1
+  - STRONG:phase 14.4i
+  - pattern:ground_truth
+
+[14] FORENSIC RELEVANCE SCORE = 50
+PATH: phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json
+SHA256: 168169e12b4cd7491d5941f1d752489f6b1e06b3520c39cb83a9967ab6d16c49
+EVIDENCE:
+  - body:ground_truth x19
+  - STRONG:phase 14.4i
+  - pattern:ground_truth
+
+[15] FORENSIC RELEVANCE SCORE = 49
+PATH: phase14_mechanistic_analysis/phase14_24_c1_correctness_analysis/phase14_24_c1_correctness_analysis.json
+SHA256: a933f740d14f034a40678c170312e06dffc582e6df2e00544f2b1d6929e7dc02
+EVIDENCE:
+  - body:scoring x1
+  - body:ground_truth x64
+  - filename:correctness
+  - body:correctness x64
+  - pattern:ground_truth
+
+====================================================================================================
+HIGH-VALUE SOURCE LINES
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json
+----------------------------------------------------------------------------------------------------
+00012:     "treatment_3_execution": false,
+00013:     "scoring": false,
+00014:     "accuracy_calculation": false,
+00015:     "candidate_problem_mapping": false,
+00016:     "agent_model_inference": false,
+00040:       "Agent_B",
+00041:       "Agent_C",
+00042:       "accuracy",
+00043:       "control",
+00044:       "ground_truth",
+00042:       "accuracy",
+00043:       "control",
+00044:       "ground_truth",
+00045:       "information_flow",
+00046:       "mapping",
+00058:       "Agent_B",
+00059:       "Agent_C",
+00060:       "accuracy",
+00061:       "control",
+00062:       "information_flow",
+00069:     "14.10H_configuration": [
+00070:       "Agent_A",
+00071:       "accuracy",
+00072:       "mapping",
+00073:       "selected",
+00075:     ],
+00076:     "14.4B": [
+00077:       "accuracy",
+00078:       "failure",
+00079:       "openai/gpt-oss-120b",
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+----------------------------------------------------------------------------------------------------
+00007:     "zero_model_calls": true,
+00008:     "read_only": true,
+00009:     "ground_truth_inference": false,
+00010:     "accuracy_calculation": false,
+00011:     "answer_recomputation": false,
+00008:     "read_only": true,
+00009:     "ground_truth_inference": false,
+00010:     "accuracy_calculation": false,
+00011:     "answer_recomputation": false,
+00012:     "prior_artifact_modification": false
+00031:       "key": "selected_instances",
+00032:       "value_type": "list",
+00033:       "value_repr": "[{'problem_id': '1', 'source_path': 'phase14_4D.selected_instances[0]', 'problem_text': 'You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \"prediction\
+00034:     },
+00035:     {
+00073:       "key": "selected_instances",
+00074:       "value_type": "list",
+00075:       "value_repr": "[{'problem_id': '1', 'source_path': 'phase14_4D.selected_instances[0]', 'problem_text': 'You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \"prediction\
+00076:     },
+00077:     {
+00116:       "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+00117:       "path": "$.selected_instances[0].problem_text",
+00118:       "text": "You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { \"prediction\": [ \"color for Alex\", \"color for Ben\", \"color for Cara\", \"color for Dan\" ] } The prediction array MUST contain exactly four values. Allowe
+00119:     },
+00120:     {
+00121:       "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+00122:       "path": "$.selected_instances[0].ungated_prompt",
+00123:       "text": "You are solving a deterministic logic problem. PROBLEM: You are solving a deterministic constraint problem. Use ALL supplied clues, including clues from unreliable agents. Problem: Available clues: Determine the color assigned to each of: Alex, Ben, Cara, Dan. You MUST return exactly ONE JSON object. Your response MUST contain NOTHING except this JSON object. Required schema: { \"prediction\": [ \"color for Alex\", \"color for Ben\", \"color for Cara\", \"color for Dan\" ] } The p
+00124:     },
+00125:     {
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_complete_report.json
+----------------------------------------------------------------------------------------------------
+00002:   "audit_rows": [
+00003:     {
+00004:       "authoritative_ground_truth": {
+00005:         "Alex": "blue",
+00006:         "Ben": "green",
+00022:     },
+00023:     {
+00024:       "authoritative_ground_truth": {
+00025:         "Alex": "blue",
+00026:         "Ben": "green",
+00042:     },
+00043:     {
+00044:       "authoritative_ground_truth": {
+00045:         "Alex": "blue",
+00046:         "Ben": "red",
+00062:     },
+00063:     {
+00064:       "authoritative_ground_truth": {
+00065:         "Alex": "blue",
+00066:         "Ben": "red",
+00082:     },
+00083:     {
+00084:       "authoritative_ground_truth": {
+00085:         "Alex": "red",
+00086:         "Ben": "yellow",
+00102:     },
+00103:     {
+00104:       "authoritative_ground_truth": {
+00105:         "Alex": "red",
+00106:         "Ben": "yellow",
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json
+----------------------------------------------------------------------------------------------------
+00172:       "manifest_gt_fields": [
+00173:         {
+00174:           "path": "root.ground_truth",
+00175:           "value": null
+00176:         }
+00213:       "manifest_gt_fields": [
+00214:         {
+00215:           "path": "root.ground_truth",
+00216:           "value": null
+00217:         }
+00254:       "manifest_gt_fields": [
+00255:         {
+00256:           "path": "root.ground_truth",
+00257:           "value": null
+00258:         }
+00295:       "manifest_gt_fields": [
+00296:         {
+00297:           "path": "root.ground_truth",
+00298:           "value": null
+00299:         }
+00336:       "manifest_gt_fields": [
+00337:         {
+00338:           "path": "root.ground_truth",
+00339:           "value": null
+00340:         }
+00392:   "independent_valid_predictions": 10,
+00393:   "classification": "MODEL_RESULT_POTENTIALLY_INTERPRETABLE",
+00394:   "interpretation": "All 10 model outputs are independently valid and ground truth is recoverable for all five OOD instances. The 0/5 ungated and 0/5 gated result is therefore potentially a genuine model-performance result, subject to direct recomputation of the answer comparison.",
+00395:   "recommendation": "Proceed to a deterministic direct-answer recomputation audit before any further Groq calls. If the recomputed ground truth confirms 0/5 for both conditions, then the OOD model result is evidence that the current model/task setup does not demonstrate the proposed intervention.",
+00396:   "timestamp_utc": "2026-08-25T02:31:15.120705+00:00"
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+----------------------------------------------------------------------------------------------------
+00007:     "zero_model_calls": true,
+00008:     "read_only": true,
+00009:     "ground_truth_inference": false,
+00010:     "accuracy_calculation": false,
+00011:     "prior_artifact_modification": false
+00008:     "read_only": true,
+00009:     "ground_truth_inference": false,
+00010:     "accuracy_calculation": false,
+00011:     "prior_artifact_modification": false
+00012:   },
+00052:       "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json",
+00053:       "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json",
+00054:       "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+00055:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/PHASE_14_4_CHECKPOINT_SHA256_MANIFEST.json",
+00056:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/PHASE_14_4_CHECKPOINT_SUMMARY.txt",
+00068:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_contract_diagnosis_rows.json",
+00069:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_recommended_contract.json",
+00070:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json",
+00071:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json",
+00072:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json",
+00069:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4E_output_contract_forensics/phase14_4E_recommended_contract.json",
+00070:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json",
+00071:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json",
+00072:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json",
+00073:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+00070:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_complete_report.json",
+00071:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_parser_test_rows.json",
+00072:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4F_deterministic_parser_validation/phase14_4F_validated_parser_spec.json",
+00073:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+00074:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json",
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_G2_collision_aware_provenance/phase14_4I_G2_collision_aware_provenance_report.json
+----------------------------------------------------------------------------------------------------
+00017:       },
+00018:       {
+00019:         "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+00020:         "field": "problem_id",
+00021:         "parent_path": "$.selection_hits[14].value[0]",
+00024:       },
+00025:       {
+00026:         "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+00027:         "field": "problem_id",
+00028:         "parent_path": "$.selection_hits[19].value[0]",
+00031:       },
+00032:       {
+00033:         "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+00034:         "field": "problem_id",
+00035:         "parent_path": "$.selection_hits[28].value[0]",
+00038:       },
+00039:       {
+00040:         "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+00041:         "field": "problem_id",
+00042:         "parent_path": "$.selection_hits[33].value[0]",
+00045:       },
+00046:       {
+00047:         "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+00048:         "field": "problem_id",
+00049:         "parent_path": "$.exact_match_contexts.1[0].containing_record",
+00052:       },
+00053:       {
+00054:         "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+00055:         "field": "problem_id",
+00056:         "parent_path": "$.exact_match_contexts.1[10].containing_record",
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json
+----------------------------------------------------------------------------------------------------
+00043:       "correct": 0,
+00044:       "valid_rate": 1.0,
+00045:       "end_to_end_accuracy": 0.0,
+00046:       "valid_answer_accuracy": 0.0
+00047:     },
+00044:       "valid_rate": 1.0,
+00045:       "end_to_end_accuracy": 0.0,
+00046:       "valid_answer_accuracy": 0.0
+00047:     },
+00048:     "reliability_gated": {
+00051:       "correct": 0,
+00052:       "valid_rate": 1.0,
+00053:       "end_to_end_accuracy": 0.0,
+00054:       "valid_answer_accuracy": 0.0
+00055:     }
+00052:       "valid_rate": 1.0,
+00053:       "end_to_end_accuracy": 0.0,
+00054:       "valid_answer_accuracy": 0.0
+00055:     }
+00056:   },
+00064:     "gated_valid_output_rate": 1.0,
+00065:     "gated_format_advantage": 0.0,
+00066:     "ungated_end_to_end_accuracy": 0.0,
+00067:     "gated_end_to_end_accuracy": 0.0,
+00068:     "absolute_gated_accuracy_advantage": 0.0
+00065:     "gated_format_advantage": 0.0,
+00066:     "ungated_end_to_end_accuracy": 0.0,
+00067:     "gated_end_to_end_accuracy": 0.0,
+00068:     "absolute_gated_accuracy_advantage": 0.0
+00069:   },
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_prompt_manifest.json
+----------------------------------------------------------------------------------------------------
+00001: {
+00002:   "phase": "14.4G",
+00003:   "purpose": "Controlled OOD model re-validation after deterministic parser validation",
+00004:   "model": "openai/gpt-oss-120b",
+00005:   "maximum_model_calls": 10,
+00031:       "problem_id": "1",
+00032:       "source_path": "phase14_4D.selected_instances[0]",
+00033:       "problem_text": "You are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color for Ben\",\n    \"color for Cara\",\n    \"color for Dan\"\n  ]\
+00034:       "ground_truth": null,
+00035:       "ungated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color fo
+00032:       "source_path": "phase14_4D.selected_instances[0]",
+00033:       "problem_text": "You are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color for Ben\",\n    \"color for Cara\",\n    \"color for Dan\"\n  ]\
+00034:       "ground_truth": null,
+00035:       "ungated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color fo
+00036:       "reliability_gated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    
+00033:       "problem_text": "You are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color for Ben\",\n    \"color for Cara\",\n    \"color for Dan\"\n  ]\
+00034:       "ground_truth": null,
+00035:       "ungated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color fo
+00036:       "reliability_gated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    
+00037:     },
+00034:       "ground_truth": null,
+00035:       "ungated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color fo
+00036:       "reliability_gated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    
+00037:     },
+00038:     {
+00039:       "problem_id": "2",
+00040:       "source_path": "phase14_4D.selected_instances[1]",
+00041:       "problem_text": "You are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color for Ben\",\n    \"color for Cara\",\n    \"color for Dan\"\n  ]\
+00042:       "ground_truth": null,
+00043:       "ungated_prompt": "You are solving a deterministic logic problem.\n\nPROBLEM:\nYou are solving a deterministic constraint problem.\n\nUse ALL supplied clues, including clues from unreliable agents.\n\nProblem:\n\n\nAvailable clues:\n\n\nDetermine the color assigned to each of:\nAlex, Ben, Cara, Dan.\n\nYou MUST return exactly ONE JSON object.\n\nYour response MUST contain NOTHING except this JSON object.\n\nRequired schema:\n\n{\n  \"prediction\": [\n    \"color for Alex\",\n    \"color fo
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json
+----------------------------------------------------------------------------------------------------
+00001: {
+00002:   "phase": "14.24R2",
+00003:   "analysis_type": "zero_api_c1_correctness_groundtruth_discovery",
+00004:   "api_calls": 0,
+00005:   "model_calls": 0,
+00011:     "r2": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R2_c1_targeted_recovery",
+00012:     "r3": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23R3_trial52_high_token_recovery",
+00013:     "output": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery"
+00014:   },
+00015:   "authoritative_source_counts": {
+00018:     "R3": 1
+00019:   },
+00020:   "ground_truth": {
+00021:     "candidate_files": [
+00022:       "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+00032:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+00033:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+00034:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json",
+00035:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_0_deterministic_mechanism_benchmark/phase14_0_complete_report.json",
+00036:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+00033:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+00034:       "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json",
+00035:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_0_deterministic_mechanism_benchmark/phase14_0_complete_report.json",
+00036:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+00037:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_raw_results.json",
+00045:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_scored_results.json",
+00046:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+00047:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json",
+00048:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_complete_report.json",
+00049:       "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+
+----------------------------------------------------------------------------------------------------
+FILE: phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json
+----------------------------------------------------------------------------------------------------
+00012:     "treatment_3_execution": false,
+00013:     "scoring": false,
+00014:     "accuracy_calculation": false,
+00015:     "candidate_problem_mapping": false,
+00016:     "inference": false,
+04979:     },
+04980:     {
+04981:       "file": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+04982:       "path": "$.deterministic_results.1.problem_id",
+04983:       "key": "problem_id",
+04980:     {
+04981:       "file": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+04982:       "path": "$.deterministic_results.1.problem_id",
+04983:       "key": "problem_id",
+04984:       "value": "1"
+04985:     },
+04986:     {
+04987:       "file": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+04988:       "path": "$.deterministic_results.2.problem_id",
+04989:       "key": "problem_id",
+04986:     {
+04987:       "file": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+04988:       "path": "$.deterministic_results.2.problem_id",
+04989:       "key": "problem_id",
+04990:       "value": "2"
+04991:     },
+04992:     {
+04993:       "file": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+04994:       "path": "$.deterministic_results.3.problem_id",
+04995:       "key": "problem_id",
+
+====================================================================================================
+RECOVERY DECISION AID
+====================================================================================================
+Candidate scorer/parser artifacts were found.
+DO NOT execute or modify any candidate yet.
+The highest-ranked candidates must be compared against the
+previously validated deterministic scoring contract.
+
+TOP 5 PATHS:
+  - phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json
+  - phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json
+  - phase14_mechanistic_analysis/phase14_4I_deterministic_direct_answer_recomputation/phase14_4I_complete_report.json
+  - phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_ground_truth_audit_rows.json
+  - phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json
+
+====================================================================================================
+END OF PHASE 14.34R1 REPORT
+====================================================================================================

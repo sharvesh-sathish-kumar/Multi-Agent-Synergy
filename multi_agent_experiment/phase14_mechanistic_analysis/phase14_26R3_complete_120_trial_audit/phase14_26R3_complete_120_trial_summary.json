@@ -1,0 +1,968 @@
+{
+  "phase": "14.26R3",
+  "api_calls": 0,
+  "model_calls": 0,
+  "total_outputs": 120,
+  "C0": {
+    "n": 60,
+    "correct": 0,
+    "accuracy_all_60": 0.0,
+    "complete_parseable": 0,
+    "partial_assignment": 2,
+    "unparsed_final_response": 58,
+    "incomplete_final_response": 0,
+    "empty_or_refusal": 0
+  },
+  "C1": {
+    "n": 60,
+    "correct": 5,
+    "accuracy_all_60": 0.08333333333333333,
+    "complete_parseable": 6,
+    "partial_assignment": 20,
+    "unparsed_final_response": 30,
+    "incomplete_final_response": 4,
+    "empty_or_refusal": 0
+  },
+  "parseable_only": {
+    "C0": {
+      "n_parseable": 0,
+      "correct": 0,
+      "accuracy_parseable_only": null
+    },
+    "C1": {
+      "n_parseable": 6,
+      "correct": 5,
+      "accuracy_parseable_only": 0.8333333333333334
+    }
+  },
+  "paired_comparison": {
+    "both_correct": 0,
+    "c0_only": 0,
+    "c1_only": 5,
+    "both_incorrect": 55,
+    "discordant_pairs": 5,
+    "accuracy_delta_percentage_points": 8.333333333333332,
+    "mcnemar_statistic_descriptive": 3.2
+  },
+  "classification_counts": {
+    "UNPARSED_FINAL_RESPONSE": 88,
+    "PARTIAL_ASSIGNMENT": 22,
+    "PARSED_CORRECT": 5,
+    "INCOMPLETE_FINAL_RESPONSE": 4,
+    "PARSED_INCORRECT": 1
+  },
+  "unresolved_trials": [
+    {
+      "condition": "C0",
+      "problem_id": 1,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 2,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 222
+    },
+    {
+      "condition": "C0",
+      "problem_id": 3,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 4,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 5,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 6,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 7,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 8,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 83
+    },
+    {
+      "condition": "C0",
+      "problem_id": 9,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 10,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 11,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 12,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 13,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 14,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 99
+    },
+    {
+      "condition": "C0",
+      "problem_id": 15,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 16,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 17,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 18,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 19,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 20,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 21,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 22,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 23,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 24,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 25,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 26,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 27,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 28,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 29,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 30,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 31,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 32,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 33,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 34,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 35,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 36,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 37,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 38,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 39,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 40,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 41,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 42,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 43,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 44,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 45,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 99
+    },
+    {
+      "condition": "C0",
+      "problem_id": 46,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 47,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 48,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 49,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 50,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 51,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 99
+    },
+    {
+      "condition": "C0",
+      "problem_id": 52,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 282
+    },
+    {
+      "condition": "C0",
+      "problem_id": 53,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 138
+    },
+    {
+      "condition": "C0",
+      "problem_id": 54,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 55,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 56,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 420
+    },
+    {
+      "condition": "C0",
+      "problem_id": 57,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C0",
+      "problem_id": 58,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 174
+    },
+    {
+      "condition": "C0",
+      "problem_id": 59,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 430
+    },
+    {
+      "condition": "C0",
+      "problem_id": 60,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 131
+    },
+    {
+      "condition": "C1",
+      "problem_id": 1,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 61
+    },
+    {
+      "condition": "C1",
+      "problem_id": 2,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 4,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 5,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 129
+    },
+    {
+      "condition": "C1",
+      "problem_id": 6,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 195
+    },
+    {
+      "condition": "C1",
+      "problem_id": 8,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 61
+    },
+    {
+      "condition": "C1",
+      "problem_id": 9,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 11,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 61
+    },
+    {
+      "condition": "C1",
+      "problem_id": 12,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 13,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 14,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 78
+    },
+    {
+      "condition": "C1",
+      "problem_id": 15,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 61
+    },
+    {
+      "condition": "C1",
+      "problem_id": 16,
+      "classification": "INCOMPLETE_FINAL_RESPONSE",
+      "finish_reason": "length",
+      "parser_method": "none",
+      "content_length": 0
+    },
+    {
+      "condition": "C1",
+      "problem_id": 17,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 658
+    },
+    {
+      "condition": "C1",
+      "problem_id": 18,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 242
+    },
+    {
+      "condition": "C1",
+      "problem_id": 19,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 551
+    },
+    {
+      "condition": "C1",
+      "problem_id": 20,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 298
+    },
+    {
+      "condition": "C1",
+      "problem_id": 21,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 1006
+    },
+    {
+      "condition": "C1",
+      "problem_id": 22,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 455
+    },
+    {
+      "condition": "C1",
+      "problem_id": 23,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 870
+    },
+    {
+      "condition": "C1",
+      "problem_id": 25,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 481
+    },
+    {
+      "condition": "C1",
+      "problem_id": 26,
+      "classification": "INCOMPLETE_FINAL_RESPONSE",
+      "finish_reason": "length",
+      "parser_method": "none",
+      "content_length": 0
+    },
+    {
+      "condition": "C1",
+      "problem_id": 27,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 674
+    },
+    {
+      "condition": "C1",
+      "problem_id": 28,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 536
+    },
+    {
+      "condition": "C1",
+      "problem_id": 29,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 1015
+    },
+    {
+      "condition": "C1",
+      "problem_id": 30,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 494
+    },
+    {
+      "condition": "C1",
+      "problem_id": 31,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 1136
+    },
+    {
+      "condition": "C1",
+      "problem_id": 32,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 488
+    },
+    {
+      "condition": "C1",
+      "problem_id": 34,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 688
+    },
+    {
+      "condition": "C1",
+      "problem_id": 35,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 915
+    },
+    {
+      "condition": "C1",
+      "problem_id": 36,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 37,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 607
+    },
+    {
+      "condition": "C1",
+      "problem_id": 38,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 541
+    },
+    {
+      "condition": "C1",
+      "problem_id": 39,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 77
+    },
+    {
+      "condition": "C1",
+      "problem_id": 40,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 867
+    },
+    {
+      "condition": "C1",
+      "problem_id": 41,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 557
+    },
+    {
+      "condition": "C1",
+      "problem_id": 42,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 794
+    },
+    {
+      "condition": "C1",
+      "problem_id": 43,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 1209
+    },
+    {
+      "condition": "C1",
+      "problem_id": 44,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 1123
+    },
+    {
+      "condition": "C1",
+      "problem_id": 45,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 506
+    },
+    {
+      "condition": "C1",
+      "problem_id": 46,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 299
+    },
+    {
+      "condition": "C1",
+      "problem_id": 47,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 246
+    },
+    {
+      "condition": "C1",
+      "problem_id": 48,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 929
+    },
+    {
+      "condition": "C1",
+      "problem_id": 49,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 384
+    },
+    {
+      "condition": "C1",
+      "problem_id": 50,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 285
+    },
+    {
+      "condition": "C1",
+      "problem_id": 51,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "length",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 47
+    },
+    {
+      "condition": "C1",
+      "problem_id": 52,
+      "classification": "INCOMPLETE_FINAL_RESPONSE",
+      "finish_reason": "length",
+      "parser_method": "none",
+      "content_length": 0
+    },
+    {
+      "condition": "C1",
+      "problem_id": 54,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 799
+    },
+    {
+      "condition": "C1",
+      "problem_id": 55,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 918
+    },
+    {
+      "condition": "C1",
+      "problem_id": 56,
+      "classification": "INCOMPLETE_FINAL_RESPONSE",
+      "finish_reason": "length",
+      "parser_method": "none",
+      "content_length": 0
+    },
+    {
+      "condition": "C1",
+      "problem_id": 57,
+      "classification": "PARTIAL_ASSIGNMENT",
+      "finish_reason": "stop",
+      "parser_method": "whole_text_relation",
+      "content_length": 1095
+    },
+    {
+      "condition": "C1",
+      "problem_id": 58,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 1277
+    },
+    {
+      "condition": "C1",
+      "problem_id": 59,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 570
+    },
+    {
+      "condition": "C1",
+      "problem_id": 60,
+      "classification": "UNPARSED_FINAL_RESPONSE",
+      "finish_reason": "stop",
+      "parser_method": "no_whole_text_relations",
+      "content_length": 355
+    }
+  ]
+}

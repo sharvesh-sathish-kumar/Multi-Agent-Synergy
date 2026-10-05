@@ -1,0 +1,3958 @@
+{
+  "phase": "14.39",
+  "title": "Deep Treatment 1 + Treatment 2 Recovery",
+  "created_at": "2026-08-29T21:20:54.962781",
+  "locks": {
+    "zero_model_calls": true,
+    "zero_api_calls": true,
+    "zero_experiment_execution": true,
+    "existing_artifacts_read_only": true,
+    "source_files_modified": false,
+    "pickle_files_loaded": false
+  },
+  "root": "/content/drive/MyDrive/multi_agent_experiment",
+  "inventory": {
+    "total_files": 596,
+    "readable_files_inspected": 581,
+    "skipped_files": 0
+  },
+  "filename_candidate_count": 11,
+  "content_candidate_count": 45,
+  "json_trial_structure_count": 4,
+  "complete_like_count": 4,
+  "possible_complete_count": 3,
+  "historical_numeric_hit_count": 18,
+  "possible_complete": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json",
+      "filename": "phase14_24R2_c1_correctness_analysis.json",
+      "extension": ".json",
+      "size": 96356,
+      "mtime": "2026-08-26T05:10:39",
+      "sha256": "650b3a42eddc74fbbd311f239d02031b673b7dd5c4c2c36f4f42dc1801d50a3d",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "checkpoint",
+          "control",
+          "correct",
+          "results",
+          "score",
+          "summary",
+          "trial",
+          "trial_id",
+          "trials"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 91,
+        "reasons": [
+          "T2 evidence=2",
+          "result terms=10",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 11,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "analysis_type",
+          "api_calls",
+          "authoritative_source_counts",
+          "created_at_utc",
+          "ground_truth",
+          "model_calls",
+          "paths",
+          "phase",
+          "read_only",
+          "summary",
+          "trials"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "filename": "phase12_3_scored_results.json",
+      "extension": ".json",
+      "size": 22596,
+      "mtime": "2026-08-24T15:28:08",
+      "sha256": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "correct",
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 72,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=2",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "list",
+        "entry_count": 60,
+        "trial_like_entries": 60,
+        "trial_ids": [],
+        "problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "keys": [
+          "conflict_level",
+          "ground_truth",
+          "problem_id",
+          "treatment_correct",
+          "treatment_parse_success",
+          "treatment_predicted"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "filename": "phase12_2_raw_results.json",
+      "extension": ".json",
+      "size": 16358,
+      "mtime": "2026-08-24T15:26:50",
+      "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 70,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=1",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "list",
+        "entry_count": 60,
+        "trial_like_entries": 60,
+        "trial_ids": [],
+        "problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "keys": [
+          "conflict_level",
+          "error",
+          "model",
+          "problem_id",
+          "response",
+          "temperature",
+          "treatment"
+        ]
+      }
+    }
+  ],
+  "historical_hits": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 30,
+      "sha256": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [
+        "t1_",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment 2",
+        "treatment2"
+      ],
+      "trial_problem_count": 5,
+      "sha256": "5747643787f59084f6cf31ffc10b6a1fb1541f95b313cd893f3a82e2950d7c58"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [
+        "t1 ",
+        "t1_",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment2"
+      ],
+      "trial_problem_count": 0,
+      "sha256": "a604c5b4be73482e6a203810c6620e36754aae59610f747b128dcab7565f75a8"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [
+        "t1 ",
+        "t1_",
+        "treatment 1",
+        "treatment1"
+      ],
+      "t2_hits": [
+        "t2 ",
+        "t2_",
+        "treatment 2",
+        "treatment2",
+        "treatment_2"
+      ],
+      "trial_problem_count": 0,
+      "sha256": "ee141a1c90ed16bf3f1ebc9691e96abb774500aa33cc46af1095279e6c0c6ffc"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "1b7d1643cb811f39ce760d61079399ed767b720f3d4f49bb67777b5dd014c942"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [
+        "t1_"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2"
+      ],
+      "trial_problem_count": 5,
+      "sha256": "eff7485462c1fbe7a785a10adbe9ed0bfb63d82d5510a9b812ded3fe7912ed30"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10G_configuration_provenance.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [
+        "t1_",
+        "treatment1",
+        "treatment_1"
+      ],
+      "t2_hits": [
+        "t2_",
+        "treatment2",
+        "treatment_2"
+      ],
+      "trial_problem_count": 0,
+      "sha256": "852f4e2c3447e86897fff1beb90778d1c06579508fedc6e053069789e83c66d2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 60,
+      "sha256": "2550048bb812d73edff701469986e8e71829c897ba7948acb96e01ba24a63ac0"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "cf54261aaa42c9c8eba8276cbdeb5e3d32403bdbbb9aba4f3d5875b9b02892a2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_21_treatment3_c1_response_quality_forensics/phase14_21_c1_response_quality_report.txt",
+      "numeric_hits": [
+        "2/60",
+        "4/60"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "d97abe93fbc72b5be2dd0d66e50ef0349dc17d683178f353373706e8330de192"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_report.txt",
+      "numeric_hits": [
+        "2/60"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 60,
+      "sha256": "3be2d63762446e5195472b95382ec8bedd83064d0d34099c667ab7bd56a92ce2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_report.txt",
+      "numeric_hits": [
+        "19/60",
+        "31.67%",
+        "4/60",
+        "6.67%"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "7ab2afcf4304a87391e1a255e158256b9b6a96f4b3175a4c8b154b5b2897a854"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R3_complete_120_trial_audit/phase14_26R3_complete_120_trial_report.txt",
+      "numeric_hits": [
+        "3.33%"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 60,
+      "sha256": "878d8f771df2af977cf46dbba94f800fc032ed18ff00c20ae9c144a22d84d07c"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_33R11_final_c1_forensics/phase14_33R11_report.json",
+      "numeric_hits": [
+        "2/60"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "d61d3ab5f7976da9032df8579a1d39fa09ed8a18c1fd8f540c77cb6cdfc6dc10"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_summary.json",
+      "numeric_hits": [
+        "0.033333"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "76b78768e2f7abb9d7445f9b0fb3f9393354fd2cba5c2853ef8ce3dff4817d0e"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_37_cross_treatment_synthesis/phase14_37_cross_treatment_synthesis.json",
+      "numeric_hits": [
+        "2/60",
+        "3.33%"
+      ],
+      "t1_hits": [],
+      "t2_hits": [],
+      "trial_problem_count": 0,
+      "sha256": "f16c9c7ee2e2c9a5c5c2ad96037d3b06f9d880380a5878bd96c59c09e6bf215b"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json",
+      "filename": "phase14_24R2_c1_correctness_analysis.json",
+      "extension": ".json",
+      "size": 96356,
+      "mtime": "2026-08-26T05:10:39",
+      "sha256": "650b3a42eddc74fbbd311f239d02031b673b7dd5c4c2c36f4f42dc1801d50a3d",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "checkpoint",
+          "control",
+          "correct",
+          "results",
+          "score",
+          "summary",
+          "trial",
+          "trial_id",
+          "trials"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 91,
+        "reasons": [
+          "T2 evidence=2",
+          "result terms=10",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 11,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "analysis_type",
+          "api_calls",
+          "authoritative_source_counts",
+          "created_at_utc",
+          "ground_truth",
+          "model_calls",
+          "paths",
+          "phase",
+          "read_only",
+          "summary",
+          "trials"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+      "filename": "phase14_16_treatment3_scoring_results.json",
+      "extension": ".json",
+      "size": 59998,
+      "mtime": "2026-08-25T19:27:47",
+      "sha256": "2550048bb812d73edff701469986e8e71829c897ba7948acb96e01ba24a63ac0",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "checkpoint",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "scores",
+          "summary",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 83,
+        "reasons": [
+          "result terms=10",
+          "historical numeric hits=1",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 17,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "analysis",
+          "api_calls",
+          "assignment_accuracy_delta_C1_minus_C0",
+          "condition_summary",
+          "conditions",
+          "exact_accuracy_delta_C1_minus_C0",
+          "model_calls",
+          "net_paired_problem_effect",
+          "number_of_problems",
+          "number_of_trials",
+          "paired_outcomes",
+          "paired_results",
+          "phase",
+          "source_checkpoint",
+          "source_dataset",
+          "source_raw_results",
+          "trial_scores"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json",
+      "filename": "phase13_4_t2_pipeline_reconstruction_preflight.json",
+      "extension": ".json",
+      "size": 101981,
+      "mtime": "2026-08-24T23:54:30",
+      "sha256": "ee141a1c90ed16bf3f1ebc9691e96abb774500aa33cc46af1095279e6c0c6ffc",
+      "evidence": {
+        "t1_hits": [
+          "t1 ",
+          "t1_",
+          "treatment 1",
+          "treatment1"
+        ],
+        "t2_hits": [
+          "t2 ",
+          "t2_",
+          "treatment 2",
+          "treatment2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 83,
+        "reasons": [
+          "T1 evidence=4",
+          "T2 evidence=5",
+          "result terms=8",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 31,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "blocking_failures",
+          "canonical_payload_validation",
+          "created_at_utc",
+          "dataset",
+          "decision",
+          "expected_information",
+          "file_inventory",
+          "fixed_answer_contamination",
+          "ground_truth_dependence",
+          "independent_pair_reconstruction",
+          "model_calls",
+          "next_experiment",
+          "phase",
+          "phase_name",
+          "pipeline_failure_localization",
+          "quarantine_rule",
+          "read_only_existing_artifacts",
+          "repair_requirements",
+          "root_causes",
+          "scientific_interpretation_boundary",
+          "serialization_pattern_detection",
+          "source_forensic_search",
+          "stored_pair_analysis",
+          "t1_duplicate_audit",
+          "t1_selection_sensitivity",
+          "t2_information_retention",
+          "t2_prediction_collapse",
+          "t2_record_alignment",
+          "t2_response_collapse",
+          "treatment2_spec"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R3_complete_120_trial_audit/phase14_26R3_complete_120_trial_report.txt",
+      "filename": "phase14_26R3_complete_120_trial_report.txt",
+      "extension": ".txt",
+      "size": 14192,
+      "mtime": "2026-08-26T20:43:32",
+      "sha256": "878d8f771df2af977cf46dbba94f800fc032ed18ff00c20ae9c144a22d84d07c",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "correct",
+          "results",
+          "score",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [
+          "3.33%"
+        ],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 80,
+        "reasons": [
+          "result terms=6",
+          "historical numeric hits=1",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": null
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_report.txt",
+      "filename": "phase14_24R2_c1_correctness_report.txt",
+      "extension": ".txt",
+      "size": 31439,
+      "mtime": "2026-08-26T05:10:39",
+      "sha256": "3be2d63762446e5195472b95382ec8bedd83064d0d34099c667ab7bd56a92ce2",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "correct",
+          "score",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [
+          "2/60"
+        ],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 78,
+        "reasons": [
+          "result terms=5",
+          "historical numeric hits=1",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": null
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "filename": "phase12_3_scored_results.json",
+      "extension": ".json",
+      "size": 22596,
+      "mtime": "2026-08-24T15:28:08",
+      "sha256": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "correct",
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 72,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=2",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "list",
+        "entry_count": 60,
+        "trial_like_entries": 60,
+        "trial_ids": [],
+        "problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "keys": [
+          "conflict_level",
+          "ground_truth",
+          "problem_id",
+          "treatment_correct",
+          "treatment_parse_success",
+          "treatment_predicted"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "filename": "phase12_2_raw_results.json",
+      "extension": ".json",
+      "size": 16358,
+      "mtime": "2026-08-24T15:26:50",
+      "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "candidate_score": 70,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=1",
+          "60 distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "list",
+        "entry_count": 60,
+        "trial_like_entries": 60,
+        "trial_ids": [],
+        "problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "keys": [
+          "conflict_level",
+          "error",
+          "model",
+          "problem_id",
+          "response",
+          "temperature",
+          "treatment"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "filename": "phase13_2_information_flow_audit.json",
+      "extension": ".json",
+      "size": 26003,
+      "mtime": "2026-08-24T23:46:25",
+      "sha256": "5747643787f59084f6cf31ffc10b6a1fb1541f95b313cd893f3a82e2950d7c58",
+      "evidence": {
+        "t1_hits": [
+          "t1_",
+          "treatment1"
+        ],
+        "t2_hits": [
+          "t2 ",
+          "t2_",
+          "treatment 2",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "candidate_score": 68,
+        "reasons": [
+          "T1 evidence=2",
+          "T2 evidence=4",
+          "result terms=7",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 26,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "clue_retention",
+          "dataset",
+          "dataset_fingerprint",
+          "decision_gate",
+          "existing_experiment_files_modified",
+          "file_availability",
+          "fixed_answer_contamination",
+          "input_hashes",
+          "interpretation",
+          "mechanism_screen",
+          "model_calls",
+          "payload_diagnostics",
+          "phase",
+          "phase_name",
+          "problem_identity",
+          "problem_identity_sensitivity",
+          "read_only",
+          "recomputed_treatment2",
+          "sample_ids",
+          "sample_payloads",
+          "score_contradiction",
+          "stored_treatment2_score",
+          "structure",
+          "treatment1_treatment2_pairing",
+          "treatment2"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10G_configuration_provenance.json",
+      "filename": "phase14_10G_configuration_provenance.json",
+      "extension": ".json",
+      "size": 279213,
+      "mtime": "2026-08-25T16:52:23",
+      "sha256": "852f4e2c3447e86897fff1beb90778d1c06579508fedc6e053069789e83c66d2",
+      "evidence": {
+        "t1_hits": [
+          "t1_",
+          "treatment1",
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "control",
+          "correct",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 68,
+        "reasons": [
+          "T1 evidence=3",
+          "T2 evidence=3",
+          "result terms=6",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 12,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "configuration_evidence",
+          "files_scanned",
+          "interpretation",
+          "invalid_json",
+          "literal_agent_evidence",
+          "literal_model_provider_values",
+          "literal_treatment_condition_evidence",
+          "phase",
+          "safety",
+          "source_sha256",
+          "timestamp_utc",
+          "valid_json"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json",
+      "filename": "phase13_3_provenance_reconstruction.json",
+      "extension": ".json",
+      "size": 11003,
+      "mtime": "2026-08-24T23:50:47",
+      "sha256": "a604c5b4be73482e6a203810c6620e36754aae59610f747b128dcab7565f75a8",
+      "evidence": {
+        "t1_hits": [
+          "t1 ",
+          "t1_",
+          "treatment1"
+        ],
+        "t2_hits": [
+          "t2 ",
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "correct",
+          "problem_id",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 68,
+        "reasons": [
+          "T1 evidence=3",
+          "T2 evidence=3",
+          "result terms=6",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 15,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "blocking_conditions",
+          "constraints",
+          "dataset",
+          "experiment_root",
+          "failure_chain",
+          "input_files",
+          "pairing",
+          "phase",
+          "phase_name",
+          "root_cause_priority",
+          "scientific_interpretation",
+          "timestamp_utc",
+          "treatment1",
+          "treatment2",
+          "treatment3_ready"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10F_compact_historical_configuration_recovery.json",
+      "filename": "phase14_10F_compact_historical_configuration_recovery.json",
+      "extension": ".json",
+      "size": 6271,
+      "mtime": "2026-08-25T16:50:32",
+      "sha256": "15cf65430c21871770520449049564691ec24c4e2ee6d4239f0d5fa1d6fc0a90",
+      "evidence": {
+        "t1_hits": [
+          "treatment 1",
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment 2",
+          "treatment2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "control",
+          "correct",
+          "results"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 54,
+        "reasons": [
+          "T1 evidence=2",
+          "T2 evidence=4",
+          "result terms=4"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 11,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "agent_evidence",
+          "direct_model_record_counts",
+          "files_scanned",
+          "historical_model_identifiers",
+          "literal_models",
+          "not_established",
+          "phase",
+          "root",
+          "safety",
+          "timestamp_utc",
+          "totals"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "filename": "phase11_4_paired_analysis.json",
+      "extension": ".json",
+      "size": 6247,
+      "mtime": "2026-08-24T15:13:20",
+      "sha256": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "correct",
+          "problem_id",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "candidate_score": 50,
+        "reasons": [
+          "result terms=6",
+          "historical numeric hits=1",
+          "30+ distinct IDs"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 14,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "baseline_source",
+          "by_conflict_level",
+          "error_rescue",
+          "mcnemar",
+          "n",
+          "overall",
+          "paired_problem_ids",
+          "phase",
+          "phase_name",
+          "read_only",
+          "rows",
+          "transitions",
+          "treatment_source"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "filename": "phase14_4I_D_original_dataset_provenance_report.json",
+      "extension": ".json",
+      "size": 945614,
+      "mtime": "2026-08-25T05:30:56",
+      "sha256": "eff7485462c1fbe7a785a10adbe9ed0bfb63d82d5510a9b812ded3fe7912ed30",
+      "evidence": {
+        "t1_hits": [
+          "t1_"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "checkpoint",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "candidate_score": 47,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=2",
+          "result terms=9",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 13,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "explicit_problem_instance_mappings",
+          "final_status",
+          "immutability",
+          "instance_gt_index",
+          "inventory",
+          "phase",
+          "problem_gt_bridges",
+          "problem_identifier_hits",
+          "provenance_policy",
+          "selection_hits",
+          "strict_mode",
+          "timestamp_utc",
+          "title"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json",
+      "filename": "phase14_10E_recovery_report.json",
+      "extension": ".json",
+      "size": 1262063,
+      "mtime": "2026-08-25T16:48:49",
+      "sha256": "d2a1eb2d0ff3ed04e79808833d847a74d4d230f69a889fbec83307328edb56e0",
+      "evidence": {
+        "t1_hits": [
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "checkpoint",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 47,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=3",
+          "result terms=9"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 19,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "agent_model_records",
+          "direct_model_record_count",
+          "explicit_agent_model_record_count",
+          "explicit_agent_record_count",
+          "explicit_provenance_field_count",
+          "hashes",
+          "invalid_json",
+          "json_artifacts_discovered",
+          "notes",
+          "phase",
+          "provenance_hits",
+          "purpose",
+          "safety",
+          "targeted_artifacts",
+          "timestamp_utc",
+          "treatment_1_files",
+          "treatment_2_files",
+          "unique_literal_models",
+          "valid_json"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+      "filename": "phase14_13_treatment3_controlled_design.json",
+      "extension": ".json",
+      "size": 6009,
+      "mtime": "2026-08-25T17:15:56",
+      "sha256": "0cb4ee22cd3296b55ce19deb65ddc22be8119fe2c04e5532798ffffb27f26dfd",
+      "evidence": {
+        "t1_hits": [
+          "treatment 1",
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "treatment 2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "control",
+          "correct",
+          "results",
+          "score",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 46,
+        "reasons": [
+          "T1 evidence=2",
+          "T2 evidence=2",
+          "result terms=7"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 15,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "control_requirements",
+          "execution_status",
+          "historical_configuration",
+          "mechanistic_target",
+          "outcome_logic",
+          "phase",
+          "purpose",
+          "replication_plan",
+          "safety",
+          "scientific_boundaries",
+          "source_artifact",
+          "source_phase",
+          "timestamp_utc",
+          "title",
+          "treatment_3"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10I_direct_historical_provenance.json",
+      "filename": "phase14_10I_direct_historical_provenance.json",
+      "extension": ".json",
+      "size": 45539,
+      "mtime": "2026-08-25T17:00:21",
+      "sha256": "f23de8f56c7f88fa5c965bb0cacf3837c5d8f2a0d4e4b50c4de40d1054a7ca19",
+      "evidence": {
+        "t1_hits": [
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment 2",
+          "treatment2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "control",
+          "results"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 44,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=4",
+          "result terms=3"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 9,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "agent_evidence_files",
+          "explicit_models",
+          "explicit_providers",
+          "literal_evidence",
+          "non_actions",
+          "phase",
+          "safety",
+          "source_files",
+          "treatment_evidence_files"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_complete_report.json",
+      "filename": "phase13_4_complete_report.json",
+      "extension": ".json",
+      "size": 4252,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "0b6980c499143cb974c0e2f8bef4e58cfbfd988b659c3118484b568ed0c763e3",
+      "evidence": {
+        "t1_hits": [
+          "t1_"
+        ],
+        "t2_hits": [
+          "t2 ",
+          "t2_",
+          "treatment 2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "control",
+          "correct",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 44,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=3",
+          "result terms=6"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 6,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "decision",
+          "final_audit",
+          "key_findings",
+          "outputs",
+          "phase",
+          "phase_name"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+      "filename": "phase14_12_established_mechanistic_model.json",
+      "extension": ".json",
+      "size": 8831,
+      "mtime": "2026-08-25T17:07:30",
+      "sha256": "f337fe102166b8f77e65c21092ddb3d3bfd9e7d7d7e449c8ffc6bf0355af95c2",
+      "evidence": {
+        "t1_hits": [
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "t2 ",
+          "t2_",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "control",
+          "correct",
+          "results"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 42,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=3",
+          "result terms=5"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 14,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "alternative_explanations",
+          "established_observations",
+          "historical_configuration_status",
+          "mechanistic_model",
+          "no_historical_artifact_modified",
+          "no_new_experiment_executed",
+          "phase",
+          "safety",
+          "scientific_boundary",
+          "source_inventory",
+          "structural_inventory",
+          "timestamp_utc",
+          "title",
+          "treatment3_justification"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_provenance_audit.json",
+      "filename": "phase13_4_provenance_audit.json",
+      "extension": ".json",
+      "size": 2683,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "5f3b9e10fc6753afa9dfe6fd4e86e17173165b76f18466040560f2e9ce59cb9c",
+      "evidence": {
+        "t1_hits": [
+          "t1_"
+        ],
+        "t2_hits": [
+          "t2 ",
+          "t2_",
+          "treatment 2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "control",
+          "correct"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 40,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=3",
+          "result terms=4"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 10,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "dataset",
+          "paired",
+          "phase",
+          "purpose",
+          "scientific_interpretation",
+          "serialization",
+          "t1",
+          "t2",
+          "timestamp_utc"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_report.txt",
+      "filename": "phase14_26R2_treatment3_forensic_report.txt",
+      "extension": ".txt",
+      "size": 1524,
+      "mtime": "2026-08-26T20:36:25",
+      "sha256": "7ab2afcf4304a87391e1a255e158256b9b6a96f4b3175a4c8b154b5b2897a854",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "correct",
+          "results"
+        ],
+        "numeric_hits": [
+          "19/60",
+          "31.67%",
+          "4/60",
+          "6.67%"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 38,
+        "reasons": [
+          "result terms=4",
+          "historical numeric hits=4"
+        ]
+      },
+      "json_info": null
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+      "filename": "phase13_1_cross_treatment_forensic_audit.json",
+      "extension": ".json",
+      "size": 1771,
+      "mtime": "2026-08-24T23:41:32",
+      "sha256": "05796e902fe7f599f234ff4ae58fb59697e21b364c83461900bee1d08eb30069",
+      "evidence": {
+        "t1_hits": [
+          "t1_",
+          "treatment1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "problem_id",
+          "score"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 36,
+        "reasons": [
+          "T1 evidence=2",
+          "T2 evidence=2",
+          "result terms=2"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 19,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "dataset_fingerprint",
+          "dataset_records",
+          "ground_truth_changes_adjacent",
+          "ground_truth_unique_assignments",
+          "input_hashes",
+          "mechanism_screen",
+          "model_calls",
+          "phase",
+          "prediction_changes_adjacent",
+          "purpose",
+          "read_only_existing_artifacts",
+          "reliability_patterns",
+          "treatment2_collapse_ratio",
+          "treatment2_dominant_count",
+          "treatment2_dominant_prediction",
+          "treatment2_records",
+          "treatment2_unique_predictions",
+          "treatment2_unique_response_hashes"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_38_final_t1_t2_forensic_audit/phase14_38_t1_t2_forensic_report.json",
+      "filename": "phase14_38_t1_t2_forensic_report.json",
+      "extension": ".json",
+      "size": 746,
+      "mtime": "2026-08-29T21:08:16",
+      "sha256": "84b96ef8fa50d87800171fc31e983116af98ef7c96064e0a6b894c437abe0f45",
+      "evidence": {
+        "t1_hits": [
+          "t1_",
+          "treatment 1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment 2"
+        ],
+        "result_hits": [
+          "summary",
+          "trial"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 36,
+        "reasons": [
+          "T1 evidence=2",
+          "T2 evidence=2",
+          "result terms=2"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 12,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "candidate_hashes",
+          "counts",
+          "locks",
+          "phase",
+          "purpose",
+          "root",
+          "t1_complete_candidates",
+          "t1_summary_records",
+          "t1_trial_candidates",
+          "t2_complete_candidates",
+          "t2_summary_records",
+          "t2_trial_candidates"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+      "filename": "phase12_1_treatment2_specification.json",
+      "extension": ".json",
+      "size": 4995,
+      "mtime": "2026-08-24T15:17:56",
+      "sha256": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f",
+      "evidence": {
+        "t1_hits": [
+          "treatment 1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment2",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "correct"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 34,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=3",
+          "result terms=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 10,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "hypothesis",
+          "phase",
+          "phase_name",
+          "prompt",
+          "quarantined_evidence_forbidden_roles",
+          "quarantined_evidence_role",
+          "read_only_dataset",
+          "treatment_name",
+          "treatment_principle"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_11_mechanistic_evidence_integration.json",
+      "filename": "phase14_11_mechanistic_evidence_integration.json",
+      "extension": ".json",
+      "size": 7305,
+      "mtime": "2026-08-25T17:05:27",
+      "sha256": "c09ffe9e5289304bb0922784bbb1f67002a9bad5aa42db1bca60c4b3300533f9",
+      "evidence": {
+        "t1_hits": [
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "t2_",
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "control",
+          "results",
+          "summary"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 32,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=2",
+          "result terms=4"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 11,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "historical_configuration_status",
+          "invalid_sources",
+          "missing_sources",
+          "next_decision",
+          "phase",
+          "purpose",
+          "recovery_status",
+          "safety",
+          "source_artifacts",
+          "source_summary",
+          "timestamp_utc"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "filename": "phase14_4I_D_dataset_lineage_report.json",
+      "extension": ".json",
+      "size": 405353,
+      "mtime": "2026-08-25T05:34:05",
+      "sha256": "78b5f8395b79a71fa77c67a5520bc4e4526b7c4acc6099b1fb5f8844144461f8",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "checkpoint",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [
+          1
+        ],
+        "candidate_score": 31,
+        "reasons": [
+          "T2 evidence=2",
+          "result terms=8"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 14,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "candidate_identifiers",
+          "candidate_problem_texts",
+          "exact_problem_text_matches",
+          "final_status",
+          "identifier_lineage",
+          "immutability",
+          "interpretation",
+          "inventory",
+          "phase",
+          "phase14_4g_selection_records",
+          "strict_mode",
+          "structural_record_artifacts",
+          "timestamp_utc",
+          "title"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+      "filename": "phase14_4I_C_upstream_selection_provenance_report.json",
+      "extension": ".json",
+      "size": 562630,
+      "mtime": "2026-08-25T05:29:52",
+      "sha256": "0359ea313d729ee5c367d3fdae7a65e2103ddd20cb20906813e543298ce2b7bb",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "checkpoint",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 31,
+        "reasons": [
+          "T2 evidence=2",
+          "result terms=8"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 12,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "artifact_inventory",
+          "bridge_records",
+          "immutability_verified",
+          "mapping_evidence",
+          "phase",
+          "provenance_hits",
+          "selected_problems",
+          "selection_objects",
+          "status",
+          "strict_mode",
+          "timestamp_utc",
+          "title"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_37_cross_treatment_synthesis/phase14_37_cross_treatment_synthesis.json",
+      "filename": "phase14_37_cross_treatment_synthesis.json",
+      "extension": ".json",
+      "size": 65971,
+      "mtime": "2026-08-29T20:00:07",
+      "sha256": "f16c9c7ee2e2c9a5c5c2ad96037d3b06f9d880380a5878bd96c59c09e6bf215b",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "checkpoint",
+          "control",
+          "correct",
+          "results",
+          "score",
+          "scores",
+          "summary",
+          "trial"
+        ],
+        "numeric_hits": [
+          "2/60",
+          "3.33%"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 31,
+        "reasons": [
+          "result terms=9",
+          "historical numeric hits=2"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 9,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "candidate_cross_treatment_artifacts",
+          "exact_10pp_check",
+          "locks",
+          "old_t3_reconciliation",
+          "paper_safe_interpretation",
+          "phase",
+          "purpose",
+          "t3_authoritative",
+          "verdict"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json",
+      "filename": "phase14_4I_B_cross_artifact_provenance_report.json",
+      "extension": ".json",
+      "size": 23882,
+      "mtime": "2026-08-25T05:28:48",
+      "sha256": "1fed2343d4ad01ba406e1518b01544b172cc3ece8acd9826b8f7d494af3d49ea",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_",
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "checkpoint",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 31,
+        "reasons": [
+          "T2 evidence=2",
+          "result terms=8"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 13,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "artifact_inventory",
+          "experiment_root",
+          "ground_truth_instance_coverage",
+          "immutability",
+          "phase",
+          "problem_to_instance_mapping",
+          "research_safety_statement",
+          "scan_statistics",
+          "selected_problem_ids",
+          "strict_guarantees",
+          "timestamp_utc",
+          "title",
+          "validated_unique_mappings"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_independent_paired_analysis.json",
+      "filename": "phase13_4_independent_paired_analysis.json",
+      "extension": ".json",
+      "size": 27981,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "2b3509971cea9d43071d6de5cfb14c3b96f7cb440047546bc3deef9610a2ce95",
+      "evidence": {
+        "t1_hits": [
+          "t1_"
+        ],
+        "t2_hits": [
+          "t2_"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "control",
+          "correct",
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 26,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=1",
+          "result terms=5"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 14,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "absolute_change",
+          "baseline_accuracy",
+          "baseline_correct",
+          "mcnemar_exact_two_sided",
+          "n",
+          "net_gain",
+          "phase",
+          "phase_name",
+          "rows",
+          "t1_duplicate_ids",
+          "t1_selection_policy",
+          "transitions",
+          "treatment_accuracy",
+          "treatment_correct"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+      "filename": "phase14_14_treatment3_execution_preflight.json",
+      "extension": ".json",
+      "size": 2105,
+      "mtime": "2026-08-25T17:19:53",
+      "sha256": "03f76d8005fd3390883b5fd46d0604593d7c25519e581443f0490cc1eb73bff6",
+      "evidence": {
+        "t1_hits": [
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "control",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 24,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=1",
+          "result terms=4"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 13,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "conditions",
+          "design_source",
+          "dry_run",
+          "execution_status",
+          "groq_credential_present",
+          "historical_mapping",
+          "model",
+          "phase",
+          "preflight_status",
+          "replication",
+          "safety",
+          "timestamp_utc",
+          "title"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_34R1_compact_forensic_report.txt",
+      "filename": "phase14_34R1_compact_forensic_report.txt",
+      "extension": ".txt",
+      "size": 37452,
+      "mtime": "2026-08-29T05:16:26",
+      "sha256": "0cab82322664fd9a43208a95afc103276f8944c7e90df4df4e30cbef22a8364c",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_"
+        ],
+        "result_hits": [
+          "accuracy",
+          "checkpoint",
+          "control",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary",
+          "trial"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 23,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=9"
+        ]
+      },
+      "json_info": null
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_M_explicit_key_gt_join/phase14_4I_M_explicit_key_gt_join_report.json",
+      "filename": "phase14_4I_M_explicit_key_gt_join_report.json",
+      "extension": ".json",
+      "size": 50721,
+      "mtime": "2026-08-25T05:47:21",
+      "sha256": "1eef034521865517cd964bc5000c7854c79869055023b2dcb409c46e1b7efd3b",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "baseline",
+          "correct",
+          "problem_id",
+          "results",
+          "score",
+          "summary"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 22,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=7"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 11,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "candidate_identity",
+          "candidate_results",
+          "cross_candidate_collision_locations",
+          "exact_record_occurrence_counts",
+          "final_status",
+          "gt_bearing_structure_count",
+          "immutability",
+          "phase",
+          "safety_summary",
+          "strict_mode",
+          "title"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_summary.json",
+      "filename": "phase14_36_final_audit_summary.json",
+      "extension": ".json",
+      "size": 4125,
+      "mtime": "2026-08-29T19:46:59",
+      "sha256": "76b78768e2f7abb9d7445f9b0fb3f9393354fd2cba5c2853ef8ce3dff4817d0e",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "correct",
+          "results",
+          "score",
+          "scores",
+          "summary",
+          "trial"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 22,
+        "reasons": [
+          "result terms=7",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 18,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "authoritative_source",
+          "bootstrap",
+          "current_verdict",
+          "experiment_execution",
+          "final_checks",
+          "mcnemar",
+          "model_calls",
+          "n",
+          "old_phase_14_26r2",
+          "paired_results",
+          "parser_forensics",
+          "phase",
+          "primary_results",
+          "purpose",
+          "read_only",
+          "sensitivity_analysis",
+          "source_integrity"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json",
+      "filename": "phase14_17_treatment3_forensic_analysis.json",
+      "extension": ".json",
+      "size": 2921,
+      "mtime": "2026-08-25T19:31:52",
+      "sha256": "cf54261aaa42c9c8eba8276cbdeb5e3d32403bdbbb9aba4f3d5875b9b02892a2",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "accuracy",
+          "correct",
+          "problem_id",
+          "results",
+          "summary",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 22,
+        "reasons": [
+          "result terms=7",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 13,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "alternative_raw_text_exact_counts",
+          "analysis",
+          "api_calls",
+          "c1_hurt_problem_ids",
+          "contract_failures",
+          "diagnostic_note",
+          "format_stats",
+          "model_calls",
+          "parser_stats",
+          "phase",
+          "previous_condition_summary",
+          "read_only",
+          "sources"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_21_treatment3_c1_response_quality_forensics/phase14_21_c1_response_quality_report.txt",
+      "filename": "phase14_21_c1_response_quality_report.txt",
+      "extension": ".txt",
+      "size": 1533,
+      "mtime": "2026-08-25T20:08:17",
+      "sha256": "d97abe93fbc72b5be2dd0d66e50ef0349dc17d683178f353373706e8330de192",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "correct",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [
+          "2/60",
+          "4/60"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 22,
+        "reasons": [
+          "result terms=3",
+          "historical numeric hits=2"
+        ]
+      },
+      "json_info": null
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+      "filename": "phase13_5_complete_report.json",
+      "extension": ".json",
+      "size": 94641,
+      "mtime": "2026-08-25T00:14:01",
+      "sha256": "c97612982145a18d5102fcf4be324a92c040e3a7e703ee93a31ab2793549faae",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_"
+        ],
+        "result_hits": [
+          "accuracy",
+          "correct",
+          "problem_id",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 18,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=5"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 17,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "conditions",
+          "dataset",
+          "decision",
+          "deterministic",
+          "deterministic_results",
+          "ground_truth",
+          "model_calls",
+          "parse_failure_ids",
+          "phase",
+          "phase_name",
+          "read_only",
+          "solver_comparison",
+          "t1",
+          "t2",
+          "t2_scored",
+          "timestamp_utc"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_Q_explicit_composite_key_audit/phase14_4I_Q_explicit_composite_key_audit_report.json",
+      "filename": "phase14_4I_Q_explicit_composite_key_audit_report.json",
+      "extension": ".json",
+      "size": 16359,
+      "mtime": "2026-08-25T05:53:25",
+      "sha256": "1d4c32e7f67778c7e9f162e4a1c9c2756c18b1029f20db91f941f19769cd8ea5",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "accuracy",
+          "correct",
+          "problem_id",
+          "results",
+          "score"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 18,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=5"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 12,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "artifact_count",
+          "candidate_fingerprints",
+          "candidate_shared_explicit_pairs",
+          "changed_previous_artifacts",
+          "composite_results",
+          "cross_candidate_composite_collisions",
+          "final_status",
+          "gt_bearing_container_count",
+          "loaded_artifact_count",
+          "phase",
+          "safety",
+          "title"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_33R11_final_c1_forensics/phase14_33R11_report.json",
+      "filename": "phase14_33R11_report.json",
+      "extension": ".json",
+      "size": 2840,
+      "mtime": "2026-08-29T14:26:31",
+      "sha256": "d61d3ab5f7976da9032df8579a1d39fa09ed8a18c1fd8f540c77cb6cdfc6dc10",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "correct",
+          "score",
+          "scores",
+          "trial",
+          "trials"
+        ],
+        "numeric_hits": [
+          "2/60"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 18,
+        "reasons": [
+          "result terms=5",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 8,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "additional_c1_correct_from_r11",
+          "dataset",
+          "final_candidate_scores",
+          "locks",
+          "phase",
+          "prior_scores",
+          "purpose",
+          "trials"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10H_compact_configuration_provenance.json",
+      "filename": "phase14_10H_compact_configuration_provenance.json",
+      "extension": ".json",
+      "size": 1158,
+      "mtime": "2026-08-25T16:58:10",
+      "sha256": "cd41be1459034796c3da9372fbf46e5afc0bd2b468f5f446b7dd9e9ca826c6be",
+      "evidence": {
+        "t1_hits": [
+          "treatment_1"
+        ],
+        "t2_hits": [
+          "treatment_2"
+        ],
+        "result_hits": [
+          "accuracy"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 18,
+        "reasons": [
+          "T1 evidence=1",
+          "T2 evidence=1",
+          "result terms=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 10,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "agent_identifier_hits",
+          "configuration_key_hits",
+          "interpretation",
+          "literal_models",
+          "literal_providers",
+          "phase",
+          "purpose",
+          "safety",
+          "source",
+          "treatment_condition_literals"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json",
+      "filename": "phase14_3A_robustness_rows.json",
+      "extension": ".json",
+      "size": 16082,
+      "mtime": "2026-08-25T01:57:19",
+      "sha256": "1b7d1643cb811f39ce760d61079399ed767b720f3d4f49bb67777b5dd014c942",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "baseline",
+          "problem_id",
+          "results",
+          "summary"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 16,
+        "reasons": [
+          "result terms=4",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 6,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "baseline_rows",
+          "conflict_results",
+          "gate_flip_summary",
+          "injection_summary",
+          "leave_one_agent_out",
+          "policy_summary"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+      "filename": "phase14_3A_complete_report.json",
+      "extension": ".json",
+      "size": 8343,
+      "mtime": "2026-08-25T01:57:19",
+      "sha256": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "baseline",
+          "correct",
+          "problem_id"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 14,
+        "reasons": [
+          "result terms=3",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 17,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "api_calls",
+          "baseline",
+          "conflict_level_analysis",
+          "dataset",
+          "gate_flip_analysis",
+          "gate_policy_analysis",
+          "leave_one_agent_out",
+          "mechanistic_interpretation",
+          "model_calls",
+          "parser",
+          "phase",
+          "phase_name",
+          "read_only",
+          "scientific_boundary",
+          "scientific_gate",
+          "timestamp_utc",
+          "unreliable_agent_injection"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json",
+      "filename": "phase13_4_t2_scored_results.json",
+      "extension": ".json",
+      "size": 33799,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "d1f81f61d3fd380b1f15e0b575bd58fc70cbb9dd077fd247107bca11f9b20702",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_"
+        ],
+        "result_hits": [
+          "correct",
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 12,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=2"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "list",
+        "entry_count": 60,
+        "trial_like_entries": 60,
+        "trial_ids": [],
+        "problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "keys": [
+          "conflict_level",
+          "error",
+          "ground_truth",
+          "payload_sha256",
+          "problem_id",
+          "prompt_sha256",
+          "response_sha256",
+          "treatment_correct",
+          "treatment_parse_success",
+          "treatment_predicted"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+      "filename": "phase14_1_complete_report.json",
+      "extension": ".json",
+      "size": 31254,
+      "mtime": "2026-08-25T00:30:20",
+      "sha256": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [],
+        "result_hits": [
+          "problem_id",
+          "summary"
+        ],
+        "numeric_hits": [
+          "0.033333"
+        ],
+        "trial_problem_ids": [],
+        "candidate_score": 12,
+        "reasons": [
+          "result terms=2",
+          "historical numeric hits=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 12,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "agent_summary",
+          "api_calls",
+          "conflict_summary",
+          "dataset",
+          "mechanism_summary",
+          "model_calls",
+          "phase",
+          "phase_name",
+          "read_only",
+          "rows",
+          "scientific_interpretation",
+          "timestamp_utc"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json",
+      "filename": "phase13_4_t2_raw_results.json",
+      "extension": ".json",
+      "size": 294958,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "9e39d122663e2dde84b04050058fc4af509154e9d54e63a01b8d1ebe949a2e05",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "t2_"
+        ],
+        "result_hits": [
+          "problem_id"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 10,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "list",
+        "entry_count": 60,
+        "trial_like_entries": 60,
+        "trial_ids": [],
+        "problem_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "keys": [
+          "conflict_level",
+          "error",
+          "finish_reason",
+          "finished_at",
+          "input_provenance",
+          "max_tokens",
+          "model",
+          "parsed_prediction",
+          "problem_id",
+          "response",
+          "response_sha256",
+          "started_at",
+          "temperature",
+          "treatment",
+          "usage"
+        ]
+      }
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_0_mechanistic_analysis_summary.json",
+      "filename": "phase13_0_mechanistic_analysis_summary.json",
+      "extension": ".json",
+      "size": 968,
+      "mtime": "2026-08-24T23:40:31",
+      "sha256": "6d7303547412a2ec33ad5d5534315aae25e41e86e3d218fc095235ca022c8980",
+      "evidence": {
+        "t1_hits": [],
+        "t2_hits": [
+          "treatment2"
+        ],
+        "result_hits": [
+          "results"
+        ],
+        "numeric_hits": [],
+        "trial_problem_ids": [],
+        "candidate_score": 10,
+        "reasons": [
+          "T2 evidence=1",
+          "result terms=1"
+        ]
+      },
+      "json_info": {
+        "valid_json": true,
+        "root_type": "dict",
+        "entry_count": 9,
+        "trial_like_entries": 0,
+        "trial_ids": [],
+        "problem_ids": [],
+        "keys": [
+          "candidate_raw_result_sets",
+          "dataset_count",
+          "hypotheses",
+          "phase",
+          "purpose",
+          "read_only_existing_artifacts",
+          "statistical_significance_testing",
+          "zero_api_calls",
+          "zero_model_calls"
+        ]
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "size": 6247,
+      "mtime": "2026-08-24T15:13:20",
+      "sha256": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+      "size": 4995,
+      "mtime": "2026-08-24T15:17:56",
+      "sha256": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "size": 16358,
+      "mtime": "2026-08-24T15:26:50",
+      "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.pkl",
+      "size": 4937,
+      "mtime": "2026-08-24T15:26:52",
+      "sha256": "58ba4860640f3c27a784cf7ad9155b796f532fab8a7d365e9f456462503e248c"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "size": 22596,
+      "mtime": "2026-08-24T15:28:08",
+      "sha256": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_0_mechanistic_analysis_summary.json",
+      "size": 968,
+      "mtime": "2026-08-24T23:40:31",
+      "sha256": "6d7303547412a2ec33ad5d5534315aae25e41e86e3d218fc095235ca022c8980"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+      "size": 1771,
+      "mtime": "2026-08-24T23:41:32",
+      "sha256": "05796e902fe7f599f234ff4ae58fb59697e21b364c83461900bee1d08eb30069"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "size": 26003,
+      "mtime": "2026-08-24T23:46:25",
+      "sha256": "5747643787f59084f6cf31ffc10b6a1fb1541f95b313cd893f3a82e2950d7c58"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json",
+      "size": 11003,
+      "mtime": "2026-08-24T23:50:47",
+      "sha256": "a604c5b4be73482e6a203810c6620e36754aae59610f747b128dcab7565f75a8"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_complete_report.json",
+      "size": 4252,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "0b6980c499143cb974c0e2f8bef4e58cfbfd988b659c3118484b568ed0c763e3"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_independent_paired_analysis.json",
+      "size": 27981,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "2b3509971cea9d43071d6de5cfb14c3b96f7cb440047546bc3deef9610a2ce95"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_provenance_audit.json",
+      "size": 2683,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "5f3b9e10fc6753afa9dfe6fd4e86e17173165b76f18466040560f2e9ce59cb9c"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json",
+      "size": 294958,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "9e39d122663e2dde84b04050058fc4af509154e9d54e63a01b8d1ebe949a2e05"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json",
+      "size": 33799,
+      "mtime": "2026-08-25T00:07:20",
+      "sha256": "d1f81f61d3fd380b1f15e0b575bd58fc70cbb9dd077fd247107bca11f9b20702"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json",
+      "size": 101981,
+      "mtime": "2026-08-24T23:54:30",
+      "sha256": "ee141a1c90ed16bf3f1ebc9691e96abb774500aa33cc46af1095279e6c0c6ffc"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+      "size": 94641,
+      "mtime": "2026-08-25T00:14:01",
+      "sha256": "c97612982145a18d5102fcf4be324a92c040e3a7e703ee93a31ab2793549faae"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json",
+      "size": 1262063,
+      "mtime": "2026-08-25T16:48:49",
+      "sha256": "d2a1eb2d0ff3ed04e79808833d847a74d4d230f69a889fbec83307328edb56e0"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10F_compact_historical_configuration_recovery.json",
+      "size": 6271,
+      "mtime": "2026-08-25T16:50:32",
+      "sha256": "15cf65430c21871770520449049564691ec24c4e2ee6d4239f0d5fa1d6fc0a90"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10G_configuration_provenance.json",
+      "size": 279213,
+      "mtime": "2026-08-25T16:52:23",
+      "sha256": "852f4e2c3447e86897fff1beb90778d1c06579508fedc6e053069789e83c66d2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10H_compact_configuration_provenance.json",
+      "size": 1158,
+      "mtime": "2026-08-25T16:58:10",
+      "sha256": "cd41be1459034796c3da9372fbf46e5afc0bd2b468f5f446b7dd9e9ca826c6be"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10I_direct_historical_provenance.json",
+      "size": 45539,
+      "mtime": "2026-08-25T17:00:21",
+      "sha256": "f23de8f56c7f88fa5c965bb0cacf3837c5d8f2a0d4e4b50c4de40d1054a7ca19"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_11_mechanistic_evidence_integration.json",
+      "size": 7305,
+      "mtime": "2026-08-25T17:05:27",
+      "sha256": "c09ffe9e5289304bb0922784bbb1f67002a9bad5aa42db1bca60c4b3300533f9"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+      "size": 8831,
+      "mtime": "2026-08-25T17:07:30",
+      "sha256": "f337fe102166b8f77e65c21092ddb3d3bfd9e7d7d7e449c8ffc6bf0355af95c2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+      "size": 6009,
+      "mtime": "2026-08-25T17:15:56",
+      "sha256": "0cb4ee22cd3296b55ce19deb65ddc22be8119fe2c04e5532798ffffb27f26dfd"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+      "size": 2105,
+      "mtime": "2026-08-25T17:19:53",
+      "sha256": "03f76d8005fd3390883b5fd46d0604593d7c25519e581443f0490cc1eb73bff6"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+      "size": 59998,
+      "mtime": "2026-08-25T19:27:47",
+      "sha256": "2550048bb812d73edff701469986e8e71829c897ba7948acb96e01ba24a63ac0"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json",
+      "size": 2921,
+      "mtime": "2026-08-25T19:31:52",
+      "sha256": "cf54261aaa42c9c8eba8276cbdeb5e3d32403bdbbb9aba4f3d5875b9b02892a2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+      "size": 31254,
+      "mtime": "2026-08-25T00:30:20",
+      "sha256": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_21_treatment3_c1_response_quality_forensics/phase14_21_c1_response_quality_report.txt",
+      "size": 1533,
+      "mtime": "2026-08-25T20:08:17",
+      "sha256": "d97abe93fbc72b5be2dd0d66e50ef0349dc17d683178f353373706e8330de192"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json",
+      "size": 96356,
+      "mtime": "2026-08-26T05:10:39",
+      "sha256": "650b3a42eddc74fbbd311f239d02031b673b7dd5c4c2c36f4f42dc1801d50a3d"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_report.txt",
+      "size": 31439,
+      "mtime": "2026-08-26T05:10:39",
+      "sha256": "3be2d63762446e5195472b95382ec8bedd83064d0d34099c667ab7bd56a92ce2"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_report.txt",
+      "size": 1524,
+      "mtime": "2026-08-26T20:36:25",
+      "sha256": "7ab2afcf4304a87391e1a255e158256b9b6a96f4b3175a4c8b154b5b2897a854"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R3_complete_120_trial_audit/phase14_26R3_complete_120_trial_report.txt",
+      "size": 14192,
+      "mtime": "2026-08-26T20:43:32",
+      "sha256": "878d8f771df2af977cf46dbba94f800fc032ed18ff00c20ae9c144a22d84d07c"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_33R11_final_c1_forensics/phase14_33R11_report.json",
+      "size": 2840,
+      "mtime": "2026-08-29T14:26:31",
+      "sha256": "d61d3ab5f7976da9032df8579a1d39fa09ed8a18c1fd8f540c77cb6cdfc6dc10"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_34R1_compact_forensic_report.txt",
+      "size": 37452,
+      "mtime": "2026-08-29T05:16:26",
+      "sha256": "0cab82322664fd9a43208a95afc103276f8944c7e90df4df4e30cbef22a8364c"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_summary.json",
+      "size": 4125,
+      "mtime": "2026-08-29T19:46:59",
+      "sha256": "76b78768e2f7abb9d7445f9b0fb3f9393354fd2cba5c2853ef8ce3dff4817d0e"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_37_cross_treatment_synthesis/phase14_37_cross_treatment_synthesis.json",
+      "size": 65971,
+      "mtime": "2026-08-29T20:00:07",
+      "sha256": "f16c9c7ee2e2c9a5c5c2ad96037d3b06f9d880380a5878bd96c59c09e6bf215b"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_38_final_t1_t2_forensic_audit/phase14_38_t1_t2_forensic_report.json",
+      "size": 746,
+      "mtime": "2026-08-29T21:08:16",
+      "sha256": "84b96ef8fa50d87800171fc31e983116af98ef7c96064e0a6b894c437abe0f45"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+      "size": 8343,
+      "mtime": "2026-08-25T01:57:19",
+      "sha256": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json",
+      "size": 16082,
+      "mtime": "2026-08-25T01:57:19",
+      "sha256": "1b7d1643cb811f39ce760d61079399ed767b720f3d4f49bb67777b5dd014c942"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json",
+      "size": 23882,
+      "mtime": "2026-08-25T05:28:48",
+      "sha256": "1fed2343d4ad01ba406e1518b01544b172cc3ece8acd9826b8f7d494af3d49ea"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+      "size": 562630,
+      "mtime": "2026-08-25T05:29:52",
+      "sha256": "0359ea313d729ee5c367d3fdae7a65e2103ddd20cb20906813e543298ce2b7bb"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+      "size": 405353,
+      "mtime": "2026-08-25T05:34:05",
+      "sha256": "78b5f8395b79a71fa77c67a5520bc4e4526b7c4acc6099b1fb5f8844144461f8"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+      "size": 945614,
+      "mtime": "2026-08-25T05:30:56",
+      "sha256": "eff7485462c1fbe7a785a10adbe9ed0bfb63d82d5510a9b812ded3fe7912ed30"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_M_explicit_key_gt_join/phase14_4I_M_explicit_key_gt_join_report.json",
+      "size": 50721,
+      "mtime": "2026-08-25T05:47:21",
+      "sha256": "1eef034521865517cd964bc5000c7854c79869055023b2dcb409c46e1b7efd3b"
+    },
+    {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_Q_explicit_composite_key_audit/phase14_4I_Q_explicit_composite_key_audit_report.json",
+      "size": 16359,
+      "mtime": "2026-08-25T05:53:25",
+      "sha256": "1d4c32e7f67778c7e9f162e4a1c9c2756c18b1029f20db91f941f19769cd8ea5"
+    }
+  ]
+}

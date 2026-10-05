@@ -1,0 +1,340 @@
+{
+  "all_candidates_have_identity": true,
+  "all_candidates_have_zero_unique_channels": true,
+  "any_unique_provenance_channel": false,
+  "candidate_count": 5,
+  "candidate_fingerprints": {
+    "1": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "2": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "3": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "4": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+    "5": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+  },
+  "candidate_matrix": {
+    "1": {
+      "artifact_local_gt_anchor": false,
+      "candidate_specific_gt_surface": false,
+      "cross_format_explicit_gt_colocation": false,
+      "direct_gt_attachment": false,
+      "direct_same_container_gt": false,
+      "exact_identity": true,
+      "exact_record_recovered": true,
+      "explicit_lineage_target_to_gt": false,
+      "explicit_provenance_graph_to_gt": false,
+      "explicit_provenance_token_match": false,
+      "shared_artifact_surface": true,
+      "unique_composite_gt_join": false,
+      "unique_explicit_gt_join": false,
+      "unique_gt_containment": false
+    },
+    "2": {
+      "artifact_local_gt_anchor": false,
+      "candidate_specific_gt_surface": false,
+      "cross_format_explicit_gt_colocation": false,
+      "direct_gt_attachment": false,
+      "direct_same_container_gt": false,
+      "exact_identity": true,
+      "exact_record_recovered": true,
+      "explicit_lineage_target_to_gt": false,
+      "explicit_provenance_graph_to_gt": false,
+      "explicit_provenance_token_match": false,
+      "shared_artifact_surface": true,
+      "unique_composite_gt_join": false,
+      "unique_explicit_gt_join": false,
+      "unique_gt_containment": false
+    },
+    "3": {
+      "artifact_local_gt_anchor": false,
+      "candidate_specific_gt_surface": false,
+      "cross_format_explicit_gt_colocation": false,
+      "direct_gt_attachment": false,
+      "direct_same_container_gt": false,
+      "exact_identity": true,
+      "exact_record_recovered": true,
+      "explicit_lineage_target_to_gt": false,
+      "explicit_provenance_graph_to_gt": false,
+      "explicit_provenance_token_match": false,
+      "shared_artifact_surface": true,
+      "unique_composite_gt_join": false,
+      "unique_explicit_gt_join": false,
+      "unique_gt_containment": false
+    },
+    "4": {
+      "artifact_local_gt_anchor": false,
+      "candidate_specific_gt_surface": false,
+      "cross_format_explicit_gt_colocation": false,
+      "direct_gt_attachment": false,
+      "direct_same_container_gt": false,
+      "exact_identity": true,
+      "exact_record_recovered": true,
+      "explicit_lineage_target_to_gt": false,
+      "explicit_provenance_graph_to_gt": false,
+      "explicit_provenance_token_match": false,
+      "shared_artifact_surface": true,
+      "unique_composite_gt_join": false,
+      "unique_explicit_gt_join": false,
+      "unique_gt_containment": false
+    },
+    "5": {
+      "artifact_local_gt_anchor": false,
+      "candidate_specific_gt_surface": false,
+      "cross_format_explicit_gt_colocation": false,
+      "direct_gt_attachment": false,
+      "direct_same_container_gt": false,
+      "exact_identity": true,
+      "exact_record_recovered": true,
+      "explicit_lineage_target_to_gt": false,
+      "explicit_provenance_graph_to_gt": false,
+      "explicit_provenance_token_match": false,
+      "shared_artifact_surface": true,
+      "unique_composite_gt_join": false,
+      "unique_explicit_gt_join": false,
+      "unique_gt_containment": false
+    }
+  },
+  "candidate_positive_provenance_channels": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "decision": "PROVENANCE_EXHAUSTION_ESTABLISHED",
+  "final_safety": {
+    "accuracy_calculated": false,
+    "answer_recomputed": false,
+    "candidate_mapping_from_text_collision": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "model_output_used": false,
+    "numeric_semantics_used": false,
+    "ordering_used": false,
+    "positional_mapping": false,
+    "prior_artifacts_modified": false,
+    "problem_number_inference": false
+  },
+  "forensic_conclusion": "Existing forensic phases establish exact candidate identity but do not establish a defensible unique candidate-to-ground-truth provenance mapping. No ground truth was inferred or interpreted in this phase.",
+  "important_boundary": "PROVENANCE_EXHAUSTION_ESTABLISHED is a statement about the existing explicitly searchable forensic surface. It is not a claim that ground truth never existed elsewhere.",
+  "missing_prior_phases": [],
+  "next_action": "CLOSE_14_4I_AND_MOVE_TO_NEXT_TREATMENT_DESIGN",
+  "next_treatment_requirements": {
+    "candidate_identity": "Must be cryptographically linked to each generated instance.",
+    "evaluation": "Must consume only explicitly linked ground truth.",
+    "ground_truth": "Must be explicitly linked to the exact candidate instance.",
+    "model_output": "Must be linked to the exact candidate identity and treatment.",
+    "ordering": "Must never be required to recover candidate identity.",
+    "posthoc_reconstruction": "Must not be necessary for primary evaluation.",
+    "text_matching": "Must never be required to recover candidate identity.",
+    "treatment_condition": "Must be explicitly recorded in the same provenance record."
+  },
+  "phase": "14.4I-U",
+  "prior_phases_considered": [
+    "14.4I-I",
+    "14.4I-J",
+    "14.4I-K",
+    "14.4I-L",
+    "14.4I-M",
+    "14.4I-N",
+    "14.4I-O",
+    "14.4I-P",
+    "14.4I-Q",
+    "14.4I-R",
+    "14.4I-S",
+    "14.4I-T"
+  ],
+  "read_only_prior_artifacts": true,
+  "recoverability": "NO_DEFENSIBLE_CANDIDATE_GT_MAPPING_FROM_EXISTING_FORENSIC_SURFACE",
+  "safety_clean": true,
+  "safety_summary": {
+    "accuracy_calculated": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "answer_recomputed": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "candidate_mapping_from_text_collision": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "ground_truth_inferred": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "ground_truth_interpreted": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "model_output_used": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "numeric_semantics_used": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "ordering_used": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "positional_mapping": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "prior_artifacts_modified": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "problem_number_inference": {
+      "all_false_or_unobserved": true,
+      "any_true": false,
+      "observed_values": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "timestamp_utc": "2026-08-25T06:05:58.599980+00:00",
+  "title": "Provenance Exhaustion & Recoverability Decision Audit",
+  "treatment_3_status": "NOT_RUN_AND_NOT_RECONSTRUCTED"
+}

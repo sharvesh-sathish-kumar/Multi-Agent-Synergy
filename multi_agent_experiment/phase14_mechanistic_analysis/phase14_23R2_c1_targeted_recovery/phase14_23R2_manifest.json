@@ -1,0 +1,52 @@
+{
+  "phase": "14.23R2",
+  "purpose": "Forensic targeted recovery of five Phase 14.23 C1 trials",
+  "target_trial_ids": [
+    16,
+    26,
+    51,
+    52,
+    56
+  ],
+  "source_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1",
+  "source_final_state": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_final_state.json",
+  "model": "openai/gpt-oss-120b",
+  "original_max_tokens": 1200,
+  "recovery_max_tokens": 2048,
+  "temperature": 0,
+  "historical_artifacts_modified": false,
+  "verification_completed": true,
+  "created_at_utc": "2026-08-25T23:21:15.295493+00:00",
+  "discovery_locations": {
+    "16": [
+      {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_16.json",
+        "json_path": "$"
+      }
+    ],
+    "26": [
+      {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_26.json",
+        "json_path": "$"
+      }
+    ],
+    "51": [
+      {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_51.json",
+        "json_path": "$"
+      }
+    ],
+    "52": [
+      {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_52.json",
+        "json_path": "$"
+      }
+    ],
+    "56": [
+      {
+        "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_56.json",
+        "json_path": "$"
+      }
+    ]
+  }
+}

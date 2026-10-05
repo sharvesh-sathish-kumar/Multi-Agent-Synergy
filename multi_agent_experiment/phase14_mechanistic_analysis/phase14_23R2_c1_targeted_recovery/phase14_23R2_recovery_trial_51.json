@@ -1,0 +1,31 @@
+{
+  "phase": "14.23R2",
+  "recovery_phase": "14.23R2",
+  "condition": "C1",
+  "trial_id": 51,
+  "source_phase": "14.23",
+  "source_final_state": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_final_state.json",
+  "source_discovery_locations": [
+    [
+      "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1/phase14_23_c1_trial_51.json",
+      "$"
+    ]
+  ],
+  "prompt": "Condition: C1\n\nYou are given four entities and four items.\n\nEntities: Alex, Ben, Cara, Dan\nItems: red, blue, green, yellow\n\nDetermine which item belongs to each entity using the supplied clues.\nEach entity has exactly one item, and each item is assigned to exactly one entity.\nClues:\nAgent A clues:\n- Alex has yellow.\n- Ben has green.\n- Cara has blue.\nAgent B clues:\n- Ben has blue.\n- Cara has yellow.\n- Ben does not have red.\nAgent C clues:\n- Alex does not have green.\n- Cara does not have red.\n\nReturn one item assignment for every entity.\nUse only the supplied clues.",
+  "prompt_sha256": "f5f014ed25a1506c970bbe243befcc0f5562be4f9e9d46cb980749057651e5bc",
+  "model": "openai/gpt-oss-120b",
+  "original_max_tokens": 1200,
+  "recovery_max_tokens": 2048,
+  "temperature": 0,
+  "response": "**Assignment**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → blue  \n- Dan → red  \n\nThis assignment satisfies the greatest number of the supplied clues (six of the eight clues) while respecting the rule that each entity receives exactly one distinct item.",
+  "response_length": 252,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 1848,
+    "total_tokens": 2057
+  },
+  "attempt": 1,
+  "api_error": null,
+  "saved_at_utc": "2026-08-25T23:21:39.585000+00:00"
+}

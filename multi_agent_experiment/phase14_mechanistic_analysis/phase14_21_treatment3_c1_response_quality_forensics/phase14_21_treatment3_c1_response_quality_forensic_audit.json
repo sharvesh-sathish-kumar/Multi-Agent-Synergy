@@ -1,0 +1,2205 @@
+{
+  "phase": "14.21",
+  "title": "Treatment 3 C1 Response-Quality Forensic Audit",
+  "generated_at_utc": "2026-08-25T20:08:17.694206+00:00",
+  "execution_policy": {
+    "api_calls": 0,
+    "model_calls": 0,
+    "read_only": true,
+    "historical_artifacts_modified": false,
+    "phase14_20_artifacts_modified": false,
+    "responses_fabricated": false,
+    "responses_rerun": false
+  },
+  "paths": {
+    "phase14_20_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution",
+    "historical_raw_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+    "output_directory": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_21_treatment3_c1_response_quality_forensics"
+  },
+  "artifact_inventory": {
+    "json_files_discovered": 11,
+    "json_files": [
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20R2_final_state.json",
+        "basename": "phase14_20R2_final_state.json",
+        "sha256": "69237e8c60a23146a2b1946eaf367f82b9e75fd690791251a0ef34ab638af56e"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20R2_forensic_resume_state.json",
+        "basename": "phase14_20R2_forensic_resume_state.json",
+        "sha256": "419a36507f6958ddaf7aa0eb765fe39f1f708e3141abba5fd8933914ea1af8ea"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_checkpoint.json",
+        "basename": "phase14_20_t3_c1_reexecution_checkpoint.json",
+        "sha256": "c9c855fa2af7368337667c6fb277e0cc57d6a8d9fd9634b6ae9d0dcdc6cab7da"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_manifest.json",
+        "basename": "phase14_20_t3_c1_reexecution_manifest.json",
+        "sha256": "c5d833eddddbbb9cdd7925a7ed4454155aea81f32697454323395f270a0cf6a2"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "basename": "phase14_20_t3_c1_reexecution_results.json",
+        "sha256": "92129612ecb532de8e3a4a8097424e4f1dad22d7d5f6ee10ae57b6cf9b000a02"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_55.json",
+        "basename": "phase14_20_t3_c1_trial_55.json",
+        "sha256": "01d5423a3a371f54c67ed4f81fdad12830389721c1e3b8df45c4e72c2f425088"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_56.json",
+        "basename": "phase14_20_t3_c1_trial_56.json",
+        "sha256": "997f96c057aac6aba1b41ea0f27f7c29825350bf82ea8f43f3d9ae8ae5255065"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_57.json",
+        "basename": "phase14_20_t3_c1_trial_57.json",
+        "sha256": "68b4618f3f4a98a5b951d37530275641a22b619e45e572999cc637f7c98348ac"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_58.json",
+        "basename": "phase14_20_t3_c1_trial_58.json",
+        "sha256": "b172852aa301b0f721323487066602de7a8eb4cd14513bb93f09795dd50074fd"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_59.json",
+        "basename": "phase14_20_t3_c1_trial_59.json",
+        "sha256": "7070657a02b46a862ce197e50118800199a51d3d80dfdafd86d987f720c4bf81"
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_60.json",
+        "basename": "phase14_20_t3_c1_trial_60.json",
+        "sha256": "bab9027aebfa38e426c6d3f0a2c3d64389278a00372b081a3721b879363dc9f3"
+      }
+    ]
+  },
+  "historical_prompt_inventory": {
+    "expected": 60,
+    "discovered": 60,
+    "missing_ids": []
+  },
+  "summary": {
+    "phase": "14.21",
+    "generated_at_utc": "2026-08-25T20:08:17.676050+00:00",
+    "api_calls": 0,
+    "model_calls": 0,
+    "read_only": true,
+    "expected_trials": 60,
+    "actual_executed_trials": 60,
+    "nonempty_responses": 36,
+    "empty_responses": 24,
+    "length_truncated": 38,
+    "stored_errors": 0,
+    "usage_metadata_present": 60,
+    "clean_nonempty_stop": 22,
+    "potentially_usable_for_downstream": 22,
+    "classification_counts": {
+      "USABLE_STOP": 22,
+      "EMPTY_TRUNCATED": 24,
+      "NONEMPTY_TRUNCATED": 14
+    },
+    "empty_trial_ids": [
+      16,
+      18,
+      19,
+      21,
+      23,
+      24,
+      27,
+      28,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      44,
+      45,
+      47,
+      48,
+      50,
+      51,
+      55,
+      57,
+      59
+    ],
+    "truncated_trial_ids": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      27,
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53,
+      55,
+      57,
+      58,
+      59,
+      60
+    ],
+    "clean_stop_trial_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      25,
+      26,
+      29,
+      43,
+      52,
+      54,
+      56
+    ],
+    "potentially_usable_trial_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      25,
+      26,
+      29,
+      43,
+      52,
+      54,
+      56
+    ],
+    "historical_prompt_count": 60,
+    "checkpoint_reported_completed": 60,
+    "duplicate_trial_ids": []
+  },
+  "trial_records": {
+    "1": {
+      "authoritative_record": {
+        "trial_id": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → blue  \n- Ben → yellow  \n- Cara → red  \n- Dan → green",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 247,
+          "total_tokens": 458
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 1,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 581
+      }
+    },
+    "2": {
+      "authoritative_record": {
+        "trial_id": 2,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "- Alex → blue  \n- Ben → green  \n- Cara → red  \n- Dan → yellow",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 260,
+          "total_tokens": 471
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 2,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 61,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "3": {
+      "authoritative_record": {
+        "trial_id": 3,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → green  \n- Ben → yellow  \n- Cara → red  \n- Dan → blue",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 319,
+          "total_tokens": 530
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 3,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 576
+      }
+    },
+    "4": {
+      "authoritative_record": {
+        "trial_id": 4,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → blue  \n- Ben → red  \n- Cara → green  \n- Dan → yellow  \n\nAll clues are satisfied and each item is used exactly once.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 296,
+          "total_tokens": 507
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 4,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 140,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 575
+      }
+    },
+    "5": {
+      "authoritative_record": {
+        "trial_id": 5,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → green  \n- Ben → blue  \n- Cara → red  \n- Dan → yellow",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 245,
+          "total_tokens": 456
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 5,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 579
+      }
+    },
+    "6": {
+      "authoritative_record": {
+        "trial_id": 6,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex – yellow  \n- Ben – green  \n- Cara – red  \n- Dan – blue",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 251,
+          "total_tokens": 462
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 6,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 577
+      }
+    },
+    "7": {
+      "authoritative_record": {
+        "trial_id": 7,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → yellow  \n- Ben → red  \n- Cara → blue  \n- Dan → green  ",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 307,
+          "total_tokens": 518
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 7,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 79,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "8": {
+      "authoritative_record": {
+        "trial_id": 8,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "- Alex → red  \n- Ben → green  \n- Cara → yellow  \n- Dan → blue",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 258,
+          "total_tokens": 469
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 8,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 61,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "9": {
+      "authoritative_record": {
+        "trial_id": 9,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → yellow  \n- Ben → blue  \n- Cara → red  \n- Dan → green",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 280,
+          "total_tokens": 491
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 9,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 577
+      }
+    },
+    "10": {
+      "authoritative_record": {
+        "trial_id": 10,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "Alex – yellow  \nBen – blue  \nCara – red  \nDan – green",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 330,
+          "total_tokens": 541
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 10,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 53,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 581
+      }
+    },
+    "11": {
+      "authoritative_record": {
+        "trial_id": 11,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → red  \n- Ben → yellow  \n- Cara → green  \n- Dan → blue",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 278,
+          "total_tokens": 489
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 11,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 578
+      }
+    },
+    "12": {
+      "authoritative_record": {
+        "trial_id": 12,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex – green  \n- Ben – red  \n- Cara – blue  \n- Dan – yellow",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 250,
+          "total_tokens": 461
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 12,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 578
+      }
+    },
+    "13": {
+      "authoritative_record": {
+        "trial_id": 13,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "Alex – yellow  \nBen – red  \nCara – blue  \nDan – green",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 258,
+          "total_tokens": 469
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 13,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 53,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 579
+      }
+    },
+    "14": {
+      "authoritative_record": {
+        "trial_id": 14,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex → green  \n- Ben → blue  \n- Cara → red  \n- Dan → yellow",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 201,
+          "total_tokens": 412
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 14,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 77,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "15": {
+      "authoritative_record": {
+        "trial_id": 15,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignments**\n\n- Alex → green  \n- Ben → yellow  \n- Cara → red  \n- Dan → blue",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 289,
+          "total_tokens": 500
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 15,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 78,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 582
+      }
+    },
+    "16": {
+      "authoritative_record": {
+        "trial_id": 16,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 16,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 570
+      }
+    },
+    "17": {
+      "authoritative_record": {
+        "trial_id": 17,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Why**\n\n| Entity | Clues that fix an item | Resulting item |\n|--------|-----------------------|----------------|\n| Ben    | “Ben has green” (Agent A) and “Ben does not have blue” (Agent C) | **green** (no conflict) |\n| Dan    | “Dan has yellow” (Agent B) | **yellow** (no conflict) |\n| Cara   | “Cara has blue” (Agent A) **and** “Cara has red” (Agent B) | **conflict** – she cannot be both blue *and* red |\n| Alex   | “Alex has red” (Agent C) and “Alex does not have yellow” (Agent A) | **red** (conflicts with Cara’s red) |\n\nThe clues about **Cara** are contradictory: Agent A states she has *blue*, while Agent B states she has *red* (and also “does not have yellow”, which is consistent with both possibilities).",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 17,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 762,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 571
+      }
+    },
+    "18": {
+      "authoritative_record": {
+        "trial_id": 18,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 18,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 570
+      }
+    },
+    "19": {
+      "authoritative_record": {
+        "trial_id": 19,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 19,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 579
+      }
+    },
+    "20": {
+      "authoritative_record": {
+        "trial_id": 20,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\nThe clues lead to an unavoidable contradiction:\n\n| Entity | Required item(s) from the clues |\n|--------|----------------------------------|\n| Alex   | *has green* (Agent A) and *does not have blue* (Agent C) → Alex = **green** |\n| Cara   | *has yellow* (Agent A) and *does not have blue* (Agent A) → Cara = **yellow**",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 20,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 380,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 579
+      }
+    },
+    "21": {
+      "authoritative_record": {
+        "trial_id": 21,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 21,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 565
+      }
+    },
+    "22": {
+      "authoritative_record": {
+        "trial_id": 22,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\n| Entity | Item (according to clues) | Conflict |\n|--------|---------------------------|----------|\n| Alex   | red (Agent A)             | – |\n| Ben    | blue (Agent A) **and** red (Agent C) | Both cannot be true simultaneously. |\n| Cara   | green (Agent B) – also “not yellow” (Agent B) – consistent | – |\n| Dan    | yellow (Agent C) – also “does not have green” (Agent B) – consistent | – |\n\nBecause the clues state both *“Ben has blue”* **and** *“Ben has red”*, it is impossible to assign a single item to Ben that satisfies",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 22,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 590,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 569
+      }
+    },
+    "23": {
+      "authoritative_record": {
+        "trial_id": 23,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 23,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 579
+      }
+    },
+    "24": {
+      "authoritative_record": {
+        "trial_id": 24,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 24,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 579
+      }
+    },
+    "25": {
+      "authoritative_record": {
+        "trial_id": 25,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**No consistent assignment exists.**  \n\nThe clues together create a contradiction:\n\n- Agent A says **Dan has yellow**.  \n- Agent C says **Dan has green**.  \n- Agent B says **Dan does not have green**.\n\nBecause Dan cannot simultaneously have both yellow and green, and cannot both have and not have green, there is no way to assign the four items to the four entities while satisfying every supplied clue.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 379,
+          "total_tokens": 590
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 25,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 404,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 582
+      }
+    },
+    "26": {
+      "authoritative_record": {
+        "trial_id": 26,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment (using Agent A clues only):**\n\n- Alex → red  \n- Ben → green  \n- Cara → yellow  \n- Dan → blue",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 281,
+          "total_tokens": 492
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 26,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 105,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 583
+      }
+    },
+    "27": {
+      "authoritative_record": {
+        "trial_id": 27,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 27,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 570
+      }
+    },
+    "28": {
+      "authoritative_record": {
+        "trial_id": 28,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 28,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 569
+      }
+    },
+    "29": {
+      "authoritative_record": {
+        "trial_id": 29,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\nThe clues contain direct contradictions:\n\n- **Agent A** states that *Cara has yellow*.\n- **Agent B** states that *Cara has green*.\n\nSince each entity can have only one item, Cara cannot simultaneously have both yellow and green. Therefore the set of clues cannot all be satisfied at once, and there is no possible way to assign a unique item to each entity that obeys every supplied clue.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 438,
+          "total_tokens": 647
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 29,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 449,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 569
+      }
+    },
+    "30": {
+      "authoritative_record": {
+        "trial_id": 30,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\nThe clues together are contradictory:\n\n* Agent A says **Cara has green**.  \n* Agent B says **Cara does not have green** **and** **Cara has yellow**.\n\nSince each entity can receive only one item, Cara cannot simultaneously have green and yellow, and she",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 30,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 315,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 571
+      }
+    },
+    "31": {
+      "authoritative_record": {
+        "trial_id": 31,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "The supplied clues cannot all be satisfied at the same time.\n\n- Agent A says **Dan has green** and **Alex has blue**.  \n- Agent B says **Ben has yellow**, **Cara has red**, and **Alex does not have yellow**.  \n- Agent C says **Cara has green** and **Ben does not have yellow**.\n\nThese statements conflict in three ways:\n\n1. **Dan** and **Cara** cannot both have **green** (Agent A",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 31,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 380,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 572
+      }
+    },
+    "32": {
+      "authoritative_record": {
+        "trial_id": 32,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No assignment of the four items (red, blue, green, yellow) to the four entities (Alex, Ben, Cara, Dan) can satisfy all of the supplied clues simultaneously.\n\n**Reasoning**\n\n| Entity | Clues from Agent A | Clues from",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 32,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 227,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "33": {
+      "authoritative_record": {
+        "trial_id": 33,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "The clues cannot all be satisfied simultaneously.  \n\n- Agent A says **Dan has yellow**.  \n- Agent B says **Alex has yellow**.  \n\nSince each item can be assigned to only one entity, both statements cannot be true at the same time. All other clues are mutually consistent, but the contradictory statements about the yellow item make a complete, conflict‑free assignment impossible.  \n\n**Result:** No consistent assignment of items to the four entities exists given",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 33,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 462,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "34": {
+      "authoritative_record": {
+        "trial_id": 34,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No assignment can satisfy all of the supplied clues simultaneously.\n\n**Reasoning**\n\n| Entity | Clues from Agent A | Clues from Agent B | Clues from Agent C |\n|--------|-------------------|--------------------|--------------------|\n| Alex   | Alex has blue     | –                  | –                  |\n| Ben    | Ben has red       | –                  | Ben does not have red |\n| Cara   | –                 | Cara has green; Cara does ",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 34,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 449,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 567
+      }
+    },
+    "35": {
+      "authoritative_record": {
+        "trial_id": 35,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 500,
+          "total_tokens": 713
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 35,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 592
+      }
+    },
+    "36": {
+      "authoritative_record": {
+        "trial_id": 36,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 36,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 583
+      }
+    },
+    "37": {
+      "authoritative_record": {
+        "trial_id": 37,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 37,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 577
+      }
+    },
+    "38": {
+      "authoritative_record": {
+        "trial_id": 38,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\n- From Agent A we get  \n  - Cara = blue  \n  - Dan = red  \n\n- From Agent B we get two mutually exclusive statements:  \n  - Ben = green  \n  - Alex = green  \n\n  Since each color can belong to only one entity, Alex and Ben cannot both have",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 38,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 298,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 571
+      }
+    },
+    "39": {
+      "authoritative_record": {
+        "trial_id": 39,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 39,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 569
+      }
+    },
+    "40": {
+      "authoritative_record": {
+        "trial_id": 40,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 40,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "41": {
+      "authoritative_record": {
+        "trial_id": 41,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 41,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 580
+      }
+    },
+    "42": {
+      "authoritative_record": {
+        "trial_id": 42,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 42,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 577
+      }
+    },
+    "43": {
+      "authoritative_record": {
+        "trial_id": 43,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "The clues given for the four entities are mutually contradictory – they cannot all be satisfied at the same time.  \n\n- Agent A says **Cara has blue**, while Agent C says **Cara does not have blue**.  \n- Agent A also says **Cara does not have green**, which is consistent with the other statements, but the direct conflict over “blue” makes it impossible to assign a single item to Cara that fulfills both agents’ clues.  \n\nBecause this single contradiction prevents any complete assignment that satisfies **all** of the supplied clues, there is **no consistent solution** under the given conditions.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 305,
+          "total_tokens": 518
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 43,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 599,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 589
+      }
+    },
+    "44": {
+      "authoritative_record": {
+        "trial_id": 44,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 500,
+          "total_tokens": 711
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 44,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 577
+      }
+    },
+    "45": {
+      "authoritative_record": {
+        "trial_id": 45,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 45,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 571
+      }
+    },
+    "46": {
+      "authoritative_record": {
+        "trial_id": 46,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "After examining all of the supplied clues, the three agents give mutually contradictory information:\n\n- Agent A says **Alex = red**, **Ben = yellow**, **Cara = blue**.  \n- Agent C says **Alex = yellow**, **Ben = green**, **Cara ≠ yellow**.  \n\nBecause Alex cannot be both red and yellow, and Ben cannot be both yellow and green,",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 214,
+          "completion_tokens": 500,
+          "total_tokens": 714
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 46,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 327,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 588
+      }
+    },
+    "47": {
+      "authoritative_record": {
+        "trial_id": 47,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 47,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 567
+      }
+    },
+    "48": {
+      "authoritative_record": {
+        "trial_id": 48,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 48,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 572
+      }
+    },
+    "49": {
+      "authoritative_record": {
+        "trial_id": 49,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Assignment**\n\n- Alex — yellow  \n- Ben — green  \n- Cara — blue  \n- Dan — red  \n\nThis satisfies all of Agent A’s negative clues, all of Agent B’s positive clues, and avoids the contradictions introduced by Agent C’s clues.",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 214,
+          "completion_tokens": 500,
+          "total_tokens": 714
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 49,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 222,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 590
+      }
+    },
+    "50": {
+      "authoritative_record": {
+        "trial_id": 50,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 50,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 571
+      }
+    },
+    "51": {
+      "authoritative_record": {
+        "trial_id": 51,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 500,
+          "total_tokens": 709
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 51,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 570
+      }
+    },
+    "52": {
+      "authoritative_record": {
+        "trial_id": 52,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "The clues cannot all be satisfied simultaneously.  \nAgent C asserts that Alex has both **yellow** and **green**, but each entity can receive only one item. Because this direct contradiction makes it impossible to assign a single item to every entity while respecting every clue, there is **no consistent assignment** that satisfies all the supplied clues.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 216,
+          "completion_tokens": 467,
+          "total_tokens": 683
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 52,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 355,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 599
+      }
+    },
+    "53": {
+      "authoritative_record": {
+        "trial_id": 53,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "**Result:** No assignment of the four items to the four entities can satisfy all of the supplied clues simultaneously.\n\n**Reasoning**\n\n| Entity | From Agent A | From Agent B | From Agent C |\n|--------|--------------|--------------|--------------|\n| Alex   | ≠ yellow    | yellow       | red          |\n| Ben    | blue         | blue         | —            |\n| Cara  ",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 207,
+          "completion_tokens": 500,
+          "total_tokens": 707
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 53,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 366,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 560
+      }
+    },
+    "54": {
+      "authoritative_record": {
+        "trial_id": 54,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response": "After examining the eight supplied clues we find that they cannot all be satisfied simultaneously:\n\n* Agent A says **Alex has green**, while Agent C says **Alex has blue** – Alex cannot have both colours.\n* The other clues are mutually consistent, but the conflict over Alex makes it impossible to assign a single colour to each entity that satisfies every clue.\n\nTherefore **no assignment of the items (red, blue, green, yellow) to the entities (Alex, Ben, Cara, Dan) can satisfy all of the given clues**.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 413,
+          "total_tokens": 622
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 54,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 506,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_reexecution_results.json",
+        "source_basename": "phase14_20_t3_c1_reexecution_results.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 568
+      }
+    },
+    "55": {
+      "authoritative_record": {
+        "trial_id": 55,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_55.json",
+        "source_basename": "phase14_20_t3_c1_trial_55.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 500,
+          "total_tokens": 718
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 55,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_55.json",
+        "source_basename": "phase14_20_t3_c1_trial_55.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 607
+      }
+    },
+    "56": {
+      "authoritative_record": {
+        "trial_id": 56,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_56.json",
+        "source_basename": "phase14_20_t3_c1_trial_56.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Explanation**\n\nThe clues contain direct contradictions:\n\n* Agent A states that **Cara has green**.  \n* Agent B states that **Cara has blue**.  \n\nBoth cannot be true simultaneously, so the set of clues is internally inconsistent.  \n\nBecause at least one of the given clues must be false, there is no way to assign each of the four items (red, blue, green, yellow) uniquely to the four entities (Alex, Ben, Cara, Dan) while satisfying **all** of the supplied clues. Therefore a valid assignment cannot be produced.",
+        "response_field": "response",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 342,
+          "total_tokens": 553
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 56,
+        "classification": "USABLE_STOP",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 560,
+        "finish_reason": "stop",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_56.json",
+        "source_basename": "phase14_20_t3_c1_trial_56.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 582
+      }
+    },
+    "57": {
+      "authoritative_record": {
+        "trial_id": 57,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_57.json",
+        "source_basename": "phase14_20_t3_c1_trial_57.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 207,
+          "completion_tokens": 500,
+          "total_tokens": 707
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 57,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_57.json",
+        "source_basename": "phase14_20_t3_c1_trial_57.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 556
+      }
+    },
+    "58": {
+      "authoritative_record": {
+        "trial_id": 58,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_58.json",
+        "source_basename": "phase14_20_t3_c1_trial_58.json",
+        "response": "After examining all the supplied clues we find contradictions:\n\n* Agent B says Alex has **red**, while Agent C says Alex has **yellow**.  \n* Agent A says Ben does **not** have blue, but Agent C says Ben **does** have blue.  \n* Agent B says Cara has **yellow**, while Agent C says Cara has **green**.\n\nBecause the same entity is assigned two different items by different agents, there is no way to assign the four items to Alex, Ben, Cara, and Dan that satisfies **all** of",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 214,
+          "completion_tokens": 500,
+          "total_tokens": 714
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 58,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 472,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_58.json",
+        "source_basename": "phase14_20_t3_c1_trial_58.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 589
+      }
+    },
+    "59": {
+      "authoritative_record": {
+        "trial_id": 59,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_59.json",
+        "source_basename": "phase14_20_t3_c1_trial_59.json",
+        "response": "",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 207,
+          "completion_tokens": 500,
+          "total_tokens": 707
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 59,
+        "classification": "EMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": false,
+        "response_length_characters": 0,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_59.json",
+        "source_basename": "phase14_20_t3_c1_trial_59.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 559
+      }
+    },
+    "60": {
+      "authoritative_record": {
+        "trial_id": 60,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_60.json",
+        "source_basename": "phase14_20_t3_c1_trial_60.json",
+        "response": "**Result:** No consistent assignment exists.\n\n**Reasoning**\n\n| Entity | Clue from Agent A | Clue from Agent B | Clue from Agent C |\n|--------|-------------------|-------------------|-------------------|\n| Alex   | has **yellow**   | –                 | has **blue**      |\n",
+        "response_field": "response",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 207,
+          "completion_tokens": 500,
+          "total_tokens": 707
+        },
+        "error": null,
+        "source_count": 1
+      },
+      "classification": {
+        "trial_id": 60,
+        "classification": "NONEMPTY_TRUNCATED",
+        "response_exists": true,
+        "response_nonempty": true,
+        "response_length_characters": 273,
+        "finish_reason": "length",
+        "stored_error_present": false,
+        "usage_present": true,
+        "source_count": 1,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_20_treatment3_c1_reexecution/phase14_20_t3_c1_trial_60.json",
+        "source_basename": "phase14_20_t3_c1_trial_60.json",
+        "response_field": "response",
+        "historical_prompt_present": true,
+        "historical_prompt_length": 562
+      }
+    }
+  },
+  "multi_artifact_trials": {}
+}

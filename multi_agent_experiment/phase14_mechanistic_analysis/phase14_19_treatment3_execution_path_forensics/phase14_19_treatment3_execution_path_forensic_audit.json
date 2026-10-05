@@ -1,0 +1,3247 @@
+{
+  "phase": "14.19",
+  "title": "Treatment 3 Execution-Path Forensic Audit",
+  "safety": {
+    "api_calls": 0,
+    "model_calls": 0,
+    "read_only": true,
+    "raw_results_modified": false,
+    "frozen_dataset_modified": false,
+    "checkpoint_modified": false
+  },
+  "source_artifacts": {
+    "raw_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+    "checkpoint": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json",
+    "phase14_18_forensic": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json"
+  },
+  "record_counts": {
+    "raw_total": 120,
+    "C0": 60,
+    "C1": 60,
+    "paired": 60,
+    "unknown_conditions": 0,
+    "duplicate_records": 0
+  },
+  "response_states": {
+    "C0": {
+      "EMPTY": 7,
+      "NONEMPTY": 53
+    },
+    "C1": {
+      "EMPTY": 57,
+      "NONEMPTY": 3
+    }
+  },
+  "explicit_counts": {
+    "C0_nonempty": 53,
+    "C0_empty_or_missing": 7,
+    "C1_nonempty": 3,
+    "C1_empty_or_missing": 57
+  },
+  "prompt_integrity": {
+    "C0": {
+      "Condition:": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Entities:": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Items:": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Determine which item belongs": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Each entity has exactly one item": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Return one item assignment for every entity": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Use only the supplied clues.": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      }
+    },
+    "C1": {
+      "Condition:": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Entities:": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Items:": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Determine which item belongs": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Each entity has exactly one item": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Return one item assignment for every entity": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      },
+      "Use only the supplied clues.": {
+        "valid": 60,
+        "total": 60,
+        "failures": []
+      }
+    }
+  },
+  "prompt_lengths": {
+    "C0": {
+      "min": 481,
+      "max": 531,
+      "mean": 505.68333333333334
+    },
+    "C1": {
+      "min": 556,
+      "max": 607,
+      "mean": 576.55
+    }
+  },
+  "models": {
+    "C0": {
+      "openai/gpt-oss-120b": 60
+    },
+    "C1": {
+      "openai/gpt-oss-120b": 60
+    }
+  },
+  "timestamps": {
+    "C0": {
+      "first": "2026-08-25T19:19:08Z",
+      "last": "2026-08-25T19:24:49Z",
+      "unique": 60,
+      "count": 60
+    },
+    "C1": {
+      "first": "2026-08-25T19:19:09Z",
+      "last": "2026-08-25T19:24:52Z",
+      "unique": 60,
+      "count": 60
+    }
+  },
+  "paired_execution": [
+    {
+      "problem_id": 1,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:08Z",
+      "C1_timestamp": "2026-08-25T19:19:09Z"
+    },
+    {
+      "problem_id": 2,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:09Z",
+      "C1_timestamp": "2026-08-25T19:19:10Z"
+    },
+    {
+      "problem_id": 3,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 44,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:11Z",
+      "C1_timestamp": "2026-08-25T19:19:12Z"
+    },
+    {
+      "problem_id": 4,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:13Z",
+      "C1_timestamp": "2026-08-25T19:19:13Z"
+    },
+    {
+      "problem_id": 5,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:14Z",
+      "C1_timestamp": "2026-08-25T19:19:15Z"
+    },
+    {
+      "problem_id": 6,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:16Z",
+      "C1_timestamp": "2026-08-25T19:19:16Z"
+    },
+    {
+      "problem_id": 7,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 37,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:17Z",
+      "C1_timestamp": "2026-08-25T19:19:18Z"
+    },
+    {
+      "problem_id": 8,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:19Z",
+      "C1_timestamp": "2026-08-25T19:19:19Z"
+    },
+    {
+      "problem_id": 9,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:20Z",
+      "C1_timestamp": "2026-08-25T19:19:21Z"
+    },
+    {
+      "problem_id": 10,
+      "C0_state": "NONEMPTY",
+      "C1_state": "NONEMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 18,
+      "C0_timestamp": "2026-08-25T19:19:23Z",
+      "C1_timestamp": "2026-08-25T19:19:27Z"
+    },
+    {
+      "problem_id": 11,
+      "C0_state": "NONEMPTY",
+      "C1_state": "NONEMPTY",
+      "C0_response_length": 37,
+      "C1_response_length": 57,
+      "C0_timestamp": "2026-08-25T19:19:30Z",
+      "C1_timestamp": "2026-08-25T19:19:34Z"
+    },
+    {
+      "problem_id": 12,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 61,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:37Z",
+      "C1_timestamp": "2026-08-25T19:19:40Z"
+    },
+    {
+      "problem_id": 13,
+      "C0_state": "NONEMPTY",
+      "C1_state": "NONEMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 50,
+      "C0_timestamp": "2026-08-25T19:19:44Z",
+      "C1_timestamp": "2026-08-25T19:19:47Z"
+    },
+    {
+      "problem_id": 14,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:50Z",
+      "C1_timestamp": "2026-08-25T19:19:53Z"
+    },
+    {
+      "problem_id": 15,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:19:57Z",
+      "C1_timestamp": "2026-08-25T19:20:00Z"
+    },
+    {
+      "problem_id": 16,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:04Z",
+      "C1_timestamp": "2026-08-25T19:20:06Z"
+    },
+    {
+      "problem_id": 17,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 46,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:10Z",
+      "C1_timestamp": "2026-08-25T19:20:13Z"
+    },
+    {
+      "problem_id": 18,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:17Z",
+      "C1_timestamp": "2026-08-25T19:20:20Z"
+    },
+    {
+      "problem_id": 19,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 1,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:22Z",
+      "C1_timestamp": "2026-08-25T19:20:26Z"
+    },
+    {
+      "problem_id": 20,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:29Z",
+      "C1_timestamp": "2026-08-25T19:20:33Z"
+    },
+    {
+      "problem_id": 21,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:35Z",
+      "C1_timestamp": "2026-08-25T19:20:39Z"
+    },
+    {
+      "problem_id": 22,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:42Z",
+      "C1_timestamp": "2026-08-25T19:20:46Z"
+    },
+    {
+      "problem_id": 23,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:49Z",
+      "C1_timestamp": "2026-08-25T19:20:52Z"
+    },
+    {
+      "problem_id": 24,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:20:55Z",
+      "C1_timestamp": "2026-08-25T19:20:58Z"
+    },
+    {
+      "problem_id": 25,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:01Z",
+      "C1_timestamp": "2026-08-25T19:21:05Z"
+    },
+    {
+      "problem_id": 26,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 15,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:08Z",
+      "C1_timestamp": "2026-08-25T19:21:12Z"
+    },
+    {
+      "problem_id": 27,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:14Z",
+      "C1_timestamp": "2026-08-25T19:21:18Z"
+    },
+    {
+      "problem_id": 28,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:21Z",
+      "C1_timestamp": "2026-08-25T19:21:25Z"
+    },
+    {
+      "problem_id": 29,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:28Z",
+      "C1_timestamp": "2026-08-25T19:21:31Z"
+    },
+    {
+      "problem_id": 30,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:35Z",
+      "C1_timestamp": "2026-08-25T19:21:37Z"
+    },
+    {
+      "problem_id": 31,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:40Z",
+      "C1_timestamp": "2026-08-25T19:21:44Z"
+    },
+    {
+      "problem_id": 32,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:47Z",
+      "C1_timestamp": "2026-08-25T19:21:50Z"
+    },
+    {
+      "problem_id": 33,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:21:53Z",
+      "C1_timestamp": "2026-08-25T19:21:56Z"
+    },
+    {
+      "problem_id": 34,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 16,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:00Z",
+      "C1_timestamp": "2026-08-25T19:22:03Z"
+    },
+    {
+      "problem_id": 35,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 52,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:07Z",
+      "C1_timestamp": "2026-08-25T19:22:10Z"
+    },
+    {
+      "problem_id": 36,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:13Z",
+      "C1_timestamp": "2026-08-25T19:22:16Z"
+    },
+    {
+      "problem_id": 37,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:19Z",
+      "C1_timestamp": "2026-08-25T19:22:23Z"
+    },
+    {
+      "problem_id": 38,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:25Z",
+      "C1_timestamp": "2026-08-25T19:22:28Z"
+    },
+    {
+      "problem_id": 39,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:32Z",
+      "C1_timestamp": "2026-08-25T19:22:35Z"
+    },
+    {
+      "problem_id": 40,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:39Z",
+      "C1_timestamp": "2026-08-25T19:22:42Z"
+    },
+    {
+      "problem_id": 41,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 53,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:46Z",
+      "C1_timestamp": "2026-08-25T19:22:49Z"
+    },
+    {
+      "problem_id": 42,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 15,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:52Z",
+      "C1_timestamp": "2026-08-25T19:22:55Z"
+    },
+    {
+      "problem_id": 43,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 32,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:22:58Z",
+      "C1_timestamp": "2026-08-25T19:23:02Z"
+    },
+    {
+      "problem_id": 44,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:05Z",
+      "C1_timestamp": "2026-08-25T19:23:09Z"
+    },
+    {
+      "problem_id": 45,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:11Z",
+      "C1_timestamp": "2026-08-25T19:23:14Z"
+    },
+    {
+      "problem_id": 46,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:18Z",
+      "C1_timestamp": "2026-08-25T19:23:21Z"
+    },
+    {
+      "problem_id": 47,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:24Z",
+      "C1_timestamp": "2026-08-25T19:23:27Z"
+    },
+    {
+      "problem_id": 48,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 48,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:30Z",
+      "C1_timestamp": "2026-08-25T19:23:34Z"
+    },
+    {
+      "problem_id": 49,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 77,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:37Z",
+      "C1_timestamp": "2026-08-25T19:23:41Z"
+    },
+    {
+      "problem_id": 50,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:43Z",
+      "C1_timestamp": "2026-08-25T19:23:47Z"
+    },
+    {
+      "problem_id": 51,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:50Z",
+      "C1_timestamp": "2026-08-25T19:23:54Z"
+    },
+    {
+      "problem_id": 52,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 30,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:23:57Z",
+      "C1_timestamp": "2026-08-25T19:24:01Z"
+    },
+    {
+      "problem_id": 53,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:03Z",
+      "C1_timestamp": "2026-08-25T19:24:06Z"
+    },
+    {
+      "problem_id": 54,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:10Z",
+      "C1_timestamp": "2026-08-25T19:24:13Z"
+    },
+    {
+      "problem_id": 55,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 49,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:17Z",
+      "C1_timestamp": "2026-08-25T19:24:19Z"
+    },
+    {
+      "problem_id": 56,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 29,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:24Z",
+      "C1_timestamp": "2026-08-25T19:24:26Z"
+    },
+    {
+      "problem_id": 57,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:29Z",
+      "C1_timestamp": "2026-08-25T19:24:33Z"
+    },
+    {
+      "problem_id": 58,
+      "C0_state": "EMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 0,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:36Z",
+      "C1_timestamp": "2026-08-25T19:24:40Z"
+    },
+    {
+      "problem_id": 59,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:42Z",
+      "C1_timestamp": "2026-08-25T19:24:45Z"
+    },
+    {
+      "problem_id": 60,
+      "C0_state": "NONEMPTY",
+      "C1_state": "EMPTY",
+      "C0_response_length": 57,
+      "C1_response_length": 0,
+      "C0_timestamp": "2026-08-25T19:24:49Z",
+      "C1_timestamp": "2026-08-25T19:24:52Z"
+    }
+  ],
+  "C1_nonempty_records": [
+    {
+      "problem_id": 10,
+      "response": "- Alex: yellow  \n-",
+      "response_length": 18
+    },
+    {
+      "problem_id": 11,
+      "response": "- Alex: red  \n- Ben: yellow  \n- Cara: green  \n- Dan: blue",
+      "response_length": 57
+    },
+    {
+      "problem_id": 13,
+      "response": "- Alex: yellow  \n- Ben: red  \n- Cara: blue  \n- Dan",
+      "response_length": 50
+    }
+  ],
+  "C1_truncated_candidates": [
+    {
+      "problem_id": 10,
+      "response": "- Alex: yellow  \n-",
+      "entity_count": 1,
+      "response_length": 18
+    }
+  ],
+  "field_inventory": {
+    "C0": {
+      "error_present": 0,
+      "usage_present": 0,
+      "finish_reason_present": 0
+    },
+    "C1": {
+      "error_present": 0,
+      "usage_present": 0,
+      "finish_reason_present": 0
+    }
+  },
+  "checkpoint_signals": {
+    "contains_C0": true,
+    "contains_C1": true,
+    "contains_response": false,
+    "contains_error": false,
+    "contains_exception": false,
+    "contains_finish_reason": false,
+    "contains_usage": false
+  },
+  "checkpoint_structure": {
+    "created_by": "str",
+    "completed": {
+      "1:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "1:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "2:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "2:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "3:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "3:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "4:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "4:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "5:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "5:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "6:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "6:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "7:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "7:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "8:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "8:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "9:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "9:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "10:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "10:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "11:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "11:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "12:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "12:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "13:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "13:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "14:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "14:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "15:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "15:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "16:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "16:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "17:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "17:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "18:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "18:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "19:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "19:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "20:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "20:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "21:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "21:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "22:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "22:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "23:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "23:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "24:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "24:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "25:C0": {
+        "problem_id": "int",
+        "condition": "str"
+      },
+      "25:C1": {
+        "problem_id": "int",
+        "condition": "str"
+      }
+    }
+  },
+  "candidate_execution_files": [
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_6_treatment3_provenance_safe_pipeline/phase14_6_treatment3_provenance_safe_pipeline_report.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_pre_execution_validation.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle_report.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_8_treatment3_execution_preflight/phase14_8_treatment3_execution_preflight_report.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9A_treatment3_execution_binding_audit/phase14_9A_treatment3_execution_binding_audit_report.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9B_treatment3_binding_gap_diagnostic/phase14_9B_treatment3_binding_gap_diagnostic_report.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_schema_audit.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json"
+  ],
+  "execution_code_matches": [
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json",
+      "line": 94,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"post_run_checkpoints\": ["
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_provenance_contract.json",
+      "line": 109,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"pre_run_checkpoints\": ["
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json",
+      "line": 32,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"post_run_checkpoints\": ["
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_5_treatment3_design_gate/phase14_5_treatment3_design_gate_report.json",
+      "line": 49,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"pre_run_checkpoints\": ["
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 19,
+      "matches": [
+        "except"
+      ],
+      "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 20,
+      "matches": [
+        "except"
+      ],
+      "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 32,
+      "matches": [
+        "except"
+      ],
+      "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 33,
+      "matches": [
+        "except"
+      ],
+      "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 45,
+      "matches": [
+        "except"
+      ],
+      "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 46,
+      "matches": [
+        "except"
+      ],
+      "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 58,
+      "matches": [
+        "except"
+      ],
+      "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 59,
+      "matches": [
+        "except"
+      ],
+      "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 71,
+      "matches": [
+        "except"
+      ],
+      "text": "\"ungated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ALL supplied clues, including clues from unreliable agents.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_treatment3_execution_input/phase14_10_treatment3_execution_input.json",
+      "line": 72,
+      "matches": [
+        "except"
+      ],
+      "text": "\"reliability_gated_prompt\": \"You are solving a deterministic constraint problem.\\n\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\n\\nProblem:\\n\\n\\nAvailable clues:\\n\\n\\nDetermine the color assigned to each of:\\nAlex, Ben, Cara, Dan.\\n\\nYou MUST return exactly ONE JSON object.\\n\\nYour response MUST contain NOTHING except this JSON object.\\n\\nRequired schema:\\n\\n{\\n  \\\"prediction\\\": [\\n    \\\"color for Alex\\\",\\n    \\\"color for Ben\\\",\\n    \\\"color for Cara\\\",\\n    \\\"color for Dan\\\"\\n  ]\\n}\\n\\nThe prediction array MUST contain exactly four values.\\n\\nAllowed values are exactly:\\n\\\"red\\\"\\n\\\"green\\\"\\n\\\"blue\\\"\\n\\\"yellow\\\"\\n\\nEach allowed value MUST appear exactly once.\\n\\nDo NOT include:\\n- explanations\\n- reasoning\\n- markdown\\n- code fences\\n- duplicate colors\\n- extra keys\\n- extra text\\n\\nExample structure only:\\n\\n{\\\"prediction\\\":[\\\"red\\\",\\\"green\\\",\\\"blue\\\",\\\"yellow\\\"]}\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+      "line": 65,
+      "matches": [
+        "temperature"
+      ],
+      "text": "\"same temperature policy\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+      "line": 8,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"source_checkpoint\": \"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 11,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"checkpoint_modified\": false"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 16,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"checkpoint\": \"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 47,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": 0,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 55,
+      "matches": [
+        "except"
+      ],
+      "text": "\"exception\": 0,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 73,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 89,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 105,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 121,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 137,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 153,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 169,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 185,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 201,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 217,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 233,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 249,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 265,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 281,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 297,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 313,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 329,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 345,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 361,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 377,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 393,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 409,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 425,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 441,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 457,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 473,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 489,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 505,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 521,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 537,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 553,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 569,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 585,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 601,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 617,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 633,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 649,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 665,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 681,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 697,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 713,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 729,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 745,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 761,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 777,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 793,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 809,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 825,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 841,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 857,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 873,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 889,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 905,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 921,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 937,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 953,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 969,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 985,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1001,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1017,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1033,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1049,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1065,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1081,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1097,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1113,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1129,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1145,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1161,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1177,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1193,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1209,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1225,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1241,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1257,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1273,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1289,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1305,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1321,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1337,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1353,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1369,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1385,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1401,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1417,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1433,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1449,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1465,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1481,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1497,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1513,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1529,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1545,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1561,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1577,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1593,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1609,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1625,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1641,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1657,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1673,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1689,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1705,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1721,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1737,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1753,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1769,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1785,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1801,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1817,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1833,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1849,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1865,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1881,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1897,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1913,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1929,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1945,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1961,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_18_treatment3_execution_forensics/phase14_18_treatment3_execution_forensic_audit.json",
+      "line": 1977,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"finish_reason\": null,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 8,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"checkpoint_modified\": false,"
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 31,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\","
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 230,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"baseline_response\\\": \\\"**FINAL ANSWER:**  \\\\nAlex = green  \\\\nBen = blue  \\\\nCara = yellow  \\\\nDan = red  \\\\n\\\\n**REASON:**  \\\\nAgents\\\\u202fA and\\\\u202fB are treated as reliable (no \\\\u201creliable: False\\\\u201d flag).  \\\\n- Agent\\\\u202fA directly assigns each person a distinct colour: Alex\\\\u202f\\\\u2192\\\\u202fgreen, Ben\\\\u202f\\\\u2192\\\\u202fblue, Cara\\\\u202f\\\\u2192\\\\u202fyellow, Dan\\\\u202f\\\\u2192\\\\u202fred.  \\\\n- All of Agent\\\\u202fB\\\\u2019s statements are compatible with these assignments (none of the four persons is red except Dan, and Dan is not blue).  \\\\n\\\\nSince the assignments satisfy every trusted statement and use each colour exactly once, they constitute the consistent solution. Agent\\\\u202fC is marked unreliable, so its claims are ignored.\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 340,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"post_run_checkpoints\\\": [\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 345,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"pre_run_checkpoints\\\": [\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 350,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"post_run_checkpoints\\\": [\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 355,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"pre_run_checkpoints\\\": [\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 360,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 365,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 370,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 375,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 380,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 385,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 390,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 395,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 400,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"ungated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ALL supplied clues, including clues from unreliable agents.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 405,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"reliability_gated_prompt\\\": \\\"You are solving a deterministic constraint problem.\\\\n\\\\nUse ONLY clues that pass the reliability gate. Ignore quarantined/unreliable information completely.\\\\n\\\\nProblem:\\\\n\\\\n\\\\nAvailable clues:\\\\n\\\\n\\\\nDetermine the color assigned to each of:\\\\nAlex, Ben, Cara, Dan.\\\\n\\\\nYou MUST return exactly ONE JSON object.\\\\n\\\\nYour response MUST contain NOTHING except this JSON object.\\\\n\\\\nRequired schema:\\\\n\\\\n{\\\\n  \\\\\\\"prediction\\\\\\\": [\\\\n    \\\\\\\"color for Alex\\\\\\\",\\\\n    \\\\\\\"color for Ben\\\\\\\",\\\\n    \\\\\\\"color for Cara\\\\\\\",\\\\n    \\\\\\\"color for Dan\\\\\\\"\\\\n  ]\\\\n}\\\\n\\\\nThe prediction array MUST contain exactly four values.\\\\n\\\\nAllowed values are exactly:\\\\n\\\\\\\"red\\\\\\\"\\\\n\\\\\\\"green\\\\\\\"\\\\n\\\\\\\"blue\\\\\\\"\\\\n\\\\\\\"yellow\\\\\\\"\\\\n\\\\nEach allowed value MUST appear exactly once.\\\\n\\\\nDo NOT include:\\\\n- explanations\\\\n- reasoning\\\\n- markdown\\\\n- code fences\\\\n- duplicate colors\\\\n- extra keys\\\\n- extra text\\\\n\\\\nExample structure only:\\\\n\\\\n{\\\\\\\"prediction\\\\\\\":[\\\\\\\"red\\\\\\\",\\\\\\\"green\\\\\\\",\\\\\\\"blue\\\\\\\",\\\\\\\"yellow\\\\\\\"]}\\\"\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 415,
+      "matches": [
+        "temperature"
+      ],
+      "text": "\"text\": \"\\\"same temperature policy\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1060,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"source_checkpoint\\\": \\\"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\\\",\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1665,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"checkpoint_modified\\\": false\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1670,
+      "matches": [
+        "checkpoint"
+      ],
+      "text": "\"text\": \"\\\"checkpoint\\\": \\\"/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_checkpoint.json\\\"\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1705,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": 0,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1710,
+      "matches": [
+        "except"
+      ],
+      "text": "\"text\": \"\\\"exception\\\": 0,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1740,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1760,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1780,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1800,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1820,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1840,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1860,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1880,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1900,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1920,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1940,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1960,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 1980,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2000,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2020,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2040,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2060,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2080,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2100,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2120,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2140,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2160,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2180,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2200,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2220,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2240,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2260,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2280,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2300,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2320,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2340,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2360,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2380,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2400,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2420,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2440,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2460,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2480,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2500,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2520,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2540,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2560,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2580,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2600,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2620,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2640,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2660,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2680,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2700,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2720,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2740,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2760,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2780,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2800,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2820,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2840,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2860,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2880,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2900,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2920,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2940,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2960,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 2980,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3000,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3020,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3040,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3060,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3080,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3100,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3120,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3140,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3160,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3180,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3200,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3220,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3240,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3260,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3280,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3300,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3320,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3340,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3360,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3380,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3400,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3420,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3440,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3460,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3480,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3500,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3520,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3540,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3560,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3580,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3600,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3620,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3640,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3660,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3680,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3700,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3720,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3740,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3760,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3780,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3800,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3820,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3840,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3860,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3880,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3900,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3920,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3940,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3960,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 3980,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4000,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4020,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4040,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4060,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4080,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4100,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    },
+    {
+      "file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_19_treatment3_execution_path_forensics/phase14_19_treatment3_execution_path_forensic_audit.json",
+      "line": 4120,
+      "matches": [
+        "finish_reason"
+      ],
+      "text": "\"text\": \"\\\"finish_reason\\\": null,\""
+    }
+  ],
+  "diagnosis": {
+    "classification": "EXECUTION / RESPONSE-CAPTURE FAILURE",
+    "confidence": "HIGH",
+    "reasons": [
+      "C1 has 57/60 empty or missing responses.",
+      "C0 has only 7/60 empty or missing responses.",
+      "C1 produced only 3/60 nonempty responses.",
+      "No required prompt-fragment failures detected in C1.",
+      "Only 3 C1 responses contain any text.",
+      "1 nonempty C1 response(s) appear structurally truncated.",
+      "No stored C1 error field is present.",
+      "No stored C1 usage metadata is present.",
+      "No stored C1 finish_reason metadata is present."
+    ],
+    "scientific_warning": "EMPTY C1 RESPONSES MUST NOT BE TREATED AS WRONG ANSWERS. They indicate that no usable response was stored in the raw artifact."
+  }
+}

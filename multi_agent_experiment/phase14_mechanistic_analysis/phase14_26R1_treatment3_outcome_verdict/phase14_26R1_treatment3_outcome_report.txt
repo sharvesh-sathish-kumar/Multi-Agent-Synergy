@@ -1,0 +1,87 @@
+
+PHASE 14.26R1 — TREATMENT 3 OUTCOME VERDICT
+============================================================
+
+READ-ONLY
+ZERO API CALLS
+ZERO MODEL CALLS
+
+AUTHORITATIVE FRESH C0
+----------------------
+Directory:
+/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0
+
+Results:
+/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0/phase14_25R2R1_c0_all_results.json
+
+C1
+--
+Directory:
+/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_23_fresh_treatment3_c1
+
+C1 was read as 60 individual trial files:
+phase14_23_c1_trial_1.json ... phase14_23_c1_trial_60.json
+
+EXCLUDED
+--------
+Old C0:
+phase14_24_fresh_treatment3_c0
+
+Failed 14.25R2 C0:
+EXCLUDED
+
+Diagnostic call:
+EXCLUDED
+
+
+RESULTS
+-------
+N = 60
+
+C0 correct:
+0/60
+
+C0 accuracy:
+0.00%
+
+C1 correct:
+0/60
+
+C1 accuracy:
+0.00%
+
+Accuracy delta:
++0.00 percentage points
+
+
+PAIRED OUTCOMES
+---------------
+Both correct   : 0
+C0 only        : 0
+C1 only        : 0
+Both incorrect : 60
+
+Discordant pairs:
+0
+
+Descriptive McNemar statistic:
+0.0000
+
+
+VERDICT
+-------
+NO_CHANGE
+
+Treatment 3 produced the same accuracy as the fresh C0 baseline on the 60 paired problems.
+
+
+IMPORTANT
+---------
+This verdict compares the fresh Treatment 3 C0 baseline against the
+existing Treatment 3 C1 on the same 60 frozen problems.
+
+No historical C0 results were imported.
+No failed C0 results were imported.
+No diagnostic call was imported.
+No model calls were made.
+No C0 or C1 artifact was modified.

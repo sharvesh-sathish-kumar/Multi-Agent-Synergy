@@ -1,0 +1,15 @@
+{
+  "trial_id": 47,
+  "problem_id": 47,
+  "condition": "C1",
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are solving a logic assignment problem.\n\nProblem 47\n\nPeople:\n['Alex', 'Ben', 'Cara', 'Dan']\n\nItems:\n['red', 'blue', 'green', 'yellow']\n\nAgent A's clues:\n- Dan has yellow.\n- Alex has red.\n- Cara has blue.\n\nAgent B's clues:\n- Alex has yellow.\n- Ben has green.\n- Ben does not have red.\n\nAgent C's clues:\n- Dan does not have blue.\n- Cara does not have red.\n\nDetermine the correct assignment.\n\nReturn the final answer clearly and briefly.\n",
+  "response": "**Assignment**\n\n- Alex → yellow  \n- Ben → green  \n- Cara → blue  \n- Dan → red",
+  "finish_reason": "stop",
+  "fresh_execution": true,
+  "resume_execution": true,
+  "attempt": 1
+}

@@ -1,0 +1,238 @@
+{
+  "paired": [
+    {
+      "gated_correct": false,
+      "paired_outcome": "both_incorrect",
+      "problem_id": "1",
+      "ungated_correct": false
+    },
+    {
+      "gated_correct": false,
+      "paired_outcome": "both_incorrect",
+      "problem_id": "2",
+      "ungated_correct": false
+    },
+    {
+      "gated_correct": false,
+      "paired_outcome": "both_incorrect",
+      "problem_id": "3",
+      "ungated_correct": false
+    },
+    {
+      "gated_correct": false,
+      "paired_outcome": "both_incorrect",
+      "problem_id": "4",
+      "ungated_correct": false
+    },
+    {
+      "gated_correct": false,
+      "paired_outcome": "both_incorrect",
+      "problem_id": "5",
+      "ungated_correct": false
+    }
+  ],
+  "phase": "14.4I",
+  "rows": [
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "1",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[0]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "1",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[1]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "2",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[2]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "2",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[3]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "3",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[4]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "3",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[5]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "4",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[6]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "4",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[7]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "ungated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "5",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[8]"
+    },
+    {
+      "authoritative_ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "condition": "reliability_gated",
+      "correct_recomputed": false,
+      "model_prediction": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "prediction_valid": true,
+      "problem_id": "5",
+      "recomputation_method": "independent_exact_mapping_comparison",
+      "source_prediction_path": "root.results[9]"
+    }
+  ],
+  "timestamp_utc": "2026-08-25T05:14:47.361491+00:00"
+}

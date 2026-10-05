@@ -1,0 +1,274 @@
+{
+  "phase": "11.4",
+  "phase_name": "paired_baseline_vs_treatment_analysis",
+  "api_calls": 0,
+  "read_only": true,
+  "baseline_source": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+  "treatment_source": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl",
+  "paired_problem_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "n": 30,
+  "overall": {
+    "baseline_correct": 29,
+    "treatment_correct": 28,
+    "baseline_accuracy": 0.9666666666666667,
+    "treatment_accuracy": 0.9333333333333333,
+    "absolute_improvement": -0.033333333333333326,
+    "relative_improvement": -0.03448275862068965
+  },
+  "transitions": {
+    "correct_to_correct": 27,
+    "correct_to_incorrect": 2,
+    "incorrect_to_correct": 1,
+    "incorrect_to_incorrect": 0,
+    "net_gain": -1
+  },
+  "by_conflict_level": {
+    "low_conflict": {
+      "n": 10,
+      "baseline_correct": 10,
+      "treatment_correct": 10,
+      "baseline_accuracy": 1.0,
+      "treatment_accuracy": 1.0,
+      "improvement": 0.0
+    },
+    "medium_conflict": {
+      "n": 10,
+      "baseline_correct": 10,
+      "treatment_correct": 9,
+      "baseline_accuracy": 1.0,
+      "treatment_accuracy": 0.9,
+      "improvement": -0.09999999999999998
+    },
+    "high_conflict": {
+      "n": 10,
+      "baseline_correct": 9,
+      "treatment_correct": 9,
+      "baseline_accuracy": 0.9,
+      "treatment_accuracy": 0.9,
+      "improvement": 0.0
+    }
+  },
+  "mcnemar": {
+    "b_baseline_correct_treatment_incorrect": 2,
+    "c_baseline_incorrect_treatment_correct": 1,
+    "exact_two_sided_p": 1.0
+  },
+  "error_rescue": {
+    "baseline_errors": 1,
+    "rescued_by_treatment": 1,
+    "rescue_rate": 1.0
+  },
+  "rows": [
+    {
+      "problem_id": 1,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 2,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 3,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 4,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 5,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 6,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 7,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 8,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 9,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 10,
+      "conflict_level": "low_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 11,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 12,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 13,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 14,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 15,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 16,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 17,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 18,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 19,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": false
+    },
+    {
+      "problem_id": 20,
+      "conflict_level": "medium_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 21,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 22,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 23,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 24,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": false
+    },
+    {
+      "problem_id": 25,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 26,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 27,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 28,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 29,
+      "conflict_level": "high_conflict",
+      "baseline_correct": false,
+      "treatment_correct": true
+    },
+    {
+      "problem_id": 30,
+      "conflict_level": "high_conflict",
+      "baseline_correct": true,
+      "treatment_correct": true
+    }
+  ]
+}

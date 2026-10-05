@@ -1,0 +1,19 @@
+{
+  "phase": "14.32R2",
+  "condition": "C1",
+  "trial_id": 59,
+  "problem_id": 59,
+  "provider": "Groq",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "Solve the following logic problem.\n\nNames: ['Alex', 'Ben', 'Cara', 'Dan']\nItems: ['red', 'blue', 'green', 'yellow']\n\nAgent A clues:\n- Cara has blue.\n- Alex does not have blue.\n- Dan has green.\n\nAgent B clues:\n- Alex has blue.\n- Ben has green.\n- Cara has yellow.\n\nAgent C clues:\n- Ben does not have blue.\n- Alex has red.\n\nDetermine the correct answer using the information provided.",
+  "response": "**Solution**\n\nThe only assignment of the four colours to the four people that makes the three agents’ sets of clues internally consistent (each agent gives exactly one correct clue and the other clues are false) is  \n\n| Person | Colour |\n|--------|--------|\n| Alex   | **blue** |\n| Ben    | **yellow** |\n| Cara   | **red** |\n| Dan    | **green** |\n\n**Why this works**\n\n| Agent | Clues (True / False) |\n|-------|----------------------|\n| **A** | – *Cara has blue* – **False** (Cara is red)  <br> – *Alex does not have blue* – **False** (Alex **does** have blue)  <br> – *Dan has green* – **True** |\n| **B** | – *Alex has blue* – **True**  <br> – *Ben has green* – **False** (Ben is yellow)  <br> – *Cara has yellow* – **False** (Cara is red) |\n| **C** | – *Ben does not have blue* – **True** (Ben is yellow)  <br> – *Alex has red* – **False** (Alex is blue) |\n\nEach agent therefore supplies exactly one correct piece of information and two incorrect ones, which is the only way to satisfy all the constraints simultaneously.\n\nHence the correct colour‑person mapping is:\n\n- **Alex – blue**  \n- **Ben – yellow**  \n- **Cara – red**  \n- **Dan – green**.",
+  "response_chars": 1148,
+  "finish_reason": "stop",
+  "fresh_execution": true,
+  "recovery_execution": true,
+  "dataset_sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2",
+  "timestamp_utc": "2026-08-29T05:00:11.061215+00:00",
+  "attempt": 1
+}

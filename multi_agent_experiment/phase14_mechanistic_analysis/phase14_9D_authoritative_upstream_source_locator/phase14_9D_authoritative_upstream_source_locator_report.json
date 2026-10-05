@@ -1,0 +1,200 @@
+{
+  "candidate_source_occurrences": {
+    "candidate_1937a8706bd403e7": [
+      {
+        "candidate_id": "candidate_1937a8706bd403e7",
+        "file_extension": ".json",
+        "file_size_bytes": 4661,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+      },
+      {
+        "candidate_id": "candidate_1937a8706bd403e7",
+        "file_extension": ".json",
+        "file_size_bytes": 3313,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9A_treatment3_execution_binding_audit/phase14_9A_treatment3_execution_binding_audit_report.json"
+      },
+      {
+        "candidate_id": "candidate_1937a8706bd403e7",
+        "file_extension": ".json",
+        "file_size_bytes": 3723,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9B_treatment3_binding_gap_diagnostic/phase14_9B_treatment3_binding_gap_diagnostic_report.json"
+      },
+      {
+        "candidate_id": "candidate_1937a8706bd403e7",
+        "file_extension": ".json",
+        "file_size_bytes": 3850,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9C_upstream_source_binding_locator/phase14_9C_upstream_source_binding_locator_report.json"
+      }
+    ],
+    "candidate_563709a7fbfb43d9": [
+      {
+        "candidate_id": "candidate_563709a7fbfb43d9",
+        "file_extension": ".json",
+        "file_size_bytes": 4661,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+      },
+      {
+        "candidate_id": "candidate_563709a7fbfb43d9",
+        "file_extension": ".json",
+        "file_size_bytes": 3313,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9A_treatment3_execution_binding_audit/phase14_9A_treatment3_execution_binding_audit_report.json"
+      },
+      {
+        "candidate_id": "candidate_563709a7fbfb43d9",
+        "file_extension": ".json",
+        "file_size_bytes": 3723,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9B_treatment3_binding_gap_diagnostic/phase14_9B_treatment3_binding_gap_diagnostic_report.json"
+      },
+      {
+        "candidate_id": "candidate_563709a7fbfb43d9",
+        "file_extension": ".json",
+        "file_size_bytes": 3850,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9C_upstream_source_binding_locator/phase14_9C_upstream_source_binding_locator_report.json"
+      }
+    ],
+    "candidate_5c7d89e5f2dc086e": [
+      {
+        "candidate_id": "candidate_5c7d89e5f2dc086e",
+        "file_extension": ".json",
+        "file_size_bytes": 4661,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+      },
+      {
+        "candidate_id": "candidate_5c7d89e5f2dc086e",
+        "file_extension": ".json",
+        "file_size_bytes": 3313,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9A_treatment3_execution_binding_audit/phase14_9A_treatment3_execution_binding_audit_report.json"
+      },
+      {
+        "candidate_id": "candidate_5c7d89e5f2dc086e",
+        "file_extension": ".json",
+        "file_size_bytes": 3723,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9B_treatment3_binding_gap_diagnostic/phase14_9B_treatment3_binding_gap_diagnostic_report.json"
+      },
+      {
+        "candidate_id": "candidate_5c7d89e5f2dc086e",
+        "file_extension": ".json",
+        "file_size_bytes": 3850,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9C_upstream_source_binding_locator/phase14_9C_upstream_source_binding_locator_report.json"
+      }
+    ],
+    "candidate_662c8a23191d37ea": [
+      {
+        "candidate_id": "candidate_662c8a23191d37ea",
+        "file_extension": ".json",
+        "file_size_bytes": 4661,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+      },
+      {
+        "candidate_id": "candidate_662c8a23191d37ea",
+        "file_extension": ".json",
+        "file_size_bytes": 3313,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9A_treatment3_execution_binding_audit/phase14_9A_treatment3_execution_binding_audit_report.json"
+      },
+      {
+        "candidate_id": "candidate_662c8a23191d37ea",
+        "file_extension": ".json",
+        "file_size_bytes": 3723,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9B_treatment3_binding_gap_diagnostic/phase14_9B_treatment3_binding_gap_diagnostic_report.json"
+      },
+      {
+        "candidate_id": "candidate_662c8a23191d37ea",
+        "file_extension": ".json",
+        "file_size_bytes": 3850,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9C_upstream_source_binding_locator/phase14_9C_upstream_source_binding_locator_report.json"
+      }
+    ],
+    "candidate_fb480b2a4151a078": [
+      {
+        "candidate_id": "candidate_fb480b2a4151a078",
+        "file_extension": ".json",
+        "file_size_bytes": 4661,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+      },
+      {
+        "candidate_id": "candidate_fb480b2a4151a078",
+        "file_extension": ".json",
+        "file_size_bytes": 3313,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9A_treatment3_execution_binding_audit/phase14_9A_treatment3_execution_binding_audit_report.json"
+      },
+      {
+        "candidate_id": "candidate_fb480b2a4151a078",
+        "file_extension": ".json",
+        "file_size_bytes": 3723,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9B_treatment3_binding_gap_diagnostic/phase14_9B_treatment3_binding_gap_diagnostic_report.json"
+      },
+      {
+        "candidate_id": "candidate_fb480b2a4151a078",
+        "file_extension": ".json",
+        "file_size_bytes": 3850,
+        "source_file": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_9C_upstream_source_binding_locator/phase14_9C_upstream_source_binding_locator_report.json"
+      }
+    ]
+  },
+  "canonical_candidates": [
+    "candidate_1937a8706bd403e7",
+    "candidate_662c8a23191d37ea",
+    "candidate_5c7d89e5f2dc086e",
+    "candidate_fb480b2a4151a078",
+    "candidate_563709a7fbfb43d9"
+  ],
+  "conflicts": {},
+  "coverage": {
+    "bound_candidates": [],
+    "bound_count": 0,
+    "total_candidates": 5,
+    "unbound_candidates": [
+      "candidate_1937a8706bd403e7",
+      "candidate_662c8a23191d37ea",
+      "candidate_5c7d89e5f2dc086e",
+      "candidate_fb480b2a4151a078",
+      "candidate_563709a7fbfb43d9"
+    ]
+  },
+  "created_utc": "2026-08-25T06:41:27.063093+00:00",
+  "decision": "NO_LITERAL_UPSTREAM_CANDIDATE_PROBLEM_BINDINGS_LOCATED",
+  "literal_same_record_bindings": [],
+  "methodological_constraints": [
+    "literal source inspection only",
+    "no positional mapping",
+    "no ordering mapping",
+    "no text matching",
+    "no problem-number inference",
+    "no numeric semantics inference",
+    "no manual reconstruction",
+    "no cross-candidate guessing",
+    "no ground-truth interpretation",
+    "no answer recomputation",
+    "no accuracy calculation",
+    "no model execution",
+    "no API calls",
+    "no prior-artifact modification"
+  ],
+  "phase": "14.9D",
+  "prior_artifacts_modified": false,
+  "purpose": "Locate upstream experiment artifacts containing literal candidate/problem identity records without constructing or inferring any mapping.",
+  "safety": {
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "api_calls": false,
+    "cross_candidate_guessing": false,
+    "ground_truth_interpretation": false,
+    "legacy_GT_reconstruction": false,
+    "manual_reconstruction": false,
+    "model_calls": false,
+    "numeric_semantics_inference": false,
+    "ordering_mapping": false,
+    "positional_mapping": false,
+    "prior_artifact_modification": false,
+    "read_only_previous_artifacts": true,
+    "text_matching_mapping": false,
+    "treatment_3_execution": false
+  },
+  "source_inventory": {
+    "artifacts_discovered": 131,
+    "text_like_files_read": 118
+  },
+  "title": "Authoritative Upstream Provenance Source Locator",
+  "treatment_3_executed": false,
+  "treatment_3_execution_allowed": false
+}

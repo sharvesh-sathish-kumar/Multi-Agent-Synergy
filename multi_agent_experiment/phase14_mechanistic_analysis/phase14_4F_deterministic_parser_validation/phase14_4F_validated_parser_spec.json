@@ -1,0 +1,67 @@
+{
+  "phase": "14.4F",
+  "status": "VALIDATED",
+  "api_calls_used": 0,
+  "model_calls_used": 0,
+  "treatment_3_run": false,
+  "dataset_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+  "contract": {
+    "type": "JSON object",
+    "exact_fields": [
+      "Alex",
+      "Ben",
+      "Cara",
+      "Dan"
+    ],
+    "allowed_values": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "each_person_exactly_once": true,
+    "each_color_exactly_once": true,
+    "additional_fields_allowed": false,
+    "prose_allowed": false
+  },
+  "parser_policy": {
+    "strict_json": true,
+    "reject_duplicate_people": true,
+    "reject_duplicate_values": true,
+    "reject_missing_people": true,
+    "reject_unknown_people": true,
+    "reject_unknown_colors": true,
+    "reject_non_string_values": true,
+    "reject_extra_fields": true,
+    "ignore_explanatory_prose": false,
+    "error_precedence": [
+      "empty_response",
+      "invalid_json",
+      "json_array_or_non_object",
+      "unknown_people",
+      "missing_people",
+      "wrong_field_count",
+      "non_string_value",
+      "unknown_color",
+      "duplicate_color",
+      "color_set_mismatch",
+      "valid"
+    ]
+  },
+  "unit_tests": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0
+  },
+  "additional_tests": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0
+  },
+  "legacy_formats": {
+    "tested": 5,
+    "all_rejected": true
+  },
+  "canonical_round_trip": true,
+  "critical_fix": "Unknown people are now detected before missing people. This prevents an unknown-person record from being incorrectly classified as missing_people."
+}

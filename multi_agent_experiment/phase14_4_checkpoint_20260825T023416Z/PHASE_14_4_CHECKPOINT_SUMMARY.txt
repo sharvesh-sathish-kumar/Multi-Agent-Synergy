@@ -1,0 +1,43 @@
+PHASE 14.4 COMPLETE EXPERIMENT CHECKPOINT
+======================================================================
+
+Created UTC: 2026-08-25T02:34:17.598701+00:00
+Checkpoint: /content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z
+
+GUARANTEES
+----------------------------------------------------------------------
+ZERO API CALLS
+ZERO MODEL CALLS
+EXISTING ARTIFACTS NOT MODIFIED
+TREATMENT 3 NOT RUN
+
+PHASE DIRECTORIES
+----------------------------------------------------------------------
+[PRESERVED] phase14_4A_ood_generalization
+[PRESERVED] phase14_4B_ood_model_validation
+[NOT PRESENT] phase14_4C
+[PRESERVED] phase14_4D_controlled_output_contract
+[PRESERVED] phase14_4E_output_contract_forensics
+[PRESERVED] phase14_4F_deterministic_parser_validation
+[PRESERVED] phase14_4G_controlled_ood_model_revalidation
+[PRESERVED] phase14_4H_ground_truth_scoring_audit
+[PRESERVED] phase14_4I_deterministic_direct_answer_recomputation
+
+ARTIFACT STATISTICS
+----------------------------------------------------------------------
+Artifacts indexed: 21
+Copy errors: 0
+Missing phase directories: 1
+
+IMPORTANT CURRENT STATE
+----------------------------------------------------------------------
+Phase 14.4F: PASS
+Phase 14.4G: INCONCLUSIVE
+Phase 14.4H: MODEL_RESULT_POTENTIALLY_INTERPRETABLE
+Phase 14.4I: FAILED DURING AUTHORITATIVE GROUND-TRUTH RECOVERY
+
+NEXT STEP
+----------------------------------------------------------------------
+Do NOT rerun model calls merely because Phase 14.4I failed.
+Resume with deterministic ground-truth recovery/debugging.
+All prior artifacts in this checkpoint are preserved.

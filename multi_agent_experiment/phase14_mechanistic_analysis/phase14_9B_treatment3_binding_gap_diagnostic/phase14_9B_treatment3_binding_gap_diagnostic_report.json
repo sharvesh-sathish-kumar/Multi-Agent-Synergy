@@ -1,0 +1,126 @@
+{
+  "api_execution": false,
+  "candidate_occurrence_audit": {
+    "candidate_1937a8706bd403e7": [
+      {
+        "has_problem_id_same_record": false,
+        "path": "$['candidate_identities'][0]",
+        "record_keys": [
+          "candidate_fingerprint",
+          "candidate_id",
+          "source_artifact",
+          "source_record_hash"
+        ]
+      }
+    ],
+    "candidate_563709a7fbfb43d9": [
+      {
+        "has_problem_id_same_record": false,
+        "path": "$['candidate_identities'][4]",
+        "record_keys": [
+          "candidate_fingerprint",
+          "candidate_id",
+          "source_artifact",
+          "source_record_hash"
+        ]
+      }
+    ],
+    "candidate_5c7d89e5f2dc086e": [
+      {
+        "has_problem_id_same_record": false,
+        "path": "$['candidate_identities'][2]",
+        "record_keys": [
+          "candidate_fingerprint",
+          "candidate_id",
+          "source_artifact",
+          "source_record_hash"
+        ]
+      }
+    ],
+    "candidate_662c8a23191d37ea": [
+      {
+        "has_problem_id_same_record": false,
+        "path": "$['candidate_identities'][1]",
+        "record_keys": [
+          "candidate_fingerprint",
+          "candidate_id",
+          "source_artifact",
+          "source_record_hash"
+        ]
+      }
+    ],
+    "candidate_fb480b2a4151a078": [
+      {
+        "has_problem_id_same_record": false,
+        "path": "$['candidate_identities'][3]",
+        "record_keys": [
+          "candidate_fingerprint",
+          "candidate_id",
+          "source_artifact",
+          "source_record_hash"
+        ]
+      }
+    ]
+  },
+  "canonical_candidate_count": 5,
+  "canonical_candidate_ids": [
+    "candidate_1937a8706bd403e7",
+    "candidate_662c8a23191d37ea",
+    "candidate_5c7d89e5f2dc086e",
+    "candidate_fb480b2a4151a078",
+    "candidate_563709a7fbfb43d9"
+  ],
+  "created_utc": "2026-08-25T06:38:24.350297+00:00",
+  "decision": "SOURCE_BINDING_GAP_IDENTIFIED",
+  "explicit_binding_count": 0,
+  "explicitly_bound_canonical_candidates": [],
+  "identity_surface_counts": {
+    "candidate_id": 5,
+    "evaluation_id": 0,
+    "ground_truth_hash": 0,
+    "ground_truth_id": 0,
+    "model_output_hash": 1,
+    "model_output_id": 0,
+    "problem_id": 0
+  },
+  "interpretation": {
+    "accuracy_calculated": false,
+    "answer_recomputed": false,
+    "ground_truth_interpreted": false,
+    "inference_performed": false,
+    "mapping_performed": false,
+    "reconstruction_performed": false
+  },
+  "literal_same_record_candidate_problem_bindings": [],
+  "missing_explicit_candidate_bindings": [
+    "candidate_1937a8706bd403e7",
+    "candidate_662c8a23191d37ea",
+    "candidate_5c7d89e5f2dc086e",
+    "candidate_fb480b2a4151a078",
+    "candidate_563709a7fbfb43d9"
+  ],
+  "model_execution": false,
+  "phase": "14.9B",
+  "read_only": true,
+  "safety": {
+    "accuracy_calculation": false,
+    "answer_recomputation": false,
+    "api_calls": false,
+    "cross_candidate_guessing": false,
+    "ground_truth_interpretation": false,
+    "legacy_GT_reconstruction": false,
+    "manual_reconstruction": false,
+    "model_calls": false,
+    "numeric_semantics_inference": false,
+    "ordering_mapping": false,
+    "positional_mapping": false,
+    "prior_artifact_modification": false,
+    "read_only_previous_artifacts": true,
+    "text_matching_mapping": false,
+    "treatment_3_execution": false
+  },
+  "source_bundle": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json",
+  "source_bundle_sha256": "75b353a350e5dafaa9542ea74c79fcbf77b65eccc7259ca354d8d67c6094af5c",
+  "title": "Treatment 3 Source-Binding Gap Diagnostic",
+  "treatment_3_executed": false
+}

@@ -1,0 +1,1169 @@
+{
+  "phase": "14.1",
+  "phase_name": "conflict_aware_information_flow_intervention",
+  "timestamp_utc": "2026-08-25T00:30:20.820521+00:00",
+  "read_only": true,
+  "api_calls": 0,
+  "model_calls": 0,
+  "dataset": {
+    "source_runtime_variable": "value",
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "expected_canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "n": 60,
+    "clues": 485
+  },
+  "mechanism_summary": {
+    "reliable_unique": 60,
+    "all_agent_unique": 15,
+    "reliable_contains_ground_truth": 60,
+    "all_agent_contains_ground_truth": 15,
+    "information_loss_cases": 45,
+    "ground_truth_lost_cases": 45
+  },
+  "conflict_summary": {
+    "adversarial": {
+      "n": 15,
+      "reliable_unique": 15,
+      "all_unique": 0,
+      "reliable_ground_truth": 15,
+      "all_ground_truth": 0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_solution_count": 0.0
+    },
+    "high_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "all_unique": 0,
+      "reliable_ground_truth": 15,
+      "all_ground_truth": 0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_solution_count": 0.0
+    },
+    "medium_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "all_unique": 0,
+      "reliable_ground_truth": 15,
+      "all_ground_truth": 0,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_solution_count": 0.0
+    },
+    "low_conflict": {
+      "n": 15,
+      "reliable_unique": 15,
+      "all_unique": 15,
+      "reliable_ground_truth": 15,
+      "all_ground_truth": 15,
+      "mean_reliable_solution_count": 1.0,
+      "mean_all_solution_count": 1.0
+    }
+  },
+  "agent_summary": {
+    "Agent_A": {
+      "unique_solution_rate": 0.26666666666666666,
+      "unique_solution_count": 16,
+      "ground_truth_support_rate": 0.75,
+      "ground_truth_support_count": 45
+    },
+    "Agent_B": {
+      "unique_solution_rate": 0.23333333333333334,
+      "unique_solution_count": 14,
+      "ground_truth_support_rate": 0.75,
+      "ground_truth_support_count": 45
+    },
+    "Agent_C": {
+      "unique_solution_rate": 0.03333333333333333,
+      "unique_solution_count": 2,
+      "ground_truth_support_rate": 0.75,
+      "ground_truth_support_count": 45
+    }
+  },
+  "rows": [
+    {
+      "problem_id": "1",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "2",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "3",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "4",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "5",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "6",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "7",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "8",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "9",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "10",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "11",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "12",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "13",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "14",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "15",
+      "conflict_level": "low_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 1,
+      "reliable_unique": true,
+      "all_unique": true,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": true,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "16",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "17",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "18",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "19",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "20",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "21",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "22",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "23",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "24",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "25",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "26",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "27",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "28",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "29",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "30",
+      "conflict_level": "medium_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "31",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "32",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "33",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "34",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "35",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "36",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "red",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "37",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "38",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "39",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "red",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "40",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "41",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "42",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "43",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "44",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "45",
+      "conflict_level": "high_conflict",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "red",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "46",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 9
+    },
+    {
+      "problem_id": "47",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "48",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "49",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 9
+    },
+    {
+      "problem_id": "50",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "51",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "yellow",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "52",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "green",
+        "Ben": "blue",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 9
+    },
+    {
+      "problem_id": "53",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "54",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "55",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "blue",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 9
+    },
+    {
+      "problem_id": "56",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "yellow",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "57",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "yellow",
+        "Ben": "blue",
+        "Cara": "green",
+        "Dan": "red"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "58",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "green",
+        "Cara": "yellow",
+        "Dan": "blue"
+      },
+      "reliable_clue_count": 6,
+      "all_clue_count": 9
+    },
+    {
+      "problem_id": "59",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "red",
+        "Ben": "yellow",
+        "Cara": "blue",
+        "Dan": "green"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    },
+    {
+      "problem_id": "60",
+      "conflict_level": "adversarial",
+      "reliable_solution_count": 1,
+      "all_solution_count": 0,
+      "reliable_unique": true,
+      "all_unique": false,
+      "reliable_contains_ground_truth": true,
+      "all_contains_ground_truth": false,
+      "ground_truth": {
+        "Alex": "blue",
+        "Ben": "green",
+        "Cara": "red",
+        "Dan": "yellow"
+      },
+      "reliable_clue_count": 5,
+      "all_clue_count": 8
+    }
+  ],
+  "scientific_interpretation": {
+    "reliable_information_sufficient": true,
+    "all_agent_information_can_harm": true,
+    "mechanism": "conflict_induced_information_loss",
+    "intervention_target": "reliability_gated_information_flow"
+  }
+}

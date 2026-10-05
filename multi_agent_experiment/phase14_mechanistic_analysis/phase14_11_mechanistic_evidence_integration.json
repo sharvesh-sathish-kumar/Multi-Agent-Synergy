@@ -1,0 +1,220 @@
+{
+  "phase": "14.11",
+  "purpose": "Consolidate established Phase 14 evidence before Treatment 3",
+  "source_artifacts": {
+    "14.10I_direct_provenance": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10I_direct_historical_provenance.json",
+    "14.10H_configuration_provenance": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10H_compact_configuration_provenance.json",
+    "14.4I_C_upstream_selection": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+    "14.4I_D_dataset_lineage": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+    "14.4I_D_original_dataset": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+    "14.4B_complete": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4B_ood_model_validation/phase14_4B_complete_report.json",
+    "14.4D_complete": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_complete_report.json",
+    "14.4G_complete": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4G_controlled_ood_model_revalidation/phase14_4G_complete_report.json",
+    "14.4H_candidates": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4H_ground_truth_scoring_audit/phase14_4H_complete_report.json",
+    "14.2_complete": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_2_reliability_gated_shared_state/phase14_2_complete_report.json",
+    "14.3A_complete": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+    "14.3B_complete": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3B_mechanism_stress_test/phase14_3B_complete_report.json",
+    "T2_raw": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json"
+  },
+  "missing_sources": [],
+  "invalid_sources": [],
+  "source_summary": {
+    "14.10I_direct_provenance": {
+      "top_level_type": "dict",
+      "key_count": 32,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "information_flow",
+        "mapping",
+        "openai/gpt-oss-120b",
+        "reliable",
+        "treatment",
+        "unreliable"
+      ]
+    },
+    "14.10H_configuration_provenance": {
+      "top_level_type": "dict",
+      "key_count": 31,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "mapping",
+        "selected",
+        "treatment"
+      ]
+    },
+    "14.4I_C_upstream_selection": {
+      "top_level_type": "dict",
+      "key_count": 110,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "ground_truth",
+        "information_flow",
+        "mapping",
+        "output_contract",
+        "parser",
+        "reliable",
+        "robustness",
+        "selected",
+        "treatment"
+      ]
+    },
+    "14.4I_D_dataset_lineage": {
+      "top_level_type": "dict",
+      "key_count": 55,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "ground_truth",
+        "information_flow",
+        "mapping",
+        "output_contract",
+        "parser",
+        "reliable",
+        "robustness",
+        "selected",
+        "treatment",
+        "unreliable"
+      ]
+    },
+    "14.4I_D_original_dataset": {
+      "top_level_type": "dict",
+      "key_count": 588,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "ground_truth",
+        "information_flow",
+        "mapping",
+        "output_contract",
+        "parser",
+        "reliable",
+        "robustness",
+        "selected",
+        "treatment",
+        "unreliable"
+      ]
+    },
+    "14.4B_complete": {
+      "top_level_type": "dict",
+      "key_count": 40,
+      "recognized_literal_terms": [
+        "openai/gpt-oss-120b",
+        "treatment"
+      ]
+    },
+    "14.4D_complete": {
+      "top_level_type": "dict",
+      "key_count": 28,
+      "recognized_literal_terms": [
+        "openai/gpt-oss-120b",
+        "treatment"
+      ]
+    },
+    "14.4G_complete": {
+      "top_level_type": "dict",
+      "key_count": 61,
+      "recognized_literal_terms": [
+        "openai/gpt-oss-120b",
+        "parser",
+        "selected",
+        "treatment"
+      ]
+    },
+    "14.4H_candidates": {
+      "top_level_type": "dict",
+      "key_count": 38,
+      "recognized_literal_terms": [
+        "ground_truth",
+        "selected",
+        "treatment"
+      ]
+    },
+    "14.2_complete": {
+      "top_level_type": "dict",
+      "key_count": 61,
+      "recognized_literal_terms": [
+        "ground_truth",
+        "information_flow",
+        "openai/gpt-oss-120b",
+        "reliable",
+        "robustness",
+        "treatment",
+        "unreliable"
+      ]
+    },
+    "14.3A_complete": {
+      "top_level_type": "dict",
+      "key_count": 74,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "parser",
+        "reliable",
+        "robustness",
+        "treatment",
+        "unreliable"
+      ]
+    },
+    "14.3B_complete": {
+      "top_level_type": "dict",
+      "key_count": 65,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "ground_truth",
+        "information_flow",
+        "reliable",
+        "treatment",
+        "unreliable"
+      ]
+    },
+    "T2_raw": {
+      "top_level_type": "list",
+      "key_count": 37,
+      "recognized_literal_terms": [
+        "Agent_A",
+        "Agent_B",
+        "Agent_C",
+        "openai/gpt-oss-120b",
+        "reliable",
+        "treatment",
+        "unreliable"
+      ]
+    }
+  },
+  "historical_configuration_status": {
+    "explicit_model_found": true,
+    "explicit_agent_structure_found": true,
+    "explicit_treatment_evidence_found": true,
+    "agent_to_model_mapping_established": false,
+    "mapping_inferred": false,
+    "configuration_reconstructed": false
+  },
+  "recovery_status": "PARTIAL_CONFIGURATION_RECOVERED",
+  "safety": {
+    "read_only": true,
+    "api_calls": false,
+    "model_execution": false,
+    "groq_requests": false,
+    "treatment_1_execution": false,
+    "treatment_2_execution": false,
+    "treatment_3_execution": false,
+    "scoring": false,
+    "accuracy_calculation": false,
+    "candidate_problem_mapping": false,
+    "agent_model_inference": false,
+    "inference": false,
+    "reconstruction": false,
+    "artifact_modification": false
+  },
+  "next_decision": "Use established Phase 14 evidence to formulate the mechanistic model and determine whether Treatment 3 is experimentally justified. Do not infer missing historical model assignments.",
+  "timestamp_utc": "2026-08-25T17:05:27.199020+00:00"
+}

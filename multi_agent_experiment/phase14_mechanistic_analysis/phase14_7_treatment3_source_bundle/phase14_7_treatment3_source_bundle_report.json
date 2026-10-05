@@ -1,0 +1,76 @@
+{
+  "phase": "14.7",
+  "title": "Treatment 3 Source-Bundle Construction + Pre-Execution Validation",
+  "status": "READY_FOR_TREATMENT_3_PREPARATION",
+  "decision": "READY_FOR_TREATMENT_3_PREPARATION",
+  "treatment_3_executed": false,
+  "candidate_count": 5,
+  "candidate_fingerprints": [
+    "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+    "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+  ],
+  "manifest_record_fingerprints": [
+    "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+    "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+  ],
+  "exact_cryptographic_identity_matches": 5,
+  "source_side_requirements": {
+    "candidate_identity": true,
+    "canonical_manifest_integrity": true,
+    "problem_gt_same_record_binding": true,
+    "candidate_problem_same_record_binding": true,
+    "ground_truth_identity_hash_surface": true
+  },
+  "explicit_source_census": {
+    "identity_structures": 2817,
+    "gt_identity_structures": 2,
+    "problem_identity_structures": 2812,
+    "candidate_identity_structures": 8,
+    "problem_gt_same_record_bindings": 2,
+    "candidate_problem_same_record_bindings": 3,
+    "ground_truth_identity_hash_structures": 1
+  },
+  "readiness": {
+    "candidate_identity": true,
+    "canonical_manifest_integrity": true,
+    "problem_gt_same_record_binding": true,
+    "candidate_problem_same_record_binding": true,
+    "ground_truth_identity_hash_surface": true,
+    "model_output_identity": false,
+    "model_output_hash": false,
+    "evaluation_identity": false,
+    "positional_mapping_forbidden": true,
+    "ordering_mapping_forbidden": true,
+    "text_matching_forbidden": true,
+    "legacy_GT_reconstruction_forbidden": true
+  },
+  "safety": {
+    "candidate_mapping_from_text_collision": false,
+    "problem_number_inference": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "numeric_semantics_used": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "model_output_used": false,
+    "treatment_3_executed": false,
+    "legacy_GT_reconstruction": false,
+    "prior_artifacts_modified": false
+  },
+  "artifacts_created": [
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_pre_execution_validation.json",
+    "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle_report.json"
+  ],
+  "previous_artifacts_modified": false,
+  "next_action": "RUN_TREATMENT_3_ONLY_AFTER_EXPLICIT_SOURCE_BINDINGS_PASS",
+  "timestamp_utc": "2026-08-25T06:15:49.726159+00:00"
+}

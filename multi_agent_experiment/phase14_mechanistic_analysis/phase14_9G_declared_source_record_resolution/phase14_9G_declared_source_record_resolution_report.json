@@ -1,0 +1,52 @@
+{
+  "phase": "14.9G",
+  "purpose": "Resolve the explicit source_record_hash values declared by Phase 14.7 against canonical Phase 14.4D selected_instances.",
+  "created_utc": "2026-08-25T06:48:25.155447+00:00",
+  "read_only": true,
+  "model_calls": false,
+  "api_calls": false,
+  "treatment_3_executed": false,
+  "candidate_problem_mapping_performed": false,
+  "inference_performed": false,
+  "reconstruction_performed": false,
+  "candidate_count": 5,
+  "selected_instances_count": 5,
+  "resolved_count": 5,
+  "unresolved_count": 0,
+  "decision": "ALL_FIVE_DECLARED_SOURCE_RECORDS_RESOLVED",
+  "resolved_records": [
+    {
+      "candidate_id": "candidate_1937a8706bd403e7",
+      "source_record_hash": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+      "selected_instance_index": 0,
+      "resolution": "EXACT_CANONICAL_HASH_MATCH"
+    },
+    {
+      "candidate_id": "candidate_662c8a23191d37ea",
+      "source_record_hash": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+      "selected_instance_index": 1,
+      "resolution": "EXACT_CANONICAL_HASH_MATCH"
+    },
+    {
+      "candidate_id": "candidate_5c7d89e5f2dc086e",
+      "source_record_hash": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+      "selected_instance_index": 2,
+      "resolution": "EXACT_CANONICAL_HASH_MATCH"
+    },
+    {
+      "candidate_id": "candidate_fb480b2a4151a078",
+      "source_record_hash": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+      "selected_instance_index": 3,
+      "resolution": "EXACT_CANONICAL_HASH_MATCH"
+    },
+    {
+      "candidate_id": "candidate_563709a7fbfb43d9",
+      "source_record_hash": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+      "selected_instance_index": 4,
+      "resolution": "EXACT_CANONICAL_HASH_MATCH"
+    }
+  ],
+  "unresolved_records": [],
+  "phase14_7_bundle_sha256": "75b353a350e5dafaa9542ea74c79fcbf77b65eccc7259ca354d8d67c6094af5c",
+  "phase14_4D_manifest_sha256": "c3c42bb7b3bec14b4857c817f1f91f36d30cb11244908bbb5587a590b4f72c7e"
+}

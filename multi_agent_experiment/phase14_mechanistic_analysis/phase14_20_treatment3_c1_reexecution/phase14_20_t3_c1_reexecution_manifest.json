@@ -1,0 +1,15 @@
+{
+  "phase": "14.20",
+  "purpose": "Controlled re-execution of historical Treatment 3 C1 prompts",
+  "provider": "groq",
+  "endpoint": "https://api.groq.com/openai/v1",
+  "model": "openai/gpt-oss-120b",
+  "condition": "C1",
+  "total_trials": 60,
+  "historical_source": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_15_treatment3_execution/phase14_15_t3_raw_results.json",
+  "historical_source_read_only": true,
+  "created_utc": "2026-08-25T19:54:00.777947+00:00",
+  "request_parameters": {
+    "max_tokens": 500
+  }
+}

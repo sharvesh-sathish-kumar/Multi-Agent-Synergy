@@ -1,0 +1,1440 @@
+{
+  "phase": "13.4",
+  "phase_name": "controlled_t2_reexecution_and_provenance_lock",
+  "n": 60,
+  "baseline_correct": 0,
+  "treatment_correct": 0,
+  "baseline_accuracy": 0.0,
+  "treatment_accuracy": 0.0,
+  "absolute_change": 0.0,
+  "transitions": {
+    "correct_to_correct": 0,
+    "correct_to_incorrect": 0,
+    "incorrect_to_correct": 0,
+    "incorrect_to_incorrect": 60
+  },
+  "net_gain": 0,
+  "t1_duplicate_ids": {
+    "20": 2,
+    "34": 2
+  },
+  "t1_selection_policy": "last successful record; otherwise last record",
+  "mcnemar_exact_two_sided": null,
+  "rows": [
+    {
+      "problem_id": "1",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "2",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "3",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "4",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "5",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "6",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "yellow",
+        "green",
+        "red",
+        "blue"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "7",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "8",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "9",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "10",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "11",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "12",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "13",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "14",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "15",
+      "conflict_level": "low_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "16",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "17",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "18",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "19",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "20",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 2
+    },
+    {
+      "problem_id": "21",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "22",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "23",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "24",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "25",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "26",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "27",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "28",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "29",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "30",
+      "conflict_level": "medium_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "31",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "32",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "33",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "34",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 2
+    },
+    {
+      "problem_id": "35",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "36",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "37",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "38",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "39",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "40",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "41",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "42",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "43",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "44",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "45",
+      "conflict_level": "high_conflict",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "46",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "47",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "48",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "49",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "50",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "51",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "yellow",
+        "green",
+        "blue",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "52",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "53",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "54",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "green",
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "55",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "56",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "yellow",
+        "green",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "57",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "58",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": [
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "59",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    },
+    {
+      "problem_id": "60",
+      "conflict_level": "adversarial",
+      "ground_truth": [
+        "alex",
+        "ben",
+        "cara",
+        "dan"
+      ],
+      "t1_prediction": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "t1_correct": false,
+      "t1_success": true,
+      "t2_prediction": null,
+      "t2_correct": false,
+      "t2_success": true,
+      "t1_record_count": 1
+    }
+  ]
+}

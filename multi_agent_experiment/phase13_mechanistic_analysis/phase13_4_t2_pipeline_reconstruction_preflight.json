@@ -1,0 +1,925 @@
+{
+  "phase": "13.4",
+  "phase_name": "Treatment 2 Pipeline Reconstruction + Information-Flow Preflight",
+  "created_at_utc": "2026-08-24T23:54:30.938887+00:00",
+  "api_calls": 0,
+  "model_calls": 0,
+  "read_only_existing_artifacts": true,
+  "file_inventory": {
+    "frozen_dataset": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+      "exists": true,
+      "size_bytes": 16092,
+      "sha256": "f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2"
+    },
+    "treatment2_spec": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+      "exists": true,
+      "size_bytes": 4995,
+      "sha256": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f"
+    },
+    "treatment2_raw": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "exists": true,
+      "size_bytes": 16358,
+      "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341"
+    },
+    "treatment2_scored": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "exists": true,
+      "size_bytes": 22596,
+      "sha256": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf"
+    },
+    "treatment1_raw": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json",
+      "exists": true,
+      "size_bytes": 28947,
+      "sha256": "4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3"
+    },
+    "treatment1_parsed": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+      "exists": true,
+      "size_bytes": 42880,
+      "sha256": "888ed4af7181ef9efc7b87204c28a3b96b3add90d9e55080f7cb55a35e280896"
+    },
+    "paired_analysis": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "exists": true,
+      "size_bytes": 6247,
+      "sha256": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5"
+    },
+    "statistical_analysis": {
+      "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json",
+      "exists": true,
+      "size_bytes": 7852,
+      "sha256": "d789694ebb55bfa6eb429eb3a04ee0495a3e350b24e96d0b2632b2af7d87b7bd"
+    }
+  },
+  "dataset": {
+    "records": 60,
+    "unique_ids": 60,
+    "duplicate_ids": {},
+    "fingerprint": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2"
+  },
+  "treatment2_spec": {
+    "treatment_name": "reliability_gated_constraint_solving",
+    "treatment_principle": "Only explicitly reliable-agent claims participate in the primary solution-generating constraint system.",
+    "hypothesis": "Treatment 1 identified reliability but did not sufficiently prevent unreliable evidence from influencing the final solution.",
+    "quarantined_evidence_role": [
+      "conflict_detection",
+      "post_solution_consistency_check"
+    ],
+    "quarantined_evidence_forbidden_roles": [
+      "primary_solution_generation",
+      "overriding_reliable_constraints",
+      "tie_breaking",
+      "candidate_selection"
+    ],
+    "read_only_dataset": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+    "api_calls": 0,
+    "prompt": "\nYou are the final reasoning coordinator for a multi-agent logical reasoning task.\n\nYour goal is to determine the correct assignment using reliability-gated\nconstraint solving.\n\nIMPORTANT PRINCIPLE:\n\nAn unreliable agent's claims MUST NOT participate in the primary solution.\n\nThey may be inspected later for contradiction analysis, but they cannot be\nused to determine or override a final value when reliable evidence exists.\n\n============================================================\nSTEP 1 — IDENTIFY RELIABILITY\n============================================================\n\nFor each agent, explicitly record whether the agent is reliable.\n\nCreate two groups:\n\nTRUSTED AGENTS:\nAgents explicitly marked reliable.\n\nQUARANTINED AGENTS:\nAgents not marked reliable.\n\nDo not treat an unlabeled agent as reliable.\n\n============================================================\nSTEP 2 — EXTRACT TRUSTED CONSTRAINTS\n============================================================\n\nConvert ONLY trusted-agent statements into explicit logical constraints.\n\nExamples:\n\n\"Alex has blue\"\n→ Alex = blue\n\n\"Alex does not have blue\"\n→ Alex != blue\n\n\"Alex and Ben have different colors\"\n→ Alex != Ben\n\nDo NOT add quarantined-agent claims to this constraint set.\n\n============================================================\nSTEP 3 — QUARANTINE UNRELIABLE EVIDENCE\n============================================================\n\nRecord all claims from quarantined agents separately.\n\nThese claims are NOT solution-generating evidence.\n\nThey must NOT:\n\n- determine a person's color;\n- override a trusted assignment;\n- break a tie between trusted constraints;\n- be combined with trusted claims to manufacture a new assignment;\n- be treated as corroboration merely because they appear plausible.\n\nTheir purpose is limited to later contradiction analysis.\n\n============================================================\nSTEP 4 — SOLVE THE TRUSTED CONSTRAINT SYSTEM\n============================================================\n\nDetermine the assignment using ONLY the trusted constraint set.\n\nDo not copy an assignment from a quarantined agent.\n\nDo not select a candidate merely because an unreliable agent proposed it.\n\nIf a trusted agent directly states a value, that value is part of the trusted\nconstraint system.\n\nIf multiple trusted constraints interact, solve them globally.\n\n============================================================\nSTEP 5 — CHECK COMPLETENESS\n============================================================\n\nBefore finalizing, verify that every person has exactly one color and that\neach color is assigned consistently with the task's constraints.\n\nIf the trusted constraints determine a unique solution, use that solution.\n\nIf the trusted constraints do not uniquely determine a solution, explicitly\nidentify the remaining ambiguity rather than using quarantined evidence to\narbitrarily choose one.\n\n============================================================\nSTEP 6 — POST-SOLUTION QUARANTINED-EVIDENCE CHECK\n============================================================\n\nOnly AFTER obtaining the trusted solution, inspect quarantined claims.\n\nFor each quarantined claim, classify it as:\n\n- CONSISTENT WITH TRUSTED SOLUTION\n- CONTRADICTS TRUSTED SOLUTION\n- IRRELEVANT / UNDETERMINED\n\nA contradiction from a quarantined agent MUST NOT change the trusted solution.\n\n============================================================\nSTEP 7 — FINAL VERIFICATION\n============================================================\n\nRe-check the proposed assignment against every trusted constraint.\n\nIf any trusted constraint is violated, DO NOT finalize.\n\nReturn to Step 4 and solve the trusted constraint system again.\n\n============================================================\nSTEP 8 — OUTPUT\n============================================================\n\nReturn exactly:\n\nFINAL ANSWER:\nAlex = ...\nBen = ...\nCara = ...\nDan = ...\n\nDo not allow quarantined evidence to determine any value in the final answer.\n"
+  },
+  "quarantine_rule": {
+    "raw_role": [
+      "conflict_detection",
+      "post_solution_consistency_check"
+    ],
+    "normalized_role": null,
+    "raw_forbidden_roles": [
+      "primary_solution_generation",
+      "overriding_reliable_constraints",
+      "tie_breaking",
+      "candidate_selection"
+    ],
+    "normalized_forbidden_roles": []
+  },
+  "expected_information": {
+    "all_clues_by_role": {
+      "A": 180,
+      "B": 180,
+      "C": 125
+    },
+    "all_clues_total": 485,
+    "allowed_clues_by_role": {
+      "A": 180,
+      "B": 180,
+      "C": 125
+    },
+    "allowed_clues_total": 485
+  },
+  "t2_record_alignment": {
+    "records": 60,
+    "unique_ids": 60,
+    "missing_ids": [],
+    "extra_ids": [],
+    "duplicates": {}
+  },
+  "t2_information_retention": {
+    "all_evidence": {
+      "expected": 485,
+      "found": 0,
+      "missing": 485,
+      "retention": 0.0
+    },
+    "allowed_evidence": {
+      "expected": 485,
+      "found": 0,
+      "missing": 485,
+      "retention": 0.0
+    }
+  },
+  "t2_response_collapse": {
+    "records": 60,
+    "unique_response_hashes": 2,
+    "response_hash_frequencies": {
+      "a14de296234f2dd204a1b7927f7194d34ce194624467d5ddfea165ff63976ae7": 58,
+      "dac8d895546f90ce6775ba4df3a47bb71620918ced635e63c946b3271f882ab9": 2
+    },
+    "response_lengths": {
+      "47": 60
+    }
+  },
+  "t2_prediction_collapse": {
+    "parsed": 60,
+    "parse_failures": 0,
+    "unique_predictions": 1,
+    "prediction_frequencies": {
+      "('red', 'blue', 'green', 'yellow')": 60
+    }
+  },
+  "ground_truth_dependence": {
+    "adjacent_ground_truth_changes": 0,
+    "adjacent_prediction_changes": 0
+  },
+  "fixed_answer_contamination": {
+    "response": {
+      "Alex=red": 60,
+      "Ben=blue": 60,
+      "Cara=green": 60,
+      "Dan=yellow": 60
+    },
+    "non_response": {
+      "Alex=red": 0,
+      "Ben=blue": 0,
+      "Cara=green": 0,
+      "Dan=yellow": 0
+    }
+  },
+  "t1_duplicate_audit": {
+    "records": 62,
+    "unique_ids": 60,
+    "duplicates": {
+      "20": 2,
+      "34": 2
+    },
+    "details": {
+      "20": [
+        {
+          "record_index": 0,
+          "success": false,
+          "response_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response": "",
+          "error_type": "RateLimitError",
+          "error_message": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m09kvmd7evjsbyn3tc8czyyd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7268, Requested 1043. Please try again in 2.3325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        },
+        {
+          "record_index": 1,
+          "success": true,
+          "response_hash": "ce755f3537b27d90ded6cd0aa3f931edacbb654e9814073b54e7a028e102f8f1",
+          "response": "Alex = green\nBen = blue\nCara = yellow\nDan = red",
+          "error_type": null,
+          "error_message": "None"
+        }
+      ],
+      "34": [
+        {
+          "record_index": 0,
+          "success": false,
+          "response_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "response": "",
+          "error_type": "RateLimitError",
+          "error_message": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m09kvmd7evjsbyn3tc8czyyd` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199517, Requested 766. Please try again in 2m2.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        },
+        {
+          "record_index": 1,
+          "success": true,
+          "response_hash": "d33d826602d5479259d1741d545646c8c060eb320073cfd763b00218f3053529",
+          "response": "Alex = blue\nBen = red\nCara = green\nDan = yellow",
+          "error_type": null,
+          "error_message": "None"
+        }
+      ]
+    }
+  },
+  "t1_selection_sensitivity": {
+    "first": {
+      "selected_records": 60,
+      "parseable": 58,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "last": {
+      "selected_records": 60,
+      "parseable": 60,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "successful": {
+      "selected_records": 60,
+      "parseable": 60,
+      "correct": 0,
+      "accuracy": 0.0
+    }
+  },
+  "independent_pair_reconstruction": {
+    "first": {
+      "n": 58,
+      "baseline_correct": 0,
+      "treatment_correct": 0,
+      "baseline_accuracy": 0.0,
+      "treatment_accuracy": 0.0,
+      "absolute_change": 0.0,
+      "transitions": {
+        "incorrect_to_incorrect": 58
+      }
+    },
+    "last": {
+      "n": 60,
+      "baseline_correct": 0,
+      "treatment_correct": 0,
+      "baseline_accuracy": 0.0,
+      "treatment_accuracy": 0.0,
+      "absolute_change": 0.0,
+      "transitions": {
+        "incorrect_to_incorrect": 60
+      }
+    },
+    "successful": {
+      "n": 60,
+      "baseline_correct": 0,
+      "treatment_correct": 0,
+      "baseline_accuracy": 0.0,
+      "treatment_accuracy": 0.0,
+      "absolute_change": 0.0,
+      "transitions": {
+        "incorrect_to_incorrect": 60
+      }
+    }
+  },
+  "stored_pair_analysis": {
+    "n": 30,
+    "overall": {
+      "baseline_correct": 29,
+      "treatment_correct": 28,
+      "baseline_accuracy": 0.9666666666666667,
+      "treatment_accuracy": 0.9333333333333333,
+      "absolute_improvement": -0.033333333333333326,
+      "relative_improvement": -0.03448275862068965
+    },
+    "paired_problem_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "unique_stored_ids": 30
+  },
+  "source_forensic_search": {
+    "files_scanned": 16,
+    "relevant_files": 16,
+    "hits": [
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+        "size_bytes": 6556,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_response\": \"FINAL ANSWER:\\nAlex = blue\\nBen = green\\nCara = yellow\\nDan = red\\n\\nREASON:\\nAgent C is verified as reliable, which establishes that the individuals have different colors. Agent A provides a complete assignment (Alex = blue, Ben = green, Cara = yellow, Dan = red) which is fully compatible with both the distinctn"
+          },
+          {
+            "term": "ground_truth",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_response\": \"FINAL ANSWER:\\nAlex = blue\\nBen = green\\nCara = yellow\\nDan = red\\n\\nREASON:\\nAgent C is verified as reliable, which establishes that the individuals have different colors. Agent A provides a complete assignment (Alex = blue, Ben = green, Cara = yellow, Dan = red) which is fully compatible with both the distinctness conditions of Agent C and the negative constraints given "
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+        "size_bytes": 87135,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_response\": \"**FINAL ANSWER:**  \\nAlex = **blue**  \\nBen = **green**  \\nCara = **yellow**  \\nDan = **red**\\n\\n**REASON:**  \\nAgent\\u202fC is declared reliable, so the four \\u201cdifferent\\u2011color\\u201d statements must hold.  \\nThe assignment given by Agent\\u202fA (Alex\\u202f=\\u202fblue, Ben\\u202f=\\u202fgreen, Cara\\u202f=\\u"
+          },
+          {
+            "term": "ground_truth",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_response\": \"**FINAL ANSWER:**  \\nAlex = **blue**  \\nBen = **green**  \\nCara = **yellow**  \\nDan = **red**\\n\\n**REASON:**  \\nAgent\\u202fC is declared reliable, so the four \\u201cdifferent\\u2011color\\u201d statements must hold.  \\nThe assignment given by Agent\\u202fA (Alex\\u202f=\\u202fblue, Ben\\u202f=\\u202fgreen, Cara\\u202f=\\u202fyellow, Dan\\u202f=\\u202fred) satisfies all of those const"
+          },
+          {
+            "term": "gpt-oss-120b",
+            "context": "ce no contradictory evidence exists, the unsupported statements are allowed to stand, giving a consistent, complete assignment.\\n\\n**FINAL ANSWER:**  \\nAlex = **blue**  \\nBen = **green**  \\nCara = **yellow**  \\nDan = **red**  \",\n    \"model\": \"openai/gpt-oss-120b\"\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"red\",\n      \"Dan\": \"yellow\"\n    },\n    \"baseline_response\": \"**FINAL ANSWER:**  \\nAlex = **blue**  \\nBen = **green**  \\nCara = **red**  \\nDan = **yellow**  \\n\\n**REASON:**  \\nAgent\\u202fC is declared reliable, so all of its \\u201cdifferent\\u2011color\\u201d statements must hold. The assignment given by Agent\\u202fA (Alex\\u202f=\\u202fblue, Ben\\u202f"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+        "size_bytes": 15956,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_predicted\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"treatment_predicted\": null,\n    \"baseline_correct\": true,\n    \"treatment_correct\": false,\n    \"baseline_parse_success\": true,\n    \"treatment_parse_success\": false\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\""
+          },
+          {
+            "term": "ground_truth",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_predicted\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"treatment_predicted\": null,\n    \"baseline_correct\": true,\n    \"treatment_correct\": false,\n    \"baseline_parse_success\": true,\n    \"treatment_parse_success\": false\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\","
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+        "size_bytes": 14734,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_predicted\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"treatment_predicted\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_correct\": true,\n    \"treatment_correct\": true\n  },\n  {\n    \"problem_id\": 2,\n    \""
+          },
+          {
+            "term": "ground_truth",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_predicted\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"treatment_predicted\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"yellow\",\n      \"Dan\": \"red\"\n    },\n    \"baseline_correct\": true,\n    \"treatment_correct\": true\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      "
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json",
+        "size_bytes": 28947,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"success\": true,\n    \"response\": \"Alex = blue\\nBen = yellow\\nCara = red\\nDan = green\",\n    \"finish_reason\": \"stop\",\n    \"usage\": {\n      \"prompt_tokens\": 243,\n      \"completion_tokens\": 177,\n      \"total_tokens\": 420\n    },\n    \"error_type\": null,\n    \"error_message\": null,\n    \"started_at\": \"2026-08-23T20:27:59.344098+00:00\",\n    \"finished_at\": \"2026-08-23T20:27:59.967681+00:00\"\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n "
+          },
+          {
+            "term": "prompt",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"success\": true,\n    \"response\": \"Alex = blue\\nBen = yellow\\nCara = red\\nDan = green\",\n    \"finish_reason\": \"stop\",\n    \"usage\": {\n      \"prompt_tokens\": 243,\n      \"completion_tokens\": 177,\n      \"total_tokens\": 420\n    },\n    \"error_type\": null,\n    \"error_message\": null,\n    \"started_at\": \"2026-08-23T20:27:59.344098+00:00\",\n    \"finished_at\": \"2026-08-23T20:27:59.967681+00:00\"\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"success\": true,\n    \"response\": \"Alex = blue\\nBen = green\\nCara = red\\nDan = yellow\",\n    \"finish_reason\": \"stop\",\n    \"usage\": {\n      \"prompt_tokens\": 243,\n      \"completion_tokens\": 218"
+          },
+          {
+            "term": "gpt-oss-120b",
+            "context": "evel\": \"medium_conflict\",\n    \"success\": false,\n    \"response\": \"\",\n    \"finish_reason\": null,\n    \"usage\": null,\n    \"error_type\": \"RateLimitError\",\n    \"error_message\": \"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m09kvmd7evjsbyn3tc8czyyd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7268, Requested 1043. Please try again in 2.3325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\",\n    \"started_at\": \"2026-08-23T20:28:40.776271+00:00\",\n    \"finished_at\": \"2026-08-23T20:28:44.915301+00:00\"\n  },\n  {\n    \"problem_id\": 20,\n    \"conflict_level\": \"medium_conflict\",\n    \""
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_59_repair/phase10_59_repair.json",
+        "size_bytes": 405,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "{\n  \"problem_id\": 59,\n  \"repair\": true,\n  \"success\": false,\n  \"response\": \"Alex = red\\nBen = yellow\\nCara = blue\\nDan = green\",\n  \"finish_reason\": \"stop\",\n  \"usage\": {\n    \"prompt_tokens\": 239,\n    \"completion_tokens\": 529,\n    \"total_tokens\": 768\n  },\n  \"error_type\": null,\n  \"error_message\": null,\n  \"started_at\": \"2026-08-24T14:49:43.710901+00:00\",\n  \"finished_at\": \"2026-08-24T14:49:45.395654+00:00\"\n}"
+          },
+          {
+            "term": "prompt",
+            "context": "{\n  \"problem_id\": 59,\n  \"repair\": true,\n  \"success\": false,\n  \"response\": \"Alex = red\\nBen = yellow\\nCara = blue\\nDan = green\",\n  \"finish_reason\": \"stop\",\n  \"usage\": {\n    \"prompt_tokens\": 239,\n    \"completion_tokens\": 529,\n    \"total_tokens\": 768\n  },\n  \"error_type\": null,\n  \"error_message\": null,\n  \"started_at\": \"2026-08-24T14:49:43.710901+00:00\",\n  \"finished_at\": \"2026-08-24T14:49:45.395654+00:00\"\n}"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+        "size_bytes": 42880,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "\",\n  \"phase_name\": \"parsing_and_validation\",\n  \"created_at\": \"2026-08-24T15:00:07.669550+00:00\",\n  \"api_calls\": 0,\n  \"dataset\": {\n    \"path\": \"/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl\",\n    \"problem_count\": 60,\n    \"problem_ids\": [\n      1,\n      2,\n      3,\n      4,\n      5,\n      6,\n      7,\n      8,\n      9,\n      10,\n      11,\n      12,\n      13,\n      14,\n      15,\n      16,\n      17,\n      18,\n      19,\n      20,\n      21,\n      22,\n      23,\n      24,\n      25,\n      26,\n      27,\n      28,\n      29,\n      30,\n      31,\n      32,\n      33,\n      34,\n      35,\n      36,\n      37,\n      38,\n      39,\n      40,\n      41,\n      42,\n      43,\n      44,\n      45,\n      46,\n      47,\n      48,\n      49,\n      50,\n   "
+          },
+          {
+            "term": "ground_truth",
+            "context": "kens\": 243,\n        \"completion_tokens\": 177,\n        \"total_tokens\": 420\n      },\n      \"parse_valid\": true,\n      \"parsed_assignment\": {\n        \"Alex\": \"blue\",\n        \"Ben\": \"yellow\",\n        \"Cara\": \"red\",\n        \"Dan\": \"green\"\n      },\n      \"ground_truth\": {\n        \"Alex\": \"blue\",\n        \"Ben\": \"yellow\",\n        \"Cara\": \"red\",\n        \"Dan\": \"green\"\n      },\n      \"exact_correct\": true,\n      \"validation_errors\": [],\n      \"repair_applied\": false\n    },\n    {\n      \"problem_id\": 2,\n      \"conflict_level\": \"low_conflict\",\n      \"model_response\": \"Alex = blue\\nBen = green\\nCara = red\\nDan = yellow\",\n      \"finish_reason\": \"stop\",\n      \"usage\": {\n        \"prompt_tokens\": 243,\n        \"completion_tokens\": 218,\n        \"total_tokens\": 461\n      }"
+          },
+          {
+            "term": "prompt",
+            "context": " 0.6666666666666666\n    }\n  },\n  \"results\": [\n    {\n      \"problem_id\": 1,\n      \"conflict_level\": \"low_conflict\",\n      \"model_response\": \"Alex = blue\\nBen = yellow\\nCara = red\\nDan = green\",\n      \"finish_reason\": \"stop\",\n      \"usage\": {\n        \"prompt_tokens\": 243,\n        \"completion_tokens\": 177,\n        \"total_tokens\": 420\n      },\n      \"parse_valid\": true,\n      \"parsed_assignment\": {\n        \"Alex\": \"blue\",\n        \"Ben\": \"yellow\",\n        \"Cara\": \"red\",\n        \"Dan\": \"green\"\n      },\n      \"ground_truth\": {\n        \"Alex\": \"blue\",\n        \"Ben\": \"yellow\",\n        \"Cara\": \"red\",\n        \"Dan\": \"green\"\n      },\n      \"exact_correct\": true,\n      \"validation_errors\": [],\n      \"repair_applied\": false\n    },\n    {\n      \"problem_id\": 2,\n"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json",
+        "size_bytes": 7852,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "ormance_drop\": {\n    \"low_conflict_accuracy\": 1.0,\n    \"adversarial_accuracy\": 0.6666666666666666,\n    \"absolute_drop_percentage_points\": 33.333333333333336,\n    \"relative_drop_percent\": 33.333333333333336\n  },\n  \"incorrect_problems\": [\n    {\n      \"problem_id\": 19,\n      \"conflict_level\": \"medium_conflict\",\n      \"parse_valid\": true,\n      \"model_response\": \"Alex = green\\nBen = blue\\nCara = red\\nDan = yellow\",\n      \"ground_truth\": {\n        \"Alex\": \"green\",\n        \"Ben\": \"red\",\n        \"Cara\": \"blue\",\n        \"Dan\": \"yellow\"\n      },\n      \"parsed_assignment\": {\n        \"Alex\": \"green\",\n        \"Ben\": \"blue\",\n        \"Cara\": \"red\",\n        \"Dan\": \"yellow\"\n      },\n      \"validation_errors\": []\n    },\n    {\n      \"problem_id\": 24,\n      \"conflict_l"
+          },
+          {
+            "term": "ground_truth",
+            "context": "drop_percent\": 33.333333333333336\n  },\n  \"incorrect_problems\": [\n    {\n      \"problem_id\": 19,\n      \"conflict_level\": \"medium_conflict\",\n      \"parse_valid\": true,\n      \"model_response\": \"Alex = green\\nBen = blue\\nCara = red\\nDan = yellow\",\n      \"ground_truth\": {\n        \"Alex\": \"green\",\n        \"Ben\": \"red\",\n        \"Cara\": \"blue\",\n        \"Dan\": \"yellow\"\n      },\n      \"parsed_assignment\": {\n        \"Alex\": \"green\",\n        \"Ben\": \"blue\",\n        \"Cara\": \"red\",\n        \"Dan\": \"yellow\"\n      },\n      \"validation_errors\": []\n    },\n    {\n      \"problem_id\": 24,\n      \"conflict_level\": \"medium_conflict\",\n      \"parse_valid\": true,\n      \"model_response\": \"Alex = red\\nBen = green\\nCara = yellow\\nDan = blue\",\n      \"ground_truth\": {\n        \"Alex\": \"ye"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+        "size_bytes": 6247,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "\": \"/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json\",\n  \"treatment_source\": \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.pkl\",\n  \"paired_problem_ids\": [\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9,\n    10,\n    11,\n    12,\n    13,\n    14,\n    15,\n    16,\n    17,\n    18,\n    19,\n    20,\n    21,\n    22,\n    23,\n    24,\n    25,\n    26,\n    27,\n    28,\n    29,\n    30\n  ],\n  \"n\": 30,\n  \"overall\": {\n    \"baseline_correct\": 29,\n    \"treatment_correct\": 28,\n    \"baseline_accuracy\": 0.9666666666666667,\n    \"treatment_accuracy\": 0.9333333333333333,\n    \"absolute_improvement\": -0.033333333333333326,\n    \"relative_improvement\": -0.034"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+        "size_bytes": 4995,
+        "hits": [
+          {
+            "term": "reliability_gated_constraint_solving",
+            "context": "{\n  \"phase\": \"12.1\",\n  \"phase_name\": \"treatment_2_specification\",\n  \"api_calls\": 0,\n  \"read_only_dataset\": \"/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl\",\n  \"treatment_name\": \"reliability_gated_constraint_solving\",\n  \"hypothesis\": \"Treatment 1 identified reliability but did not sufficiently prevent unreliable evidence from influencing the final solution.\",\n  \"treatment_principle\": \"Only explicitly reliable-agent claims participate in the primary solution-generating constraint system.\",\n  \"quarantined_evidence_role\": [\n    \"conflict_detection\",\n    \"post_solution_consistency_check\"\n  ],\n  \"quarantined_evidence_forbidden_roles\": [\n    \"primary_solution_generation\",\n    \"overriding_reliable_constraints\",\n "
+          },
+          {
+            "term": "quarantined_evidence",
+            "context": "identified reliability but did not sufficiently prevent unreliable evidence from influencing the final solution.\",\n  \"treatment_principle\": \"Only explicitly reliable-agent claims participate in the primary solution-generating constraint system.\",\n  \"quarantined_evidence_role\": [\n    \"conflict_detection\",\n    \"post_solution_consistency_check\"\n  ],\n  \"quarantined_evidence_forbidden_roles\": [\n    \"primary_solution_generation\",\n    \"overriding_reliable_constraints\",\n    \"tie_breaking\",\n    \"candidate_selection\"\n  ],\n  \"prompt\": \"\\nYou are the final reasoning coordinator for a multi-agent logical reasoning task.\\n\\nYour goal is to determine the correct assignment using reliability-gated\\nconstraint solving.\\n\\nIMPORTANT PRINCIPLE:\\n\\nAn unreliable agent's claims MU"
+          },
+          {
+            "term": "prompt",
+            "context": "role\": [\n    \"conflict_detection\",\n    \"post_solution_consistency_check\"\n  ],\n  \"quarantined_evidence_forbidden_roles\": [\n    \"primary_solution_generation\",\n    \"overriding_reliable_constraints\",\n    \"tie_breaking\",\n    \"candidate_selection\"\n  ],\n  \"prompt\": \"\\nYou are the final reasoning coordinator for a multi-agent logical reasoning task.\\n\\nYour goal is to determine the correct assignment using reliability-gated\\nconstraint solving.\\n\\nIMPORTANT PRINCIPLE:\\n\\nAn unreliable agent's claims MUST NOT participate in the primary solution.\\n\\nThey may be inspected later for contradiction analysis, but they cannot be\\nused to determine or override a final value when reliable evidence exists.\\n\\n========================================================"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+        "size_bytes": 16358,
+        "hits": [
+          {
+            "term": "reliability_gated_constraint_solving",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_solving\",\n    \"model\": \"openai/gpt-oss-120b\",\n    \"temperature\": 0,\n    \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n    \"error\": null\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_solving\",\n    \"model\": \"openai/gpt-oss-120b\",\n    \"temperature\": 0,\n    \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n    \"error\": null\n  },\n  {\n    \"problem_id\": 3,\n    \"conflict_level\": \"low_conflict\",\n    \"treatme"
+          },
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_solving\",\n    \"model\": \"openai/gpt-oss-120b\",\n    \"temperature\": 0,\n    \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n    \"error\": null\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_solving\",\n    \"model\": \"openai/gpt-oss-120b\",\n    \"temperature\": 0,\n    \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n"
+          },
+          {
+            "term": "gpt-oss-120b",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_solving\",\n    \"model\": \"openai/gpt-oss-120b\",\n    \"temperature\": 0,\n    \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n    \"error\": null\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_solving\",\n    \"model\": \"openai/gpt-oss-120b\",\n    \"temperature\": 0,\n    \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n    \"error\": null\n  },\n  {\n    \"problem_id\": 3,\n    \"conflict_level\": \"low_conflict\",\n    \"treatment\": \"reliability_gated_constraint_s"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+        "size_bytes": 22596,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"yellow\",\n      \"Cara\": \"red\",\n      \"Dan\": \"green\"\n    },\n    \"treatment_predicted\": {\n      \"Alex\": \"red\",\n      \"Ben\": \"blue\",\n      \"Cara\": \"green\",\n      \"Dan\": \"yellow\"\n    },\n    \"treatment_correct\": false,\n    \"treatment_parse_success\": true\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \""
+          },
+          {
+            "term": "ground_truth",
+            "context": "[\n  {\n    \"problem_id\": 1,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"yellow\",\n      \"Cara\": \"red\",\n      \"Dan\": \"green\"\n    },\n    \"treatment_predicted\": {\n      \"Alex\": \"red\",\n      \"Ben\": \"blue\",\n      \"Cara\": \"green\",\n      \"Dan\": \"yellow\"\n    },\n    \"treatment_correct\": false,\n    \"treatment_parse_success\": true\n  },\n  {\n    \"problem_id\": 2,\n    \"conflict_level\": \"low_conflict\",\n    \"ground_truth\": {\n      \"Alex\": \"blue\",\n      \"Ben\": \"green\",\n      \"Cara\": \"red\",\n      \"Dan\": \"yellow\"\n    },\n    \"treatment_predicted\":"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_0_mechanistic_analysis_summary.json",
+        "size_bytes": 968,
+        "hits": [
+          {
+            "term": "phase12_2_raw_results",
+            "context": "ro_model_calls\": true,\n  \"read_only_existing_artifacts\": true,\n  \"statistical_significance_testing\": false,\n  \"dataset_count\": 60,\n  \"candidate_raw_result_sets\": [\n    \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json\"\n  ],\n  \"hypotheses\": [\n    {\n      \"code\": \"PREDICTION_COLLAPSE\",\n      \"description\": \"Extremely low output diversity suggests the system may be producing a near-fixed answer independent of problem identity.\"\n    },\n    {\n      \"code\": \"CONFLICT_SENSITIVITY\",\n      \"description\": \"Conflict level should be examined as a possible driver of reasoning degradation.\"\n    },\n    {\n      \"code\": \"RELIABILITY_INTERACTION\",\n      \"description\": \"Different reliability configurations provide a natur"
+          },
+          {
+            "term": "treatment2",
+            "context": "true,\n  \"zero_model_calls\": true,\n  \"read_only_existing_artifacts\": true,\n  \"statistical_significance_testing\": false,\n  \"dataset_count\": 60,\n  \"candidate_raw_result_sets\": [\n    \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json\"\n  ],\n  \"hypotheses\": [\n    {\n      \"code\": \"PREDICTION_COLLAPSE\",\n      \"description\": \"Extremely low output diversity suggests the system may be producing a near-fixed answer independent of problem identity.\"\n    },\n    {\n      \"code\": \"CONFLICT_SENSITIVITY\",\n      \"description\": \"Conflict level should be examined as a possible driver of reasoning degradation.\"\n    },\n    {\n      \"code\": \"RELIABILITY_INTERACTION\",\n      \"description\": \"Different reliability configur"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+        "size_bytes": 1771,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "hanges_adjacent\": 0,\n  \"treatment2_unique_response_hashes\": 2,\n  \"reliability_patterns\": {\n    \"(True, True, False)\": 20,\n    \"(True, False, True)\": 20,\n    \"(False, True, True)\": 20\n  },\n  \"mechanism_screen\": {\n    \"prediction_collapse\": true,\n    \"problem_identity_neglect\": true,\n    \"dataset_ground_truth_low_diversity\": false,\n    \"reliability_pattern_failure\": false,\n    \"response_level_collapse\": false\n  },\n  \"input_hashes\": {\n    \"frozen_dataset\": \"f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2\",\n    \"treatment2_spec\": \"0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f\",\n    \"treatment2_raw\": \"bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341\",\n    \"treatment2_scored\": \"ff4034f023f8aef39cca893c9db"
+          },
+          {
+            "term": "ground_truth",
+            "context": "rpose\": \"Zero-API cross-treatment forensic audit\",\n  \"api_calls\": 0,\n  \"model_calls\": 0,\n  \"read_only_existing_artifacts\": true,\n  \"dataset_records\": 60,\n  \"dataset_fingerprint\": \"e5a647bf4b77bc24c19b9ad912483bdf6a6e0489a8913dd0ea964465778c586b\",\n  \"ground_truth_unique_assignments\": 23,\n  \"treatment2_records\": 60,\n  \"treatment2_unique_predictions\": 1,\n  \"treatment2_dominant_prediction\": [\n    \"red\",\n    \"blue\",\n    \"green\",\n    \"yellow\"\n  ],\n  \"treatment2_dominant_count\": 60,\n  \"treatment2_collapse_ratio\": 1.0,\n  \"ground_truth_changes_adjacent\": 57,\n  \"prediction_changes_adjacent\": 0,\n  \"treatment2_unique_response_hashes\": 2,\n  \"reliability_patterns\": {\n    \"(True, True, False)\": 20,\n    \"(True, False, True)\": 20,\n    \"(False, True, True)\": 20\n  },\n  \""
+          },
+          {
+            "term": "treatment2",
+            "context": "c audit\",\n  \"api_calls\": 0,\n  \"model_calls\": 0,\n  \"read_only_existing_artifacts\": true,\n  \"dataset_records\": 60,\n  \"dataset_fingerprint\": \"e5a647bf4b77bc24c19b9ad912483bdf6a6e0489a8913dd0ea964465778c586b\",\n  \"ground_truth_unique_assignments\": 23,\n  \"treatment2_records\": 60,\n  \"treatment2_unique_predictions\": 1,\n  \"treatment2_dominant_prediction\": [\n    \"red\",\n    \"blue\",\n    \"green\",\n    \"yellow\"\n  ],\n  \"treatment2_dominant_count\": 60,\n  \"treatment2_collapse_ratio\": 1.0,\n  \"ground_truth_changes_adjacent\": 57,\n  \"prediction_changes_adjacent\": 0,\n  \"treatment2_unique_response_hashes\": 2,\n  \"reliability_patterns\": {\n    \"(True, True, False)\": 20,\n    \"(True, False, True)\": 20,\n    \"(False, True, True)\": 20\n  },\n  \"mechanism_screen\": {\n    \"prediction_co"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+        "size_bytes": 26003,
+        "hits": [
+          {
+            "term": "reliability_gated_constraint_solving",
+            "context": "alignment issues remain unresolved.\",\n  \"sample_ids\": [\n    \"1\",\n    \"2\",\n    \"3\",\n    \"4\",\n    \"5\"\n  ],\n  \"sample_payloads\": {\n    \"1\": {\n      \"raw_record\": {\n        \"problem_id\": 1,\n        \"conflict_level\": \"low_conflict\",\n        \"treatment\": \"reliability_gated_constraint_solving\",\n        \"model\": \"openai/gpt-oss-120b\",\n        \"temperature\": 0,\n        \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n        \"error\": null\n      },\n      \"dataset_record\": {\n        \"problem_id\": 1,\n        \"conflict_level\": \"low_conflict\",\n        \"names\": [\n          \"Alex\",\n          \"Ben\",\n          \"Cara\",\n          \"Dan\"\n        ],\n        \"items\": [\n          \"red\",\n          \"blue\",\n          \"green\",\n          \"yellow\"\n        ],\n        \"ground_truth\": {\n     "
+          },
+          {
+            "term": "quarantined_evidence",
+            "context": "truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_role\",\n        \"read_only_dataset\",\n        \"treatment_name\",\n        \"treatment_principle\"\n      ],\n      \"length\": 10\n    },\n    \"treatment2_raw\": {\n      \"type\": \"list\",\n      \"length\": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": [\n        \"conflict_level\",\n        \"error\",\n        \"model\",\n        \"problem_id\",\n        \"response\",\n        \"temperature\",\n        \"treatment\"\n      ]\n    },\n    \"treatment2_scored\": {\n      \"type\": \"list\","
+          },
+          {
+            "term": "agent_a_clues",
+            "context": "ent1_raw\": true,\n    \"treatment1_parsed\": true,\n    \"paired_analysis\": true,\n    \"statistical_analysis\": true\n  },\n  \"structure\": {\n    \"dataset\": {\n      \"type\": \"list\",\n      \"length\": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": [\n        \"agent_a_clues\",\n        \"agent_a_reliable\",\n        \"agent_b_clues\",\n        \"agent_b_reliable\",\n        \"agent_c_clues\",\n        \"agent_c_reliable\",\n        \"conflict_level\",\n        \"ground_truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_ro"
+          },
+          {
+            "term": "agent_b_clues",
+            "context": "paired_analysis\": true,\n    \"statistical_analysis\": true\n  },\n  \"structure\": {\n    \"dataset\": {\n      \"type\": \"list\",\n      \"length\": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": [\n        \"agent_a_clues\",\n        \"agent_a_reliable\",\n        \"agent_b_clues\",\n        \"agent_b_reliable\",\n        \"agent_c_clues\",\n        \"agent_c_reliable\",\n        \"conflict_level\",\n        \"ground_truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_role\",\n        \"read_only_dataset\",\n        \"treatment_"
+          },
+          {
+            "term": "agent_c_clues",
+            "context": "rue\n  },\n  \"structure\": {\n    \"dataset\": {\n      \"type\": \"list\",\n      \"length\": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": [\n        \"agent_a_clues\",\n        \"agent_a_reliable\",\n        \"agent_b_clues\",\n        \"agent_b_reliable\",\n        \"agent_c_clues\",\n        \"agent_c_reliable\",\n        \"conflict_level\",\n        \"ground_truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_role\",\n        \"read_only_dataset\",\n        \"treatment_name\",\n        \"treatment_principle\"\n      ],\n      \""
+          },
+          {
+            "term": "problem_id",
+            "context": "      \"agent_a_clues\",\n        \"agent_a_reliable\",\n        \"agent_b_clues\",\n        \"agent_b_reliable\",\n        \"agent_c_clues\",\n        \"agent_c_reliable\",\n        \"conflict_level\",\n        \"ground_truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_role\",\n        \"read_only_dataset\",\n        \"treatment_name\",\n        \"treatment_principle\"\n      ],\n      \"length\": 10\n    },\n    \"treatment2_raw\": {\n      \"type\": \"list\",\n      \"length\": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": ["
+          },
+          {
+            "term": "ground_truth",
+            "context": ": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": [\n        \"agent_a_clues\",\n        \"agent_a_reliable\",\n        \"agent_b_clues\",\n        \"agent_b_reliable\",\n        \"agent_c_clues\",\n        \"agent_c_reliable\",\n        \"conflict_level\",\n        \"ground_truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_role\",\n        \"read_only_dataset\",\n        \"treatment_name\",\n        \"treatment_principle\"\n      ],\n      \"length\": 10\n    },\n    \"treatment2_raw\": {\n      \"type\": \"list\",\n      \"length"
+          },
+          {
+            "term": "treatment2",
+            "context": "rialization Forensic Audit\",\n  \"api_calls\": 0,\n  \"model_calls\": 0,\n  \"read_only\": true,\n  \"existing_experiment_files_modified\": false,\n  \"input_hashes\": {\n    \"frozen_dataset\": \"f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2\",\n    \"treatment2_spec\": \"0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f\",\n    \"treatment2_raw\": \"bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341\",\n    \"treatment2_scored\": \"ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf\",\n    \"treatment1_raw\": \"4e8dce3593161a240b7ff9a77877d214332d00ee592bd51300644ca773ef16d3\",\n    \"treatment1_parsed\": \"888ed4af7181ef9efc7b87204c28a3b96b3add90d9e55080f7cb55a35e280896\",\n    \"paired_analysis\": \"370ac07187b68af9e3f586deec5836cd08"
+          },
+          {
+            "term": "Treatment 2",
+            "context": "{\n  \"phase\": \"13.2\",\n  \"phase_name\": \"Treatment 2 Information-Flow / Serialization Forensic Audit\",\n  \"api_calls\": 0,\n  \"model_calls\": 0,\n  \"read_only\": true,\n  \"existing_experiment_files_modified\": false,\n  \"input_hashes\": {\n    \"frozen_dataset\": \"f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2\",\n    \"treatment2_spec\": \"0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f\",\n    \"treatment2_raw\": \"bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341\",\n    \"treatment2_scored\": \"ff4034f023f8aef39cca893c9d"
+          },
+          {
+            "term": "payload",
+            "context": "      \"expected_clues\": 180,\n      \"found_clues\": 0,\n      \"missing_clues\": 180,\n      \"retention_rate\": 0.0\n    },\n    \"C\": {\n      \"expected_clues\": 125,\n      \"found_clues\": 0,\n      \"missing_clues\": 125,\n      \"retention_rate\": 0.0\n    }\n  },\n  \"payload_diagnostics\": {\n    \"problems_with_any_missing_clues\": 60,\n    \"problems_with_all_clues_missing\": 60,\n    \"total_missing_clue_strings\": 485,\n    \"unique_payload_fingerprints\": 4,\n    \"unique_payload_fingerprints_after_id_removal\": 5\n  },\n  \"problem_identity\": {\n    \"dataset_ids\": [\n      \"1\",\n      \"2\",\n      \"3\",\n      \"4\",\n      \"5\",\n      \"6\",\n      \"7\",\n      \"8\",\n      \"9\",\n      \"10\",\n      \"11\",\n      \"12\",\n      \"13\",\n      \"14\",\n      \"15\",\n      \"16\",\n      \"17\",\n      \"18\",\n      \"19"
+          },
+          {
+            "term": "prompt",
+            "context": ",\n        \"ground_truth\",\n        \"items\",\n        \"names\",\n        \"problem_id\"\n      ]\n    },\n    \"treatment2_spec\": {\n      \"type\": \"dict\",\n      \"keys\": [\n        \"api_calls\",\n        \"hypothesis\",\n        \"phase\",\n        \"phase_name\",\n        \"prompt\",\n        \"quarantined_evidence_forbidden_roles\",\n        \"quarantined_evidence_role\",\n        \"read_only_dataset\",\n        \"treatment_name\",\n        \"treatment_principle\"\n      ],\n      \"length\": 10\n    },\n    \"treatment2_raw\": {\n      \"type\": \"list\",\n      \"length\": 60,\n      \"first_type\": \"dict\",\n      \"first_keys\": [\n        \"conflict_level\",\n        \"error\",\n        \"model\",\n        \"problem_id\",\n        \"response\",\n        \"temperature\",\n        \"treatment\"\n      ]\n    },\n    \"treatment2_"
+          },
+          {
+            "term": "gpt-oss-120b",
+            "context": "\n    \"2\",\n    \"3\",\n    \"4\",\n    \"5\"\n  ],\n  \"sample_payloads\": {\n    \"1\": {\n      \"raw_record\": {\n        \"problem_id\": 1,\n        \"conflict_level\": \"low_conflict\",\n        \"treatment\": \"reliability_gated_constraint_solving\",\n        \"model\": \"openai/gpt-oss-120b\",\n        \"temperature\": 0,\n        \"response\": \"Alex = Red\\nBen = Blue\\nCara = Green\\nDan = Yellow\",\n        \"error\": null\n      },\n      \"dataset_record\": {\n        \"problem_id\": 1,\n        \"conflict_level\": \"low_conflict\",\n        \"names\": [\n          \"Alex\",\n          \"Ben\",\n          \"Cara\",\n          \"Dan\"\n        ],\n        \"items\": [\n          \"red\",\n          \"blue\",\n          \"green\",\n          \"yellow\"\n        ],\n        \"ground_truth\": {\n          \"Alex\": \"blue\",\n          \"Ben\": \"y"
+          }
+        ]
+      },
+      {
+        "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json",
+        "size_bytes": 11003,
+        "hits": [
+          {
+            "term": "problem_id",
+            "context": "phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json\",\n      \"size\": 7852,\n      \"sha256\": \"d789694ebb55bfa6eb429eb3a04ee0495a3e350b24e96d0b2632b2af7d87b7bd\"\n    }\n  },\n  \"dataset\": {\n    \"record_count\": 60,\n    \"unique_problem_ids\": 60,\n    \"fingerprint\": \"394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2\",\n    \"integrity\": {\n      \"record_count\": 60,\n      \"unique_problem_ids\": 60,\n      \"duplicate_problem_ids\": {},\n      \"missing_problem_id_records\": 0,\n      \"missing_clue_fields\": [],\n      \"empty_clue_fields\": [],\n      \"missing_ground_truth\": [],\n      \"missing_conflict_level\": [],\n      \"missing_reliability_fields\": []\n    },\n    \"ground_truth_unique_assignments\": 23,\n    \"ground_truth_distribution\""
+          },
+          {
+            "term": "ground_truth",
+            "context": "e2087ae0ef29980d2\",\n    \"integrity\": {\n      \"record_count\": 60,\n      \"unique_problem_ids\": 60,\n      \"duplicate_problem_ids\": {},\n      \"missing_problem_id_records\": 0,\n      \"missing_clue_fields\": [],\n      \"empty_clue_fields\": [],\n      \"missing_ground_truth\": [],\n      \"missing_conflict_level\": [],\n      \"missing_reliability_fields\": []\n    },\n    \"ground_truth_unique_assignments\": 23,\n    \"ground_truth_distribution\": {\n      \"('blue', 'yellow', 'red', 'green')\": 3,\n      \"('blue', 'green', 'red', 'yellow')\": 3,\n      \"('green', 'yellow', 'red', 'blue')\": 5,\n      \"('blue', 'red', 'green', 'yellow')\": 3,\n      \"('green', 'blue', 'red', 'yellow')\": 3,\n      \"('yellow', 'green', 'red', 'blue')\": 1,\n      \"('yellow', 'red', 'blue', 'green')\": 3,\n    "
+          },
+          {
+            "term": "phase12_2_raw_results",
+            "context": "    \"size\": 4995,\n      \"sha256\": \"0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f\"\n    },\n    \"treatment2_raw\": {\n      \"exists\": true,\n      \"path\": \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json\",\n      \"size\": 16358,\n      \"sha256\": \"bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341\"\n    },\n    \"treatment2_scored\": {\n      \"exists\": true,\n      \"path\": \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json\",\n      \"size\": 22596,\n      \"sha256\": \"ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf\"\n    },\n    \"treatment1_raw\": {\n      \"exists\": true,\n      \"path\": \"/content/drive/MyDrive/multi_age"
+          },
+          {
+            "term": "treatment2",
+            "context": "\"frozen_dataset\": {\n      \"exists\": true,\n      \"path\": \"/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl\",\n      \"size\": 16092,\n      \"sha256\": \"f5490393e1e9c15e69215d95fc09c9de0fd6785b8187e70b79c6dabf71c222f2\"\n    },\n    \"treatment2_spec\": {\n      \"exists\": true,\n      \"path\": \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json\",\n      \"size\": 4995,\n      \"sha256\": \"0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f\"\n    },\n    \"treatment2_raw\": {\n      \"exists\": true,\n      \"path\": \"/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json\",\n      \"size\": 16358,\n      \"sha256\": \"bdc7651e95d"
+          },
+          {
+            "term": "payload",
+            "context": " \"retention_rate\": 0.0\n      },\n      \"C\": {\n        \"expected\": 125,\n        \"found\": 0,\n        \"missing\": 125,\n        \"retention_rate\": 0.0\n      }\n    },\n    \"problems_with_any_missing_clues\": 60,\n    \"problems_with_all_clues_missing\": 60,\n    \"payload_unique_hashes\": 60,\n    \"payload_unique_hashes_without_id\": 5,\n    \"fixed_answer_occurrences\": {\n      \"Alex=red\": 0,\n      \"Ben=blue\": 0,\n      \"Cara=green\": 0,\n      \"Dan=yellow\": 0\n    },\n    \"problem_identity_explicit_count\": 0,\n    \"ground_truth_adjacent_changes\": 57,\n    \"prediction_adjacent_changes\": 0,\n    \"independent_scoring\": {\n      \"valid\": 60,\n      \"parse_success\": 60,\n      \"parse_failure\": 0,\n      \"exact_correct\": 2,\n      \"incorrect\": 58,\n      \"person_correct\": {\n        \"Al"
+          }
+        ]
+      }
+    ]
+  },
+  "serialization_pattern_detection": {
+    "problem_id": [
+      "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_scored_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/groq_phase7a_corrected_scored_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_59_repair/phase10_59_repair.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json"
+    ],
+    "response_storage": [
+      "/content/drive/MyDrive/multi_agent_experiment/full_experiment_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/groq_experiment_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_FINAL_corrected/phase10_final_corrected_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_59_repair/phase10_59_repair.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_2_parsing_validation/phase10_2_parsed_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase10_3_statistical_analysis/phase10_3_statistical_analysis.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json"
+    ],
+    "prompt_variable": [
+      "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json"
+    ],
+    "agent_a_clues": [
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json"
+    ],
+    "agent_b_clues": [
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json"
+    ],
+    "agent_c_clues": [
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json"
+    ],
+    "reliability_fields": [
+      "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json"
+    ],
+    "json_dumps": [],
+    "string_join": [],
+    "messages_variable": []
+  },
+  "canonical_payload_validation": {
+    "problems": 60,
+    "unique_payload_hashes": 60,
+    "payloads": {
+      "1": "PROBLEM_ID: 1\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan does not have yellow.\nAGENT_A_CLUE_2: Cara does not have green.\nAGENT_A_CLUE_3: Alex does not have green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has blue.\nAGENT_B_CLUE_2: Dan has green.\nAGENT_B_CLUE_3: Ben has yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara has red.\nAGENT_C_CLUE_2: Ben does not have blue.",
+      "2": "PROBLEM_ID: 2\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has green.\nAGENT_A_CLUE_2: Cara does not have green.\nAGENT_A_CLUE_3: Alex does not have green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have red.\nAGENT_B_CLUE_2: Cara has red.\nAGENT_B_CLUE_3: Ben does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has yellow.\nAGENT_C_CLUE_2: Alex has blue.",
+      "3": "PROBLEM_ID: 3\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has yellow.\nAGENT_A_CLUE_2: Dan has blue.\nAGENT_A_CLUE_3: Ben does not have red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has yellow.\nAGENT_B_CLUE_2: Alex has green.\nAGENT_B_CLUE_3: Dan does not have red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have red.\nAGENT_C_CLUE_2: Cara does not have blue.",
+      "4": "PROBLEM_ID: 4\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben does not have blue.\nAGENT_A_CLUE_2: Dan does not have red.\nAGENT_A_CLUE_3: Cara has green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has yellow.\nAGENT_B_CLUE_2: Alex does not have red.\nAGENT_B_CLUE_3: Cara does not have blue.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has red.\nAGENT_C_CLUE_2: Alex has blue.",
+      "5": "PROBLEM_ID: 5\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has green.\nAGENT_A_CLUE_2: Cara has red.\nAGENT_A_CLUE_3: Dan has yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara does not have green.\nAGENT_B_CLUE_2: Ben has blue.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have red.\nAGENT_C_CLUE_2: Dan does not have blue.",
+      "6": "PROBLEM_ID: 6\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have blue.\nAGENT_A_CLUE_2: Alex does not have red.\nAGENT_A_CLUE_3: Ben does not have yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have red.\nAGENT_B_CLUE_2: Ben has green.\nAGENT_B_CLUE_3: Cara has red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has blue.\nAGENT_C_CLUE_2: Alex has yellow.",
+      "7": "PROBLEM_ID: 7\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have yellow.\nAGENT_A_CLUE_2: Dan has green.\nAGENT_A_CLUE_3: Ben has red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have blue.\nAGENT_B_CLUE_2: Alex has yellow.\nAGENT_B_CLUE_3: Cara has blue.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have red.\nAGENT_C_CLUE_2: Dan does not have yellow.",
+      "8": "PROBLEM_ID: 8\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has red.\nAGENT_A_CLUE_2: Cara has yellow.\nAGENT_A_CLUE_3: Cara does not have green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex does not have green.\nAGENT_B_CLUE_2: Dan does not have red.\nAGENT_B_CLUE_3: Ben has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have yellow.\nAGENT_C_CLUE_2: Dan has blue.",
+      "9": "PROBLEM_ID: 9\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has red.\nAGENT_A_CLUE_2: Alex does not have blue.\nAGENT_A_CLUE_3: Ben has blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has yellow.\nAGENT_B_CLUE_2: Cara does not have green.\nAGENT_B_CLUE_3: Dan has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have red.\nAGENT_C_CLUE_2: Dan does not have blue.",
+      "10": "PROBLEM_ID: 10\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex does not have green.\nAGENT_A_CLUE_2: Ben does not have green.\nAGENT_A_CLUE_3: Cara has red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara does not have blue.\nAGENT_B_CLUE_2: Ben has blue.\nAGENT_B_CLUE_3: Dan does not have yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has green.\nAGENT_C_CLUE_2: Alex has yellow.",
+      "11": "PROBLEM_ID: 11\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has green.\nAGENT_A_CLUE_2: Dan has blue.\nAGENT_A_CLUE_3: Dan does not have yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has red.\nAGENT_B_CLUE_2: Cara does not have blue.\nAGENT_B_CLUE_3: Ben has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have blue.\nAGENT_C_CLUE_2: Ben does not have red.",
+      "12": "PROBLEM_ID: 12\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has green.\nAGENT_A_CLUE_2: Cara has blue.\nAGENT_A_CLUE_3: Alex does not have red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has red.\nAGENT_B_CLUE_2: Cara does not have green.\nAGENT_B_CLUE_3: Dan has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan does not have blue.\nAGENT_C_CLUE_2: Ben does not have green.",
+      "13": "PROBLEM_ID: 13\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex does not have green.\nAGENT_A_CLUE_2: Dan does not have yellow.\nAGENT_A_CLUE_3: Alex has yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have blue.\nAGENT_B_CLUE_2: Cara has blue.\nAGENT_B_CLUE_3: Dan has green.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have red.\nAGENT_C_CLUE_2: Ben has red.",
+      "14": "PROBLEM_ID: 14\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has green.\nAGENT_A_CLUE_2: Ben has blue.\nAGENT_A_CLUE_3: Cara does not have green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara has red.\nAGENT_B_CLUE_2: Dan has yellow.\nAGENT_B_CLUE_3: Cara does not have blue.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have yellow.\nAGENT_C_CLUE_2: Dan does not have red.",
+      "15": "PROBLEM_ID: 15\nCONFLICT_LEVEL: low_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has red.\nAGENT_A_CLUE_2: Dan has blue.\nAGENT_A_CLUE_3: Alex does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara does not have blue.\nAGENT_B_CLUE_2: Alex has green.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has yellow.\nAGENT_C_CLUE_2: Dan does not have yellow.",
+      "16": "PROBLEM_ID: 16\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan does not have blue.\nAGENT_A_CLUE_2: Cara does not have green.\nAGENT_A_CLUE_3: Ben does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has green.\nAGENT_B_CLUE_2: Dan has yellow.\nAGENT_B_CLUE_3: Cara has blue.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has red.\nAGENT_C_CLUE_2: Alex has yellow.",
+      "17": "PROBLEM_ID: 17\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has green.\nAGENT_A_CLUE_2: Cara has blue.\nAGENT_A_CLUE_3: Alex does not have yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has yellow.\nAGENT_B_CLUE_2: Cara does not have yellow.\nAGENT_B_CLUE_3: Cara has red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have blue.\nAGENT_C_CLUE_2: Alex has red.",
+      "18": "PROBLEM_ID: 18\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex does not have yellow.\nAGENT_A_CLUE_2: Cara has red.\nAGENT_A_CLUE_3: Alex has red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has yellow.\nAGENT_B_CLUE_2: Ben does not have green.\nAGENT_B_CLUE_3: Alex has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have blue.\nAGENT_C_CLUE_2: Dan has blue.",
+      "19": "PROBLEM_ID: 19\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has blue.\nAGENT_A_CLUE_2: Ben does not have blue.\nAGENT_A_CLUE_3: Cara does not have yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have red.\nAGENT_B_CLUE_2: Alex does not have blue.\nAGENT_B_CLUE_3: Alex has green.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has yellow.\nAGENT_C_CLUE_2: Cara has red.",
+      "20": "PROBLEM_ID: 20\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have blue.\nAGENT_A_CLUE_2: Alex has green.\nAGENT_A_CLUE_3: Cara has yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have blue.\nAGENT_B_CLUE_2: Ben does not have green.\nAGENT_B_CLUE_3: Ben has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have blue.\nAGENT_C_CLUE_2: Dan has red.",
+      "21": "PROBLEM_ID: 21\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex does not have red.\nAGENT_A_CLUE_2: Dan has yellow.\nAGENT_A_CLUE_3: Ben has blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has blue.\nAGENT_B_CLUE_2: Cara has green.\nAGENT_B_CLUE_3: Ben has red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have green.\nAGENT_C_CLUE_2: Dan does not have red.",
+      "22": "PROBLEM_ID: 22\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has blue.\nAGENT_A_CLUE_2: Ben does not have green.\nAGENT_A_CLUE_3: Alex has red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have green.\nAGENT_B_CLUE_2: Cara has green.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has yellow.\nAGENT_C_CLUE_2: Ben has red.",
+      "23": "PROBLEM_ID: 23\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben does not have green.\nAGENT_A_CLUE_2: Cara does not have blue.\nAGENT_A_CLUE_3: Ben has yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has blue.\nAGENT_B_CLUE_2: Alex does not have blue.\nAGENT_B_CLUE_3: Dan has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has red.\nAGENT_C_CLUE_2: Dan does not have yellow.",
+      "24": "PROBLEM_ID: 24\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have red.\nAGENT_A_CLUE_2: Dan has blue.\nAGENT_A_CLUE_3: Cara has yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has red.\nAGENT_B_CLUE_2: Dan does not have green.\nAGENT_B_CLUE_3: Alex has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have blue.\nAGENT_C_CLUE_2: Alex does not have green.",
+      "25": "PROBLEM_ID: 25\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have blue.\nAGENT_A_CLUE_2: Alex has blue.\nAGENT_A_CLUE_3: Dan has yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have yellow.\nAGENT_B_CLUE_2: Dan does not have green.\nAGENT_B_CLUE_3: Ben has green.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have green.\nAGENT_C_CLUE_2: Dan has green.",
+      "26": "PROBLEM_ID: 26\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan has blue.\nAGENT_A_CLUE_2: Dan does not have yellow.\nAGENT_A_CLUE_3: Ben has green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have red.\nAGENT_B_CLUE_2: Cara has yellow.\nAGENT_B_CLUE_3: Dan has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have green.\nAGENT_C_CLUE_2: Alex does not have yellow.",
+      "27": "PROBLEM_ID: 27\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan has blue.\nAGENT_A_CLUE_2: Ben has yellow.\nAGENT_A_CLUE_3: Dan has green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have red.\nAGENT_B_CLUE_2: Alex does not have yellow.\nAGENT_B_CLUE_3: Alex has red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara has green.\nAGENT_C_CLUE_2: Dan does not have yellow.",
+      "28": "PROBLEM_ID: 28\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have yellow.\nAGENT_A_CLUE_2: Ben has yellow.\nAGENT_A_CLUE_3: Dan has green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has blue.\nAGENT_B_CLUE_2: Ben does not have blue.\nAGENT_B_CLUE_3: Cara has red.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan does not have red.\nAGENT_C_CLUE_2: Cara has green.",
+      "29": "PROBLEM_ID: 29\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben does not have yellow.\nAGENT_A_CLUE_2: Cara has yellow.\nAGENT_A_CLUE_3: Alex has green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara does not have red.\nAGENT_B_CLUE_2: Alex does not have red.\nAGENT_B_CLUE_3: Cara has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has red.\nAGENT_C_CLUE_2: Dan has blue.",
+      "30": "PROBLEM_ID: 30\nCONFLICT_LEVEL: medium_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has blue.\nAGENT_A_CLUE_2: Ben has red.\nAGENT_A_CLUE_3: Cara has green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara has yellow.\nAGENT_B_CLUE_2: Alex does not have red.\nAGENT_B_CLUE_3: Cara does not have green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has green.\nAGENT_C_CLUE_2: Dan does not have yellow.",
+      "31": "PROBLEM_ID: 31\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan has green.\nAGENT_A_CLUE_2: Dan does not have blue.\nAGENT_A_CLUE_3: Alex has blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has yellow.\nAGENT_B_CLUE_2: Cara has red.\nAGENT_B_CLUE_3: Alex does not have yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara has green.\nAGENT_C_CLUE_2: Ben does not have yellow.",
+      "32": "PROBLEM_ID: 32\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has yellow.\nAGENT_A_CLUE_2: Cara has green.\nAGENT_A_CLUE_3: Dan does not have green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex does not have green.\nAGENT_B_CLUE_2: Cara has blue.\nAGENT_B_CLUE_3: Ben does not have blue.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have red.\nAGENT_C_CLUE_2: Ben has blue.",
+      "33": "PROBLEM_ID: 33\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben does not have green.\nAGENT_A_CLUE_2: Dan has yellow.\nAGENT_A_CLUE_3: Dan does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara has green.\nAGENT_B_CLUE_2: Alex has yellow.\nAGENT_B_CLUE_3: Alex does not have green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has red.\nAGENT_C_CLUE_2: Cara does not have red.",
+      "34": "PROBLEM_ID: 34\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan does not have blue.\nAGENT_A_CLUE_2: Ben has red.\nAGENT_A_CLUE_3: Alex has blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has yellow.\nAGENT_B_CLUE_2: Cara has green.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara has red.\nAGENT_C_CLUE_2: Ben does not have red.",
+      "35": "PROBLEM_ID: 35\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has green.\nAGENT_A_CLUE_2: Ben does not have yellow.\nAGENT_A_CLUE_3: Dan does not have green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex does not have yellow.\nAGENT_B_CLUE_2: Ben has red.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have green.\nAGENT_C_CLUE_2: Dan has red.",
+      "36": "PROBLEM_ID: 36\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has red.\nAGENT_A_CLUE_2: Cara has yellow.\nAGENT_A_CLUE_3: Alex does not have yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has green.\nAGENT_B_CLUE_2: Dan does not have yellow.\nAGENT_B_CLUE_3: Alex has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have blue.\nAGENT_C_CLUE_2: Ben does not have blue.",
+      "37": "PROBLEM_ID: 37\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan has blue.\nAGENT_A_CLUE_2: Ben has yellow.\nAGENT_A_CLUE_3: Cara has red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have green.\nAGENT_B_CLUE_2: Ben does not have green.\nAGENT_B_CLUE_3: Cara does not have blue.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan has red.\nAGENT_C_CLUE_2: Ben does not have yellow.",
+      "38": "PROBLEM_ID: 38\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have red.\nAGENT_A_CLUE_2: Cara has blue.\nAGENT_A_CLUE_3: Dan has red.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has green.\nAGENT_B_CLUE_2: Alex has green.\nAGENT_B_CLUE_3: Alex does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has yellow.\nAGENT_C_CLUE_2: Alex does not have blue.",
+      "39": "PROBLEM_ID: 39\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has yellow.\nAGENT_A_CLUE_2: Ben has blue.\nAGENT_A_CLUE_3: Dan does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has blue.\nAGENT_B_CLUE_2: Alex does not have blue.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara has red.\nAGENT_C_CLUE_2: Alex has green.",
+      "40": "PROBLEM_ID: 40\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has blue.\nAGENT_A_CLUE_2: Alex has yellow.\nAGENT_A_CLUE_3: Dan does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex does not have blue.\nAGENT_B_CLUE_2: Cara does not have red.\nAGENT_B_CLUE_3: Dan has red.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has green.\nAGENT_C_CLUE_2: Alex does not have yellow.",
+      "41": "PROBLEM_ID: 41\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has red.\nAGENT_A_CLUE_2: Cara has blue.\nAGENT_A_CLUE_3: Dan has yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex does not have blue.\nAGENT_B_CLUE_2: Ben has red.\nAGENT_B_CLUE_3: Cara does not have blue.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have yellow.\nAGENT_C_CLUE_2: Cara does not have yellow.",
+      "42": "PROBLEM_ID: 42\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has blue.\nAGENT_A_CLUE_2: Dan has red.\nAGENT_A_CLUE_3: Dan does not have green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara does not have blue.\nAGENT_B_CLUE_2: Ben does not have yellow.\nAGENT_B_CLUE_3: Cara has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan does not have blue.\nAGENT_C_CLUE_2: Alex has red.",
+      "43": "PROBLEM_ID: 43\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has blue.\nAGENT_A_CLUE_2: Cara does not have green.\nAGENT_A_CLUE_3: Ben does not have red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has green.\nAGENT_B_CLUE_2: Dan does not have yellow.\nAGENT_B_CLUE_3: Alex does not have red.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has green.\nAGENT_C_CLUE_2: Cara does not have blue.",
+      "44": "PROBLEM_ID: 44\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has yellow.\nAGENT_A_CLUE_2: Ben does not have red.\nAGENT_A_CLUE_3: Cara does not have green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan has blue.\nAGENT_B_CLUE_2: Ben has red.\nAGENT_B_CLUE_3: Cara does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben has green.\nAGENT_C_CLUE_2: Dan does not have red.",
+      "45": "PROBLEM_ID: 45\nCONFLICT_LEVEL: high_conflict\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has yellow.\nAGENT_A_CLUE_2: Cara has blue.\nAGENT_A_CLUE_3: Alex does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has blue.\nAGENT_B_CLUE_2: Ben has red.\nAGENT_B_CLUE_3: Dan does not have yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have green.\nAGENT_C_CLUE_2: Dan has green.",
+      "46": "PROBLEM_ID: 46\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben has yellow.\nAGENT_A_CLUE_2: Cara has blue.\nAGENT_A_CLUE_3: Alex has red.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have blue.\nAGENT_B_CLUE_2: Cara does not have red.\nAGENT_B_CLUE_3: Dan has green.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has yellow.\nAGENT_C_CLUE_2: Ben has green.\nAGENT_C_CLUE_3: Cara does not have yellow.",
+      "47": "PROBLEM_ID: 47\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan has yellow.\nAGENT_A_CLUE_2: Alex has red.\nAGENT_A_CLUE_3: Cara has blue.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has yellow.\nAGENT_B_CLUE_2: Ben has green.\nAGENT_B_CLUE_3: Ben does not have red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan does not have blue.\nAGENT_C_CLUE_2: Cara does not have red.",
+      "48": "PROBLEM_ID: 48\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has red.\nAGENT_A_CLUE_2: Ben has yellow.\nAGENT_A_CLUE_3: Cara has blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has green.\nAGENT_B_CLUE_2: Cara has blue.\nAGENT_B_CLUE_3: Cara does not have green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have green.\nAGENT_C_CLUE_2: Dan does not have yellow.",
+      "49": "PROBLEM_ID: 49\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara does not have yellow.\nAGENT_A_CLUE_2: Dan does not have blue.\nAGENT_A_CLUE_3: Alex does not have green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has green.\nAGENT_B_CLUE_2: Cara has blue.\nAGENT_B_CLUE_3: Alex has yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has blue.\nAGENT_C_CLUE_2: Ben has red.\nAGENT_C_CLUE_3: Cara has yellow.",
+      "50": "PROBLEM_ID: 50\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has red.\nAGENT_A_CLUE_2: Dan does not have green.\nAGENT_A_CLUE_3: Cara does not have red.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has green.\nAGENT_B_CLUE_2: Ben has yellow.\nAGENT_B_CLUE_3: Cara has blue.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have blue.\nAGENT_C_CLUE_2: Cara has yellow.",
+      "51": "PROBLEM_ID: 51\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has yellow.\nAGENT_A_CLUE_2: Ben has green.\nAGENT_A_CLUE_3: Cara has blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has blue.\nAGENT_B_CLUE_2: Cara has yellow.\nAGENT_B_CLUE_3: Ben does not have red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have green.\nAGENT_C_CLUE_2: Cara does not have red.",
+      "52": "PROBLEM_ID: 52\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben does not have green.\nAGENT_A_CLUE_2: Cara does not have green.\nAGENT_A_CLUE_3: Alex does not have blue.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Dan does not have green.\nAGENT_B_CLUE_2: Ben has blue.\nAGENT_B_CLUE_3: Dan has yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has yellow.\nAGENT_C_CLUE_2: Alex has green.\nAGENT_C_CLUE_3: Cara has red.",
+      "53": "PROBLEM_ID: 53\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has green.\nAGENT_A_CLUE_2: Alex does not have yellow.\nAGENT_A_CLUE_3: Ben has blue.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has yellow.\nAGENT_B_CLUE_2: Ben has blue.\nAGENT_B_CLUE_3: Cara has green.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan does not have red.\nAGENT_C_CLUE_2: Alex has red.",
+      "54": "PROBLEM_ID: 54\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has green.\nAGENT_A_CLUE_2: Ben has blue.\nAGENT_A_CLUE_3: Cara has yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have green.\nAGENT_B_CLUE_2: Cara does not have blue.\nAGENT_B_CLUE_3: Dan has red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Dan does not have blue.\nAGENT_C_CLUE_2: Alex has blue.",
+      "55": "PROBLEM_ID: 55\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has red.\nAGENT_A_CLUE_2: Alex does not have blue.\nAGENT_A_CLUE_3: Cara does not have yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben does not have blue.\nAGENT_B_CLUE_2: Dan does not have blue.\nAGENT_B_CLUE_3: Dan has yellow.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have red.\nAGENT_C_CLUE_2: Ben has green.\nAGENT_C_CLUE_3: Cara has yellow.",
+      "56": "PROBLEM_ID: 56\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Dan does not have blue.\nAGENT_A_CLUE_2: Cara has green.\nAGENT_A_CLUE_3: Ben has yellow.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has red.\nAGENT_B_CLUE_2: Alex does not have red.\nAGENT_B_CLUE_3: Cara has blue.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have yellow.\nAGENT_C_CLUE_2: Alex does not have yellow.",
+      "57": "PROBLEM_ID: 57\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has red.\nAGENT_A_CLUE_2: Ben has green.\nAGENT_A_CLUE_3: Cara has yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has blue.\nAGENT_B_CLUE_2: Alex has yellow.\nAGENT_B_CLUE_3: Ben does not have red.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex does not have red.\nAGENT_C_CLUE_2: Dan has red.",
+      "58": "PROBLEM_ID: 58\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Ben does not have blue.\nAGENT_A_CLUE_2: Dan does not have green.\nAGENT_A_CLUE_3: Alex does not have yellow.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Cara has yellow.\nAGENT_B_CLUE_2: Alex has red.\nAGENT_B_CLUE_3: Dan has blue.\nAGENT_C_RELIABLE: False\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Alex has yellow.\nAGENT_C_CLUE_2: Ben has blue.\nAGENT_C_CLUE_3: Cara has green.",
+      "59": "PROBLEM_ID: 59\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: True\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Cara has blue.\nAGENT_A_CLUE_2: Alex does not have blue.\nAGENT_A_CLUE_3: Dan has green.\nAGENT_B_RELIABLE: False\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Alex has blue.\nAGENT_B_CLUE_2: Ben has green.\nAGENT_B_CLUE_3: Cara has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Ben does not have blue.\nAGENT_C_CLUE_2: Alex has red.",
+      "60": "PROBLEM_ID: 60\nCONFLICT_LEVEL: adversarial\nAGENT_A_RELIABLE: False\nAGENT_A_EVIDENCE_INCLUDED: True\nAGENT_A_CLUE_1: Alex has yellow.\nAGENT_A_CLUE_2: Ben has red.\nAGENT_A_CLUE_3: Cara has green.\nAGENT_B_RELIABLE: True\nAGENT_B_EVIDENCE_INCLUDED: True\nAGENT_B_CLUE_1: Ben has green.\nAGENT_B_CLUE_2: Ben does not have blue.\nAGENT_B_CLUE_3: Dan has yellow.\nAGENT_C_RELIABLE: True\nAGENT_C_EVIDENCE_INCLUDED: True\nAGENT_C_CLUE_1: Cara does not have yellow.\nAGENT_C_CLUE_2: Alex has blue."
+    }
+  },
+  "pipeline_failure_localization": {
+    "stage_1_frozen_dataset": {
+      "status": "PASS",
+      "records": 60,
+      "unique_ids": 60
+    },
+    "stage_2_treatment_specification": {
+      "status": "PASS"
+    },
+    "stage_3_t2_record_alignment": {
+      "status": "PASS",
+      "t2_records": 60,
+      "unique_ids": 60
+    },
+    "stage_4_t2_all_evidence_serialization": {
+      "status": "FAIL",
+      "expected": 485,
+      "found": 0
+    },
+    "stage_5_t2_allowed_evidence_serialization": {
+      "status": "FAIL",
+      "expected": 485,
+      "found": 0
+    },
+    "stage_6_t2_response_diversity": {
+      "status": "PASS",
+      "unique_responses": 2
+    },
+    "stage_7_t2_prediction_diversity": {
+      "status": "FAIL",
+      "unique_predictions": 1
+    },
+    "stage_8_t1_duplicate_integrity": {
+      "status": "WARNING",
+      "duplicate_ids": {
+        "20": 2,
+        "34": 2
+      }
+    },
+    "stage_9_stored_pairing_completeness": {
+      "status": "FAIL"
+    }
+  },
+  "root_causes": [
+    {
+      "priority": 1,
+      "mechanism": "T2 evidence never reaches the stored model-input payload",
+      "evidence": "Zero expected allowed clue strings recovered from T2 payloads.",
+      "confidence": "VERY_HIGH"
+    },
+    {
+      "priority": 3,
+      "mechanism": "T2 prediction collapse",
+      "evidence": "All parseable T2 predictions are identical.",
+      "confidence": "VERY_HIGH"
+    },
+    {
+      "priority": 4,
+      "mechanism": "T1 duplicate-record ambiguity",
+      "evidence": "Duplicate T1 IDs: {'20': 2, '34': 2}",
+      "confidence": "HIGH"
+    },
+    {
+      "priority": 5,
+      "mechanism": "Stored paired-analysis incompleteness",
+      "evidence": "Stored pairing has 30 IDs; dataset has 60.",
+      "confidence": "VERY_HIGH"
+    }
+  ],
+  "repair_requirements": [
+    {
+      "id": "R1",
+      "requirement": "Construct one explicit problem object per dataset problem.",
+      "reason": "Prevents accidental reuse of stale/global state."
+    },
+    {
+      "id": "R2",
+      "requirement": "Serialize Agent A/B/C evidence from the current problem record.",
+      "reason": "T2 currently recovers zero expected clue strings."
+    },
+    {
+      "id": "R3",
+      "requirement": "Apply the reliability quarantine rule explicitly and audibly.",
+      "reason": "The treatment must distinguish evidence exclusion from serialization failure."
+    },
+    {
+      "id": "R4",
+      "requirement": "Serialize problem_id and conflict_level with the evidence.",
+      "reason": "Provides traceability and prevents cross-problem state leakage."
+    },
+    {
+      "id": "R5",
+      "requirement": "Create a unique request/payload fingerprint for every problem.",
+      "reason": "Makes accidental payload reuse immediately detectable."
+    },
+    {
+      "id": "R6",
+      "requirement": "Persist the exact serialized input alongside the response.",
+      "reason": "Future audits must reconstruct what the model actually received."
+    },
+    {
+      "id": "R7",
+      "requirement": "Validate payload uniqueness BEFORE any API call.",
+      "reason": "A zero-cost preflight should catch serialization collapse."
+    },
+    {
+      "id": "R8",
+      "requirement": "Validate clue-retention BEFORE any API call.",
+      "reason": "The experiment must fail closed if expected information is absent."
+    },
+    {
+      "id": "R9",
+      "requirement": "Use deterministic one-record-per-problem T1 selection.",
+      "reason": "Duplicate records 20 and 34 currently create alignment ambiguity."
+    },
+    {
+      "id": "R10",
+      "requirement": "Reconstruct all 60 T1/T2 pairs before statistical analysis.",
+      "reason": "The stored paired analysis contains only 30 problem IDs."
+    },
+    {
+      "id": "R11",
+      "requirement": "Abort the experiment if payload validation fails.",
+      "reason": "Do not spend API calls on an invalid experimental condition."
+    },
+    {
+      "id": "R12",
+      "requirement": "Do not interpret T2 collapse as a neural mechanism until pipeline validation passes.",
+      "reason": "Current evidence establishes an implementation/provenance failure."
+    }
+  ],
+  "next_experiment": {
+    "name": "Corrected Treatment 2 — Information-Flow Validated Reliability Gating",
+    "status": "NOT_RUN_IN_PHASE_13_4",
+    "api_calls": 0,
+    "model_calls": 0,
+    "preflight_required": true,
+    "per_problem_artifact": [
+      "problem_id",
+      "conflict_level",
+      "agent_A_reliability",
+      "agent_A_clues",
+      "agent_B_reliability",
+      "agent_B_clues",
+      "agent_C_reliability",
+      "agent_C_clues",
+      "quarantine_decision",
+      "serialized_payload",
+      "payload_hash",
+      "response",
+      "response_hash",
+      "parsed_prediction"
+    ],
+    "mandatory_preflight_assertions": [
+      "exactly 60 problem IDs",
+      "exactly one payload per problem",
+      "payload hash uniqueness > 1",
+      "problem-specific clue retention > 0",
+      "all intended allowed evidence retained",
+      "reliability states traceable",
+      "problem_id traceable",
+      "no fixed-answer contamination outside response",
+      "no stale/global payload reuse"
+    ],
+    "failure_policy": "FAIL_CLOSED",
+    "important": "Do not run model calls if any mandatory preflight assertion fails."
+  },
+  "decision": "DO_NOT_RUN_TREATMENT_3_OR_ANY_NEW_TREATMENT_YET",
+  "blocking_failures": [
+    "Existing T2 stored payloads contain zero recoverable dataset clues.",
+    "Existing T2 predictions completely collapsed.",
+    "T1 duplicate IDs remain: {'20': 2, '34': 2}",
+    "Stored paired analysis does not cover all 60 dataset IDs."
+  ],
+  "scientific_interpretation_boundary": {
+    "supported": [
+      "The frozen dataset contains 60 unique problems.",
+      "Treatment 2 stored records can be reconstructed.",
+      "Treatment 2 loses problem-specific clue information in the stored payloads.",
+      "Treatment 2 responses collapse to a single response.",
+      "Treatment 2 predictions collapse to a single assignment.",
+      "Treatment 1 contains duplicate records for problems 20 and 34.",
+      "Stored paired analysis is incomplete relative to the 60-problem dataset.",
+      "A corrected information-flow-controlled Treatment 2 is required before causal interpretation."
+    ],
+    "not_supported": [
+      "A claim about a specific transformer layer.",
+      "A claim about attention-head behavior.",
+      "A claim about residual-stream representations.",
+      "A claim about hidden-state geometry.",
+      "A claim that reliability gating itself causes the observed collapse.",
+      "A claim that the model's neural network caused the current serialization failure."
+    ],
+    "next_scientific_level": "After corrected T2 passes information-flow validation, analyze behavioral failure modes first; only then descend into ML/DL/neural mechanisms if the behavioral effect survives."
+  }
+}

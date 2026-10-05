@@ -1,0 +1,108 @@
+{
+  "candidate_ids": [
+    "candidate_1937a8706bd403e7",
+    "candidate_662c8a23191d37ea",
+    "candidate_5c7d89e5f2dc086e",
+    "candidate_fb480b2a4151a078",
+    "candidate_563709a7fbfb43d9"
+  ],
+  "candidate_inventory": {
+    "candidate_1937a8706bd403e7": {
+      "candidate_id_occurrence_count": 1,
+      "occurrences": [
+        {
+          "has_problem_id_same_record": false,
+          "json_path": "$['candidate_identities'][0]",
+          "source_file": "phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+        }
+      ],
+      "same_record_problem_id_occurrence_count": 0
+    },
+    "candidate_563709a7fbfb43d9": {
+      "candidate_id_occurrence_count": 1,
+      "occurrences": [
+        {
+          "has_problem_id_same_record": false,
+          "json_path": "$['candidate_identities'][4]",
+          "source_file": "phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+        }
+      ],
+      "same_record_problem_id_occurrence_count": 0
+    },
+    "candidate_5c7d89e5f2dc086e": {
+      "candidate_id_occurrence_count": 1,
+      "occurrences": [
+        {
+          "has_problem_id_same_record": false,
+          "json_path": "$['candidate_identities'][2]",
+          "source_file": "phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+        }
+      ],
+      "same_record_problem_id_occurrence_count": 0
+    },
+    "candidate_662c8a23191d37ea": {
+      "candidate_id_occurrence_count": 1,
+      "occurrences": [
+        {
+          "has_problem_id_same_record": false,
+          "json_path": "$['candidate_identities'][1]",
+          "source_file": "phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+        }
+      ],
+      "same_record_problem_id_occurrence_count": 0
+    },
+    "candidate_fb480b2a4151a078": {
+      "candidate_id_occurrence_count": 1,
+      "occurrences": [
+        {
+          "has_problem_id_same_record": false,
+          "json_path": "$['candidate_identities'][3]",
+          "source_file": "phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+        }
+      ],
+      "same_record_problem_id_occurrence_count": 0
+    }
+  },
+  "coverage": {
+    "candidates_with_literal_binding": 0,
+    "candidates_without_literal_binding": 5,
+    "canonical_candidate_count": 5,
+    "unbound_candidate_ids": [
+      "candidate_1937a8706bd403e7",
+      "candidate_662c8a23191d37ea",
+      "candidate_5c7d89e5f2dc086e",
+      "candidate_fb480b2a4151a078",
+      "candidate_563709a7fbfb43d9"
+    ]
+  },
+  "created_utc": "2026-08-25T06:45:59.842101+00:00",
+  "decision": "NO_LITERAL_UPSTREAM_BINDINGS_FOUND",
+  "execution": {
+    "api_calls": false,
+    "inference_performed": false,
+    "mapping_performed": false,
+    "model_calls": false,
+    "reconstruction_performed": false,
+    "treatment_3_execution": false
+  },
+  "interpretation": "This phase performs literal source-record inspection only. Absence of a same-record candidate_id + problem_id structure does not permit positional, ordering, textual, numeric, semantic, or manual reconstruction.",
+  "literal_same_record_bindings": [],
+  "phase": "14.9E",
+  "scan": {
+    "excluded_diagnostic_directories": [
+      "phase14_9A_treatment3_execution_binding_audit",
+      "phase14_9B_treatment3_binding_gap_diagnostic",
+      "phase14_9C_upstream_source_binding_locator",
+      "phase14_9D_authoritative_upstream_source_locator",
+      "phase14_9E_upstream_record_recovery"
+    ],
+    "invalid_json_files": [],
+    "json_files_scanned": 114,
+    "valid_json_files": 114
+  },
+  "source": {
+    "phase14_7_sha256": "75b353a350e5dafaa9542ea74c79fcbf77b65eccc7259ca354d8d67c6094af5c",
+    "phase14_7_source_bundle": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_7_treatment3_source_bundle/phase14_7_treatment3_source_bundle.json"
+  },
+  "title": "UPSTREAM RECORD RECOVERY / SOURCE-RECORD LOCATOR"
+}

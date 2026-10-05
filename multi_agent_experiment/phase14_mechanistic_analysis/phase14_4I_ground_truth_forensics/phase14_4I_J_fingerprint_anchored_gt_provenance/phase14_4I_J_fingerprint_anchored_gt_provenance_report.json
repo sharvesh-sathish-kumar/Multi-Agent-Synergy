@@ -1,0 +1,2744 @@
+{
+  "phase": "14.4I-J",
+  "title": "Fingerprint-Anchored Ground-Truth Provenance Search",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "no_ground_truth_inference": true,
+    "no_accuracy_calculation": true,
+    "no_answer_recomputation": true,
+    "no_positional_mapping": true,
+    "no_order_based_mapping": true,
+    "no_text_collision_identity_inference": true,
+    "no_proximity_based_gt_association": true,
+    "no_prior_artifact_modification": true
+  },
+  "identity_anchor": "Exact full-record SHA256 fingerprint recovered from Phase 14.4I-I",
+  "candidate_records": {
+    "1": {
+      "problem_id": "1",
+      "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f"
+    },
+    "2": {
+      "problem_id": "2",
+      "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab"
+    },
+    "3": {
+      "problem_id": "3",
+      "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143"
+    },
+    "4": {
+      "problem_id": "4",
+      "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e"
+    },
+    "5": {
+      "problem_id": "5",
+      "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+    }
+  },
+  "candidate_status": {
+    "1": {
+      "status": "EXACT_RECORD_FOUND_GT_NOT_DIRECTLY_PRESENT",
+      "exact_record_matches": 24,
+      "direct_parent_gt_observations": 0,
+      "grandparent_gt_observations": 0
+    },
+    "2": {
+      "status": "EXACT_RECORD_FOUND_GT_NOT_DIRECTLY_PRESENT",
+      "exact_record_matches": 24,
+      "direct_parent_gt_observations": 0,
+      "grandparent_gt_observations": 0
+    },
+    "3": {
+      "status": "EXACT_RECORD_FOUND_GT_NOT_DIRECTLY_PRESENT",
+      "exact_record_matches": 24,
+      "direct_parent_gt_observations": 0,
+      "grandparent_gt_observations": 0
+    },
+    "4": {
+      "status": "EXACT_RECORD_FOUND_GT_NOT_DIRECTLY_PRESENT",
+      "exact_record_matches": 24,
+      "direct_parent_gt_observations": 0,
+      "grandparent_gt_observations": 0
+    },
+    "5": {
+      "status": "EXACT_RECORD_FOUND_GT_NOT_DIRECTLY_PRESENT",
+      "exact_record_matches": 24,
+      "direct_parent_gt_observations": 0,
+      "grandparent_gt_observations": 0
+    }
+  },
+  "exact_record_matches": {
+    "1": [
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[0]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "0",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[0]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "0",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[14].value[0]",
+        "parent_path": "$.selection_hits[14].value",
+        "key_from_parent": "0",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[28].value[0]",
+        "parent_path": "$.selection_hits[28].value",
+        "key_from_parent": "0",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[0].containing_record",
+        "parent_path": "$.exact_match_contexts.1[0]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[20].containing_record",
+        "parent_path": "$.exact_match_contexts.1[20]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[40].containing_record",
+        "parent_path": "$.exact_match_contexts.1[40]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[60].containing_record",
+        "parent_path": "$.exact_match_contexts.1[60]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[0].containing_record",
+        "parent_path": "$.exact_match_contexts.2[0]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[20].containing_record",
+        "parent_path": "$.exact_match_contexts.2[20]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[40].containing_record",
+        "parent_path": "$.exact_match_contexts.2[40]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[60].containing_record",
+        "parent_path": "$.exact_match_contexts.2[60]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[0].containing_record",
+        "parent_path": "$.exact_match_contexts.3[0]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[20].containing_record",
+        "parent_path": "$.exact_match_contexts.3[20]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[40].containing_record",
+        "parent_path": "$.exact_match_contexts.3[40]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[60].containing_record",
+        "parent_path": "$.exact_match_contexts.3[60]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[0].containing_record",
+        "parent_path": "$.exact_match_contexts.4[0]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[20].containing_record",
+        "parent_path": "$.exact_match_contexts.4[20]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[40].containing_record",
+        "parent_path": "$.exact_match_contexts.4[40]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[60].containing_record",
+        "parent_path": "$.exact_match_contexts.4[60]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[0].containing_record",
+        "parent_path": "$.exact_match_contexts.5[0]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[20].containing_record",
+        "parent_path": "$.exact_match_contexts.5[20]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[40].containing_record",
+        "parent_path": "$.exact_match_contexts.5[40]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[60].containing_record",
+        "parent_path": "$.exact_match_contexts.5[60]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "1",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      }
+    ],
+    "2": [
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[1]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "1",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[1]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "1",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[14].value[1]",
+        "parent_path": "$.selection_hits[14].value",
+        "key_from_parent": "1",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[28].value[1]",
+        "parent_path": "$.selection_hits[28].value",
+        "key_from_parent": "1",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[2].containing_record",
+        "parent_path": "$.exact_match_contexts.1[2]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[22].containing_record",
+        "parent_path": "$.exact_match_contexts.1[22]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[42].containing_record",
+        "parent_path": "$.exact_match_contexts.1[42]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[62].containing_record",
+        "parent_path": "$.exact_match_contexts.1[62]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[2].containing_record",
+        "parent_path": "$.exact_match_contexts.2[2]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[22].containing_record",
+        "parent_path": "$.exact_match_contexts.2[22]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[42].containing_record",
+        "parent_path": "$.exact_match_contexts.2[42]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[62].containing_record",
+        "parent_path": "$.exact_match_contexts.2[62]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[2].containing_record",
+        "parent_path": "$.exact_match_contexts.3[2]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[22].containing_record",
+        "parent_path": "$.exact_match_contexts.3[22]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[42].containing_record",
+        "parent_path": "$.exact_match_contexts.3[42]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[62].containing_record",
+        "parent_path": "$.exact_match_contexts.3[62]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[2].containing_record",
+        "parent_path": "$.exact_match_contexts.4[2]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[22].containing_record",
+        "parent_path": "$.exact_match_contexts.4[22]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[42].containing_record",
+        "parent_path": "$.exact_match_contexts.4[42]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[62].containing_record",
+        "parent_path": "$.exact_match_contexts.4[62]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[2].containing_record",
+        "parent_path": "$.exact_match_contexts.5[2]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[22].containing_record",
+        "parent_path": "$.exact_match_contexts.5[22]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[42].containing_record",
+        "parent_path": "$.exact_match_contexts.5[42]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[62].containing_record",
+        "parent_path": "$.exact_match_contexts.5[62]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "2",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[2]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "2",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[2]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "2",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[14].value[2]",
+        "parent_path": "$.selection_hits[14].value",
+        "key_from_parent": "2",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[28].value[2]",
+        "parent_path": "$.selection_hits[28].value",
+        "key_from_parent": "2",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[4].containing_record",
+        "parent_path": "$.exact_match_contexts.1[4]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[24].containing_record",
+        "parent_path": "$.exact_match_contexts.1[24]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[44].containing_record",
+        "parent_path": "$.exact_match_contexts.1[44]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[64].containing_record",
+        "parent_path": "$.exact_match_contexts.1[64]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[4].containing_record",
+        "parent_path": "$.exact_match_contexts.2[4]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[24].containing_record",
+        "parent_path": "$.exact_match_contexts.2[24]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[44].containing_record",
+        "parent_path": "$.exact_match_contexts.2[44]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[64].containing_record",
+        "parent_path": "$.exact_match_contexts.2[64]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[4].containing_record",
+        "parent_path": "$.exact_match_contexts.3[4]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[24].containing_record",
+        "parent_path": "$.exact_match_contexts.3[24]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[44].containing_record",
+        "parent_path": "$.exact_match_contexts.3[44]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[64].containing_record",
+        "parent_path": "$.exact_match_contexts.3[64]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[4].containing_record",
+        "parent_path": "$.exact_match_contexts.4[4]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[24].containing_record",
+        "parent_path": "$.exact_match_contexts.4[24]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[44].containing_record",
+        "parent_path": "$.exact_match_contexts.4[44]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[64].containing_record",
+        "parent_path": "$.exact_match_contexts.4[64]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[4].containing_record",
+        "parent_path": "$.exact_match_contexts.5[4]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[24].containing_record",
+        "parent_path": "$.exact_match_contexts.5[24]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[44].containing_record",
+        "parent_path": "$.exact_match_contexts.5[44]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[64].containing_record",
+        "parent_path": "$.exact_match_contexts.5[64]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "3",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[3]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "3",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[3]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "3",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[14].value[3]",
+        "parent_path": "$.selection_hits[14].value",
+        "key_from_parent": "3",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[28].value[3]",
+        "parent_path": "$.selection_hits[28].value",
+        "key_from_parent": "3",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[6].containing_record",
+        "parent_path": "$.exact_match_contexts.1[6]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[26].containing_record",
+        "parent_path": "$.exact_match_contexts.1[26]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[46].containing_record",
+        "parent_path": "$.exact_match_contexts.1[46]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[66].containing_record",
+        "parent_path": "$.exact_match_contexts.1[66]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[6].containing_record",
+        "parent_path": "$.exact_match_contexts.2[6]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[26].containing_record",
+        "parent_path": "$.exact_match_contexts.2[26]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[46].containing_record",
+        "parent_path": "$.exact_match_contexts.2[46]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[66].containing_record",
+        "parent_path": "$.exact_match_contexts.2[66]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[6].containing_record",
+        "parent_path": "$.exact_match_contexts.3[6]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[26].containing_record",
+        "parent_path": "$.exact_match_contexts.3[26]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[46].containing_record",
+        "parent_path": "$.exact_match_contexts.3[46]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[66].containing_record",
+        "parent_path": "$.exact_match_contexts.3[66]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[6].containing_record",
+        "parent_path": "$.exact_match_contexts.4[6]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[26].containing_record",
+        "parent_path": "$.exact_match_contexts.4[26]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[46].containing_record",
+        "parent_path": "$.exact_match_contexts.4[46]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[66].containing_record",
+        "parent_path": "$.exact_match_contexts.4[66]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[6].containing_record",
+        "parent_path": "$.exact_match_contexts.5[6]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[26].containing_record",
+        "parent_path": "$.exact_match_contexts.5[26]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[46].containing_record",
+        "parent_path": "$.exact_match_contexts.5[46]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[66].containing_record",
+        "parent_path": "$.exact_match_contexts.5[66]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "4",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_4_checkpoint_20260825T023416Z/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[4]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "4",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4D_controlled_output_contract/phase14_4D_prompt_manifest.json",
+        "path": "$.selected_instances[4]",
+        "parent_path": "$.selected_instances",
+        "key_from_parent": "4",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[14].value[4]",
+        "parent_path": "$.selection_hits[14].value",
+        "key_from_parent": "4",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+        "path": "$.selection_hits[28].value[4]",
+        "parent_path": "$.selection_hits[28].value",
+        "key_from_parent": "4",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[8].containing_record",
+        "parent_path": "$.exact_match_contexts.1[8]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[28].containing_record",
+        "parent_path": "$.exact_match_contexts.1[28]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[48].containing_record",
+        "parent_path": "$.exact_match_contexts.1[48]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.1[68].containing_record",
+        "parent_path": "$.exact_match_contexts.1[68]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[8].containing_record",
+        "parent_path": "$.exact_match_contexts.2[8]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[28].containing_record",
+        "parent_path": "$.exact_match_contexts.2[28]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[48].containing_record",
+        "parent_path": "$.exact_match_contexts.2[48]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.2[68].containing_record",
+        "parent_path": "$.exact_match_contexts.2[68]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[8].containing_record",
+        "parent_path": "$.exact_match_contexts.3[8]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[28].containing_record",
+        "parent_path": "$.exact_match_contexts.3[28]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[48].containing_record",
+        "parent_path": "$.exact_match_contexts.3[48]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.3[68].containing_record",
+        "parent_path": "$.exact_match_contexts.3[68]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[8].containing_record",
+        "parent_path": "$.exact_match_contexts.4[8]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[28].containing_record",
+        "parent_path": "$.exact_match_contexts.4[28]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[48].containing_record",
+        "parent_path": "$.exact_match_contexts.4[48]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.4[68].containing_record",
+        "parent_path": "$.exact_match_contexts.4[68]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[8].containing_record",
+        "parent_path": "$.exact_match_contexts.5[8]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[28].containing_record",
+        "parent_path": "$.exact_match_contexts.5[28]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[48].containing_record",
+        "parent_path": "$.exact_match_contexts.5[48]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      },
+      {
+        "artifact": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_E_exact_match_contextual_lineage/phase14_4I_E_contextual_lineage_report.json",
+        "path": "$.exact_match_contexts.5[68].containing_record",
+        "parent_path": "$.exact_match_contexts.5[68]",
+        "key_from_parent": "containing_record",
+        "record_sha256": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0",
+        "explicit_fields": {
+          "ground_truth_fields": [],
+          "provenance_fields": [
+            {
+              "field": "problem_id",
+              "value_repr": "5",
+              "value_type": "int"
+            }
+          ]
+        },
+        "record_keys": [
+          "problem_id",
+          "ungated_prompt",
+          "reliability_gated_prompt"
+        ]
+      }
+    ]
+  },
+  "direct_gt_provenance": {},
+  "grandparent_gt_provenance": {},
+  "artifact_load_errors": [],
+  "immutability": {
+    "baseline_artifacts": 108,
+    "changed_artifacts": [],
+    "changed_count": 0
+  },
+  "safety_assertions": {
+    "candidate_mapping_from_text_collision": false,
+    "candidate_mapping_from_position": false,
+    "candidate_mapping_from_order": false,
+    "candidate_mapping_from_numeric_interpretation": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "model_output_used": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "prior_artifacts_modified": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "trial_id": 43,
+  "problem_id": 43,
+  "condition": "C1",
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompt": "You are solving a logic assignment problem.\n\nProblem 43\n\nPeople:\n['Alex', 'Ben', 'Cara', 'Dan']\n\nItems:\n['red', 'blue', 'green', 'yellow']\n\nAgent A's clues:\n- Cara has blue.\n- Cara does not have green.\n- Ben does not have red.\n\nAgent B's clues:\n- Alex has green.\n- Dan does not have yellow.\n- Alex does not have red.\n\nAgent C's clues:\n- Ben has green.\n- Cara does not have blue.\n\nDetermine the correct assignment.\n\nReturn the final answer clearly and briefly.\n",
+  "response": "**Assignment**\n\n- Alex → green  \n- Ben → yellow  \n- Cara → blue  \n- Dan → red  \n\nThis satisfies all true clues (Agent A and Agent B) and makes both of Agent C’s clues false, which is the only consistent solution.",
+  "finish_reason": "stop",
+  "fresh_execution": true,
+  "resume_execution": true,
+  "attempt": 1
+}

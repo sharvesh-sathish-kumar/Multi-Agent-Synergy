@@ -1,0 +1,93 @@
+{
+  "phase": "14.4I-P",
+  "title": "Explicit Provenance-Token Intersection Audit",
+  "strict_mode": {
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "read_only": true,
+    "no_ground_truth_inference": true,
+    "no_accuracy_calculation": true,
+    "no_answer_recomputation": true,
+    "no_positional_mapping": true,
+    "no_order_based_mapping": true,
+    "no_text_collision_identity_inference": true,
+    "no_semantic_numeric_interpretation": true,
+    "no_prior_artifact_modification": true
+  },
+  "candidate_fingerprints": {
+    "1": "1937a8706bd403e73c615ab5309bf1a2904ada24b933b69053e1bcd4d29f737f",
+    "2": "662c8a23191d37eabe802741206866155ebf537107600d01f4b3a907f218d4ab",
+    "3": "5c7d89e5f2dc086e433b9e56dd31ef56cc1db88a365550008ed5e121eade4143",
+    "4": "fb480b2a4151a078054f728937d90e6f8cacae11de051265d1db45ddcd32364e",
+    "5": "563709a7fbfb43d9b67988eec1f08ee69229190efd10801309815633d9d251c0"
+  },
+  "artifact_counts": {
+    "artifact_paths": 114,
+    "loaded_artifacts": 114,
+    "gt_bearing_structures": 3782
+  },
+  "exact_record_occurrences": {
+    "1": 24,
+    "2": 24,
+    "3": 24,
+    "4": 24,
+    "5": 24
+  },
+  "token_statistics": {
+    "unique_candidate_specific_tokens": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3
+    },
+    "cross_candidate_colliding_tokens": 7
+  },
+  "candidate_results": {
+    "1": {
+      "status": "NO_EXPLICIT_PROVENANCE_TOKEN_MATCH",
+      "match_observations": 0,
+      "unique_gt_locations": 0,
+      "unique_tokens": 0
+    },
+    "2": {
+      "status": "NO_EXPLICIT_PROVENANCE_TOKEN_MATCH",
+      "match_observations": 0,
+      "unique_gt_locations": 0,
+      "unique_tokens": 0
+    },
+    "3": {
+      "status": "NO_EXPLICIT_PROVENANCE_TOKEN_MATCH",
+      "match_observations": 0,
+      "unique_gt_locations": 0,
+      "unique_tokens": 0
+    },
+    "4": {
+      "status": "NO_EXPLICIT_PROVENANCE_TOKEN_MATCH",
+      "match_observations": 0,
+      "unique_gt_locations": 0,
+      "unique_tokens": 0
+    },
+    "5": {
+      "status": "NO_EXPLICIT_PROVENANCE_TOKEN_MATCH",
+      "match_observations": 0,
+      "unique_gt_locations": 0,
+      "unique_tokens": 0
+    }
+  },
+  "cross_candidate_gt_location_collisions": {},
+  "safety_audit": {
+    "candidate_mapping_from_text_collision": false,
+    "problem_number_inference": false,
+    "positional_mapping": false,
+    "ordering_used": false,
+    "numeric_semantics_used": false,
+    "ground_truth_inferred": false,
+    "ground_truth_interpreted": false,
+    "answer_recomputed": false,
+    "accuracy_calculated": false,
+    "model_output_used": false,
+    "prior_artifacts_modified": false
+  },
+  "changed_previous_artifacts": []
+}

@@ -1,0 +1,28 @@
+{
+  "phase": "14.26R2",
+  "status": "COMPLETE",
+  "api_calls": 0,
+  "model_calls": 0,
+  "read_only_inputs": true,
+  "input_files": {
+    "frozen_dataset": "/content/drive/MyDrive/multi_agent_experiment/phase9_dataset_v2_FROZEN.pkl",
+    "c0_results": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0/phase14_25R2R1_c0_all_results.json",
+    "c0_summary": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_25R2R1_fresh_treatment3_c0/phase14_25R2R1_c0_summary.json"
+  },
+  "c1_trial_count": 60,
+  "results": {
+    "c0_correct": 4,
+    "c1_correct": 19,
+    "delta_percentage_points": 25.0,
+    "both_correct": 2,
+    "c0_only": 2,
+    "c1_only": 17,
+    "both_incorrect": 39,
+    "verdict": "IMPROVEMENT"
+  },
+  "outputs": {
+    "trial_level": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_trial_level_forensic_scores.json",
+    "summary": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_summary.json",
+    "report": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_report.txt"
+  }
+}

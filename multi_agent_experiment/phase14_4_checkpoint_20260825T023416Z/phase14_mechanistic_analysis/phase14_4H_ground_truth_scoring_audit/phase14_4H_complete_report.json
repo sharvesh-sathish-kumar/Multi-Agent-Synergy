@@ -1,0 +1,49 @@
+{
+  "phase": "14.4H",
+  "title": "OOD Ground-Truth / Scoring Provenance Audit",
+  "status": "COMPLETE",
+  "api_calls_used": 0,
+  "model_calls_used": 0,
+  "automatic_retries": 0,
+  "treatment_3_run": false,
+  "previous_artifacts_modified": false,
+  "dataset_provenance": {
+    "canonical_sha256": "394a995297e9b69c386da4ca62189169e7c371adf25bcd1e2087ae0ef29980d2",
+    "verified_sources": [
+      "phase14_4A",
+      "phase14_4B",
+      "phase14_4D"
+    ]
+  },
+  "14_4G_summary": {
+    "raw_records": 10,
+    "scored_records": 10,
+    "independent_valid_predictions": 10,
+    "expected_predictions": 10
+  },
+  "ground_truth": {
+    "selected_instances": 5,
+    "all_gt_recoverable": true
+  },
+  "paired_outputs": {
+    "identical": 5,
+    "different": 0,
+    "missing_pairs": 0
+  },
+  "classification": "MODEL_RESULT_POTENTIALLY_INTERPRETABLE",
+  "interpretation": "All 10 model outputs are independently valid and ground truth is recoverable for all five OOD instances. The 0/5 ungated and 0/5 gated result is therefore potentially a genuine model-performance result, subject to direct recomputation of the answer comparison.",
+  "recommendation": "Proceed to a deterministic direct-answer recomputation audit before any further Groq calls. If the recomputed ground truth confirms 0/5 for both conditions, then the OOD model result is evidence that the current model/task setup does not demonstrate the proposed intervention.",
+  "scientific_gate": {
+    "prior_artifacts_present": true,
+    "dataset_identity": true,
+    "zero_api_calls": true,
+    "zero_model_calls": true,
+    "treatment_3_not_run": true,
+    "read_only_analysis": true,
+    "raw_results_recovered": true,
+    "scored_results_recovered": true,
+    "ground_truth_audited": true,
+    "prediction_validity_audited": true
+  },
+  "timestamp_utc": "2026-08-25T02:31:15.139244+00:00"
+}

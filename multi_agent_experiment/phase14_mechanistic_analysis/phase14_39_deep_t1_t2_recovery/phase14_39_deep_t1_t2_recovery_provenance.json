@@ -1,0 +1,278 @@
+[
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase11_paired_analysis/phase11_4_paired_analysis.json",
+    "size": 6247,
+    "mtime": "2026-08-24T15:13:20",
+    "sha256": "370ac07187b68af9e3f586deec5836cd0832913e569829410563f83ed9f7ebf5"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_1_treatment2_specification.json",
+    "size": 4995,
+    "mtime": "2026-08-24T15:17:56",
+    "sha256": "0f8ede441f99362439483695d78265dd59a49051e5c001555115446e7a67855f"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.json",
+    "size": 16358,
+    "mtime": "2026-08-24T15:26:50",
+    "sha256": "bdc7651e95dfec2db182228335e04fa9859d4183af01e6feaa31026625145341"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_2_raw_results.pkl",
+    "size": 4937,
+    "mtime": "2026-08-24T15:26:52",
+    "sha256": "58ba4860640f3c27a784cf7ad9155b796f532fab8a7d365e9f456462503e248c"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase10_results/phase12_treatment2/phase12_3_scored_results.json",
+    "size": 22596,
+    "mtime": "2026-08-24T15:28:08",
+    "sha256": "ff4034f023f8aef39cca893c9db79676b16b234b6ba9e11ea51cdb5889d138bf"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_0_mechanistic_analysis_summary.json",
+    "size": 968,
+    "mtime": "2026-08-24T23:40:31",
+    "sha256": "6d7303547412a2ec33ad5d5534315aae25e41e86e3d218fc095235ca022c8980"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_1_cross_treatment_forensic_audit.json",
+    "size": 1771,
+    "mtime": "2026-08-24T23:41:32",
+    "sha256": "05796e902fe7f599f234ff4ae58fb59697e21b364c83461900bee1d08eb30069"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_2_information_flow_audit.json",
+    "size": 26003,
+    "mtime": "2026-08-24T23:46:25",
+    "sha256": "5747643787f59084f6cf31ffc10b6a1fb1541f95b313cd893f3a82e2950d7c58"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_3_provenance_reconstruction.json",
+    "size": 11003,
+    "mtime": "2026-08-24T23:50:47",
+    "sha256": "a604c5b4be73482e6a203810c6620e36754aae59610f747b128dcab7565f75a8"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_complete_report.json",
+    "size": 4252,
+    "mtime": "2026-08-25T00:07:20",
+    "sha256": "0b6980c499143cb974c0e2f8bef4e58cfbfd988b659c3118484b568ed0c763e3"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_independent_paired_analysis.json",
+    "size": 27981,
+    "mtime": "2026-08-25T00:07:20",
+    "sha256": "2b3509971cea9d43071d6de5cfb14c3b96f7cb440047546bc3deef9610a2ce95"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_provenance_audit.json",
+    "size": 2683,
+    "mtime": "2026-08-25T00:07:20",
+    "sha256": "5f3b9e10fc6753afa9dfe6fd4e86e17173165b76f18466040560f2e9ce59cb9c"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_raw_results.json",
+    "size": 294958,
+    "mtime": "2026-08-25T00:07:20",
+    "sha256": "9e39d122663e2dde84b04050058fc4af509154e9d54e63a01b8d1ebe949a2e05"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_controlled_t2_repair/phase13_4_t2_scored_results.json",
+    "size": 33799,
+    "mtime": "2026-08-25T00:07:20",
+    "sha256": "d1f81f61d3fd380b1f15e0b575bd58fc70cbb9dd077fd247107bca11f9b20702"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_4_t2_pipeline_reconstruction_preflight.json",
+    "size": 101981,
+    "mtime": "2026-08-24T23:54:30",
+    "sha256": "ee141a1c90ed16bf3f1ebc9691e96abb774500aa33cc46af1095279e6c0c6ffc"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase13_mechanistic_analysis/phase13_5_deterministic_verifier/phase13_5_complete_report.json",
+    "size": 94641,
+    "mtime": "2026-08-25T00:14:01",
+    "sha256": "c97612982145a18d5102fcf4be324a92c040e3a7e703ee93a31ab2793549faae"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10E_historical_config_recovery/phase14_10E_recovery_report.json",
+    "size": 1262063,
+    "mtime": "2026-08-25T16:48:49",
+    "sha256": "d2a1eb2d0ff3ed04e79808833d847a74d4d230f69a889fbec83307328edb56e0"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10F_compact_historical_configuration_recovery.json",
+    "size": 6271,
+    "mtime": "2026-08-25T16:50:32",
+    "sha256": "15cf65430c21871770520449049564691ec24c4e2ee6d4239f0d5fa1d6fc0a90"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10G_configuration_provenance.json",
+    "size": 279213,
+    "mtime": "2026-08-25T16:52:23",
+    "sha256": "852f4e2c3447e86897fff1beb90778d1c06579508fedc6e053069789e83c66d2"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10H_compact_configuration_provenance.json",
+    "size": 1158,
+    "mtime": "2026-08-25T16:58:10",
+    "sha256": "cd41be1459034796c3da9372fbf46e5afc0bd2b468f5f446b7dd9e9ca826c6be"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_10_recovery/phase14_10I_direct_historical_provenance.json",
+    "size": 45539,
+    "mtime": "2026-08-25T17:00:21",
+    "sha256": "f23de8f56c7f88fa5c965bb0cacf3837c5d8f2a0d4e4b50c4de40d1054a7ca19"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_11_mechanistic_evidence_integration.json",
+    "size": 7305,
+    "mtime": "2026-08-25T17:05:27",
+    "sha256": "c09ffe9e5289304bb0922784bbb1f67002a9bad5aa42db1bca60c4b3300533f9"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_12_mechanistic_model/phase14_12_established_mechanistic_model.json",
+    "size": 8831,
+    "mtime": "2026-08-25T17:07:30",
+    "sha256": "f337fe102166b8f77e65c21092ddb3d3bfd9e7d7d7e449c8ffc6bf0355af95c2"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_13_treatment3_design/phase14_13_treatment3_controlled_design.json",
+    "size": 6009,
+    "mtime": "2026-08-25T17:15:56",
+    "sha256": "0cb4ee22cd3296b55ce19deb65ddc22be8119fe2c04e5532798ffffb27f26dfd"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_14_treatment3_preflight/phase14_14_treatment3_execution_preflight.json",
+    "size": 2105,
+    "mtime": "2026-08-25T17:19:53",
+    "sha256": "03f76d8005fd3390883b5fd46d0604593d7c25519e581443f0490cc1eb73bff6"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_16_treatment3_scoring/phase14_16_treatment3_scoring_results.json",
+    "size": 59998,
+    "mtime": "2026-08-25T19:27:47",
+    "sha256": "2550048bb812d73edff701469986e8e71829c897ba7948acb96e01ba24a63ac0"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_17_treatment3_forensics/phase14_17_treatment3_forensic_analysis.json",
+    "size": 2921,
+    "mtime": "2026-08-25T19:31:52",
+    "sha256": "cf54261aaa42c9c8eba8276cbdeb5e3d32403bdbbb9aba4f3d5875b9b02892a2"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_1_information_flow_intervention/phase14_1_complete_report.json",
+    "size": 31254,
+    "mtime": "2026-08-25T00:30:20",
+    "sha256": "d9d592405539856280e7e4839fd28dce8bf3ae4349dc8a5ab2bba8be92c534fa"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_21_treatment3_c1_response_quality_forensics/phase14_21_c1_response_quality_report.txt",
+    "size": 1533,
+    "mtime": "2026-08-25T20:08:17",
+    "sha256": "d97abe93fbc72b5be2dd0d66e50ef0349dc17d683178f353373706e8330de192"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_analysis.json",
+    "size": 96356,
+    "mtime": "2026-08-26T05:10:39",
+    "sha256": "650b3a42eddc74fbbd311f239d02031b673b7dd5c4c2c36f4f42dc1801d50a3d"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_24R2_c1_correctness_groundtruth_discovery/phase14_24R2_c1_correctness_report.txt",
+    "size": 31439,
+    "mtime": "2026-08-26T05:10:39",
+    "sha256": "3be2d63762446e5195472b95382ec8bedd83064d0d34099c667ab7bd56a92ce2"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R2_treatment3_forensic_rescoring/phase14_26R2_treatment3_forensic_report.txt",
+    "size": 1524,
+    "mtime": "2026-08-26T20:36:25",
+    "sha256": "7ab2afcf4304a87391e1a255e158256b9b6a96f4b3175a4c8b154b5b2897a854"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_26R3_complete_120_trial_audit/phase14_26R3_complete_120_trial_report.txt",
+    "size": 14192,
+    "mtime": "2026-08-26T20:43:32",
+    "sha256": "878d8f771df2af977cf46dbba94f800fc032ed18ff00c20ae9c144a22d84d07c"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_33R11_final_c1_forensics/phase14_33R11_report.json",
+    "size": 2840,
+    "mtime": "2026-08-29T14:26:31",
+    "sha256": "d61d3ab5f7976da9032df8579a1d39fa09ed8a18c1fd8f540c77cb6cdfc6dc10"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_34R1_compact_forensic_report.txt",
+    "size": 37452,
+    "mtime": "2026-08-29T05:16:26",
+    "sha256": "0cab82322664fd9a43208a95afc103276f8944c7e90df4df4e30cbef22a8364c"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_36_final_treatment3_statistical_audit/phase14_36_final_audit_summary.json",
+    "size": 4125,
+    "mtime": "2026-08-29T19:46:59",
+    "sha256": "76b78768e2f7abb9d7445f9b0fb3f9393354fd2cba5c2853ef8ce3dff4817d0e"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_37_cross_treatment_synthesis/phase14_37_cross_treatment_synthesis.json",
+    "size": 65971,
+    "mtime": "2026-08-29T20:00:07",
+    "sha256": "f16c9c7ee2e2c9a5c5c2ad96037d3b06f9d880380a5878bd96c59c09e6bf215b"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_38_final_t1_t2_forensic_audit/phase14_38_t1_t2_forensic_report.json",
+    "size": 746,
+    "mtime": "2026-08-29T21:08:16",
+    "sha256": "84b96ef8fa50d87800171fc31e983116af98ef7c96064e0a6b894c437abe0f45"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_complete_report.json",
+    "size": 8343,
+    "mtime": "2026-08-25T01:57:19",
+    "sha256": "d85bb8423d0f39951ada26ab1533f11e933cb3674bcca3e61008fef20cb5df58"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_3A_deterministic_robustness/phase14_3A_robustness_rows.json",
+    "size": 16082,
+    "mtime": "2026-08-25T01:57:19",
+    "sha256": "1b7d1643cb811f39ce760d61079399ed767b720f3d4f49bb67777b5dd014c942"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_B_cross_artifact_provenance_report.json",
+    "size": 23882,
+    "mtime": "2026-08-25T05:28:48",
+    "sha256": "1fed2343d4ad01ba406e1518b01544b172cc3ece8acd9826b8f7d494af3d49ea"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_C_upstream_selection_provenance_report.json",
+    "size": 562630,
+    "mtime": "2026-08-25T05:29:52",
+    "sha256": "0359ea313d729ee5c367d3fdae7a65e2103ddd20cb20906813e543298ce2b7bb"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_dataset_lineage/phase14_4I_D_dataset_lineage_report.json",
+    "size": 405353,
+    "mtime": "2026-08-25T05:34:05",
+    "sha256": "78b5f8395b79a71fa77c67a5520bc4e4526b7c4acc6099b1fb5f8844144461f8"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_D_original_dataset_provenance_report.json",
+    "size": 945614,
+    "mtime": "2026-08-25T05:30:56",
+    "sha256": "eff7485462c1fbe7a785a10adbe9ed0bfb63d82d5510a9b812ded3fe7912ed30"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_M_explicit_key_gt_join/phase14_4I_M_explicit_key_gt_join_report.json",
+    "size": 50721,
+    "mtime": "2026-08-25T05:47:21",
+    "sha256": "1eef034521865517cd964bc5000c7854c79869055023b2dcb409c46e1b7efd3b"
+  },
+  {
+    "path": "/content/drive/MyDrive/multi_agent_experiment/phase14_mechanistic_analysis/phase14_4I_ground_truth_forensics/phase14_4I_Q_explicit_composite_key_audit/phase14_4I_Q_explicit_composite_key_audit_report.json",
+    "size": 16359,
+    "mtime": "2026-08-25T05:53:25",
+    "sha256": "1d4c32e7f67778c7e9f162e4a1c9c2756c18b1029f20db91f941f19769cd8ea5"
+  }
+]
