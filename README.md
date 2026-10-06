@@ -1,8 +1,6 @@
-import subprocess
+# Multi-Agent Synergy: Predicting and Preventing Expertise Dilution
 
-readme_content = """# Multi-Agent Synergy: Predicting and Preventing Expertise Dilution
 
-An empirical and forensic investigation into information contamination, provenance tracking, and coordination mechanisms in multi-agent large language model (LLM) reasoning systems.
 
 Results
 
