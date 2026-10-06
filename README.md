@@ -1,6 +1,6 @@
 # Multi-Agent Synergy: Predicting and Preventing Expertise Dilution
 
-
+Investigation of expertise dilution comparing a baseline condition against a treatment condition with controlled information contamination across 60 benchmark problems.
 
 Results
 
